@@ -1,0 +1,4 @@
+id,tweet_text,posted
+1,"Java Strings are immutable for a reason 🚀 #Java",FALSE
+2,"equals() without hashCode() is a hidden bug ⚠️ #Java",FALSE
+3,"GitHub Actions can automate CI/CD 🔥 #DevOps",FALSE
