@@ -1,26 +1,35 @@
 name: Twitter Bot (CSV)
 
 permissions:
-  contents: write
+  contents: write  # allow pushing CSV changes
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
-  workflow_dispatch:
+    - cron: "30 3 * * *"   # 9:00 AM IST
+    - cron: "30 6 * * *"   # 12:00 PM IST
+    - cron: "30 9 * * *"   # 3:00 PM IST
+    - cron: "30 12 * * *"  # 6:00 PM IST
+    - cron: "30 15 * * *"  # 9:00 PM IST
+  workflow_dispatch:        # allows manual run anytime
 
 jobs:
   tweet:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - run: pip install -r requirements.txt
+      - name: Install dependencies
+        run: pip install -r requirements.txt
 
-      - run: python bot.py
+      - name: Run Twitter bot
+        run: python bot.py
         env:
           API_KEY: ${{ secrets.API_KEY }}
           API_SECRET: ${{ secrets.API_SECRET }}
