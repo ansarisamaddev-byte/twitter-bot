@@ -22,7 +22,7 @@ id,tweet_text,posted
 21,"Edge cases reveal hidden assumptions. Always test boundaries: null, empty, max, min, invalid. Catching these early prevents production bugs and improves software robustness. #ProblemSolving #DSA",TRUE
 22,"Equality in Java: overriding equals() without hashCode() can break collections. HashMap, HashSet rely on both. Ensure consistent behavior to prevent objects from being lost or mismanaged. #Java #Programming",TRUE
 23,"Recursion vs iteration: recursion is elegant, but iteration is practical for large inputs. Evaluate stack safety, readability, and performance before choosing an approach. #DSA #ProblemSolving",TRUE
-24,"Logging structured JSON instead of freeform text improves debugging, observability, and automated monitoring. Include contextual information and trace IDs for distributed systems. #SoftwareArchitecture #Coding",FALSE
+24,"Logging structured JSON instead of freeform text improves debugging, observability, and automated monitoring. Include contextual information and trace IDs for distributed systems. #SoftwareArchitecture #Coding",TRUE
 25,"Tip 5: Follow the Single Responsibility Principle strictly. Each class should have only one reason to change. This reduces coupling, increases maintainability, and simplifies testing. #CleanCode #SoftwareDesign",FALSE
 26,"Volatile in Java ensures visibility but not atomicity. Multi-threaded applications require AtomicInteger, locks, or synchronized blocks for compound operations. Subtle mistakes cause hard-to-find bugs. #Java #Concurrency",FALSE
 27,"Sparse arrays save memory by storing only non-zero elements. Essential for large datasets, scientific computing, and big data applications. Avoid wasting memory with dense structures unnecessarily. #DSA #CodingTips",FALSE
