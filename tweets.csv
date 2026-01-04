@@ -1,67 +1,67 @@
 id,thread_id,order,tweet_text,posted
-1,DSA_BINSEARCH,1,"🧠 Binary search isn’t magic. Most developers fail because they ignore its rules. Let’s fix that 👇",FALSE
-2,DSA_BINSEARCH,2,"Binary search ONLY works when the array is sorted, boundaries are correct, and mid is calculated safely.",FALSE
-3,DSA_BINSEARCH,3,"Binary search rewards discipline, not tricks. Master it once and reuse it forever. 📌 #DSA #Algorithms",FALSE
+1,DSA_BINSEARCH,1,🧠 Binary search isn’t magic. Most developers fail because they ignore its rules. Let’s fix that 👇,TRUE
+2,DSA_BINSEARCH,2,"Binary search ONLY works when the array is sorted, boundaries are correct, and mid is calculated safely.",TRUE
+3,DSA_BINSEARCH,3,"Binary search rewards discipline, not tricks. Master it once and reuse it forever. 📌 #DSA #Algorithms",TRUE
 4,DSA_EDGE,1,"🧠 Most bugs hide at the edges, not the middle.",FALSE
 5,DSA_EDGE,2,"Always test: null, empty, first, last, min, max. Edge cases expose broken assumptions.",FALSE
 6,DSA_EDGE,3,"If you don’t test boundaries, production will. ⚠️ #DSA #ProblemSolving",FALSE
-7,JAVA_VOLATILE,1,"⚠️ `volatile` in Java feels safe. It isn’t.",FALSE
-8,JAVA_VOLATILE,2,"It guarantees visibility ❌ atomicity. `count++` is still broken.",FALSE
+7,JAVA_VOLATILE,1,⚠️ `volatile` in Java feels safe. It isn’t.,FALSE
+8,JAVA_VOLATILE,2,It guarantees visibility ❌ atomicity. `count++` is still broken.,FALSE
 9,JAVA_VOLATILE,3,"Use AtomicInteger, synchronized, or locks for correctness. Concurrency bugs fail quietly. #Java #Concurrency",FALSE
-10,JAVA_IMMUTABLE,1,"☕ Immutable objects make concurrent code boring — and that’s good.",FALSE
+10,JAVA_IMMUTABLE,1,☕ Immutable objects make concurrent code boring — and that’s good.,FALSE
 11,JAVA_IMMUTABLE,2,"No setters. Final fields. Defensive copies. Less state, fewer bugs.",FALSE
-12,JAVA_IMMUTABLE,3,"Prefer immutability by default. Opt out only when needed. #Java #CleanCode",FALSE
-13,SYS_LOGGING,1,"🏗 Most production outages aren’t code bugs. They’re observability failures.",FALSE
+12,JAVA_IMMUTABLE,3,Prefer immutability by default. Opt out only when needed. #Java #CleanCode,FALSE
+13,SYS_LOGGING,1,🏗 Most production outages aren’t code bugs. They’re observability failures.,FALSE
 14,SYS_LOGGING,2,"If logs can’t answer: which request, which user, which service — they’re broken.",FALSE
-15,SYS_LOGGING,3,"Structured logs with context and trace IDs save hours of debugging. 📌 #SystemDesign #Architecture",FALSE
+15,SYS_LOGGING,3,Structured logs with context and trace IDs save hours of debugging. 📌 #SystemDesign #Architecture,FALSE
 16,CLEAN_SRP,1,"🧼 If a class has more than one reason to change, a bug is already waiting.",FALSE
-17,CLEAN_SRP,2,"Single Responsibility Principle isn’t theory. It keeps code testable and sane.",FALSE
-18,CLEAN_SRP,3,"Clean code scales better than clever code. #CleanCode #SoftwareEngineering",FALSE
-19,JOBS_INTERVIEW,1,"💼 Interviews aren’t about perfect code.",FALSE
+17,CLEAN_SRP,2,Single Responsibility Principle isn’t theory. It keeps code testable and sane.,FALSE
+18,CLEAN_SRP,3,Clean code scales better than clever code. #CleanCode #SoftwareEngineering,FALSE
+19,JOBS_INTERVIEW,1,💼 Interviews aren’t about perfect code.,FALSE
 20,JOBS_INTERVIEW,2,"They test how you think, communicate, and reason about trade-offs.",FALSE
 21,JOBS_INTERVIEW,3,"Explain your decisions, not just your solution. That’s how you stand out. #Jobs #Interviews",FALSE
-22,DSA_DP,1,"🧠 Recursion without memoization wastes computation.",FALSE
+22,DSA_DP,1,🧠 Recursion without memoization wastes computation.,FALSE
 23,DSA_DP,2,"If subproblems repeat, cache results. That’s dynamic programming.",FALSE
-24,DSA_DP,3,"DP turns exponential nightmares into linear solutions. #DSA #ProblemSolving",FALSE
+24,DSA_DP,3,DP turns exponential nightmares into linear solutions. #DSA #ProblemSolving,FALSE
 25,JAVA_SINGLE,0,"☕ Enum-based Singleton in Java is thread-safe, serialization-safe, and simple. Avoid classic singleton pitfalls. #Java #DesignPatterns",FALSE
-26,DSA_SINGLE,0,"🧠 HashMaps give O(1) on average — not guaranteed. Bad hashing leads to bad performance. #DSA #Programming",FALSE
+26,DSA_SINGLE,0,🧠 HashMaps give O(1) on average — not guaranteed. Bad hashing leads to bad performance. #DSA #Programming,FALSE
 27,CLEAN_METHODS,0,"🧼 Methods should do ONE thing. Long methods hide logic, increase bugs, and complicate testing. #CleanCode #SoftwareDesign",FALSE
 28,SYS_FACTORY,0,"🏗 Factory pattern centralizes object creation, reduces coupling, and improves testability. Stop scattering constructors. #SystemDesign #CleanCode",FALSE
 29,JAVA_OPTIONAL,0,"☕ Optional forces explicit handling of absence. Fewer NullPointerExceptions, clearer APIs. #Java #CleanCode",FALSE
 30,DSA_GRAPHS,1,"🧠 Graphs model real systems: networks, maps, dependencies.",FALSE
 31,DSA_GRAPHS,2,"BFS, DFS, Dijkstra — choosing the right algorithm matters more than memorizing them.",FALSE
-32,DSA_GRAPHS,3,"Understand graph types and representations to solve real problems. #DSA #SoftwareEngineering",FALSE
-33,CLEAN_CONSTANTS,0,"🧼 Magic numbers hide intent. Meaningful constants improve readability and prevent errors. #CleanCode #ProgrammingTips",FALSE
-34,JAVA_LOCKS,0,"⚠️ Deadlocks happen when locks are acquired inconsistently. Always follow a fixed lock order. #Java #Concurrency",FALSE
-35,DSA_COMPLEXITY,0,"🧠 Time complexity always collects its debt. Algorithms that seem fine today break tomorrow. #DSA #Algorithms",FALSE
+32,DSA_GRAPHS,3,Understand graph types and representations to solve real problems. #DSA #SoftwareEngineering,FALSE
+33,CLEAN_CONSTANTS,0,🧼 Magic numbers hide intent. Meaningful constants improve readability and prevent errors. #CleanCode #ProgrammingTips,FALSE
+34,JAVA_LOCKS,0,⚠️ Deadlocks happen when locks are acquired inconsistently. Always follow a fixed lock order. #Java #Concurrency,FALSE
+35,DSA_COMPLEXITY,0,🧠 Time complexity always collects its debt. Algorithms that seem fine today break tomorrow. #DSA #Algorithms,FALSE
 36,SYS_OBSERVER,0,"🏗 Observer pattern decouples publishers and subscribers. Enables clean, event-driven systems. #SystemDesign #Architecture",FALSE
 37,CLEAN_EARLY,0,"🧼 Favor early returns. Less nesting, clearer logic, easier debugging. #CleanCode #ProgrammingTips",FALSE
-38,JOBS_LEARNING,0,"💼 Skills compound. One hour of learning per day beats years of passive experience. #Jobs #Learning",FALSE
-39,DSA_SORT,0,"🧠 Sorting before searching isn’t wasted work. It’s an investment that pays off. #DSA #Algorithms",FALSE
-40,JAVA_RECURSION,0,"☕ Java doesn’t optimize tail recursion. Deep recursion risks stack overflow — prefer iteration. #Java #Programming",FALSE
-41,CLEAN_NAMES,0,"🧼 Good names reduce cognitive load. Code is read far more than it’s written. #CleanCode #ProgrammingTips",FALSE
+38,JOBS_LEARNING,0,💼 Skills compound. One hour of learning per day beats years of passive experience. #Jobs #Learning,FALSE
+39,DSA_SORT,0,🧠 Sorting before searching isn’t wasted work. It’s an investment that pays off. #DSA #Algorithms,FALSE
+40,JAVA_RECURSION,0,☕ Java doesn’t optimize tail recursion. Deep recursion risks stack overflow — prefer iteration. #Java #Programming,FALSE
+41,CLEAN_NAMES,0,🧼 Good names reduce cognitive load. Code is read far more than it’s written. #CleanCode #ProgrammingTips,FALSE
 42,SYS_PREMATURE,0,"🏗 Premature optimization creates fragile systems. Measure first, then optimize bottlenecks. #SystemDesign #Engineering",FALSE
 43,DSA_BOUNDS,0,"🧠 Most algorithm bugs live at boundaries, not the core logic. Test edges aggressively. #DSA #ProblemSolving",FALSE
-44,JAVA_VISIBILITY,0,"⚠️ Visibility without atomicity causes subtle bugs. `volatile` is not enough. #Java #Concurrency",FALSE
-45,CLEAN_REFACTOR,0,"🧼 Refactor small and often. Continuous cleanup prevents technical debt. #CleanCode #SoftwareDesign",FALSE
+44,JAVA_VISIBILITY,0,⚠️ Visibility without atomicity causes subtle bugs. `volatile` is not enough. #Java #Concurrency,FALSE
+45,CLEAN_REFACTOR,0,🧼 Refactor small and often. Continuous cleanup prevents technical debt. #CleanCode #SoftwareDesign,FALSE
 46,SYS_LOG_STYLE,0,"🏗 Freeform logs waste time. Structured logs enable search, metrics, and alerts. #SystemDesign #Observability",FALSE
-47,DSA_MATRIX,0,"🧠 Sparse matrices save memory by storing only non-zero values. Dense structures waste resources. #DSA #Algorithms",FALSE
+47,DSA_MATRIX,0,🧠 Sparse matrices save memory by storing only non-zero values. Dense structures waste resources. #DSA #Algorithms,FALSE
 48,JAVA_IMPACT,0,"☕ Java performance issues often come from design, not syntax. Measure before guessing. #Java #Performance",FALSE
-49,JOBS_MINDSET,0,"💼 Hiring favors clear thinkers over clever coders. Explain trade-offs. Communicate intent. #Jobs #Interviews",FALSE
-50,CLEAN_FINAL,0,"🧼 Clean code isn’t about perfection. It’s about making change safe. #CleanCode #SoftwareEngineering",FALSE
-51,DSA_FAILS,1,"🧠 Most DSA mistakes aren’t algorithmic. They’re assumptions. Let’s talk about the most common one 👇",FALSE
+49,JOBS_MINDSET,0,💼 Hiring favors clear thinkers over clever coders. Explain trade-offs. Communicate intent. #Jobs #Interviews,FALSE
+50,CLEAN_FINAL,0,🧼 Clean code isn’t about perfection. It’s about making change safe. #CleanCode #SoftwareEngineering,FALSE
+51,DSA_FAILS,1,🧠 Most DSA mistakes aren’t algorithmic. They’re assumptions. Let’s talk about the most common one 👇,FALSE
 52,DSA_FAILS,2,"Developers assume input is clean, sorted, or non-empty. Reality disagrees.",FALSE
-53,DSA_FAILS,3,"Always validate assumptions before optimizing logic. That’s senior-level problem solving. #DSA #ProblemSolving",FALSE
-54,JAVA_CONCURRENCY,1,"⚠️ Concurrency bugs don’t crash your app.",FALSE
+53,DSA_FAILS,3,Always validate assumptions before optimizing logic. That’s senior-level problem solving. #DSA #ProblemSolving,FALSE
+54,JAVA_CONCURRENCY,1,⚠️ Concurrency bugs don’t crash your app.,FALSE
 55,JAVA_CONCURRENCY,2,"They corrupt data slowly, silently, and randomly.",FALSE
 56,JAVA_CONCURRENCY,3,"If a bug disappears under debugging, suspect race conditions. #Java #Concurrency",FALSE
 57,CLEAN_READ,0,"🧼 If code needs comments to explain *what* it does, rewrite it. Comments should explain *why*, not *what*. #CleanCode",FALSE
 58,DSA_STACK,0,"🧠 Stacks aren’t just interview toys. They power undo operations, parsing, recursion, and backtracking. #DSA #Algorithms",FALSE
-59,JAVA_MEMORY,1,"☕ Java performance issues are often memory issues.",FALSE
-60,JAVA_MEMORY,2,"Leaky references keep objects alive longer than expected.",FALSE
-61,JAVA_MEMORY,3,"Understand GC roots before blaming the JVM. #Java #Performance",FALSE
-62,SYS_SCALE,1,"🏗 Systems don’t fail at small scale.",FALSE
-63,SYS_SCALE,2,"They fail when assumptions break under load.",FALSE
+59,JAVA_MEMORY,1,☕ Java performance issues are often memory issues.,FALSE
+60,JAVA_MEMORY,2,Leaky references keep objects alive longer than expected.,FALSE
+61,JAVA_MEMORY,3,Understand GC roots before blaming the JVM. #Java #Performance,FALSE
+62,SYS_SCALE,1,🏗 Systems don’t fail at small scale.,FALSE
+63,SYS_SCALE,2,They fail when assumptions break under load.,FALSE
 64,SYS_SCALE,3,"Design for failure, not perfection. #SystemDesign #Architecture",FALSE
 65,JOBS_RESUME,0,"💼 Your resume gets rejected in 10 seconds.
 Make impact obvious:
@@ -69,38 +69,38 @@ Make impact obvious:
 • scale
 • ownership
 #Jobs #Careers",FALSE
-66,DSA_GREEDY,0,"🧠 Greedy algorithms feel right — until they aren’t. Always prove optimality or find a counterexample. #DSA #Algorithms",FALSE
+66,DSA_GREEDY,0,🧠 Greedy algorithms feel right — until they aren’t. Always prove optimality or find a counterexample. #DSA #Algorithms,FALSE
 67,JAVA_EXCEPTIONS,0,"☕ Exceptions are control flow *only* for exceptional cases. If it’s expected, don’t throw. #Java #BestPractices",FALSE
-68,CLEAN_TESTS,1,"🧼 Tests that only check happy paths lie.",FALSE
-69,CLEAN_TESTS,2,"Real bugs live in edge cases and invalid inputs.",FALSE
-70,CLEAN_TESTS,3,"Good tests make failures boring and predictable. #CleanCode #Testing",FALSE
+68,CLEAN_TESTS,1,🧼 Tests that only check happy paths lie.,FALSE
+69,CLEAN_TESTS,2,Real bugs live in edge cases and invalid inputs.,FALSE
+70,CLEAN_TESTS,3,Good tests make failures boring and predictable. #CleanCode #Testing,FALSE
 71,DSA_BIG_O,0,"🧠 Big-O ignores constants, but production never does. Measure real performance. #DSA #Engineering",FALSE
 72,JAVA_IMMUTABLE2,0,"☕ If an object must change, confine the mutation. Fewer write paths = fewer bugs. #Java #CleanCode",FALSE
-73,SYS_LATENCY,1,"🏗 Latency kills user trust faster than errors.",FALSE
-74,SYS_LATENCY,2,"Fast failures feel better than slow successes.",FALSE
-75,SYS_LATENCY,3,"Set timeouts everywhere. Defaults are dangerous. #SystemDesign #Reliability",FALSE
+73,SYS_LATENCY,1,🏗 Latency kills user trust faster than errors.,FALSE
+74,SYS_LATENCY,2,Fast failures feel better than slow successes.,FALSE
+75,SYS_LATENCY,3,Set timeouts everywhere. Defaults are dangerous. #SystemDesign #Reliability,FALSE
 76,JOBS_GROWTH,0,"💼 Promotions reward leverage, not effort. Build systems, tools, or knowledge others depend on. #Careers #Growth",FALSE
-77,DSA_RECURSION,0,"🧠 Recursion trades stack space for clarity. Know when elegance becomes risk. #DSA #Programming",FALSE
+77,DSA_RECURSION,0,🧠 Recursion trades stack space for clarity. Know when elegance becomes risk. #DSA #Programming,FALSE
 78,JAVA_LOGGING,0,"☕ Logs without context are noise. Add request IDs, user IDs, and timestamps. #Java #Observability",FALSE
-79,CLEAN_API,1,"🧼 A good API makes wrong usage hard.",FALSE
+79,CLEAN_API,1,🧼 A good API makes wrong usage hard.,FALSE
 80,CLEAN_API,2,"If misuse is easy, bugs are inevitable.",FALSE
-81,CLEAN_API,3,"Design APIs defensively. Your users will surprise you. #CleanCode #Design",FALSE
+81,CLEAN_API,3,Design APIs defensively. Your users will surprise you. #CleanCode #Design,FALSE
 82,DSA_INPUT,0,"🧠 Always ask: what happens if input is empty, huge, or malformed? That’s where systems break. #DSA #ProblemSolving",FALSE
 83,JAVA_SYNC,0,"⚠️ Synchronization fixes correctness, not performance. Measure before adding locks everywhere. #Java #Concurrency",FALSE
-84,SYS_CACHE,1,"🏗 Caching makes systems faster — and harder.",FALSE
+84,SYS_CACHE,1,🏗 Caching makes systems faster — and harder.,FALSE
 85,SYS_CACHE,2,"Stale data, invalidation, and consistency are the real costs.",FALSE
 86,SYS_CACHE,3,"Cache deliberately, not everywhere. #SystemDesign #Scalability",FALSE
-87,JOBS_INTERVIEW2,0,"💼 Interviewers notice how you handle uncertainty. Saying ‘I don’t know’ is better than guessing. #Jobs #Interviews",FALSE
-88,DSA_OPTIMIZE,0,"🧠 Optimize after correctness. Fast wrong answers are still wrong. #DSA #Algorithms",FALSE
+87,JOBS_INTERVIEW2,0,💼 Interviewers notice how you handle uncertainty. Saying ‘I don’t know’ is better than guessing. #Jobs #Interviews,FALSE
+88,DSA_OPTIMIZE,0,🧠 Optimize after correctness. Fast wrong answers are still wrong. #DSA #Algorithms,FALSE
 89,JAVA_ENUMS,0,"☕ Enums aren’t just constants. They model state, behavior, and constraints cleanly. #Java #Design",FALSE
-90,CLEAN_COMPLEX,1,"🧼 Complexity doesn’t disappear — it moves.",FALSE
-91,CLEAN_COMPLEX,2,"Push it to places where it’s easiest to reason about.",FALSE
-92,CLEAN_COMPLEX,3,"Simple code scales better than clever abstractions. #CleanCode #Engineering",FALSE
+90,CLEAN_COMPLEX,1,🧼 Complexity doesn’t disappear — it moves.,FALSE
+91,CLEAN_COMPLEX,2,Push it to places where it’s easiest to reason about.,FALSE
+92,CLEAN_COMPLEX,3,Simple code scales better than clever abstractions. #CleanCode #Engineering,FALSE
 93,SYS_MONITOR,0,"🏗 If you don’t monitor it, you don’t own it. Metrics > logs > alerts. #SystemDesign #Observability",FALSE
 94,DSA_TRADEOFF,0,"🧠 Every algorithm is a trade-off between time, space, and simplicity. Choose consciously. #DSA #Engineering",FALSE
-95,JAVA_FAILFAST,0,"☕ Fail fast with clear errors. Silent failures cost more later. #Java #BestPractices",FALSE
+95,JAVA_FAILFAST,0,☕ Fail fast with clear errors. Silent failures cost more later. #Java #BestPractices,FALSE
 96,CLEAN_REVIEWS,0,"🧼 Code reviews are for knowledge sharing, not gatekeeping. Better reviews build better teams. #CleanCode #Teams",FALSE
 97,SYS_DEPENDENCY,0,"🏗 Dependencies fail eventually. Design with timeouts, retries, and fallbacks. #SystemDesign #Resilience",FALSE
-98,JOBS_LEADERSHIP,0,"💼 Senior engineers reduce uncertainty for others. That’s real leadership. #Careers #Engineering",FALSE
-99,DSA_LEARN,0,"🧠 Master fundamentals once. Apply them everywhere. That’s how skills compound. #DSA #Learning",FALSE
-100,CLEAN_FINAL2,0,"🧼 Write code assuming someone else will maintain it under pressure. Because they will. #CleanCode #SoftwareEngineering",FALSE
+98,JOBS_LEADERSHIP,0,💼 Senior engineers reduce uncertainty for others. That’s real leadership. #Careers #Engineering,FALSE
+99,DSA_LEARN,0,🧠 Master fundamentals once. Apply them everywhere. That’s how skills compound. #DSA #Learning,FALSE
+100,CLEAN_FINAL2,0,🧼 Write code assuming someone else will maintain it under pressure. Because they will. #CleanCode #SoftwareEngineering,FALSE
