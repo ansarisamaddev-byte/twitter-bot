@@ -1,6 +1,6 @@
-import csv
 import tweepy
 import os
+import csv
 
 client = tweepy.Client(
     consumer_key=os.getenv("API_KEY"),
@@ -11,30 +11,54 @@ client = tweepy.Client(
 
 def post_from_csv():
     rows = []
-    tweet_to_post = None
 
     with open("tweets.csv", newline="", encoding="utf-8") as f:
         reader = csv.DictReader(f)
-        for row in reader:
-            rows.append(row)
-            if row["posted"] == "FALSE" and not tweet_to_post:
-                tweet_to_post = row
+        rows = list(reader)
 
-    if not tweet_to_post:
+    # find first unposted item
+    first = next((r for r in rows if r["posted"] == "FALSE"), None)
+
+    if not first:
         print("No tweets left")
         return
 
-    client.create_tweet(text=tweet_to_post["tweet_text"])
+    # THREAD LOGIC
+    if first["thread_id"]:
+        thread_id = first["thread_id"]
 
-    # mark as posted
-    tweet_to_post["posted"] = "TRUE"
+        thread_tweets = sorted(
+            [r for r in rows if r["thread_id"] == thread_id and r["posted"] == "FALSE"],
+            key=lambda r: int(r["order"])
+        )
 
+        previous_tweet_id = None
+
+        for tweet in thread_tweets:
+            if previous_tweet_id:
+                response = client.create_tweet(
+                    text=tweet["tweet_text"],
+                    in_reply_to_tweet_id=previous_tweet_id
+                )
+            else:
+                response = client.create_tweet(text=tweet["tweet_text"])
+
+            previous_tweet_id = response.data["id"]
+            tweet["posted"] = "TRUE"
+
+        print(f"Thread posted: {thread_id}")
+
+    # SINGLE TWEET LOGIC
+    else:
+        client.create_tweet(text=first["tweet_text"])
+        first["posted"] = "TRUE"
+        print("Tweet posted:", first["tweet_text"])
+
+    # write back to CSV
     with open("tweets.csv", "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=rows[0].keys())
         writer.writeheader()
         writer.writerows(rows)
-
-    print("Tweet posted:", tweet_to_post["tweet_text"])
 
 if __name__ == "__main__":
     post_from_csv()
