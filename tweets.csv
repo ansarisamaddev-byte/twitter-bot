@@ -2,9 +2,9 @@ id,thread_id,order,tweet_text,posted
 1,DSA_BINSEARCH,1,🧠 Binary search isn’t magic. Most developers fail because they ignore its rules. Let’s fix that 👇,TRUE
 2,DSA_BINSEARCH,2,"Binary search ONLY works when the array is sorted, boundaries are correct, and mid is calculated safely.",TRUE
 3,DSA_BINSEARCH,3,"Binary search rewards discipline, not tricks. Master it once and reuse it forever. 📌 #DSA #Algorithms",TRUE
-4,DSA_EDGE,1,"🧠 Most bugs hide at the edges, not the middle.",FALSE
-5,DSA_EDGE,2,"Always test: null, empty, first, last, min, max. Edge cases expose broken assumptions.",FALSE
-6,DSA_EDGE,3,"If you don’t test boundaries, production will. ⚠️ #DSA #ProblemSolving",FALSE
+4,DSA_EDGE,1,"🧠 Most bugs hide at the edges, not the middle.",TRUE
+5,DSA_EDGE,2,"Always test: null, empty, first, last, min, max. Edge cases expose broken assumptions.",TRUE
+6,DSA_EDGE,3,"If you don’t test boundaries, production will. ⚠️ #DSA #ProblemSolving",TRUE
 7,JAVA_VOLATILE,1,⚠️ `volatile` in Java feels safe. It isn’t.,FALSE
 8,JAVA_VOLATILE,2,It guarantees visibility ❌ atomicity. `count++` is still broken.,FALSE
 9,JAVA_VOLATILE,3,"Use AtomicInteger, synchronized, or locks for correctness. Concurrency bugs fail quietly. #Java #Concurrency",FALSE
