@@ -5,9 +5,9 @@ id,thread_id,order,tweet_text,posted
 4,DSA_EDGE,1,"🧠 Most bugs hide at the edges, not the middle.",TRUE
 5,DSA_EDGE,2,"Always test: null, empty, first, last, min, max. Edge cases expose broken assumptions.",TRUE
 6,DSA_EDGE,3,"If you don’t test boundaries, production will. ⚠️ #DSA #ProblemSolving",TRUE
-7,JAVA_VOLATILE,1,⚠️ `volatile` in Java feels safe. It isn’t.,FALSE
-8,JAVA_VOLATILE,2,It guarantees visibility ❌ atomicity. `count++` is still broken.,FALSE
-9,JAVA_VOLATILE,3,"Use AtomicInteger, synchronized, or locks for correctness. Concurrency bugs fail quietly. #Java #Concurrency",FALSE
+7,JAVA_VOLATILE,1,⚠️ `volatile` in Java feels safe. It isn’t.,TRUE
+8,JAVA_VOLATILE,2,It guarantees visibility ❌ atomicity. `count++` is still broken.,TRUE
+9,JAVA_VOLATILE,3,"Use AtomicInteger, synchronized, or locks for correctness. Concurrency bugs fail quietly. #Java #Concurrency",TRUE
 10,JAVA_IMMUTABLE,1,☕ Immutable objects make concurrent code boring — and that’s good.,FALSE
 11,JAVA_IMMUTABLE,2,"No setters. Final fields. Defensive copies. Less state, fewer bugs.",FALSE
 12,JAVA_IMMUTABLE,3,Prefer immutability by default. Opt out only when needed. #Java #CleanCode,FALSE
