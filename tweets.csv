@@ -8,9 +8,9 @@ id,thread_id,order,tweet_text,posted
 7,JAVA_VOLATILE,1,⚠️ `volatile` in Java feels safe. It isn’t.,TRUE
 8,JAVA_VOLATILE,2,It guarantees visibility ❌ atomicity. `count++` is still broken.,TRUE
 9,JAVA_VOLATILE,3,"Use AtomicInteger, synchronized, or locks for correctness. Concurrency bugs fail quietly. #Java #Concurrency",TRUE
-10,JAVA_IMMUTABLE,1,☕ Immutable objects make concurrent code boring — and that’s good.,FALSE
-11,JAVA_IMMUTABLE,2,"No setters. Final fields. Defensive copies. Less state, fewer bugs.",FALSE
-12,JAVA_IMMUTABLE,3,Prefer immutability by default. Opt out only when needed. #Java #CleanCode,FALSE
+10,JAVA_IMMUTABLE,1,☕ Immutable objects make concurrent code boring — and that’s good.,TRUE
+11,JAVA_IMMUTABLE,2,"No setters. Final fields. Defensive copies. Less state, fewer bugs.",TRUE
+12,JAVA_IMMUTABLE,3,Prefer immutability by default. Opt out only when needed. #Java #CleanCode,TRUE
 13,SYS_LOGGING,1,🏗 Most production outages aren’t code bugs. They’re observability failures.,FALSE
 14,SYS_LOGGING,2,"If logs can’t answer: which request, which user, which service — they’re broken.",FALSE
 15,SYS_LOGGING,3,Structured logs with context and trace IDs save hours of debugging. 📌 #SystemDesign #Architecture,FALSE
