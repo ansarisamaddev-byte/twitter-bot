@@ -11,9 +11,9 @@ id,thread_id,order,tweet_text,posted
 10,JAVA_IMMUTABLE,1,☕ Immutable objects make concurrent code boring — and that’s good.,TRUE
 11,JAVA_IMMUTABLE,2,"No setters. Final fields. Defensive copies. Less state, fewer bugs.",TRUE
 12,JAVA_IMMUTABLE,3,Prefer immutability by default. Opt out only when needed. #Java #CleanCode,TRUE
-13,SYS_LOGGING,1,🏗 Most production outages aren’t code bugs. They’re observability failures.,FALSE
-14,SYS_LOGGING,2,"If logs can’t answer: which request, which user, which service — they’re broken.",FALSE
-15,SYS_LOGGING,3,Structured logs with context and trace IDs save hours of debugging. 📌 #SystemDesign #Architecture,FALSE
+13,SYS_LOGGING,1,🏗 Most production outages aren’t code bugs. They’re observability failures.,TRUE
+14,SYS_LOGGING,2,"If logs can’t answer: which request, which user, which service — they’re broken.",TRUE
+15,SYS_LOGGING,3,Structured logs with context and trace IDs save hours of debugging. 📌 #SystemDesign #Architecture,TRUE
 16,CLEAN_SRP,1,"🧼 If a class has more than one reason to change, a bug is already waiting.",FALSE
 17,CLEAN_SRP,2,Single Responsibility Principle isn’t theory. It keeps code testable and sane.,FALSE
 18,CLEAN_SRP,3,Clean code scales better than clever code. #CleanCode #SoftwareEngineering,FALSE
