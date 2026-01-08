@@ -17,9 +17,9 @@ id,thread_id,order,tweet_text,posted
 16,CLEAN_SRP,1,"🧼 If a class has more than one reason to change, a bug is already waiting.",TRUE
 17,CLEAN_SRP,2,Single Responsibility Principle isn’t theory. It keeps code testable and sane.,TRUE
 18,CLEAN_SRP,3,Clean code scales better than clever code. #CleanCode #SoftwareEngineering,TRUE
-19,JOBS_INTERVIEW,1,💼 Interviews aren’t about perfect code.,FALSE
-20,JOBS_INTERVIEW,2,"They test how you think, communicate, and reason about trade-offs.",FALSE
-21,JOBS_INTERVIEW,3,"Explain your decisions, not just your solution. That’s how you stand out. #Jobs #Interviews",FALSE
+19,JOBS_INTERVIEW,1,💼 Interviews aren’t about perfect code.,TRUE
+20,JOBS_INTERVIEW,2,"They test how you think, communicate, and reason about trade-offs.",TRUE
+21,JOBS_INTERVIEW,3,"Explain your decisions, not just your solution. That’s how you stand out. #Jobs #Interviews",TRUE
 22,DSA_DP,1,🧠 Recursion without memoization wastes computation.,FALSE
 23,DSA_DP,2,"If subproblems repeat, cache results. That’s dynamic programming.",FALSE
 24,DSA_DP,3,DP turns exponential nightmares into linear solutions. #DSA #ProblemSolving,FALSE
