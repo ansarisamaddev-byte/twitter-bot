@@ -20,9 +20,9 @@ id,thread_id,order,tweet_text,posted
 19,JOBS_INTERVIEW,1,💼 Interviews aren’t about perfect code.,TRUE
 20,JOBS_INTERVIEW,2,"They test how you think, communicate, and reason about trade-offs.",TRUE
 21,JOBS_INTERVIEW,3,"Explain your decisions, not just your solution. That’s how you stand out. #Jobs #Interviews",TRUE
-22,DSA_DP,1,🧠 Recursion without memoization wastes computation.,FALSE
-23,DSA_DP,2,"If subproblems repeat, cache results. That’s dynamic programming.",FALSE
-24,DSA_DP,3,DP turns exponential nightmares into linear solutions. #DSA #ProblemSolving,FALSE
+22,DSA_DP,1,🧠 Recursion without memoization wastes computation.,TRUE
+23,DSA_DP,2,"If subproblems repeat, cache results. That’s dynamic programming.",TRUE
+24,DSA_DP,3,DP turns exponential nightmares into linear solutions. #DSA #ProblemSolving,TRUE
 25,JAVA_SINGLE,0,"☕ Enum-based Singleton in Java is thread-safe, serialization-safe, and simple. Avoid classic singleton pitfalls. #Java #DesignPatterns",FALSE
 26,DSA_SINGLE,0,🧠 HashMaps give O(1) on average — not guaranteed. Bad hashing leads to bad performance. #DSA #Programming,FALSE
 27,CLEAN_METHODS,0,"🧼 Methods should do ONE thing. Long methods hide logic, increase bugs, and complicate testing. #CleanCode #SoftwareDesign",FALSE
