@@ -25,7 +25,7 @@ id,thread_id,order,tweet_text,posted
 24,DSA_DP,3,DP turns exponential nightmares into linear solutions. #DSA #ProblemSolving,TRUE
 25,JAVA_SINGLE,0,"☕ Enum-based Singleton in Java is thread-safe, serialization-safe, and simple. Avoid classic singleton pitfalls. #Java #DesignPatterns",TRUE
 26,DSA_SINGLE,0,🧠 HashMaps give O(1) on average — not guaranteed. Bad hashing leads to bad performance. #DSA #Programming,TRUE
-27,CLEAN_METHODS,0,"🧼 Methods should do ONE thing. Long methods hide logic, increase bugs, and complicate testing. #CleanCode #SoftwareDesign",FALSE
+27,CLEAN_METHODS,0,"🧼 Methods should do ONE thing. Long methods hide logic, increase bugs, and complicate testing. #CleanCode #SoftwareDesign",TRUE
 28,SYS_FACTORY,0,"🏗 Factory pattern centralizes object creation, reduces coupling, and improves testability. Stop scattering constructors. #SystemDesign #CleanCode",FALSE
 29,JAVA_OPTIONAL,0,"☕ Optional forces explicit handling of absence. Fewer NullPointerExceptions, clearer APIs. #Java #CleanCode",FALSE
 30,DSA_GRAPHS,1,"🧠 Graphs model real systems: networks, maps, dependencies.",FALSE
