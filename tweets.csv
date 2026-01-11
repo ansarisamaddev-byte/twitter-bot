@@ -27,7 +27,7 @@ id,thread_id,order,tweet_text,posted
 26,DSA_SINGLE,0,🧠 HashMaps give O(1) on average — not guaranteed. Bad hashing leads to bad performance. #DSA #Programming,TRUE
 27,CLEAN_METHODS,0,"🧼 Methods should do ONE thing. Long methods hide logic, increase bugs, and complicate testing. #CleanCode #SoftwareDesign",TRUE
 28,SYS_FACTORY,0,"🏗 Factory pattern centralizes object creation, reduces coupling, and improves testability. Stop scattering constructors. #SystemDesign #CleanCode",TRUE
-29,JAVA_OPTIONAL,0,"☕ Optional forces explicit handling of absence. Fewer NullPointerExceptions, clearer APIs. #Java #CleanCode",FALSE
+29,JAVA_OPTIONAL,0,"☕ Optional forces explicit handling of absence. Fewer NullPointerExceptions, clearer APIs. #Java #CleanCode",TRUE
 30,DSA_GRAPHS,1,"🧠 Graphs model real systems: networks, maps, dependencies.",FALSE
 31,DSA_GRAPHS,2,"BFS, DFS, Dijkstra — choosing the right algorithm matters more than memorizing them.",FALSE
 32,DSA_GRAPHS,3,Understand graph types and representations to solve real problems. #DSA #SoftwareEngineering,FALSE
