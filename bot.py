@@ -10,26 +10,32 @@ client = tweepy.Client(
 )
 
 def post_from_csv():
-    rows = []
-
     with open("tweets.csv", newline="", encoding="utf-8") as f:
         reader = csv.DictReader(f)
         rows = list(reader)
 
+    if not rows:
+        print("CSV is empty")
+        return
+
     # find first unposted item
-    first = next((r for r in rows if r["posted"] == "FALSE"), None)
+    first = next((r for r in rows if r.get("posted") == "FALSE"), None)
 
     if not first:
         print("No tweets left")
         return
 
-    # THREAD LOGIC
-    if first["thread_id"]:
-        thread_id = first["thread_id"]
+    thread_id = first.get("thread_id", "").strip()
 
+    # 🧵 THREAD LOGIC
+    if thread_id:
         thread_tweets = sorted(
-            [r for r in rows if r["thread_id"] == thread_id and r["posted"] == "FALSE"],
-            key=lambda r: int(r["order"])
+            [
+                r for r in rows
+                if r.get("thread_id", "").strip() == thread_id
+                and r.get("posted") == "FALSE"
+            ],
+            key=lambda r: int(r.get("order", 0))
         )
 
         previous_tweet_id = None
@@ -48,7 +54,7 @@ def post_from_csv():
 
         print(f"Thread posted: {thread_id}")
 
-    # SINGLE TWEET LOGIC
+    # 📝 SINGLE TWEET LOGIC
     else:
         client.create_tweet(text=first["tweet_text"])
         first["posted"] = "TRUE"
