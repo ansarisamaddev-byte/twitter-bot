@@ -1,31 +1,31 @@
-id,tweet_text,posted
-1,Most Java concurrency bugs don’t crash your app. They silently corrupt data. What’s the hardest concurrency bug you’ve debugged? #Java #Concurrency,TRUE
-2,Binary search looks easy — yet it fails more interviews than advanced algorithms. Which rule do you see people break most often? #DSA #Algorithms,TRUE
-3,Quick check: Does `volatile` make `count++` thread-safe? Yes or no — why? #Java #Concurrency,FALSE
-4,"Most production bugs live at the edges, not the core logic. Which edge case burned you last time? 🔥 #DSA #ProblemSolving",FALSE
-5,Clean code isn’t about elegance. It’s about making change safe. What makes code safe to change in your experience? #CleanCode #SoftwareEngineering,FALSE
-6,"If logs can’t answer which request, which user, and which service — they’re noise. What do you log first in production? #SystemDesign #Observability",FALSE
-7,Most performance issues aren’t Java problems — they’re design problems. What was the real cause the last time performance tanked? #Java #Performance,FALSE
-8,Recursion is elegant until it blows the stack. When do you choose iteration over recursion? #DSA #Programming,FALSE
-9,Immutability makes concurrent code boring — and boring is good. Where has immutability saved you from bugs? #Java #CleanCode,FALSE
-10,"HashMaps give O(1) on average, not guaranteed. Bad hashing can kill performance. Have you seen this in production? #DSA #Java",FALSE
-11,"Most system outages aren’t caused by bugs — they’re caused by missing visibility. What signal do you check first: logs, metrics, or traces? #SystemDesign #Observability",FALSE
-12,Deadlocks don’t announce themselves. They just freeze everything. What strategy do you use to avoid deadlocks? #Java #Concurrency,FALSE
-13,"If a class has more than one reason to change, a bug is already waiting. Which class in your codebase violates SRP the most? #CleanCode #SoftwareDesign",FALSE
-14,Sorting before searching isn’t wasted work — it’s an investment. Where have you traded upfront cost for long-term gains? #DSA #Algorithms,FALSE
-15,Dynamic programming is just caching repeated work. Which problem made DP finally click for you? #DSA #ProblemSolving,FALSE
-16,Good APIs make wrong usage hard. Where have you seen an API design prevent bugs? #CleanCode #Design,FALSE
-17,Premature optimization creates fragile systems. What’s the worst early optimization you’ve seen? #SystemDesign #Engineering,FALSE
-18,Concurrency bugs that disappear under debugging are the scariest ones. How do you detect race conditions? #Java #Concurrency,FALSE
-19,Most algorithm mistakes aren’t algorithmic — they’re bad assumptions. What assumption do you always validate first? #DSA #ProblemSolving,FALSE
-20,Tests that only cover happy paths lie. Which edge case do you always test now because it once failed you? #CleanCode #Testing,FALSE
-21,Enums in Java aren’t just constants — they model behavior and constraints. Where do you use enums beyond constants? #Java #Design,FALSE
-22,Caching makes systems faster — and harder. What caching mistake taught you the most? #SystemDesign #Scalability,FALSE
-23,Fail fast with clear errors. Silent failures cost more later. Where have you seen fail-fast save time? #Java #BestPractices,FALSE
-24,"Big-O ignores constants, but production never does. When did real-world performance surprise you? #DSA #Engineering",FALSE
-25,Refactoring small and often prevents technical debt from compounding. How often do you refactor your code? #CleanCode #SoftwareDesign,FALSE
-26,"If code needs comments to explain what it does, it’s too complex. What’s your rule for writing comments? #CleanCode #Programming",FALSE
-27,Systems don’t fail at small scale — they fail when assumptions break. Which assumption failed you under load? #SystemDesign #Architecture,FALSE
-28,"Synchronization fixes correctness, not performance. When did adding locks make things worse? #Java #Concurrency",FALSE
-29,Hiring favors clear thinkers over clever coders. What interview question best reveals thinking ability? #Careers #Interviews,FALSE
-30,Master fundamentals once and apply them everywhere. Which concept paid off the most over your career? #Learning #SoftwareEngineering,FALSE
+id,tweet_text,thread_id,order,posted
+1,Most Java concurrency bugs don’t crash your app. They silently corrupt data. What’s the hardest concurrency bug you’ve debugged? #Java #Concurrency,, ,TRUE
+2,Binary search looks easy — yet it fails more interviews than advanced algorithms. Which rule do you see people break most often? #DSA #Algorithms,, ,TRUE
+3,Quick check: Does `volatile` make `count++` thread-safe? Yes or no — why? #Java #Concurrency,java-concurrency-1,1,FALSE
+4,"Most production bugs live at the edges, not the core logic. Which edge case burned you last time? 🔥 #DSA #ProblemSolving",java-concurrency-1,2,FALSE
+5,Clean code isn’t about elegance. It’s about making change safe. What makes code safe to change in your experience? #CleanCode #SoftwareEngineering,java-concurrency-1,3,FALSE
+6,"If logs can’t answer which request, which user, and which service — they’re noise. What do you log first in production? #SystemDesign #Observability",engineering-mindset-1,1,FALSE
+7,Most performance issues aren’t Java problems — they’re design problems. What was the real cause the last time performance tanked? #Java #Performance,engineering-mindset-1,2,FALSE
+8,Recursion is elegant until it blows the stack. When do you choose iteration over recursion? #DSA #Programming,engineering-mindset-1,3,FALSE
+9,Immutability makes concurrent code boring — and boring is good. Where has immutability saved you from bugs? #Java #CleanCode,engineering-mindset-1,4,FALSE
+10,"HashMaps give O(1) on average, not guaranteed. Bad hashing can kill performance. Have you seen this in production? #DSA #Java",engineering-mindset-1,5,FALSE
+11,"Most system outages aren’t caused by bugs — they’re caused by missing visibility. What signal do you check first: logs, metrics, or traces? #SystemDesign #Observability",,,FALSE
+12,Deadlocks don’t announce themselves. They just freeze everything. What strategy do you use to avoid deadlocks? #Java #Concurrency,, ,FALSE
+13,"If a class has more than one reason to change, a bug is already waiting. Which class in your codebase violates SRP the most? #CleanCode #SoftwareDesign",,,FALSE
+14,Sorting before searching isn’t wasted work — it’s an investment. Where have you traded upfront cost for long-term gains? #DSA #Algorithms,, ,FALSE
+15,Dynamic programming is just caching repeated work. Which problem made DP finally click for you? #DSA #ProblemSolving,, ,FALSE
+16,Good APIs make wrong usage hard. Where have you seen an API design prevent bugs? #CleanCode #Design,, ,FALSE
+17,Premature optimization creates fragile systems. What’s the worst early optimization you’ve seen? #SystemDesign #Engineering,, ,FALSE
+18,Concurrency bugs that disappear under debugging are the scariest ones. How do you detect race conditions? #Java #Concurrency,, ,FALSE
+19,Most algorithm mistakes aren’t algorithmic — they’re bad assumptions. What assumption do you always validate first? #DSA #ProblemSolving,, ,FALSE
+20,Tests that only cover happy paths lie. Which edge case do you always test now because it once failed you? #CleanCode #Testing,, ,FALSE
+21,Enums in Java aren’t just constants — they model behavior and constraints. Where do you use enums beyond constants? #Java #Design,, ,FALSE
+22,Caching makes systems faster — and harder. What caching mistake taught you the most? #SystemDesign #Scalability,, ,FALSE
+23,Fail fast with clear errors. Silent failures cost more later. Where have you seen fail-fast save time? #Java #BestPractices,, ,FALSE
+24,"Big-O ignores constants, but production never does. When did real-world performance surprise you? #DSA #Engineering",,,FALSE
+25,Refactoring small and often prevents technical debt from compounding. How often do you refactor your code? #CleanCode #SoftwareDesign,, ,FALSE
+26,"If code needs comments to explain what it does, it’s too complex. What’s your rule for writing comments? #CleanCode #Programming",,,FALSE
+27,Systems don’t fail at small scale — they fail when assumptions break. Which assumption failed you under load? #SystemDesign #Architecture,, ,FALSE
+28,"Synchronization fixes correctness, not performance. When did adding locks make things worse? #Java #Concurrency",,,FALSE
+29,Hiring favors clear thinkers over clever coders. What interview question best reveals thinking ability? #Careers #Interviews,, ,FALSE
+30,Master fundamentals once and apply them everywhere. Which concept paid off the most over your career? #Learning #SoftwareEngineering,, ,FALSE
