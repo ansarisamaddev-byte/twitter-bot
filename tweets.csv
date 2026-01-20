@@ -1,6 +1,6 @@
 id,tweet_text,posted
 1,Most Java concurrency bugs don’t crash your app. They silently corrupt data. What’s the hardest concurrency bug you’ve debugged? #Java #Concurrency,TRUE
-2,Binary search looks easy — yet it fails more interviews than advanced algorithms. Which rule do you see people break most often? #DSA #Algorithms,FALSE
+2,Binary search looks easy — yet it fails more interviews than advanced algorithms. Which rule do you see people break most often? #DSA #Algorithms,TRUE
 3,Quick check: Does `volatile` make `count++` thread-safe? Yes or no — why? #Java #Concurrency,FALSE
 4,"Most production bugs live at the edges, not the core logic. Which edge case burned you last time? 🔥 #DSA #ProblemSolving",FALSE
 5,Clean code isn’t about elegance. It’s about making change safe. What makes code safe to change in your experience? #CleanCode #SoftwareEngineering,FALSE
