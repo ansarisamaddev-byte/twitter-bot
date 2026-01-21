@@ -20,7 +20,7 @@ with open(CSV_FILE, newline="", encoding="utf-8") as f:
     reader = csv.DictReader(f)
     for row in reader:
         rows.append(row)
-        if row["posted"].lower() != "true" and tweet_to_post is None:
+        if row["posted"].strip().upper() != "TRUE" and tweet_to_post is None:
             tweet_to_post = row
 
 if not tweet_to_post:
@@ -28,15 +28,17 @@ if not tweet_to_post:
     exit(0)
 
 # ---- Post Tweet ----
-response = client.create_tweet(text=tweet_to_post["text"])
-tweet_id = response.data["id"]
+response = client.create_tweet(
+    text=tweet_to_post["tweet_text"]  # ✅ FIXED
+)
 
+tweet_id = response.data["id"]
 print(f"Tweet posted: {tweet_id}")
 
 # ---- Mark as posted ----
 for row in rows:
     if row["id"] == tweet_to_post["id"]:
-        row["posted"] = "true"
+        row["posted"] = "TRUE"
 
 # ---- Write back to CSV ----
 with open(CSV_FILE, "w", newline="", encoding="utf-8") as f:
