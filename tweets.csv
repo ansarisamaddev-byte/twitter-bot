@@ -10,7 +10,7 @@ id,tweet_text,thread_id,order,posted
 9,Immutability makes concurrent code boring — and boring is good. Where has immutability saved you from bugs? #Java #CleanCode,engineering-mindset-1,4,TRUE
 10,"HashMaps give O(1) on average, not guaranteed. Bad hashing can kill performance. Have you seen this in production? #DSA #Java",engineering-mindset-1,5,TRUE
 11,"Most system outages aren’t caused by bugs — they’re caused by missing visibility. What signal do you check first: logs, metrics, or traces? #SystemDesign #Observability",,,TRUE
-12,Deadlocks don’t announce themselves. They just freeze everything. What strategy do you use to avoid deadlocks? #Java #Concurrency,,,FALSE
+12,Deadlocks don’t announce themselves. They just freeze everything. What strategy do you use to avoid deadlocks? #Java #Concurrency,,,TRUE
 13,"If a class has more than one reason to change, a bug is already waiting. Which class in your codebase violates SRP the most? #CleanCode #SoftwareDesign",,,FALSE
 14,Sorting before searching isn’t wasted work — it’s an investment. Where have you traded upfront cost for long-term gains? #DSA #Algorithms,,,FALSE
 15,Dynamic programming is just caching repeated work. Which problem made DP finally click for you? #DSA #ProblemSolving,,,FALSE
