@@ -12,7 +12,7 @@ id,tweet_text,thread_id,order,posted
 11,"Most system outages aren’t caused by bugs — they’re caused by missing visibility. What signal do you check first: logs, metrics, or traces? #SystemDesign #Observability",,,TRUE
 12,Deadlocks don’t announce themselves. They just freeze everything. What strategy do you use to avoid deadlocks? #Java #Concurrency,,,TRUE
 13,"If a class has more than one reason to change, a bug is already waiting. Which class in your codebase violates SRP the most? #CleanCode #SoftwareDesign",,,TRUE
-14,Sorting before searching isn’t wasted work — it’s an investment. Where have you traded upfront cost for long-term gains? #DSA #Algorithms,,,FALSE
+14,Sorting before searching isn’t wasted work — it’s an investment. Where have you traded upfront cost for long-term gains? #DSA #Algorithms,,,TRUE
 15,Dynamic programming is just caching repeated work. Which problem made DP finally click for you? #DSA #ProblemSolving,,,FALSE
 16,Good APIs make wrong usage hard. Where have you seen an API design prevent bugs? #CleanCode #Design,,,FALSE
 17,Premature optimization creates fragile systems. What’s the worst early optimization you’ve seen? #SystemDesign #Engineering,,,FALSE
