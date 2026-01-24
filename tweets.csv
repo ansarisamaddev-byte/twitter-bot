@@ -14,7 +14,7 @@ id,tweet_text,thread_id,order,posted
 13,"If a class has more than one reason to change, a bug is already waiting. Which class in your codebase violates SRP the most? #CleanCode #SoftwareDesign",,,TRUE
 14,Sorting before searching isn’t wasted work — it’s an investment. Where have you traded upfront cost for long-term gains? #DSA #Algorithms,,,TRUE
 15,Dynamic programming is just caching repeated work. Which problem made DP finally click for you? #DSA #ProblemSolving,,,TRUE
-16,Good APIs make wrong usage hard. Where have you seen an API design prevent bugs? #CleanCode #Design,,,FALSE
+16,Good APIs make wrong usage hard. Where have you seen an API design prevent bugs? #CleanCode #Design,,,TRUE
 17,Premature optimization creates fragile systems. What’s the worst early optimization you’ve seen? #SystemDesign #Engineering,,,FALSE
 18,Concurrency bugs that disappear under debugging are the scariest ones. How do you detect race conditions? #Java #Concurrency,,,FALSE
 19,Most algorithm mistakes aren’t algorithmic — they’re bad assumptions. What assumption do you always validate first? #DSA #ProblemSolving,,,FALSE
