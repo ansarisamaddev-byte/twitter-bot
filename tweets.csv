@@ -1,106 +1,101 @@
 id,tweet_text,thread_id,order,posted
-1,"Many bugs aren’t caused by wrong logic but by code being used in ways it never anticipated. Where did unexpected usage break assumptions? #SoftwareEngineering",,,FALSE
+1,Many bugs aren’t caused by wrong logic but by code being used in ways it never anticipated. Where did unexpected usage break assumptions? #SoftwareEngineering,,,TRUE
 2,"Concurrency problems often appear only after success — more users, more threads, more chaos. What bug appeared only after growth? #Java #Concurrency",,,FALSE
-3,"Performance regressions usually arrive quietly before they explode. What early signal did you miss once? #Performance #Engineering",,,FALSE
-4,"Most systems don’t fail because one thing broke. They fail because many small things aligned. Which alignment caused your last incident? #SystemDesign",,,FALSE
-5,"Code that’s easy to write but hard to reason about becomes a liability fast. Which code was hardest to reason about? #CleanCode",,,FALSE
-6,"State that crosses method boundaries multiplies complexity. Where did shared state become painful? #SoftwareDesign",,,FALSE
+3,Performance regressions usually arrive quietly before they explode. What early signal did you miss once? #Performance #Engineering,,,FALSE
+4,Most systems don’t fail because one thing broke. They fail because many small things aligned. Which alignment caused your last incident? #SystemDesign,,,FALSE
+5,Code that’s easy to write but hard to reason about becomes a liability fast. Which code was hardest to reason about? #CleanCode,,,FALSE
+6,State that crosses method boundaries multiplies complexity. Where did shared state become painful? #SoftwareDesign,,,FALSE
 7,"The hardest production bugs are caused by interactions, not components. Which interaction caused you the most pain? #Debugging",,,FALSE
-8,"Scalability issues often begin as convenience features. Which “temporary” choice became permanent? #Architecture",,,FALSE
-9,"Good logging answers questions. Bad logging creates noise. What log line saved you once? #Observability",,,FALSE
-10,"Many outages trace back to assumptions that were never written down. Which assumption failed you? #Engineering",,,FALSE
-11,"Concurrency bugs rarely reproduce on demand. They reproduce on deadlines. How did you finally catch one? #Java #Debugging",,,FALSE
-12,"Design complexity hides until requirements change. What change exposed poor design? #SoftwareDesign",,,FALSE
-13,"APIs that look flexible often lack clear boundaries. Where did flexibility hurt you? #APIDesign",,,FALSE
-14,"Distributed systems break intuition built on single-process code. Which intuition failed first? #DistributedSystems",,,FALSE
-15,"Most slow systems aren’t slow everywhere — just in the wrong place. Where was the real bottleneck? #Performance",,,FALSE
-16,"Error handling paths are often less tested than success paths. Which failure path surprised you? #Reliability",,,FALSE
-17,"Code ownership reduces bugs more than documentation ever will. Where did ownership make the difference? #EngineeringCulture",,,FALSE
-18,"Testing reveals behavior — production reveals truth. What did production teach you? #Testing",,,FALSE
-19,"Complex bugs often require simplifying the system before fixing it. What did you remove to fix one? #Debugging",,,FALSE
-20,"Performance tuning without measurements is guessing with confidence. Which metric changed your mind? #Engineering",,,FALSE
-21,"Concurrency safety is easier to design than to retrofit. Where did retrofitting hurt? #Java #Concurrency",,,FALSE
-22,"Memory problems rarely show up as memory problems at first. What symptom misled you? #JVM #Debugging",,,FALSE
-23,"Most flaky behavior isn’t random — it’s poorly understood state. Where did flakiness come from? #Testing",,,FALSE
-24,"Abstractions simplify until they leak. Which abstraction leaked first? #Architecture",,,FALSE
-25,"Latency hides in places no profiler looks first. Where did you finally find it? #Performance",,,FALSE
-26,"Retries feel safe until they amplify failure. Which retry caused damage? #SystemDesign",,,FALSE
+8,Scalability issues often begin as convenience features. Which “temporary” choice became permanent? #Architecture,,,FALSE
+9,Good logging answers questions. Bad logging creates noise. What log line saved you once? #Observability,,,FALSE
+10,Many outages trace back to assumptions that were never written down. Which assumption failed you? #Engineering,,,FALSE
+11,Concurrency bugs rarely reproduce on demand. They reproduce on deadlines. How did you finally catch one? #Java #Debugging,,,FALSE
+12,Design complexity hides until requirements change. What change exposed poor design? #SoftwareDesign,,,FALSE
+13,APIs that look flexible often lack clear boundaries. Where did flexibility hurt you? #APIDesign,,,FALSE
+14,Distributed systems break intuition built on single-process code. Which intuition failed first? #DistributedSystems,,,FALSE
+15,Most slow systems aren’t slow everywhere — just in the wrong place. Where was the real bottleneck? #Performance,,,FALSE
+16,Error handling paths are often less tested than success paths. Which failure path surprised you? #Reliability,,,FALSE
+17,Code ownership reduces bugs more than documentation ever will. Where did ownership make the difference? #EngineeringCulture,,,FALSE
+18,Testing reveals behavior — production reveals truth. What did production teach you? #Testing,,,FALSE
+19,Complex bugs often require simplifying the system before fixing it. What did you remove to fix one? #Debugging,,,FALSE
+20,Performance tuning without measurements is guessing with confidence. Which metric changed your mind? #Engineering,,,FALSE
+21,Concurrency safety is easier to design than to retrofit. Where did retrofitting hurt? #Java #Concurrency,,,FALSE
+22,Memory problems rarely show up as memory problems at first. What symptom misled you? #JVM #Debugging,,,FALSE
+23,Most flaky behavior isn’t random — it’s poorly understood state. Where did flakiness come from? #Testing,,,FALSE
+24,Abstractions simplify until they leak. Which abstraction leaked first? #Architecture,,,FALSE
+25,Latency hides in places no profiler looks first. Where did you finally find it? #Performance,,,FALSE
+26,Retries feel safe until they amplify failure. Which retry caused damage? #SystemDesign,,,FALSE
 27,"Production bugs are often triggered by rare data, not rare code paths. Which data broke you? #Debugging",,,FALSE
 28,"Many failures occur at system boundaries, not inside logic. Which boundary failed last? #Engineering",,,FALSE
-29,"Good systems degrade gracefully. Bad ones fail dramatically. Which did you inherit? #Reliability",,,FALSE
-30,"Refactoring without tests is optimism disguised as confidence. Where did it go wrong? #CleanCode",,,FALSE
-31,"Concurrency bugs often hide behind correct-looking code. What code looked safe but wasn’t? #Java",,,FALSE
-32,"Monitoring tells you something broke — context tells you why. What context were you missing? #Observability",,,FALSE
+29,Good systems degrade gracefully. Bad ones fail dramatically. Which did you inherit? #Reliability,,,FALSE
+30,Refactoring without tests is optimism disguised as confidence. Where did it go wrong? #CleanCode,,,FALSE
+31,Concurrency bugs often hide behind correct-looking code. What code looked safe but wasn’t? #Java,,,FALSE
+32,Monitoring tells you something broke — context tells you why. What context were you missing? #Observability,,,FALSE
 33,"Most performance gains come from removing work, not optimizing it. What work did you remove? #Engineering",,,FALSE
-34,"The cost of a bad design increases with every new feature. Which feature exposed the cost? #Architecture",,,FALSE
-35,"Production systems behave differently than local ones due to scale alone. What scale effect surprised you? #Engineering",,,FALSE
-36,"Testing concurrency requires controlling time and state. How did you approach it? #Testing #Java",,,FALSE
-37,"Configuration mistakes cause failures faster than logic bugs. Which config broke prod? #DevOps",,,FALSE
-38,"Design decisions outlive the engineers who made them. Which one still affects you? #SoftwareDesign",,,FALSE
-39,"The hardest bugs cross time — past decisions causing present failures. Which decision aged poorly? #Engineering",,,FALSE
-40,"Logs that lack context force guesswork. What context mattered most? #Observability",,,FALSE
-41,"APIs that are easy to misuse silently create bugs. Where did misuse hurt you? #APIDesign",,,FALSE
-42,"Concurrency problems multiply when responsibilities blur. Where was responsibility unclear? #Java",,,FALSE
+34,The cost of a bad design increases with every new feature. Which feature exposed the cost? #Architecture,,,FALSE
+35,Production systems behave differently than local ones due to scale alone. What scale effect surprised you? #Engineering,,,FALSE
+36,Testing concurrency requires controlling time and state. How did you approach it? #Testing #Java,,,FALSE
+37,Configuration mistakes cause failures faster than logic bugs. Which config broke prod? #DevOps,,,FALSE
+38,Design decisions outlive the engineers who made them. Which one still affects you? #SoftwareDesign,,,FALSE
+39,The hardest bugs cross time — past decisions causing present failures. Which decision aged poorly? #Engineering,,,FALSE
+40,Logs that lack context force guesswork. What context mattered most? #Observability,,,FALSE
+41,APIs that are easy to misuse silently create bugs. Where did misuse hurt you? #APIDesign,,,FALSE
+42,Concurrency problems multiply when responsibilities blur. Where was responsibility unclear? #Java,,,FALSE
 43,"Most system slowdowns are coordination issues, not computation issues. Where did coordination fail? #SystemDesign",,,FALSE
-44,"Designing for failure changes architecture dramatically. What failure changed yours? #Reliability",,,FALSE
-45,"Performance tests often miss real-world usage patterns. What pattern surprised you? #Performance",,,FALSE
-46,"Hidden coupling causes more bugs than visible complexity. Where was coupling hidden? #Architecture",,,FALSE
-47,"Production teaches humility faster than tutorials. What lesson stuck with you? #Engineering",,,FALSE
+44,Designing for failure changes architecture dramatically. What failure changed yours? #Reliability,,,FALSE
+45,Performance tests often miss real-world usage patterns. What pattern surprised you? #Performance,,,FALSE
+46,Hidden coupling causes more bugs than visible complexity. Where was coupling hidden? #Architecture,,,FALSE
+47,Production teaches humility faster than tutorials. What lesson stuck with you? #Engineering,,,FALSE
 48,"The more state a system holds, the harder it is to reason about. Which state caused confusion? #Design",,,FALSE
-49,"Good error messages reduce debugging time dramatically. Which one helped you most? #Engineering",,,FALSE
-50,"Most outages start small before cascading. What was the first domino? #SystemDesign",,,FALSE
-51,"Bugs often come from code that works correctly but at the wrong time. Where did timing break correctness? #Engineering",,,FALSE
-52,"Concurrency issues are rarely caused by one thread — they emerge from coordination failure. What coordination failed you? #Java #Concurrency",,,FALSE
-53,"Performance bottlenecks usually hide behind features users love. Which feature slowed things down? #Performance",,,FALSE
-54,"Systems fail when local optimizations hurt global behavior. Which optimization backfired? #SystemDesign",,,FALSE
-55,"Readable code reduces cognitive load during incidents. Which refactor paid off under pressure? #CleanCode",,,FALSE
-56,"State that lives too long becomes dangerous. Which long-lived state caused trouble? #SoftwareDesign",,,FALSE
-57,"The hardest bugs are invisible until the system is stressed. What stress exposed yours? #Debugging",,,FALSE
-58,"Scaling a system often exposes decisions that never considered growth. Which decision cracked first? #Architecture",,,FALSE
-59,"Good metrics tell a story over time. Which metric trend warned you early? #Observability",,,FALSE
-60,"Incidents often reveal what your system truly values. What did yours prioritize incorrectly? #Engineering",,,FALSE
-
-61,"Concurrency bugs don’t break logic — they break expectations. Which expectation failed? #Java #Debugging",,,FALSE
-62,"Design that feels elegant today can become rigid tomorrow. Which design limited change? #SoftwareDesign",,,FALSE
-63,"APIs should make incorrect usage obvious. Where did ambiguity cause bugs? #APIDesign",,,FALSE
-64,"Distributed systems fail in ways single-node systems never prepare you for. What surprised you most? #DistributedSystems",,,FALSE
-65,"Performance issues often come from work you didn’t know you were doing. What hidden work existed? #Performance",,,FALSE
-66,"Error handling that only logs failures often hides root causes. What error needed more context? #Reliability",,,FALSE
-67,"Ownership gaps create debugging gaps. Where did no one clearly own the problem? #EngineeringCulture",,,FALSE
-68,"Tests give confidence — production gives consequences. What consequence changed your approach? #Testing",,,FALSE
-69,"Simplifying a system often fixes bugs faster than adding safeguards. What did you simplify? #Debugging",,,FALSE
-70,"Metrics without decisions are just numbers. Which metric finally drove action? #Engineering",,,FALSE
-
-71,"Concurrency safety improves dramatically when shared state is minimized. What state did you eliminate? #Java #Concurrency",,,FALSE
-72,"Memory pressure often appears as latency or crashes first. What symptom pointed you wrong? #JVM #Debugging",,,FALSE
-73,"Flaky tests usually indicate unclear system boundaries. Which boundary was unclear? #Testing",,,FALSE
-74,"Abstractions fail when they hide important details. Which detail mattered later? #Architecture",,,FALSE
+49,Good error messages reduce debugging time dramatically. Which one helped you most? #Engineering,,,FALSE
+50,Most outages start small before cascading. What was the first domino? #SystemDesign,,,FALSE
+51,Bugs often come from code that works correctly but at the wrong time. Where did timing break correctness? #Engineering,,,FALSE
+52,Concurrency issues are rarely caused by one thread — they emerge from coordination failure. What coordination failed you? #Java #Concurrency,,,FALSE
+53,Performance bottlenecks usually hide behind features users love. Which feature slowed things down? #Performance,,,FALSE
+54,Systems fail when local optimizations hurt global behavior. Which optimization backfired? #SystemDesign,,,FALSE
+55,Readable code reduces cognitive load during incidents. Which refactor paid off under pressure? #CleanCode,,,FALSE
+56,State that lives too long becomes dangerous. Which long-lived state caused trouble? #SoftwareDesign,,,FALSE
+57,The hardest bugs are invisible until the system is stressed. What stress exposed yours? #Debugging,,,FALSE
+58,Scaling a system often exposes decisions that never considered growth. Which decision cracked first? #Architecture,,,FALSE
+59,Good metrics tell a story over time. Which metric trend warned you early? #Observability,,,FALSE
+60,Incidents often reveal what your system truly values. What did yours prioritize incorrectly? #Engineering,,,FALSE
+61,Concurrency bugs don’t break logic — they break expectations. Which expectation failed? #Java #Debugging,,,FALSE
+62,Design that feels elegant today can become rigid tomorrow. Which design limited change? #SoftwareDesign,,,FALSE
+63,APIs should make incorrect usage obvious. Where did ambiguity cause bugs? #APIDesign,,,FALSE
+64,Distributed systems fail in ways single-node systems never prepare you for. What surprised you most? #DistributedSystems,,,FALSE
+65,Performance issues often come from work you didn’t know you were doing. What hidden work existed? #Performance,,,FALSE
+66,Error handling that only logs failures often hides root causes. What error needed more context? #Reliability,,,FALSE
+67,Ownership gaps create debugging gaps. Where did no one clearly own the problem? #EngineeringCulture,,,FALSE
+68,Tests give confidence — production gives consequences. What consequence changed your approach? #Testing,,,FALSE
+69,Simplifying a system often fixes bugs faster than adding safeguards. What did you simplify? #Debugging,,,FALSE
+70,Metrics without decisions are just numbers. Which metric finally drove action? #Engineering,,,FALSE
+71,Concurrency safety improves dramatically when shared state is minimized. What state did you eliminate? #Java #Concurrency,,,FALSE
+72,Memory pressure often appears as latency or crashes first. What symptom pointed you wrong? #JVM #Debugging,,,FALSE
+73,Flaky tests usually indicate unclear system boundaries. Which boundary was unclear? #Testing,,,FALSE
+74,Abstractions fail when they hide important details. Which detail mattered later? #Architecture,,,FALSE
 75,"Latency often hides in coordination between services, not code execution. Where was it hiding? #Performance",,,FALSE
-76,"Retries without limits can turn failures into outages. Which retry strategy failed? #SystemDesign",,,FALSE
-77,"Rare production bugs often depend on real-world data shapes. What data pattern broke you? #Debugging",,,FALSE
-78,"System boundaries are where failures concentrate. Which boundary was weakest? #Engineering",,,FALSE
-79,"Resilient systems fail slowly and visibly. What failure mode was invisible? #Reliability",,,FALSE
-80,"Refactoring without understanding intent risks breaking behavior. What intent was unclear? #CleanCode",,,FALSE
-
-81,"Concurrency bugs often involve correct operations in the wrong order. Which order mattered? #Java #Concurrency",,,FALSE
-82,"Monitoring answers ‘what happened’ — tracing answers ‘why’. Which trace helped most? #Observability",,,FALSE
-83,"Removing unnecessary coordination often improves performance instantly. What coordination did you remove? #Engineering",,,FALSE
-84,"Bad designs resist change even for small features. Which small change was painful? #Architecture",,,FALSE
-85,"Systems behave differently under real load than test load. What behavior surprised you? #Engineering",,,FALSE
-86,"Testing concurrent systems requires controlling nondeterminism. How did you manage it? #Testing #Java",,,FALSE
-87,"Configuration is code with fewer safeguards. Which config change caused failure? #DevOps",,,FALSE
-88,"Design decisions tend to outlive the problems they solved. Which one stuck around too long? #SoftwareDesign",,,FALSE
-89,"Bugs that cross service boundaries are the hardest to trace. Which one consumed the most time? #Debugging",,,FALSE
+76,Retries without limits can turn failures into outages. Which retry strategy failed? #SystemDesign,,,FALSE
+77,Rare production bugs often depend on real-world data shapes. What data pattern broke you? #Debugging,,,FALSE
+78,System boundaries are where failures concentrate. Which boundary was weakest? #Engineering,,,FALSE
+79,Resilient systems fail slowly and visibly. What failure mode was invisible? #Reliability,,,FALSE
+80,Refactoring without understanding intent risks breaking behavior. What intent was unclear? #CleanCode,,,FALSE
+81,Concurrency bugs often involve correct operations in the wrong order. Which order mattered? #Java #Concurrency,,,FALSE
+82,Monitoring answers ‘what happened’ — tracing answers ‘why’. Which trace helped most? #Observability,,,FALSE
+83,Removing unnecessary coordination often improves performance instantly. What coordination did you remove? #Engineering,,,FALSE
+84,Bad designs resist change even for small features. Which small change was painful? #Architecture,,,FALSE
+85,Systems behave differently under real load than test load. What behavior surprised you? #Engineering,,,FALSE
+86,Testing concurrent systems requires controlling nondeterminism. How did you manage it? #Testing #Java,,,FALSE
+87,Configuration is code with fewer safeguards. Which config change caused failure? #DevOps,,,FALSE
+88,Design decisions tend to outlive the problems they solved. Which one stuck around too long? #SoftwareDesign,,,FALSE
+89,Bugs that cross service boundaries are the hardest to trace. Which one consumed the most time? #Debugging,,,FALSE
 90,"Logs without correlation make debugging slower, not faster. What correlation was missing? #Observability",,,FALSE
-
-91,"APIs that silently accept invalid input create delayed bugs. Where did validation help? #APIDesign",,,FALSE
-92,"Concurrency problems grow when lifecycle ownership is unclear. Which lifecycle confused things? #Java",,,FALSE
+91,APIs that silently accept invalid input create delayed bugs. Where did validation help? #APIDesign,,,FALSE
+92,Concurrency problems grow when lifecycle ownership is unclear. Which lifecycle confused things? #Java,,,FALSE
 93,"Most system slowdowns come from waiting, not working. What was waiting on what? #SystemDesign",,,FALSE
-94,"Designing for failure forces clarity about priorities. What did failure make clear? #Reliability",,,FALSE
-95,"Performance testing often misses user-driven spikes. What spike caught you off guard? #Performance",,,FALSE
-96,"Hidden dependencies expand blast radius during incidents. Which dependency surprised you? #Architecture",,,FALSE
-97,"Production issues teach faster than postmortems alone. What lesson stuck? #Engineering",,,FALSE
-98,"Concurrency bugs are easier to prevent than diagnose. What rule helped prevent them? #Java #Concurrency",,,FALSE
-99,"System behavior under partial failure is rarely intuitive. Which partial failure hurt most? #SystemDesign",,,FALSE
-100,"Good engineering makes future mistakes cheaper to fix. Which mistake became cheaper? #SoftwareEngineering",,,FALSE
-
+94,Designing for failure forces clarity about priorities. What did failure make clear? #Reliability,,,FALSE
+95,Performance testing often misses user-driven spikes. What spike caught you off guard? #Performance,,,FALSE
+96,Hidden dependencies expand blast radius during incidents. Which dependency surprised you? #Architecture,,,FALSE
+97,Production issues teach faster than postmortems alone. What lesson stuck? #Engineering,,,FALSE
+98,Concurrency bugs are easier to prevent than diagnose. What rule helped prevent them? #Java #Concurrency,,,FALSE
+99,System behavior under partial failure is rarely intuitive. Which partial failure hurt most? #SystemDesign,,,FALSE
+100,Good engineering makes future mistakes cheaper to fix. Which mistake became cheaper? #SoftwareEngineering,,,FALSE
