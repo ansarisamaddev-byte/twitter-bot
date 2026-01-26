@@ -1,6 +1,6 @@
 id,tweet_text,thread_id,order,posted
 1,Many bugs aren’t caused by wrong logic but by code being used in ways it never anticipated. Where did unexpected usage break assumptions? #SoftwareEngineering,,,TRUE
-2,"Concurrency problems often appear only after success — more users, more threads, more chaos. What bug appeared only after growth? #Java #Concurrency",,,FALSE
+2,"Concurrency problems often appear only after success — more users, more threads, more chaos. What bug appeared only after growth? #Java #Concurrency",,,TRUE
 3,Performance regressions usually arrive quietly before they explode. What early signal did you miss once? #Performance #Engineering,,,FALSE
 4,Most systems don’t fail because one thing broke. They fail because many small things aligned. Which alignment caused your last incident? #SystemDesign,,,FALSE
 5,Code that’s easy to write but hard to reason about becomes a liability fast. Which code was hardest to reason about? #CleanCode,,,FALSE
