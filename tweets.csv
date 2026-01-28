@@ -4,7 +4,7 @@ id,tweet_text,thread_id,order,posted
 3,Performance regressions usually arrive quietly before they explode. What early signal did you miss once? #Performance #Engineering,,,TRUE
 4,Most systems don’t fail because one thing broke. They fail because many small things aligned. Which alignment caused your last incident? #SystemDesign,,,TRUE
 5,Code that’s easy to write but hard to reason about becomes a liability fast. Which code was hardest to reason about? #CleanCode,,,TRUE
-6,State that crosses method boundaries multiplies complexity. Where did shared state become painful? #SoftwareDesign,,,FALSE
+6,State that crosses method boundaries multiplies complexity. Where did shared state become painful? #SoftwareDesign,,,TRUE
 7,"The hardest production bugs are caused by interactions, not components. Which interaction caused you the most pain? #Debugging",,,FALSE
 8,Scalability issues often begin as convenience features. Which “temporary” choice became permanent? #Architecture,,,FALSE
 9,Good logging answers questions. Bad logging creates noise. What log line saved you once? #Observability,,,FALSE
