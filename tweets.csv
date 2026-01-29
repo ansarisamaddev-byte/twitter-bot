@@ -6,7 +6,7 @@ id,tweet_text,thread_id,order,posted
 5,Code that’s easy to write but hard to reason about becomes a liability fast. Which code was hardest to reason about? #CleanCode,,,TRUE
 6,State that crosses method boundaries multiplies complexity. Where did shared state become painful? #SoftwareDesign,,,TRUE
 7,"The hardest production bugs are caused by interactions, not components. Which interaction caused you the most pain? #Debugging",,,TRUE
-8,Scalability issues often begin as convenience features. Which “temporary” choice became permanent? #Architecture,,,FALSE
+8,Scalability issues often begin as convenience features. Which “temporary” choice became permanent? #Architecture,,,TRUE
 9,Good logging answers questions. Bad logging creates noise. What log line saved you once? #Observability,,,FALSE
 10,Many outages trace back to assumptions that were never written down. Which assumption failed you? #Engineering,,,FALSE
 11,Concurrency bugs rarely reproduce on demand. They reproduce on deadlines. How did you finally catch one? #Java #Debugging,,,FALSE
