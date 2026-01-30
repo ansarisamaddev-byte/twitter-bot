@@ -9,7 +9,7 @@ id,tweet_text,thread_id,order,posted
 8,Scalability issues often begin as convenience features. Which “temporary” choice became permanent? #Architecture,,,TRUE
 9,Good logging answers questions. Bad logging creates noise. What log line saved you once? #Observability,,,TRUE
 10,Many outages trace back to assumptions that were never written down. Which assumption failed you? #Engineering,,,TRUE
-11,Concurrency bugs rarely reproduce on demand. They reproduce on deadlines. How did you finally catch one? #Java #Debugging,,,FALSE
+11,Concurrency bugs rarely reproduce on demand. They reproduce on deadlines. How did you finally catch one? #Java #Debugging,,,TRUE
 12,Design complexity hides until requirements change. What change exposed poor design? #SoftwareDesign,,,FALSE
 13,APIs that look flexible often lack clear boundaries. Where did flexibility hurt you? #APIDesign,,,FALSE
 14,Distributed systems break intuition built on single-process code. Which intuition failed first? #DistributedSystems,,,FALSE
