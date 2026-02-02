@@ -15,7 +15,7 @@ id,tweet_text,thread_id,order,posted
 14,Distributed systems break intuition built on single-process code. Which intuition failed first? #DistributedSystems,,,TRUE
 15,Most slow systems aren’t slow everywhere — just in the wrong place. Where was the real bottleneck? #Performance,,,TRUE
 16,Error handling paths are often less tested than success paths. Which failure path surprised you? #Reliability,,,TRUE
-17,Code ownership reduces bugs more than documentation ever will. Where did ownership make the difference? #EngineeringCulture,,,FALSE
+17,Code ownership reduces bugs more than documentation ever will. Where did ownership make the difference? #EngineeringCulture,,,TRUE
 18,Testing reveals behavior — production reveals truth. What did production teach you? #Testing,,,FALSE
 19,Complex bugs often require simplifying the system before fixing it. What did you remove to fix one? #Debugging,,,FALSE
 20,Performance tuning without measurements is guessing with confidence. Which metric changed your mind? #Engineering,,,FALSE
