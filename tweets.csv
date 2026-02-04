@@ -18,7 +18,7 @@ id,tweet_text,thread_id,order,posted
 17,Code ownership reduces bugs more than documentation ever will. Where did ownership make the difference? #EngineeringCulture,,,TRUE
 18,Testing reveals behavior — production reveals truth. What did production teach you? #Testing,,,TRUE
 19,Complex bugs often require simplifying the system before fixing it. What did you remove to fix one? #Debugging,,,TRUE
-20,Performance tuning without measurements is guessing with confidence. Which metric changed your mind? #Engineering,,,FALSE
+20,Performance tuning without measurements is guessing with confidence. Which metric changed your mind? #Engineering,,,TRUE
 21,Concurrency safety is easier to design than to retrofit. Where did retrofitting hurt? #Java #Concurrency,,,FALSE
 22,Memory problems rarely show up as memory problems at first. What symptom misled you? #JVM #Debugging,,,FALSE
 23,Most flaky behavior isn’t random — it’s poorly understood state. Where did flakiness come from? #Testing,,,FALSE
