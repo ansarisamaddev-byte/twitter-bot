@@ -1,116 +1,116 @@
 id,tweet_text,thread_id,order,posted
-1,"Most bugs I’ve debugged weren’t wrong logic — they were code being used in ways nobody imagined. What unexpected usage broke your system? 👇 #SoftwareEngineering",,,TRUE
+1,Most bugs I’ve debugged weren’t wrong logic — they were code being used in ways nobody imagined. What unexpected usage broke your system? 👇 #SoftwareEngineering,,,TRUE
 2,"Concurrency bugs don’t appear in MVPs. They appear after success — more users, more threads, more chaos. What bug only showed up once load grew? 👇 #Java #Concurrency",,,TRUE
-3,"Performance regressions rarely announce themselves loudly. They creep in quietly until users complain. What early signal did you ignore? 👀 #Performance #Engineering",,,TRUE
-4,"Most outages aren’t one big failure — they’re many small ones lining up. What domino fell first in your last incident? 🧱 #SystemDesign",,,TRUE
-5,"Code that’s easy to write but hard to reason about feels productive — until prod. Which simple-looking code became a nightmare later? 😬 #CleanCode",,,TRUE
-6,"Shared mutable state works… until it doesn’t. Where did shared state hurt you the most? 👇 #SoftwareDesign",,,TRUE
-7,"The hardest bugs don’t live in one component — they live between systems. Which interaction caused the most pain? 😵 #Debugging",,,TRUE
-8,"Scalability issues start as features added just for now. Which temporary decision limited your system later? 🧠 #Architecture",,,TRUE
-9,"Good logs answer questions. Bad logs add noise. Which single log line actually helped during an incident? 🔍 #Observability",,,TRUE
-10,"Many outages trace back to assumptions nobody wrote down. Which hidden assumption failed in production? 👇 #Engineering",,,TRUE
-11,"Concurrency bugs never show up on demand — only near deadlines. How did you finally catch one? 😤 #Java #Debugging",,,TRUE
-12,"Design complexity hides until requirements change. What change exposed flaws in your design? 🧩 #SoftwareDesign",,,TRUE
-13,"Retries feel safe until they amplify failure. Which retry strategy made things worse? 🔁 #SystemDesign",,,FALSE
-14,"Distributed systems break intuitions built in single-process code. Which assumption failed first? 🌐 #DistributedSystems",,,TRUE
-15,"Most slow systems aren’t slow everywhere — just painfully slow somewhere. Where was the real bottleneck? ⏱️ #Performance",,,TRUE
-16,"Error paths rarely get tested like happy paths. Which failure behaved differently than expected? 🤕 #Reliability",,,TRUE
-17,"Clear ownership prevents more bugs than docs. Where did ownership make or break an incident? 👇 #EngineeringCulture",,,TRUE
-18,"Tests reveal behavior. Production reveals truth. What surprised you most in prod? 😅 #Testing",,,TRUE
-19,"Monitoring shows something broke — context shows why. What context was missing during your last outage? 🧭 #Observability",,,FALSE
-20,"Performance tuning without metrics is guessing. Which graph changed your mind? 📊 #Engineering",,,TRUE
-21,"Thread-safety is easier upfront than retrofitted. Where did retrofitting hurt most? 😖 #Java #Concurrency",,,TRUE
-22,"APIs that are easy to misuse create delayed bugs. Which API misuse went unnoticed too long? 💣 #APIDesign",,,FALSE
-23,"Flaky tests aren’t random — they’re misunderstood state. Where did flakiness really come from? 👇 #Testing",,,FALSE
-24,"Abstractions feel great until they leak. Which abstraction failed you first? 🫠 #Architecture",,,FALSE
-25,"Latency hides in waiting and coordination. Where did you finally find it? ⏳ #Performance",,,FALSE
-26,"Retries can fix failures or multiply them. Which retry config caused more harm? 🔁 #SystemDesign",,,FALSE
-27,"Rare data breaks systems more often than rare code. Which data edge case hurt you? 📦 #Debugging",,,FALSE
-28,"Failures often happen at system boundaries. Which boundary failed last? 🔗 #Engineering",,,FALSE
-29,"Good systems degrade gracefully. Bad ones fail loudly. Which did you inherit? 💥 #Reliability",,,FALSE
-30,"Refactoring without tests feels brave — until prod. Where did refactoring break behavior? 😬 #CleanCode",,,FALSE
-31,"Concurrency bugs hide behind code that looks correct. Which harmless code wasn’t thread-safe? 👀 #Java",,,FALSE
+3,Performance regressions rarely announce themselves loudly. They creep in quietly until users complain. What early signal did you ignore? 👀 #Performance #Engineering,,,TRUE
+4,Most outages aren’t one big failure — they’re many small ones lining up. What domino fell first in your last incident? 🧱 #SystemDesign,,,TRUE
+5,Code that’s easy to write but hard to reason about feels productive — until prod. Which simple-looking code became a nightmare later? 😬 #CleanCode,,,TRUE
+6,Shared mutable state works… until it doesn’t. Where did shared state hurt you the most? 👇 #SoftwareDesign,,,TRUE
+7,The hardest bugs don’t live in one component — they live between systems. Which interaction caused the most pain? 😵 #Debugging,,,TRUE
+8,Scalability issues start as features added just for now. Which temporary decision limited your system later? 🧠 #Architecture,,,TRUE
+9,Good logs answer questions. Bad logs add noise. Which single log line actually helped during an incident? 🔍 #Observability,,,TRUE
+10,Many outages trace back to assumptions nobody wrote down. Which hidden assumption failed in production? 👇 #Engineering,,,TRUE
+11,Concurrency bugs never show up on demand — only near deadlines. How did you finally catch one? 😤 #Java #Debugging,,,TRUE
+12,Design complexity hides until requirements change. What change exposed flaws in your design? 🧩 #SoftwareDesign,,,TRUE
+13,Retries feel safe until they amplify failure. Which retry strategy made things worse? 🔁 #SystemDesign,,,TRUE
+14,Distributed systems break intuitions built in single-process code. Which assumption failed first? 🌐 #DistributedSystems,,,TRUE
+15,Most slow systems aren’t slow everywhere — just painfully slow somewhere. Where was the real bottleneck? ⏱️ #Performance,,,TRUE
+16,Error paths rarely get tested like happy paths. Which failure behaved differently than expected? 🤕 #Reliability,,,TRUE
+17,Clear ownership prevents more bugs than docs. Where did ownership make or break an incident? 👇 #EngineeringCulture,,,TRUE
+18,Tests reveal behavior. Production reveals truth. What surprised you most in prod? 😅 #Testing,,,TRUE
+19,Monitoring shows something broke — context shows why. What context was missing during your last outage? 🧭 #Observability,,,FALSE
+20,Performance tuning without metrics is guessing. Which graph changed your mind? 📊 #Engineering,,,TRUE
+21,Thread-safety is easier upfront than retrofitted. Where did retrofitting hurt most? 😖 #Java #Concurrency,,,TRUE
+22,APIs that are easy to misuse create delayed bugs. Which API misuse went unnoticed too long? 💣 #APIDesign,,,FALSE
+23,Flaky tests aren’t random — they’re misunderstood state. Where did flakiness really come from? 👇 #Testing,,,FALSE
+24,Abstractions feel great until they leak. Which abstraction failed you first? 🫠 #Architecture,,,FALSE
+25,Latency hides in waiting and coordination. Where did you finally find it? ⏳ #Performance,,,FALSE
+26,Retries can fix failures or multiply them. Which retry config caused more harm? 🔁 #SystemDesign,,,FALSE
+27,Rare data breaks systems more often than rare code. Which data edge case hurt you? 📦 #Debugging,,,FALSE
+28,Failures often happen at system boundaries. Which boundary failed last? 🔗 #Engineering,,,FALSE
+29,Good systems degrade gracefully. Bad ones fail loudly. Which did you inherit? 💥 #Reliability,,,FALSE
+30,Refactoring without tests feels brave — until prod. Where did refactoring break behavior? 😬 #CleanCode,,,FALSE
+31,Concurrency bugs hide behind code that looks correct. Which harmless code wasn’t thread-safe? 👀 #Java,,,FALSE
 32,"Monitoring shows symptoms, not causes. What key signal was missing? 🧭 #Observability",,,FALSE
-33,"Most performance gains come from removing work. What did you remove that helped instantly? ✂️ #Engineering",,,FALSE
-34,"A bad design grows more expensive with every feature. Which feature exposed it? 💸 #Architecture",,,FALSE
-35,"Systems behave differently at scale. What surprised you under real load? 👥 #Engineering",,,FALSE
-36,"Testing concurrency means controlling time and order. How did you manage it? 🧪 #Testing #Java",,,FALSE
-37,"Config mistakes break prod faster than logic bugs. Which config change taught you fear? ⚙️ #DevOps",,,FALSE
-38,"Tech debt compounds silently. When did it suddenly explode? 💣 #Engineering",,,FALSE
-39,"Some bugs cross time — past decisions hurting today. Which aged the worst? ⏳ #Engineering",,,FALSE
-40,"Logs without context force guessing. What missing detail cost hours? 🔍 #Observability",,,FALSE
-41,"APIs that fail silently create delayed outages. Where did misuse hide too long? 💣 #APIDesign",,,FALSE
-42,"Concurrency issues multiply when responsibility blurs. Where was ownership unclear? 🤯 #Java",,,FALSE
+33,Most performance gains come from removing work. What did you remove that helped instantly? ✂️ #Engineering,,,FALSE
+34,A bad design grows more expensive with every feature. Which feature exposed it? 💸 #Architecture,,,FALSE
+35,Systems behave differently at scale. What surprised you under real load? 👥 #Engineering,,,FALSE
+36,Testing concurrency means controlling time and order. How did you manage it? 🧪 #Testing #Java,,,FALSE
+37,Config mistakes break prod faster than logic bugs. Which config change taught you fear? ⚙️ #DevOps,,,FALSE
+38,Tech debt compounds silently. When did it suddenly explode? 💣 #Engineering,,,FALSE
+39,Some bugs cross time — past decisions hurting today. Which aged the worst? ⏳ #Engineering,,,FALSE
+40,Logs without context force guessing. What missing detail cost hours? 🔍 #Observability,,,FALSE
+41,APIs that fail silently create delayed outages. Where did misuse hide too long? 💣 #APIDesign,,,FALSE
+42,Concurrency issues multiply when responsibility blurs. Where was ownership unclear? 🤯 #Java,,,FALSE
 43,"Most slowdowns are about waiting, not computing. Where did things wait? ⏱️ #SystemDesign",,,FALSE
-44,"Designing for failure changes architecture. Which failure forced redesign? 🔄 #Reliability",,,FALSE
-45,"Performance tests miss real behavior. Which user pattern broke assumptions? 👀 #Performance",,,FALSE
-46,"Hidden coupling causes more bugs than complexity. Where did coupling surprise you? 🔗 #Architecture",,,FALSE
-47,"Deploys fail more often from environment drift than code. Where did drift hurt? 🌪️ #DevOps",,,FALSE
+44,Designing for failure changes architecture. Which failure forced redesign? 🔄 #Reliability,,,FALSE
+45,Performance tests miss real behavior. Which user pattern broke assumptions? 👀 #Performance,,,FALSE
+46,Hidden coupling causes more bugs than complexity. Where did coupling surprise you? 🔗 #Architecture,,,FALSE
+47,Deploys fail more often from environment drift than code. Where did drift hurt? 🌪️ #DevOps,,,FALSE
 48,"The more state you hold, the harder reasoning gets. Which state caused chaos? 🧠 #Design",,,FALSE
-49,"Good error messages save hours. Which one helped instantly? 💡 #Engineering",,,FALSE
-50,"Outages start small before cascading. What signal was missed? 🧱 #SystemDesign",,,FALSE
-51,"Architecture diagrams lie. Which part looked simple but wasn’t? 🧱 #SystemArchitecture",,,FALSE
-52,"Every system has a quiet critical dependency. Which one surprised you? 🎯 #Architecture",,,FALSE
-53,"Redis speeds things up — until misuse slows everything. What lesson did you learn? 🧠 #Caching",,,FALSE
-54,"Kafka adds scale but debugging pain. What mistake did you make early? 📩 #DistributedSystems",,,FALSE
-55,"Databases get blamed first during outages. Which innocent component took the heat? 🕵️ #Performance",,,FALSE
-56,"Microservices add flexibility and coordination cost. When did cost outweigh benefit? 🔗 #Microservices",,,FALSE
-57,"Load balancers seem boring until traffic gets weird. What surprised you? ⚖️ #Infrastructure",,,FALSE
-58,"Event-driven systems scale well but debug poorly. What broke after switching? 🧵 #EventDriven",,,FALSE
-59,"Sync vs async is an architectural bet. Which choice backfired later? ⏳ #SystemDesign",,,FALSE
-60,"Monitoring tells you something’s wrong — not why. Which tool finally helped? 📊 #Observability",,,FALSE
-61,"Tracing looks optional until it isn’t. What made you adopt it? 🧭 #Tracing",,,FALSE
-62,"CI/CD saves time until it blocks a release. Which failure hurt most? 🚦 #DevOps",,,FALSE
-63,"Cloud makes scaling easy — and bills shocking. What decision surprised you? 💸 #Cloud",,,FALSE
-64,"Logs are cheap to write but costly to read. Which logging mistake hurt? 🪵 #Logging",,,FALSE
-65,"Teams adopt tools before understanding problems. Which tool taught you that? 🤔 #TechTools",,,FALSE
+49,Good error messages save hours. Which one helped instantly? 💡 #Engineering,,,FALSE
+50,Outages start small before cascading. What signal was missed? 🧱 #SystemDesign,,,FALSE
+51,Architecture diagrams lie. Which part looked simple but wasn’t? 🧱 #SystemArchitecture,,,FALSE
+52,Every system has a quiet critical dependency. Which one surprised you? 🎯 #Architecture,,,FALSE
+53,Redis speeds things up — until misuse slows everything. What lesson did you learn? 🧠 #Caching,,,FALSE
+54,Kafka adds scale but debugging pain. What mistake did you make early? 📩 #DistributedSystems,,,FALSE
+55,Databases get blamed first during outages. Which innocent component took the heat? 🕵️ #Performance,,,FALSE
+56,Microservices add flexibility and coordination cost. When did cost outweigh benefit? 🔗 #Microservices,,,FALSE
+57,Load balancers seem boring until traffic gets weird. What surprised you? ⚖️ #Infrastructure,,,FALSE
+58,Event-driven systems scale well but debug poorly. What broke after switching? 🧵 #EventDriven,,,FALSE
+59,Sync vs async is an architectural bet. Which choice backfired later? ⏳ #SystemDesign,,,FALSE
+60,Monitoring tells you something’s wrong — not why. Which tool finally helped? 📊 #Observability,,,FALSE
+61,Tracing looks optional until it isn’t. What made you adopt it? 🧭 #Tracing,,,FALSE
+62,CI/CD saves time until it blocks a release. Which failure hurt most? 🚦 #DevOps,,,FALSE
+63,Cloud makes scaling easy — and bills shocking. What decision surprised you? 💸 #Cloud,,,FALSE
+64,Logs are cheap to write but costly to read. Which logging mistake hurt? 🪵 #Logging,,,FALSE
+65,Teams adopt tools before understanding problems. Which tool taught you that? 🤔 #TechTools,,,FALSE
 66,"Interviews teach theory, prod teaches reality. What constraint surprised you? 🧠 #SystemDesign",,,FALSE
-67,"Your first job teaches more than courses. What lesson stuck? 👔 #Careers",,,FALSE
-68,"Hard skills get jobs. Soft skills grow careers. Which helped you most? 🗣️ #Careers",,,FALSE
-69,"Poor communication worsens outages. Which incident proved it? 📢 #EngineeringCulture",,,FALSE
-70,"Tech careers aren’t linear. Which detour helped most? 🔀 #Jobs",,,FALSE
-71,"Learning tools feels productive. Fundamentals last longer. Which tool mattered less? 🧰 #Learning",,,FALSE
-72,"Systems don’t fail alone — teams do too. What process failed? 🧩 #TechLeadership",,,FALSE
-73,"Job titles vary wildly. Which confused you most? 🤷 #Jobs",,,FALSE
-74,"Everyone remembers their first prod bug. What was yours? 😅 #Careers",,,FALSE
-75,"Good architecture considers people too. Which human factor broke things? 🧠 #Architecture",,,FALSE
-76,"Tool choice reflects team maturity. Which adoption was premature? ⏳ #TechTools",,,FALSE
-77,"Debugging grows slower than coding. What leveled you up? 🔍 #Engineering",,,FALSE
-78,"Teams over-engineer early and under-engineer later. Where did it hurt? 🏗️ #SystemDesign",,,FALSE
-79,"Fundamentals outlast tools. Which concept helped across stacks? 🧱 #Engineering",,,FALSE
-80,"Tools don’t solve unclear thinking. Which problem stayed until requirements were clear? 🧠 #TechCulture",,,FALSE
-81,"Deploy frequency hides quality issues. When did fast deploys bite back? 🚀 #DevOps",,,FALSE
-82,"Feature flags feel safe until misused. Which flag caused chaos? 🚩 #Engineering",,,FALSE
-83,"Backpressure is invisible until systems collapse. Where did you miss it? 🌊 #DistributedSystems",,,FALSE
-84,"Schema changes are riskier than code changes. Which migration hurt? 🗄️ #Databases",,,FALSE
-85,"Timeouts save systems — until misconfigured. Which timeout failed you? ⏲️ #SystemDesign",,,FALSE
-86,"Caches hide bugs and amplify others. Which bug only appeared after caching? 🧊 #Caching",,,FALSE
-87,"Cold starts ruin latency promises. Where did they surprise you? ❄️ #Cloud",,,FALSE
-88,"Alert fatigue hides real incidents. Which alert trained you to ignore it? 🚨 #Observability",,,FALSE
-89,"Feature creep kills performance slowly. Which feature tipped it over? 🐌 #Engineering",,,FALSE
-90,"Rollbacks feel safe until state changes. Which rollback failed? 🔙 #DevOps",,,FALSE
-91,"Backward compatibility costs compound. Which break caused pain? 🧨 #APIDesign",,,FALSE
-92,"Documentation ages faster than code. What doc misled you? 📄 #Engineering",,,FALSE
-93,"Manual fixes become permanent systems. Which hack survived too long? 🩹 #Engineering",,,FALSE
-94,"Shadow dependencies break reliability. Which one surprised you? 👻 #Architecture",,,FALSE
-95,"Async fixes sync problems — sometimes. Where did it fail? ⏳ #Concurrency",,,FALSE
-96,"Rate limits feel harsh until abuse happens. Which incident changed your mind? 🚦 #APIDesign",,,FALSE
-97,"Feature ownership prevents outages. Where did shared ownership fail? 🤝 #EngineeringCulture",,,FALSE
-98,"Testing happy paths is easy. Which edge case hurt most? 🧪 #Testing",,,FALSE
-99,"Scaling reads is easy. Scaling writes hurts. Where did it break? ✍️ #Databases",,,FALSE
-100,"Tech debt isn’t bad — unmanaged debt is. When did it explode? 💥 #Engineering",,,FALSE
+67,Your first job teaches more than courses. What lesson stuck? 👔 #Careers,,,FALSE
+68,Hard skills get jobs. Soft skills grow careers. Which helped you most? 🗣️ #Careers,,,FALSE
+69,Poor communication worsens outages. Which incident proved it? 📢 #EngineeringCulture,,,FALSE
+70,Tech careers aren’t linear. Which detour helped most? 🔀 #Jobs,,,FALSE
+71,Learning tools feels productive. Fundamentals last longer. Which tool mattered less? 🧰 #Learning,,,FALSE
+72,Systems don’t fail alone — teams do too. What process failed? 🧩 #TechLeadership,,,FALSE
+73,Job titles vary wildly. Which confused you most? 🤷 #Jobs,,,FALSE
+74,Everyone remembers their first prod bug. What was yours? 😅 #Careers,,,FALSE
+75,Good architecture considers people too. Which human factor broke things? 🧠 #Architecture,,,FALSE
+76,Tool choice reflects team maturity. Which adoption was premature? ⏳ #TechTools,,,FALSE
+77,Debugging grows slower than coding. What leveled you up? 🔍 #Engineering,,,FALSE
+78,Teams over-engineer early and under-engineer later. Where did it hurt? 🏗️ #SystemDesign,,,FALSE
+79,Fundamentals outlast tools. Which concept helped across stacks? 🧱 #Engineering,,,FALSE
+80,Tools don’t solve unclear thinking. Which problem stayed until requirements were clear? 🧠 #TechCulture,,,FALSE
+81,Deploy frequency hides quality issues. When did fast deploys bite back? 🚀 #DevOps,,,FALSE
+82,Feature flags feel safe until misused. Which flag caused chaos? 🚩 #Engineering,,,FALSE
+83,Backpressure is invisible until systems collapse. Where did you miss it? 🌊 #DistributedSystems,,,FALSE
+84,Schema changes are riskier than code changes. Which migration hurt? 🗄️ #Databases,,,FALSE
+85,Timeouts save systems — until misconfigured. Which timeout failed you? ⏲️ #SystemDesign,,,FALSE
+86,Caches hide bugs and amplify others. Which bug only appeared after caching? 🧊 #Caching,,,FALSE
+87,Cold starts ruin latency promises. Where did they surprise you? ❄️ #Cloud,,,FALSE
+88,Alert fatigue hides real incidents. Which alert trained you to ignore it? 🚨 #Observability,,,FALSE
+89,Feature creep kills performance slowly. Which feature tipped it over? 🐌 #Engineering,,,FALSE
+90,Rollbacks feel safe until state changes. Which rollback failed? 🔙 #DevOps,,,FALSE
+91,Backward compatibility costs compound. Which break caused pain? 🧨 #APIDesign,,,FALSE
+92,Documentation ages faster than code. What doc misled you? 📄 #Engineering,,,FALSE
+93,Manual fixes become permanent systems. Which hack survived too long? 🩹 #Engineering,,,FALSE
+94,Shadow dependencies break reliability. Which one surprised you? 👻 #Architecture,,,FALSE
+95,Async fixes sync problems — sometimes. Where did it fail? ⏳ #Concurrency,,,FALSE
+96,Rate limits feel harsh until abuse happens. Which incident changed your mind? 🚦 #APIDesign,,,FALSE
+97,Feature ownership prevents outages. Where did shared ownership fail? 🤝 #EngineeringCulture,,,FALSE
+98,Testing happy paths is easy. Which edge case hurt most? 🧪 #Testing,,,FALSE
+99,Scaling reads is easy. Scaling writes hurts. Where did it break? ✍️ #Databases,,,FALSE
+100,Tech debt isn’t bad — unmanaged debt is. When did it explode? 💥 #Engineering,,,FALSE
 101,"If this made you think, tap ❤️ so I keep sharing real lessons. #Engagement",,,FALSE
-102,"Following engineers with scars beats perfect tutorials. Follow for real stories. 👇 #Follow",,,FALSE
-103,"Quick check — have you lived at least one of these? Like if yes. #EngineeringLife",,,FALSE
-104,"I share lessons learned after things break in prod. Follow to avoid outage tax. #Careers",,,FALSE
-105,"If you’ve ever said ‘this will work for now’ and regretted it — you belong here. ❤️ #SoftwareEngineering",,,FALSE
+102,Following engineers with scars beats perfect tutorials. Follow for real stories. 👇 #Follow,,,FALSE
+103,Quick check — have you lived at least one of these? Like if yes. #EngineeringLife,,,FALSE
+104,I share lessons learned after things break in prod. Follow to avoid outage tax. #Careers,,,FALSE
+105,If you’ve ever said ‘this will work for now’ and regretted it — you belong here. ❤️ #SoftwareEngineering,,,FALSE
 106,"These questions come from real incidents, not slides. Follow for more. #SystemDesign",,,FALSE
 107,"If these prompts resonate, drop a like so I keep posting. #Engineering",,,FALSE
-108,"Not here to teach — here to start real conversations. Follow along. #TechCommunity",,,FALSE
+108,Not here to teach — here to start real conversations. Follow along. #TechCommunity,,,FALSE
 109,"If one question reminded you of a painful incident, you’re not alone 😅 #EngineeringCulture",,,FALSE
-110,"I post prompts that work best when people reply. Follow if you enjoy learning together. #Learning",,,FALSE
-111,"Production teaches faster than courses. What lesson did prod teach you? 👇 #Engineering",,,FALSE
-112,"Every reply teaches someone else. Like and follow if you value shared learning. #Community",,,FALSE
+110,I post prompts that work best when people reply. Follow if you enjoy learning together. #Learning,,,FALSE
+111,Production teaches faster than courses. What lesson did prod teach you? 👇 #Engineering,,,FALSE
+112,Every reply teaches someone else. Like and follow if you value shared learning. #Community,,,FALSE
 113,"If you’re early career these save years. If senior, you’ve lived them. Follow. #Jobs",,,FALSE
 114,"Building a feed of honest engineering conversations. If that’s you, follow. #EngineeringLife",,,FALSE
-115,"No viral hacks — just hard-earned lessons. Like if you want depth over gimmicks. #Tech",,,FALSE
+115,No viral hacks — just hard-earned lessons. Like if you want depth over gimmicks. #Tech,,,FALSE
