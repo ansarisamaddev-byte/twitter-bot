@@ -20,7 +20,7 @@ id,tweet_text,thread_id,order,posted
 19,Complex bugs often require simplifying the system before fixing it. What did you remove to fix one? #Debugging,,,TRUE
 20,Performance tuning without measurements is guessing with confidence. Which metric changed your mind? #Engineering,,,TRUE
 21,Concurrency safety is easier to design than to retrofit. Where did retrofitting hurt? #Java #Concurrency,,,TRUE
-22,Memory problems rarely show up as memory problems at first. What symptom misled you? #JVM #Debugging,,,FALSE
+22,Memory problems rarely show up as memory problems at first. What symptom misled you? #JVM #Debugging,,,TRUE
 23,Most flaky behavior isn’t random — it’s poorly understood state. Where did flakiness come from? #Testing,,,FALSE
 24,Abstractions simplify until they leak. Which abstraction leaked first? #Architecture,,,FALSE
 25,Latency hides in places no profiler looks first. Where did you finally find it? #Performance,,,FALSE
