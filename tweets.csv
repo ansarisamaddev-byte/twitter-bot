@@ -17,7 +17,7 @@ id,tweet_text,thread_id,order,posted
 16,Error paths rarely get tested like happy paths. Which failure behaved differently than expected? 🤕 #Reliability,,,TRUE
 17,Clear ownership prevents more bugs than docs. Where did ownership make or break an incident? 👇 #EngineeringCulture,,,TRUE
 18,Tests reveal behavior. Production reveals truth. What surprised you most in prod? 😅 #Testing,,,TRUE
-19,Monitoring shows something broke — context shows why. What context was missing during your last outage? 🧭 #Observability,,,FALSE
+19,Monitoring shows something broke — context shows why. What context was missing during your last outage? 🧭 #Observability,,,TRUE
 20,Performance tuning without metrics is guessing. Which graph changed your mind? 📊 #Engineering,,,TRUE
 21,Thread-safety is easier upfront than retrofitted. Where did retrofitting hurt most? 😖 #Java #Concurrency,,,TRUE
 22,APIs that are easy to misuse create delayed bugs. Which API misuse went unnoticed too long? 💣 #APIDesign,,,FALSE
