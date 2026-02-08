@@ -24,7 +24,7 @@ id,tweet_text,thread_id,order,posted
 23,Flaky tests aren’t random — they’re misunderstood state. Where did flakiness really come from? 👇 #Testing,,,TRUE
 24,Abstractions feel great until they leak. Which abstraction failed you first? 🫠 #Architecture,,,TRUE
 25,Latency hides in waiting and coordination. Where did you finally find it? ⏳ #Performance,,,TRUE
-26,Retries can fix failures or multiply them. Which retry config caused more harm? 🔁 #SystemDesign,,,FALSE
+26,Retries can fix failures or multiply them. Which retry config caused more harm? 🔁 #SystemDesign,,,TRUE
 27,Rare data breaks systems more often than rare code. Which data edge case hurt you? 📦 #Debugging,,,FALSE
 28,Failures often happen at system boundaries. Which boundary failed last? 🔗 #Engineering,,,FALSE
 29,Good systems degrade gracefully. Bad ones fail loudly. Which did you inherit? 💥 #Reliability,,,FALSE
