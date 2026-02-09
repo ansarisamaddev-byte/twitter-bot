@@ -26,7 +26,7 @@ id,tweet_text,thread_id,order,posted
 25,Latency hides in waiting and coordination. Where did you finally find it? ⏳ #Performance,,,TRUE
 26,Retries can fix failures or multiply them. Which retry config caused more harm? 🔁 #SystemDesign,,,TRUE
 27,Rare data breaks systems more often than rare code. Which data edge case hurt you? 📦 #Debugging,,,TRUE
-28,Failures often happen at system boundaries. Which boundary failed last? 🔗 #Engineering,,,FALSE
+28,Failures often happen at system boundaries. Which boundary failed last? 🔗 #Engineering,,,TRUE
 29,Good systems degrade gracefully. Bad ones fail loudly. Which did you inherit? 💥 #Reliability,,,FALSE
 30,Refactoring without tests feels brave — until prod. Where did refactoring break behavior? 😬 #CleanCode,,,FALSE
 31,Concurrency bugs hide behind code that looks correct. Which harmless code wasn’t thread-safe? 👀 #Java,,,FALSE
