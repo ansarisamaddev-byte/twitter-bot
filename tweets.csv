@@ -28,7 +28,7 @@ id,tweet_text,thread_id,order,posted
 27,Rare data breaks systems more often than rare code. Which data edge case hurt you? 📦 #Debugging,,,TRUE
 28,Failures often happen at system boundaries. Which boundary failed last? 🔗 #Engineering,,,TRUE
 29,Good systems degrade gracefully. Bad ones fail loudly. Which did you inherit? 💥 #Reliability,,,TRUE
-30,Refactoring without tests feels brave — until prod. Where did refactoring break behavior? 😬 #CleanCode,,,FALSE
+30,Refactoring without tests feels brave — until prod. Where did refactoring break behavior? 😬 #CleanCode,,,TRUE
 31,Concurrency bugs hide behind code that looks correct. Which harmless code wasn’t thread-safe? 👀 #Java,,,FALSE
 32,"Monitoring shows symptoms, not causes. What key signal was missing? 🧭 #Observability",,,FALSE
 33,Most performance gains come from removing work. What did you remove that helped instantly? ✂️ #Engineering,,,FALSE
