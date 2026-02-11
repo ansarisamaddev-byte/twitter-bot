@@ -29,7 +29,7 @@ id,tweet_text,thread_id,order,posted
 28,Failures often happen at system boundaries. Which boundary failed last? 🔗 #Engineering,,,TRUE
 29,Good systems degrade gracefully. Bad ones fail loudly. Which did you inherit? 💥 #Reliability,,,TRUE
 30,Refactoring without tests feels brave — until prod. Where did refactoring break behavior? 😬 #CleanCode,,,TRUE
-31,Concurrency bugs hide behind code that looks correct. Which harmless code wasn’t thread-safe? 👀 #Java,,,FALSE
+31,Concurrency bugs hide behind code that looks correct. Which harmless code wasn’t thread-safe? 👀 #Java,,,TRUE
 32,"Monitoring shows symptoms, not causes. What key signal was missing? 🧭 #Observability",,,FALSE
 33,Most performance gains come from removing work. What did you remove that helped instantly? ✂️ #Engineering,,,FALSE
 34,A bad design grows more expensive with every feature. Which feature exposed it? 💸 #Architecture,,,FALSE
