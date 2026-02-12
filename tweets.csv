@@ -32,7 +32,7 @@ id,tweet_text,thread_id,order,posted
 31,Concurrency bugs hide behind code that looks correct. Which harmless code wasn’t thread-safe? 👀 #Java,,,TRUE
 32,"Monitoring shows symptoms, not causes. What key signal was missing? 🧭 #Observability",,,TRUE
 33,Most performance gains come from removing work. What did you remove that helped instantly? ✂️ #Engineering,,,TRUE
-34,A bad design grows more expensive with every feature. Which feature exposed it? 💸 #Architecture,,,FALSE
+34,A bad design grows more expensive with every feature. Which feature exposed it? 💸 #Architecture,,,TRUE
 35,Systems behave differently at scale. What surprised you under real load? 👥 #Engineering,,,FALSE
 36,Testing concurrency means controlling time and order. How did you manage it? 🧪 #Testing #Java,,,FALSE
 37,Config mistakes break prod faster than logic bugs. Which config change taught you fear? ⚙️ #DevOps,,,FALSE
