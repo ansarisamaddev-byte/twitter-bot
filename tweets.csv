@@ -36,7 +36,7 @@ id,tweet_text,thread_id,order,posted
 35,Systems behave differently at scale. What surprised you under real load? 👥 #Engineering,,,TRUE
 36,Testing concurrency means controlling time and order. How did you manage it? 🧪 #Testing #Java,,,TRUE
 37,Config mistakes break prod faster than logic bugs. Which config change taught you fear? ⚙️ #DevOps,,,TRUE
-38,Tech debt compounds silently. When did it suddenly explode? 💣 #Engineering,,,FALSE
+38,Tech debt compounds silently. When did it suddenly explode? 💣 #Engineering,,,TRUE
 39,Some bugs cross time — past decisions hurting today. Which aged the worst? ⏳ #Engineering,,,FALSE
 40,Logs without context force guessing. What missing detail cost hours? 🔍 #Observability,,,FALSE
 41,APIs that fail silently create delayed outages. Where did misuse hide too long? 💣 #APIDesign,,,FALSE
