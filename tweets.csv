@@ -43,7 +43,7 @@ id,tweet_text,thread_id,order,posted
 42,Concurrency issues multiply when responsibility blurs. Where was ownership unclear? 🤯 #Java,,,TRUE
 43,"Most slowdowns are about waiting, not computing. Where did things wait? ⏱️ #SystemDesign",,,TRUE
 44,Designing for failure changes architecture. Which failure forced redesign? 🔄 #Reliability,,,TRUE
-45,Performance tests miss real behavior. Which user pattern broke assumptions? 👀 #Performance,,,FALSE
+45,Performance tests miss real behavior. Which user pattern broke assumptions? 👀 #Performance,,,TRUE
 46,Hidden coupling causes more bugs than complexity. Where did coupling surprise you? 🔗 #Architecture,,,FALSE
 47,Deploys fail more often from environment drift than code. Where did drift hurt? 🌪️ #DevOps,,,FALSE
 48,"The more state you hold, the harder reasoning gets. Which state caused chaos? 🧠 #Design",,,FALSE
