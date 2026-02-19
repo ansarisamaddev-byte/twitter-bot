@@ -46,7 +46,7 @@ id,tweet_text,thread_id,order,posted
 45,Performance tests miss real behavior. Which user pattern broke assumptions? 👀 #Performance,,,TRUE
 46,Hidden coupling causes more bugs than complexity. Where did coupling surprise you? 🔗 #Architecture,,,TRUE
 47,Deploys fail more often from environment drift than code. Where did drift hurt? 🌪️ #DevOps,,,TRUE
-48,"The more state you hold, the harder reasoning gets. Which state caused chaos? 🧠 #Design",,,FALSE
+48,"The more state you hold, the harder reasoning gets. Which state caused chaos? 🧠 #Design",,,TRUE
 49,Good error messages save hours. Which one helped instantly? 💡 #Engineering,,,FALSE
 50,Outages start small before cascading. What signal was missed? 🧱 #SystemDesign,,,FALSE
 51,Architecture diagrams lie. Which part looked simple but wasn’t? 🧱 #SystemArchitecture,,,FALSE
