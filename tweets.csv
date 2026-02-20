@@ -48,7 +48,7 @@ id,tweet_text,thread_id,order,posted
 47,Deploys fail more often from environment drift than code. Where did drift hurt? 🌪️ #DevOps,,,TRUE
 48,"The more state you hold, the harder reasoning gets. Which state caused chaos? 🧠 #Design",,,TRUE
 49,Good error messages save hours. Which one helped instantly? 💡 #Engineering,,,TRUE
-50,Outages start small before cascading. What signal was missed? 🧱 #SystemDesign,,,FALSE
+50,Outages start small before cascading. What signal was missed? 🧱 #SystemDesign,,,TRUE
 51,Architecture diagrams lie. Which part looked simple but wasn’t? 🧱 #SystemArchitecture,,,FALSE
 52,Every system has a quiet critical dependency. Which one surprised you? 🎯 #Architecture,,,FALSE
 53,Redis speeds things up — until misuse slows everything. What lesson did you learn? 🧠 #Caching,,,FALSE
