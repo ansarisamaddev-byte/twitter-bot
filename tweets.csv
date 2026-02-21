@@ -50,7 +50,7 @@ id,tweet_text,thread_id,order,posted
 49,Good error messages save hours. Which one helped instantly? 💡 #Engineering,,,TRUE
 50,Outages start small before cascading. What signal was missed? 🧱 #SystemDesign,,,TRUE
 51,Architecture diagrams lie. Which part looked simple but wasn’t? 🧱 #SystemArchitecture,,,TRUE
-52,Every system has a quiet critical dependency. Which one surprised you? 🎯 #Architecture,,,FALSE
+52,Every system has a quiet critical dependency. Which one surprised you? 🎯 #Architecture,,,TRUE
 53,Redis speeds things up — until misuse slows everything. What lesson did you learn? 🧠 #Caching,,,FALSE
 54,Kafka adds scale but debugging pain. What mistake did you make early? 📩 #DistributedSystems,,,FALSE
 55,Databases get blamed first during outages. Which innocent component took the heat? 🕵️ #Performance,,,FALSE
