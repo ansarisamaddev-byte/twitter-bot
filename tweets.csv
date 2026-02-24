@@ -56,7 +56,7 @@ id,tweet_text,thread_id,order,posted
 55,Databases get blamed first during outages. Which innocent component took the heat? 🕵️ #Performance,,,TRUE
 56,Microservices add flexibility and coordination cost. When did cost outweigh benefit? 🔗 #Microservices,,,TRUE
 57,Load balancers seem boring until traffic gets weird. What surprised you? ⚖️ #Infrastructure,,,TRUE
-58,Event-driven systems scale well but debug poorly. What broke after switching? 🧵 #EventDriven,,,FALSE
+58,Event-driven systems scale well but debug poorly. What broke after switching? 🧵 #EventDriven,,,TRUE
 59,Sync vs async is an architectural bet. Which choice backfired later? ⏳ #SystemDesign,,,FALSE
 60,Monitoring tells you something’s wrong — not why. Which tool finally helped? 📊 #Observability,,,FALSE
 61,Tracing looks optional until it isn’t. What made you adopt it? 🧭 #Tracing,,,FALSE
