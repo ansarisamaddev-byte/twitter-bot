@@ -57,7 +57,7 @@ id,tweet_text,thread_id,order,posted
 56,Microservices add flexibility and coordination cost. When did cost outweigh benefit? 🔗 #Microservices,,,TRUE
 57,Load balancers seem boring until traffic gets weird. What surprised you? ⚖️ #Infrastructure,,,TRUE
 58,Event-driven systems scale well but debug poorly. What broke after switching? 🧵 #EventDriven,,,TRUE
-59,Sync vs async is an architectural bet. Which choice backfired later? ⏳ #SystemDesign,,,FALSE
+59,Sync vs async is an architectural bet. Which choice backfired later? ⏳ #SystemDesign,,,TRUE
 60,Monitoring tells you something’s wrong — not why. Which tool finally helped? 📊 #Observability,,,FALSE
 61,Tracing looks optional until it isn’t. What made you adopt it? 🧭 #Tracing,,,FALSE
 62,CI/CD saves time until it blocks a release. Which failure hurt most? 🚦 #DevOps,,,FALSE
