@@ -59,7 +59,7 @@ id,tweet_text,thread_id,order,posted
 58,Event-driven systems scale well but debug poorly. What broke after switching? 🧵 #EventDriven,,,TRUE
 59,Sync vs async is an architectural bet. Which choice backfired later? ⏳ #SystemDesign,,,TRUE
 60,Monitoring tells you something’s wrong — not why. Which tool finally helped? 📊 #Observability,,,TRUE
-61,Tracing looks optional until it isn’t. What made you adopt it? 🧭 #Tracing,,,FALSE
+61,Tracing looks optional until it isn’t. What made you adopt it? 🧭 #Tracing,,,TRUE
 62,CI/CD saves time until it blocks a release. Which failure hurt most? 🚦 #DevOps,,,FALSE
 63,Cloud makes scaling easy — and bills shocking. What decision surprised you? 💸 #Cloud,,,FALSE
 64,Logs are cheap to write but costly to read. Which logging mistake hurt? 🪵 #Logging,,,FALSE
