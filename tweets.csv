@@ -63,7 +63,7 @@ id,tweet_text,thread_id,order,posted
 62,CI/CD saves time until it blocks a release. Which failure hurt most? 🚦 #DevOps,,,TRUE
 63,Cloud makes scaling easy — and bills shocking. What decision surprised you? 💸 #Cloud,,,TRUE
 64,Logs are cheap to write but costly to read. Which logging mistake hurt? 🪵 #Logging,,,TRUE
-65,Teams adopt tools before understanding problems. Which tool taught you that? 🤔 #TechTools,,,FALSE
+65,Teams adopt tools before understanding problems. Which tool taught you that? 🤔 #TechTools,,,TRUE
 66,"Interviews teach theory, prod teaches reality. What constraint surprised you? 🧠 #SystemDesign",,,FALSE
 67,Your first job teaches more than courses. What lesson stuck? 👔 #Careers,,,FALSE
 68,Hard skills get jobs. Soft skills grow careers. Which helped you most? 🗣️ #Careers,,,FALSE
