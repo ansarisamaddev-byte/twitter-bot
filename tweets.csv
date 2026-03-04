@@ -70,7 +70,7 @@ id,tweet_text,thread_id,order,posted
 69,Poor communication worsens outages. Which incident proved it? 📢 #EngineeringCulture,,,TRUE
 70,Tech careers aren’t linear. Which detour helped most? 🔀 #Jobs,,,TRUE
 71,Learning tools feels productive. Fundamentals last longer. Which tool mattered less? 🧰 #Learning,,,TRUE
-72,Systems don’t fail alone — teams do too. What process failed? 🧩 #TechLeadership,,,FALSE
+72,Systems don’t fail alone — teams do too. What process failed? 🧩 #TechLeadership,,,TRUE
 73,Job titles vary wildly. Which confused you most? 🤷 #Jobs,,,FALSE
 74,Everyone remembers their first prod bug. What was yours? 😅 #Careers,,,FALSE
 75,Good architecture considers people too. Which human factor broke things? 🧠 #Architecture,,,FALSE
