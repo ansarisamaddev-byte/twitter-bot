@@ -75,7 +75,7 @@ id,tweet_text,thread_id,order,posted
 74,Everyone remembers their first prod bug. What was yours? 😅 #Careers,,,TRUE
 75,Good architecture considers people too. Which human factor broke things? 🧠 #Architecture,,,TRUE
 76,Tool choice reflects team maturity. Which adoption was premature? ⏳ #TechTools,,,TRUE
-77,Debugging grows slower than coding. What leveled you up? 🔍 #Engineering,,,FALSE
+77,Debugging grows slower than coding. What leveled you up? 🔍 #Engineering,,,TRUE
 78,Teams over-engineer early and under-engineer later. Where did it hurt? 🏗️ #SystemDesign,,,FALSE
 79,Fundamentals outlast tools. Which concept helped across stacks? 🧱 #Engineering,,,FALSE
 80,Tools don’t solve unclear thinking. Which problem stayed until requirements were clear? 🧠 #TechCulture,,,FALSE
