@@ -78,7 +78,7 @@ id,tweet_text,thread_id,order,posted
 77,Debugging grows slower than coding. What leveled you up? 🔍 #Engineering,,,TRUE
 78,Teams over-engineer early and under-engineer later. Where did it hurt? 🏗️ #SystemDesign,,,TRUE
 79,Fundamentals outlast tools. Which concept helped across stacks? 🧱 #Engineering,,,TRUE
-80,Tools don’t solve unclear thinking. Which problem stayed until requirements were clear? 🧠 #TechCulture,,,FALSE
+80,Tools don’t solve unclear thinking. Which problem stayed until requirements were clear? 🧠 #TechCulture,,,TRUE
 81,Deploy frequency hides quality issues. When did fast deploys bite back? 🚀 #DevOps,,,FALSE
 82,Feature flags feel safe until misused. Which flag caused chaos? 🚩 #Engineering,,,FALSE
 83,Backpressure is invisible until systems collapse. Where did you miss it? 🌊 #DistributedSystems,,,FALSE
