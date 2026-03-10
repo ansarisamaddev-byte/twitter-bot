@@ -80,7 +80,7 @@ id,tweet_text,thread_id,order,posted
 79,Fundamentals outlast tools. Which concept helped across stacks? 🧱 #Engineering,,,TRUE
 80,Tools don’t solve unclear thinking. Which problem stayed until requirements were clear? 🧠 #TechCulture,,,TRUE
 81,Deploy frequency hides quality issues. When did fast deploys bite back? 🚀 #DevOps,,,TRUE
-82,Feature flags feel safe until misused. Which flag caused chaos? 🚩 #Engineering,,,FALSE
+82,Feature flags feel safe until misused. Which flag caused chaos? 🚩 #Engineering,,,TRUE
 83,Backpressure is invisible until systems collapse. Where did you miss it? 🌊 #DistributedSystems,,,FALSE
 84,Schema changes are riskier than code changes. Which migration hurt? 🗄️ #Databases,,,FALSE
 85,Timeouts save systems — until misconfigured. Which timeout failed you? ⏲️ #SystemDesign,,,FALSE
