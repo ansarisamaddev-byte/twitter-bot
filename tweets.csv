@@ -86,7 +86,7 @@ id,tweet_text,thread_id,order,posted
 85,Timeouts save systems — until misconfigured. Which timeout failed you? ⏲️ #SystemDesign,,,TRUE
 86,Caches hide bugs and amplify others. Which bug only appeared after caching? 🧊 #Caching,,,TRUE
 87,Cold starts ruin latency promises. Where did they surprise you? ❄️ #Cloud,,,TRUE
-88,Alert fatigue hides real incidents. Which alert trained you to ignore it? 🚨 #Observability,,,FALSE
+88,Alert fatigue hides real incidents. Which alert trained you to ignore it? 🚨 #Observability,,,TRUE
 89,Feature creep kills performance slowly. Which feature tipped it over? 🐌 #Engineering,,,FALSE
 90,Rollbacks feel safe until state changes. Which rollback failed? 🔙 #DevOps,,,FALSE
 91,Backward compatibility costs compound. Which break caused pain? 🧨 #APIDesign,,,FALSE
