@@ -88,7 +88,7 @@ id,tweet_text,thread_id,order,posted
 87,Cold starts ruin latency promises. Where did they surprise you? ❄️ #Cloud,,,TRUE
 88,Alert fatigue hides real incidents. Which alert trained you to ignore it? 🚨 #Observability,,,TRUE
 89,Feature creep kills performance slowly. Which feature tipped it over? 🐌 #Engineering,,,TRUE
-90,Rollbacks feel safe until state changes. Which rollback failed? 🔙 #DevOps,,,FALSE
+90,Rollbacks feel safe until state changes. Which rollback failed? 🔙 #DevOps,,,TRUE
 91,Backward compatibility costs compound. Which break caused pain? 🧨 #APIDesign,,,FALSE
 92,Documentation ages faster than code. What doc misled you? 📄 #Engineering,,,FALSE
 93,Manual fixes become permanent systems. Which hack survived too long? 🩹 #Engineering,,,FALSE
