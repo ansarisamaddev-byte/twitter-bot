@@ -91,7 +91,7 @@ id,tweet_text,thread_id,order,posted
 90,Rollbacks feel safe until state changes. Which rollback failed? 🔙 #DevOps,,,TRUE
 91,Backward compatibility costs compound. Which break caused pain? 🧨 #APIDesign,,,TRUE
 92,Documentation ages faster than code. What doc misled you? 📄 #Engineering,,,TRUE
-93,Manual fixes become permanent systems. Which hack survived too long? 🩹 #Engineering,,,FALSE
+93,Manual fixes become permanent systems. Which hack survived too long? 🩹 #Engineering,,,TRUE
 94,Shadow dependencies break reliability. Which one surprised you? 👻 #Architecture,,,FALSE
 95,Async fixes sync problems — sometimes. Where did it fail? ⏳ #Concurrency,,,FALSE
 96,Rate limits feel harsh until abuse happens. Which incident changed your mind? 🚦 #APIDesign,,,FALSE
