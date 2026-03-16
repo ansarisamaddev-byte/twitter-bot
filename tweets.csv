@@ -93,7 +93,7 @@ id,tweet_text,thread_id,order,posted
 92,Documentation ages faster than code. What doc misled you? 📄 #Engineering,,,TRUE
 93,Manual fixes become permanent systems. Which hack survived too long? 🩹 #Engineering,,,TRUE
 94,Shadow dependencies break reliability. Which one surprised you? 👻 #Architecture,,,TRUE
-95,Async fixes sync problems — sometimes. Where did it fail? ⏳ #Concurrency,,,FALSE
+95,Async fixes sync problems — sometimes. Where did it fail? ⏳ #Concurrency,,,TRUE
 96,Rate limits feel harsh until abuse happens. Which incident changed your mind? 🚦 #APIDesign,,,FALSE
 97,Feature ownership prevents outages. Where did shared ownership fail? 🤝 #EngineeringCulture,,,FALSE
 98,Testing happy paths is easy. Which edge case hurt most? 🧪 #Testing,,,FALSE
