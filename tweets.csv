@@ -95,7 +95,7 @@ id,tweet_text,thread_id,order,posted
 94,Shadow dependencies break reliability. Which one surprised you? 👻 #Architecture,,,TRUE
 95,Async fixes sync problems — sometimes. Where did it fail? ⏳ #Concurrency,,,TRUE
 96,Rate limits feel harsh until abuse happens. Which incident changed your mind? 🚦 #APIDesign,,,TRUE
-97,Feature ownership prevents outages. Where did shared ownership fail? 🤝 #EngineeringCulture,,,FALSE
+97,Feature ownership prevents outages. Where did shared ownership fail? 🤝 #EngineeringCulture,,,TRUE
 98,Testing happy paths is easy. Which edge case hurt most? 🧪 #Testing,,,FALSE
 99,Scaling reads is easy. Scaling writes hurts. Where did it break? ✍️ #Databases,,,FALSE
 100,Tech debt isn’t bad — unmanaged debt is. When did it explode? 💥 #Engineering,,,FALSE
