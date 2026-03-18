@@ -97,7 +97,7 @@ id,tweet_text,thread_id,order,posted
 96,Rate limits feel harsh until abuse happens. Which incident changed your mind? 🚦 #APIDesign,,,TRUE
 97,Feature ownership prevents outages. Where did shared ownership fail? 🤝 #EngineeringCulture,,,TRUE
 98,Testing happy paths is easy. Which edge case hurt most? 🧪 #Testing,,,TRUE
-99,Scaling reads is easy. Scaling writes hurts. Where did it break? ✍️ #Databases,,,FALSE
+99,Scaling reads is easy. Scaling writes hurts. Where did it break? ✍️ #Databases,,,TRUE
 100,Tech debt isn’t bad — unmanaged debt is. When did it explode? 💥 #Engineering,,,FALSE
 101,"If this made you think, tap ❤️ so I keep sharing real lessons. #Engagement",,,FALSE
 102,Following engineers with scars beats perfect tutorials. Follow for real stories. 👇 #Follow,,,FALSE
