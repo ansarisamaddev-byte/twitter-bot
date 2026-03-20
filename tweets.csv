@@ -101,7 +101,7 @@ id,tweet_text,thread_id,order,posted
 100,Tech debt isn’t bad — unmanaged debt is. When did it explode? 💥 #Engineering,,,TRUE
 101,"If this made you think, tap ❤️ so I keep sharing real lessons. #Engagement",,,TRUE
 102,Following engineers with scars beats perfect tutorials. Follow for real stories. 👇 #Follow,,,TRUE
-103,Quick check — have you lived at least one of these? Like if yes. #EngineeringLife,,,FALSE
+103,Quick check — have you lived at least one of these? Like if yes. #EngineeringLife,,,TRUE
 104,I share lessons learned after things break in prod. Follow to avoid outage tax. #Careers,,,FALSE
 105,If you’ve ever said ‘this will work for now’ and regretted it — you belong here. ❤️ #SoftwareEngineering,,,FALSE
 106,"These questions come from real incidents, not slides. Follow for more. #SystemDesign",,,FALSE
