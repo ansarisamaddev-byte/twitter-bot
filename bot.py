@@ -28,9 +28,10 @@ if not tweet_to_post:
     exit(0)
 
 # ---- Post Tweet ----
-response = client.create_tweet(
-    text=tweet_to_post["tweet_text"]  # ✅ FIXED
-)
+try:
+    response = client.create_tweet(text=tweet_to_post["tweet_text"])
+except:
+    print("Skipping failed tweet")
 
 tweet_id = response.data["id"]
 print(f"Tweet posted: {tweet_id}")
