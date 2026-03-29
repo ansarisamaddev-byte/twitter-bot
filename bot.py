@@ -30,12 +30,14 @@ if not tweet_to_post:
 # ---- Post Tweet ----
 try:
     response = client.create_tweet(text=tweet_to_post["tweet_text"])
-except:
-    print("Skipping failed tweet")
+    
+    tweet_id = response.data["id"]
+    print(f"Tweet posted: {tweet_id}")
 
-tweet_id = response.data["id"]
-print(f"Tweet posted: {tweet_id}")
-
+except Exception as e:
+    print(f"Skipping failed tweet: {e}")
+    response = None  # important
+    
 # ---- Mark as posted ----
 for row in rows:
     if row["id"] == tweet_to_post["id"]:
