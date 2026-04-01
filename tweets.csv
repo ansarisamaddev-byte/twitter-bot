@@ -1,6 +1,6 @@
 id,tweet_text,thread_id,order,posted
 1,"Production lesson: Systems don’t fail all at once — they fail gradually, then suddenly. Small latency spikes, retry storms, and queue buildup are early warning signs. What early signal have you learned never to ignore? 👇 #Engineering",t1,1,TRUE
-2,"Most outages aren’t caused by a single bug — they’re caused by multiple small assumptions breaking at once. One timeout too low, one retry too aggressive, one cache slightly stale… and suddenly everything collapses. 🧱",t1,2,FALSE
+2,"Most outages aren’t caused by a single bug — they’re caused by multiple small assumptions breaking at once. One timeout too low, one retry too aggressive, one cache slightly stale… and suddenly everything collapses. 🧱",t1,2,TRUE
 3,The best engineers don’t just fix incidents — they study patterns behind failures. What looked like a “one-off” is often a systemic weakness waiting to repeat. Do you track patterns across incidents? #Reliability,t1,3,FALSE
 4,Tech reality: AI is generating more code than ever in 2026. But the real skill isn’t writing code — it’s knowing what NOT to trust. Blindly shipping AI output is the fastest way to scale bugs. 🤖 #AIDev,t2,1,FALSE
 5,"Treat AI like a very fast junior engineer: productive, helpful… but occasionally overconfident and wrong. Review everything, especially edge cases, error handling, and assumptions. That’s where things break. ⚠️",t2,2,FALSE
