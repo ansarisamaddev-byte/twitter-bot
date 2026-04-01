@@ -1,9 +1,8 @@
 import csv
 import os
-import time
 import tweepy
 
-# ---- Twitter Auth (v2 for tweets) ----
+# ---- Twitter Auth ----
 client = tweepy.Client(
     consumer_key=os.environ["API_KEY"],
     consumer_secret=os.environ["API_SECRET"],
@@ -11,7 +10,7 @@ client = tweepy.Client(
     access_token_secret=os.environ["ACCESS_TOKEN_SECRET"]
 )
 
-# ---- Auth (v1.1 for media upload) ----
+# Media upload client
 auth = tweepy.OAuth1UserHandler(
     os.environ["API_KEY"],
     os.environ["API_SECRET"],
@@ -31,77 +30,79 @@ with open(CSV_FILE, newline="", encoding="utf-8") as f:
     for row in reader:
         rows.append(row)
 
-# ---- Find next unposted thread ----
-thread_id_to_post = None
+# ---- Find next MAIN tweet ----
+main_tweet = None
 
 for row in rows:
-    if row.get("posted", "").strip().upper() != "TRUE":
-        thread_id_to_post = row.get("thread_id")
+    if (
+        row["type"].strip().upper() == "MAIN" and
+        row["posted"].strip().upper() != "TRUE"
+    ):
+        main_tweet = row
         break
 
-if not thread_id_to_post:
-    print("No tweets left to post.")
+if not main_tweet:
+    print("No tweets left.")
     exit(0)
 
-# ---- Collect full thread ----
-thread_rows = [r for r in rows if r.get("thread_id") == thread_id_to_post]
-thread_rows.sort(key=lambda x: int(x.get("order", 0)))
+thread_id = main_tweet["thread_id"]
 
-print(f"Posting thread: {thread_id_to_post}")
+# ---- Get full thread ----
+thread_tweets = [
+    r for r in rows
+    if r["thread_id"] == thread_id
+]
+
+# Keep MAIN first, then replies
+thread_tweets = sorted(
+    thread_tweets,
+    key=lambda x: 0 if x["type"].upper() == "MAIN" else 1
+)
 
 previous_tweet_id = None
-posted_ids = []
 
-# ---- Post thread ----
-for tweet in thread_rows:
-    try:
-        tweet_text = tweet.get("tweet_text", "").strip()
-        tweet_id_val = tweet.get("id")
+try:
+    for tweet in thread_tweets:
 
-        if not tweet_text:
-            continue
+        # ---- MAIN (WITH IMAGE) ----
+        if tweet["type"].upper() == "MAIN":
+            image_name = f"post ({tweet['id']}).jpg"
+            image_path = os.path.join(IMAGE_FOLDER, image_name)
 
-        # ---- Image path ----
-        image_path = os.path.join(IMAGE_FOLDER, f"post ({tweet_id_val}).jpg")
-        media_ids = None
+            if os.path.exists(image_path):
+                media = api.media_upload(image_path)
+                response = client.create_tweet(
+                    text=tweet["tweet_text"],
+                    media_ids=[media.media_id]
+                )
+                print(f"Posted MAIN with image: {image_name}")
+            else:
+                response = client.create_tweet(text=tweet["tweet_text"])
+                print("Posted MAIN (no image found)")
 
-        if os.path.exists(image_path):
-            print(f"Uploading image: {image_path}")
-            media = api.media_upload(image_path)
-            media_ids = [media.media_id]
+        # ---- REPLIES (NO IMAGE) ----
         else:
-            print(f"No image for tweet {tweet_id_val}")
+            response = client.create_tweet(
+                text=tweet["tweet_text"],
+                in_reply_to_tweet_id=previous_tweet_id
+            )
+            print("Posted reply")
 
-        # ---- Post tweet ----
-        response = client.create_tweet(
-            text=tweet_text,
-            in_reply_to_tweet_id=previous_tweet_id,
-            media_ids=media_ids
-        )
+        previous_tweet_id = response.data["id"]
 
-        new_tweet_id = response.data["id"]
-        print(f"Posted tweet: {new_tweet_id}")
+        # ---- Mark as posted ----
+        for row in rows:
+            if row is tweet:
+                row["posted"] = "TRUE"
 
-        previous_tweet_id = new_tweet_id
-        posted_ids.append(tweet_id_val)
+except Exception as e:
+    print(f"Error: {e}")
 
-        time.sleep(2)  # avoid rate limits
-
-    except Exception as e:
-        print(f"Error posting tweet {tweet.get('id')}: {e}")
-        break
-
-# ---- Mark as posted ONLY if success ----
-for row in rows:
-    if row.get("id") in posted_ids:
-        row["posted"] = "TRUE"
-
-# ---- Safe write to CSV ----
-fieldnames = ["id", "tweet_text", "thread_id", "order", "posted"]
-
+# ---- Save CSV ----
 with open(CSV_FILE, "w", newline="", encoding="utf-8") as f:
-    writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore")
+    fieldnames = ["id", "tweet_text", "thread_id", "type", "posted"]
+    writer = csv.DictWriter(f, fieldnames=fieldnames)
     writer.writeheader()
     writer.writerows(rows)
 
-print("Done ✅")
+print("Done.")
