@@ -1,54 +1,137 @@
 id,tweet_text,thread_id,order,type,posted
-4,Tech reality: AI is generating more code than ever in 2026. But the real skill isn’t writing code — it’s knowing what NOT to trust. Blindly shipping AI output is the fastest way to scale bugs. 🤖 #AIDev,t2,,MAIN,TRUE
-,"Treat AI like a very fast junior engineer: productive, helpful… but occasionally overconfident and wrong. Review everything, especially edge cases, error handling, and assumptions. That’s where things break. ⚠️",t2,,REPLY,TRUE
-,"The engineers who thrive now are the ones who combine speed (AI) with judgment (experience). Where are you focusing — speed, depth, or both? 🔍 #EngineeringGrowth",t2,,REPLY,TRUE
-5,"Debugging tip: When everything “looks correct” but behavior is wrong, your assumptions are likely incorrect — not your code. Check data types, timezones, encoding, and external responses first. ⏰ #Debugging",t3,,MAIN,TRUE
-,"Most time wasted in debugging isn’t writing fixes — it’s chasing wrong mental models. The faster you question your assumptions, the faster you find truth. 🧠",t3,,REPLY,TRUE
-,Senior engineers aren’t faster because they code quicker — they’re faster because they invalidate wrong assumptions earlier. What assumption cost you hours recently? 👇,t3,,REPLY,TRUE
-6,"System design truth: Every external dependency will fail — at the worst possible time. If your system depends on it, you must design for failure, not success. 🌐 #SystemDesign",t4,,MAIN,FALSE
-,"Timeouts, retries (with backoff), circuit breakers, and fallbacks aren’t optional — they’re survival tools. Without them, one failing service can take down your entire system. 🔌",t4,,REPLY,FALSE
-,"Ask yourself: If this dependency lies or goes down, does my system degrade gracefully or explode? That answer defines your reliability. 💥 #Reliability",t4,,REPLY,FALSE
-8,Career insight: The difference between junior and senior engineers isn’t just knowledge — it’s anticipation. Seniors think: “How will this fail?” before it ever reaches production. 🛡️ #Engineering,t5,,MAIN,FALSE
-,"Most bugs aren’t surprising — they’re just unanticipated. Once you’ve seen enough failures, you start designing systems assuming those failures will happen again. 🔁",t5,,REPLY,FALSE
-,What failure mode did you start anticipating only after one painful incident? 👇 #LearningFromFailure,t5,,REPLY,FALSE
-9,Tech debt truth: “Temporary fixes” rarely stay temporary. They quietly become part of your system until one day they break everything. 🩹 #TechDebt,t6,,MAIN,FALSE
-,"The real danger isn’t taking shortcuts — it’s forgetting where you took them. Without visibility, tech debt compounds silently. 📌",t6,,REPLY,FALSE
-,Great teams track and revisit “temporary” decisions regularly. What’s the oldest hack still alive in your codebase? 👀,t6,,REPLY,FALSE
-10,"Observability lesson: Monitoring tells you WHAT broke. Logs + traces + context tell you WHY. Without context, alerts are just noise. 🚨 #Observability",t7,,MAIN,FALSE
-,Getting alerted at 3 AM without knowing the cause is not observability — it’s stress notification. Good systems reduce guesswork during incidents. 🧭,t7,,REPLY,FALSE
-,"If your logs don’t include request ID, user ID, and key state, you’re debugging blind. What’s your logging strategy? 👇",t7,,REPLY,FALSE
-11,"Production truth: Most outages don’t start as outages — they start as “slight degradation” that nobody prioritizes. Latency creeps up, retries increase, queues grow… until everything tips over. What signal did you ignore once? 👇 #Reliability",t51,,MAIN,FALSE
-,"The danger is normalization: teams get used to small issues and accept them as “normal.” That’s how incidents are born — not from chaos, but from ignored patterns. 📉",t51,,REPLY,FALSE
-,"Great teams treat small anomalies as early warnings, not noise. What’s one metric you now watch more closely than before? 👀",t51,,REPLY,FALSE
-12,"Engineering lesson: Simplicity scales better than cleverness. Complex solutions feel impressive early — but become painful to debug, extend, and maintain later. 🧠 #CleanCode",t52,,MAIN,FALSE
-,The code you write isn’t just for machines — it’s for future humans (including you). Readability and clarity beat clever one-liners every time. ✍️,t52,,REPLY,FALSE
-,Have you ever looked at your old “clever” code and regretted it? What did you learn? 👇,t52,,REPLY,FALSE
-13,The code you write isn’t just for machines — it’s for future humans (including you). Readability and clarity beat clever one-liners every time. ✍️,t52,,2,REPLY
-,Have you ever looked at your old “clever” code and regretted it? What did you learn? 👇,t52,,3,REPLY
-14,"System design insight: Retries can save your system — or destroy it. Without backoff and limits, retries amplify failures instead of fixing them. 🔁 #DistributedSystems",t53,,1,MAIN
-,A failing service + aggressive retries = retry storm. Suddenly your system is attacking itself under load. ⚠️,t53,,2,REPLY
-,Always design retries with exponential backoff and jitter. What’s the worst retry storm you’ve seen? 👇,t53,,3,REPLY
-15,Career growth: Writing code gets you hired. Understanding systems gets you promoted. Designing resilient systems gets you trusted. 🛠️ #EngineeringCareers,t54,,1,MAIN
-,"Anyone can write features. Fewer can design systems that survive real-world chaos — failures, traffic spikes, and unpredictable behavior. 🌐",t54,,2,REPLY
-,What skill helped you move from writing code to designing systems? 👇,t54,,3,REPLY
-16,Debugging reality: The bug is rarely in the code you just wrote — it’s often in old code interacting in a new way. 🕵️ #Debugging,t55,,1,MAIN
-,"Systems fail at boundaries — where components meet, assumptions differ, and edge cases live. That’s where bugs hide. 🔗",t55,,2,REPLY
-,"Next time something breaks, ask: “What interaction changed?” not just “What code changed?” 👇",t55,,3,REPLY
-17,Reliability lesson: Backups are useless until you’ve successfully restored from them. Preferably under pressure. 💾 #Reliability,t56,,1,MAIN
-,"Many teams think they’re safe — until restore fails, data is incomplete, or the process is unclear. Testing restores matters more than taking backups. 🔄",t56,,2,REPLY
-,Have you ever tested your backup restore end-to-end? Or learned the hard way? 👇,t56,,3,REPLY
-18,Architecture truth: Microservices don’t reduce complexity — they redistribute it. 🧩 #Architecture,t57,,1,MAIN
-,"Instead of complexity inside a monolith, you now have network calls, distributed state, partial failures, and debugging challenges. 🌐",t57,,2,REPLY
-,Microservices are powerful — but only when you’re ready for the operational complexity. When did they help (or hurt) you most? 👇,t57,,3,REPLY
-19,Tech insight: Latency is a feature — until it compounds. Multiple small delays across services quickly turn into slow user experiences. ⏱️ #Performance,t58,,1,MAIN
-,A 50ms delay across 10 services = 500ms total. Add retries and you’re suddenly in seconds. Latency multiplies silently. 📉,t58,,2,REPLY
-,Do you measure end-to-end latency or just individual services? 👇,t58,,3,REPLY
-20,Engineering mindset: Always design assuming partial failure. Systems rarely fail completely — they degrade in unpredictable ways. ⚙️ #SystemDesign,t59,,1,MAIN
-,"Handling partial failure well (timeouts, fallbacks, degraded modes) is what separates resilient systems from fragile ones. 🔧",t59,,2,REPLY
-,What’s one fallback strategy that saved your system? 👇,t59,,3,REPLY
-21,"Career insight: The fastest way to grow is to own production. Nothing teaches engineering like real users, real traffic, and real failures. 🚀 #Careers",t60,,1,MAIN
-,"Production forces you to think about reliability, observability, performance, and failure modes — things tutorials rarely cover deeply. 🌍",t60,,2,REPLY
-,What did production teach you that no course ever did? 👇,t60,,3,REPLY
-22,Tech debt lesson: Interest compounds faster than you think. Small shortcuts today become major blockers tomorrow. 💸 #TechDebt,t61,,1,MAIN
-,"Ignoring tech debt isn’t free — you’re just deferring the cost with added interest. Eventually, you pay more. 📊",t61,,2,REPLY
-,What’s one “small shortcut” that turned into a big problem later? 👇,t61,,3,REPLY
+6,"System design truth: Every external dependency will fail — at the worst possible time. If your system depends on it, you must design for failure, not success. 🌐 #SystemDesign",t4,1,MAIN,FALSE
+,"Timeouts, retries (with backoff), circuit breakers, and fallbacks aren’t optional — they’re survival tools. Without them, one failing service can take down your entire system. 🔌",t4,2,REPLY,FALSE
+,"Ask yourself: If this dependency lies or goes down, does my system degrade gracefully or explode? That answer defines your reliability. 💥 #Reliability",t4,3,REPLY,FALSE
+
+8,"Career insight: The difference between junior and senior engineers isn’t just knowledge — it’s anticipation. Seniors think: “How will this fail?” before it ever reaches production. 🛡️ #Engineering",t5,1,MAIN,FALSE
+,"Most bugs aren’t surprising — they’re just unanticipated. Once you’ve seen enough failures, you start designing systems assuming those failures will happen again. 🔁",t5,2,REPLY,FALSE
+,"What failure mode did you start anticipating only after one painful incident? 👇 #LearningFromFailure",t5,3,REPLY,FALSE
+
+9,"Tech debt truth: “Temporary fixes” rarely stay temporary. They quietly become part of your system until one day they break everything. 🩹 #TechDebt",t6,1,MAIN,FALSE
+,"The real danger isn’t taking shortcuts — it’s forgetting where you took them. Without visibility, tech debt compounds silently. 📌",t6,2,REPLY,FALSE
+,"Great teams track and revisit “temporary” decisions regularly. What’s the oldest hack still alive in your codebase? 👀",t6,3,REPLY,FALSE
+
+10,"Observability lesson: Monitoring tells you WHAT broke. Logs + traces + context tell you WHY. Without context, alerts are just noise. 🚨 #Observability",t7,1,MAIN,FALSE
+,"Getting alerted at 3 AM without knowing the cause is not observability — it’s stress notification. Good systems reduce guesswork during incidents. 🧭",t7,2,REPLY,FALSE
+,"If your logs don’t include request ID, user ID, and key state, you’re debugging blind. What’s your logging strategy? 👇",t7,3,REPLY,FALSE
+
+11,"Production truth: Most outages don’t start as outages — they start as “slight degradation” that nobody prioritizes. Latency creeps up, retries increase, queues grow… until everything tips over. What signal did you ignore once? 👇 #Reliability",t51,1,MAIN,FALSE
+,"The danger is normalization: teams get used to small issues and accept them as “normal.” That’s how incidents are born — not from chaos, but from ignored patterns. 📉",t51,2,REPLY,FALSE
+,"Great teams treat small anomalies as early warnings, not noise. What’s one metric you now watch more closely than before? 👀",t51,3,REPLY,FALSE
+
+12,"Engineering lesson: Simplicity scales better than cleverness. Complex solutions feel impressive early — but become painful to debug, extend, and maintain later. 🧠 #CleanCode",t52,1,MAIN,FALSE
+,"The code you write isn’t just for machines — it’s for future humans (including you). Readability and clarity beat clever one-liners every time. ✍️",t52,2,REPLY,FALSE
+,"Have you ever looked at your old “clever” code and regretted it? What did you learn? 👇",t52,3,REPLY,FALSE
+
+14,"System design insight: Retries can save your system — or destroy it. Without backoff and limits, retries amplify failures instead of fixing them. 🔁 #DistributedSystems",t53,1,MAIN,FALSE
+,"A failing service + aggressive retries = retry storm. Suddenly your system is attacking itself under load. ⚠️",t53,2,REPLY,FALSE
+,"Always design retries with exponential backoff and jitter. What’s the worst retry storm you’ve seen? 👇",t53,3,REPLY,FALSE
+
+15,"Career growth: Writing code gets you hired. Understanding systems gets you promoted. Designing resilient systems gets you trusted. 🛠️ #EngineeringCareers",t54,1,MAIN,FALSE
+,"Anyone can write features. Fewer can design systems that survive real-world chaos — failures, traffic spikes, and unpredictable behavior. 🌐",t54,2,REPLY,FALSE
+,"What skill helped you move from writing code to designing systems? 👇",t54,3,REPLY,FALSE
+
+16,"Debugging reality: The bug is rarely in the code you just wrote — it’s often in old code interacting in a new way. 🕵️ #Debugging",t55,1,MAIN,FALSE
+,"Systems fail at boundaries — where components meet, assumptions differ, and edge cases live. That’s where bugs hide. 🔗",t55,2,REPLY,FALSE
+,"Next time something breaks, ask: “What interaction changed?” not just “What code changed?” 👇",t55,3,REPLY,FALSE
+
+17,"Reliability lesson: Backups are useless until you’ve successfully restored from them. Preferably under pressure. 💾 #Reliability",t56,1,MAIN,FALSE
+,"Many teams think they’re safe — until restore fails, data is incomplete, or the process is unclear. Testing restores matters more than taking backups. 🔄",t56,2,REPLY,FALSE
+,"Have you ever tested your backup restore end-to-end? Or learned the hard way? 👇",t56,3,REPLY,FALSE
+
+18,"Architecture truth: Microservices don’t reduce complexity — they redistribute it. 🧩 #Architecture",t57,1,MAIN,FALSE
+,"Instead of complexity inside a monolith, you now have network calls, distributed state, partial failures, and debugging challenges. 🌐",t57,2,REPLY,FALSE
+,"Microservices are powerful — but only when you’re ready for the operational complexity. When did they help (or hurt) you most? 👇",t57,3,REPLY,FALSE
+
+19,"Tech insight: Latency is a feature — until it compounds. Multiple small delays across services quickly turn into slow user experiences. ⏱️ #Performance",t58,1,MAIN,FALSE
+,"A 50ms delay across 10 services = 500ms total. Add retries and you’re suddenly in seconds. Latency multiplies silently. 📉",t58,2,REPLY,FALSE
+,"Do you measure end-to-end latency or just individual services? 👇",t58,3,REPLY,FALSE
+
+20,"Engineering mindset: Always design assuming partial failure. Systems rarely fail completely — they degrade in unpredictable ways. ⚙️ #SystemDesign",t59,1,MAIN,FALSE
+,"Handling partial failure well (timeouts, fallbacks, degraded modes) is what separates resilient systems from fragile ones. 🔧",t59,2,REPLY,FALSE
+,"What’s one fallback strategy that saved your system? 👇",t59,3,REPLY,FALSE
+
+21,"Career insight: The fastest way to grow is to own production. Nothing teaches engineering like real users, real traffic, and real failures. 🚀 #Careers",t60,1,MAIN,FALSE
+,"Production forces you to think about reliability, observability, performance, and failure modes — things tutorials rarely cover deeply. 🌍",t60,2,REPLY,FALSE
+,"What did production teach you that no course ever did? 👇",t60,3,REPLY,FALSE
+
+22,"Tech debt lesson: Interest compounds faster than you think. Small shortcuts today become major blockers tomorrow. 💸 #TechDebt",t61,1,MAIN,FALSE
+,"Ignoring tech debt isn’t free — you’re just deferring the cost with added interest. Eventually, you pay more. 📊",t61,2,REPLY,FALSE
+,"What’s one “small shortcut” that turned into a big problem later? 👇",t61,3,REPLY,FALSE
+
+23,"AI agents are the biggest shift in 2026. Not tools. Not copilots. Autonomous systems that take actions. The question isn’t “Can it code?” — it’s “Can it decide?” 🤖 #AI",t70,1,MAIN,FALSE
+,"We’re moving from prompting → supervising. Engineers won’t just write code, they’ll design decision systems. That’s a different skill. 🧠",t70,2,REPLY,FALSE
+
+24,"Hot take: Most devs are using AI wrong. They use it to write code faster… instead of thinking better. Speed without direction just gets you lost faster. ⚡",t71,1,MAIN,FALSE
+
+25,"Open-source AI is catching up fast. What was impossible without big companies in 2023 is now runnable on your laptop in 2026. Wild. 💻 #OpenSource",t72,1,MAIN,FALSE
+,"The gap is closing not because models are smaller — but because tooling got smarter. Optimization > brute force. 🔧",t72,2,REPLY,FALSE
+
+26,"Reality check: Startups aren’t failing because of lack of ideas. They fail because distribution is harder than building. Always has been. 📉 #Startups",t73,1,MAIN,FALSE
+,"In 2026, building is cheap. Attention is expensive. That’s the real bottleneck now. 👀",t73,2,REPLY,FALSE
+,"If you can’t get users, better tech won’t save you. But better distribution might. 📢",t73,3,REPLY,FALSE
+
+27,"VS Code extensions are becoming mini-platforms. Some devs spend more time configuring tools than actually coding. 🤯 #VSCode",t74,1,MAIN,FALSE
+,"Tooling fatigue is real. At some point, “simple setup” becomes a competitive advantage. ⚙️",t74,2,REPLY,FALSE
+
+28,"Layoffs taught one harsh lesson: Being good at your job isn’t always enough. Visibility, impact, and business alignment matter more. 📊 #Careers",t75,1,MAIN,FALSE
+
+29,"The future of coding interviews? Not DSA. Not system design. It’s “Can you work with AI effectively?” 🤖",t76,1,MAIN,FALSE
+,"Companies care less about syntax… more about judgment. AI can generate code — but can you verify it? 🔍",t76,2,REPLY,FALSE
+
+30,"Engineering truth: Most bugs come from assumptions — not logic errors. If something “should work,” that’s exactly where to look. 🧠 #Debugging",t77,1,MAIN,FALSE
+
+31,"AI tools are writing more code than junior devs in some companies. That’s not hype anymore — it’s reality. 🚀 #AIDev",t78,1,MAIN,FALSE
+,"But here’s the catch: reviewing AI code is harder than writing your own. Context is everything. ⚠️",t78,2,REPLY,FALSE
+
+32,"Your tech stack matters less than your execution speed. People overestimate tools and underestimate consistency. 🔥",t79,1,MAIN,FALSE
+
+33,"System design insight: The hardest part isn’t scaling traffic — it’s scaling failures gracefully. 💥 #SystemDesign",t80,1,MAIN,FALSE
+,"Anyone can design for success. Very few design for chaos. ⚙️",t80,2,REPLY,FALSE
+
+34,"In 2026, the best engineers are not the ones who know everything — but the ones who know what to ignore. 🧠",t81,1,MAIN,FALSE
+
+35,"Remote work didn’t kill productivity. Bad communication did. 📡 #RemoteWork",t82,1,MAIN,FALSE
+,"Async > meetings. Documentation > assumptions. Clear thinking > constant calls. ✍️",t82,2,REPLY,FALSE
+
+36,"Most devs chase new frameworks. Few master fundamentals. Guess who wins long-term? 📈",t83,1,MAIN,FALSE
+
+37,"AI hallucinations aren’t bugs — they’re features of probabilistic systems. Treat outputs as suggestions, not truth. 🤖",t84,1,MAIN,FALSE
+
+38,"Startup reality: Speed beats perfection early. But perfection beats speed later. Timing matters. ⏳ #Startups",t85,1,MAIN,FALSE
+
+39,"Debugging skill is underrated. It’s not about fixing — it’s about asking better questions. 🧠 #Debugging",t86,1,MAIN,FALSE
+,"Bad question → wrong fix → more bugs. It compounds fast. ⚠️",t86,2,REPLY,FALSE
+
+40,"Most systems don’t fail because of load. They fail because of cascading effects under load. 🌊 #Scalability",t87,1,MAIN,FALSE
+
+41,"Career tip: Don’t just ship features. Ship impact. Nobody remembers tickets — they remember outcomes. 📊",t88,1,MAIN,FALSE
+
+42,"The hardest part of engineering isn’t coding — it’s making decisions with incomplete information. 🧠",t89,1,MAIN,FALSE
+
+43,"AI won’t replace developers. But it will replace repetitive thinking. The creative part stays human. 🤖",t90,1,MAIN,FALSE
+
+44,"Your first system will be messy. Your second will be over-engineered. Your third might finally be balanced. 🔁 #Learning",t91,1,MAIN,FALSE
+
+45,"Most outages happen during changes. Deployments are where assumptions meet reality. 🚀 #DevOps",t92,1,MAIN,FALSE
+,"That’s why rollback > fix forward in many cases. Speed matters during incidents. ⚡",t92,2,REPLY,FALSE
+
+46,"Performance tip: Don’t optimize early. But don’t ignore it completely either. Measure first. 📉",t93,1,MAIN,FALSE
+
+47,"The difference between a good and great engineer? Communication. Ideas don’t matter if no one understands them. 💬",t94,1,MAIN,FALSE
+
+48,"AI-generated code looks correct. That’s the danger. Subtle bugs hide behind confident outputs. ⚠️",t95,1,MAIN,FALSE
+
+49,"Most engineers underestimate how much time they waste switching contexts. Deep work is a superpower. 🔥",t96,1,MAIN,FALSE
+
+50,"The biggest upgrade you can make isn’t a new framework — it’s better thinking. Tools change. Thinking scales. 🧠",t97,1,MAIN,FALSE
+
+51,"In 2026, side projects are resumes. Show what you can build — not just what you know. 🚀",t98,1,MAIN,FALSE
+
+52,"System design isn’t about diagrams. It’s about trade-offs. Every choice has a cost. ⚖️",t99,1,MAIN,FALSE
+
+53,"Most bugs are not rare. They’re just hard to reproduce. That’s what makes them dangerous. 🧠",t100,1,MAIN,FALSE
+
+54,"Engineers who learn fastest are the ones who break things — then fix them. Failure is feedback. 🔁",t101,1,MAIN,FALSE
+
+55,"The more abstractions you use, the less you understand what’s happening underneath. That’s a trade-off. ⚙️",t102,1,MAIN,FALSE
