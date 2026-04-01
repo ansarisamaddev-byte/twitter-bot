@@ -20,7 +20,12 @@ with open(CSV_FILE, newline="", encoding="utf-8") as f:
     reader = csv.DictReader(f)
     for row in reader:
         rows.append(row)
-        if row["posted"].strip().upper() != "TRUE" and tweet_to_post is None:
+
+        if (
+            tweet_to_post is None and
+            row.get("posted", "").strip().upper() != "TRUE" and
+            row.get("tweet_text")
+        ):
             tweet_to_post = row
 
 if not tweet_to_post:
@@ -28,23 +33,26 @@ if not tweet_to_post:
     exit(0)
 
 # ---- Post Tweet ----
+response = None
+
 try:
     response = client.create_tweet(text=tweet_to_post["tweet_text"])
-    
     tweet_id = response.data["id"]
     print(f"Tweet posted: {tweet_id}")
 
 except Exception as e:
     print(f"Skipping failed tweet: {e}")
-    response = None  # important
-    
-# ---- Mark as posted ----
-for row in rows:
-    if row["id"] == tweet_to_post["id"]:
-        row["posted"] = "TRUE"
 
-# ---- Write back to CSV ----
+# ✅ Mark ONLY if success
+if response is not None:
+    for row in rows:
+        if row.get("id") == tweet_to_post.get("id"):
+            row["posted"] = "TRUE"
+
+# ✅ Safe write (NO crashes)
+fieldnames = ["id", "tweet_text", "thread_id", "order", "posted"]
+
 with open(CSV_FILE, "w", newline="", encoding="utf-8") as f:
-    writer = csv.DictWriter(f, fieldnames=rows[0].keys())
+    writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore")
     writer.writeheader()
     writer.writerows(rows)
