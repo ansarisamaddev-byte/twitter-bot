@@ -10,7 +10,7 @@ client = tweepy.Client(
     access_token_secret=os.environ["ACCESS_TOKEN_SECRET"]
 )
 
-# Media upload client
+# For media upload (v1 API required)
 auth = tweepy.OAuth1UserHandler(
     os.environ["API_KEY"],
     os.environ["API_SECRET"],
@@ -20,9 +20,9 @@ auth = tweepy.OAuth1UserHandler(
 api = tweepy.API(auth)
 
 CSV_FILE = "tweets.csv"
-IMAGE_FOLDER = "images"
 
 rows = []
+threads = {}
 
 # ---- Read CSV ----
 with open(CSV_FILE, newline="", encoding="utf-8") as f:
@@ -30,79 +30,82 @@ with open(CSV_FILE, newline="", encoding="utf-8") as f:
     for row in reader:
         rows.append(row)
 
-# ---- Find next MAIN tweet ----
-main_tweet = None
+        # Skip already posted
+        if row.get("posted", "").strip().upper() == "TRUE":
+            continue
 
-for row in rows:
-    if (
-        row["type"].strip().upper() == "MAIN" and
-        row["posted"].strip().upper() != "TRUE"
-    ):
-        main_tweet = row
+        thread_id = row.get("thread_id")
+
+        if thread_id not in threads:
+            threads[thread_id] = []
+
+        threads[thread_id].append(row)
+
+# ---- Pick FIRST unposted thread ----
+thread_to_post = None
+
+for t_id in threads:
+    thread = sorted(threads[t_id], key=lambda x: int(x.get("order", 0)))
+    if any(r.get("posted", "").strip().upper() != "TRUE" for r in thread):
+        thread_to_post = thread
         break
 
-if not main_tweet:
-    print("No tweets left.")
+if not thread_to_post:
+    print("No tweets left to post.")
     exit(0)
 
-thread_id = main_tweet["thread_id"]
-
-# ---- Get full thread ----
-thread_tweets = [
-    r for r in rows
-    if r["thread_id"] == thread_id
-]
-
-# Keep MAIN first, then replies
-thread_tweets = sorted(
-    thread_tweets,
-    key=lambda x: 0 if x["type"].upper() == "MAIN" else 1
-)
-
+# ---- Post THREAD ----
 previous_tweet_id = None
+posted_ids = []
 
-try:
-    for tweet in thread_tweets:
+for tweet in thread_to_post:
+    text = tweet.get("tweet_text", "").strip()
+    tweet_type = tweet.get("type", "REPLY").strip().upper()
 
-        # ---- MAIN (WITH IMAGE) ----
-        if tweet["type"].upper() == "MAIN":
-            image_name = f"post ({tweet['id']}).jpg"
-            image_path = os.path.join(IMAGE_FOLDER, image_name)
+    try:
+        # MAIN tweet → attach image
+        if tweet_type == "MAIN":
+            image_id = tweet.get("id")
+            
+            image_path = f"images/post ({image_id}).jpg"
 
             if os.path.exists(image_path):
                 media = api.media_upload(image_path)
                 response = client.create_tweet(
-                    text=tweet["tweet_text"],
+                    text=text,
                     media_ids=[media.media_id]
                 )
-                print(f"Posted MAIN with image: {image_name}")
             else:
-                response = client.create_tweet(text=tweet["tweet_text"])
-                print("Posted MAIN (no image found)")
+                print(f"Image not found: {image_path}")
+                response = client.create_tweet(text=text)
 
-        # ---- REPLIES (NO IMAGE) ----
+        # REPLY tweets
         else:
             response = client.create_tweet(
-                text=tweet["tweet_text"],
+                text=text,
                 in_reply_to_tweet_id=previous_tweet_id
             )
-            print("Posted reply")
 
         previous_tweet_id = response.data["id"]
+        posted_ids.append(tweet.get("id"))
 
-        # ---- Mark as posted ----
-        for row in rows:
-            if row is tweet:
-                row["posted"] = "TRUE"
+        print(f"Posted: {text[:50]}...")
 
-except Exception as e:
-    print(f"Error: {e}")
+    except Exception as e:
+        print(f"Error posting tweet: {e}")
+        break
 
-# ---- Save CSV ----
+# ---- Mark as posted ----
+for row in rows:
+    if row in thread_to_post:
+        row["posted"] = "TRUE"
+
+# ---- Save CSV safely ----
+fieldnames = ["id", "tweet_text", "thread_id", "order", "type", "posted"]
+
 with open(CSV_FILE, "w", newline="", encoding="utf-8") as f:
-    fieldnames = ["id", "tweet_text", "thread_id", "type", "posted"]
-    writer = csv.DictWriter(f, fieldnames=fieldnames)
+    writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore")
     writer.writeheader()
     writer.writerows(rows)
 
-print("Done.")
+print("Thread posted successfully ✅")
