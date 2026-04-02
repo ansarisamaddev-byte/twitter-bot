@@ -418,3 +418,65 @@ id,tweet_text,thread_id,order,type,posted
 ,"No. 1 → Pay attention to non-verbal cues in conversations.",t195,,REPLY,FALSE
 ,"No. 2 → Ask follow-up questions to confirm understanding. 🔍",t195,,REPLY,FALSE
 ,"No. 3 → Don’t just wait for your turn to speak — actually listen.",t195,,REPLY,FALSE
+181,"Work culture truth: Most conflicts at work aren’t about technical disagreements — they’re about communication gaps. People don’t feel heard, assumptions are made, and small misunderstandings slowly turn into major friction. Learning to listen deeply is a career superpower. 🧠 #WorkCulture",t181,,MAIN,FALSE
+,"No. 1: When someone explains a problem, don’t interrupt with solutions immediately. Let them fully express context — half of engineering problems are misunderstood before they’re even solved.",t181,,REPLY,FALSE
+,"No. 2: Repeat what you understood before responding. It reduces misalignment dramatically and shows respect for the other person’s thinking.",t181,,REPLY,FALSE
+,"No. 3: Most conflicts disappear when both sides feel understood — not necessarily agreed with. Listening > arguing.",t181,,REPLY,FALSE
+
+182,"Career lesson: Being right doesn’t make you valuable — being effective does. You can win every argument and still lose trust in a team. Real impact comes from influencing outcomes, not proving others wrong. ⚖️ #CareerGrowth",t182,,MAIN,FALSE
+,"No. 1: Choose when to push hard and when to let go. Not every battle is worth fighting.",t182,,REPLY,FALSE
+,"No. 2: Frame ideas in terms of team goals, not personal opinions. That’s how decisions scale.",t182,,REPLY,FALSE
+
+183,"Engineering communication tip: If your idea is good but no one understands it, it might as well not exist. Clarity beats complexity every single time — especially in cross-functional teams. 🧾 #Communication",t183,,MAIN,FALSE
+,"No. 1: Use simple language even for complex systems. Simplicity is a sign of mastery, not lack of depth.",t183,,REPLY,FALSE
+,"No. 2: Structure your thoughts — problem → context → solution → trade-offs. This format works almost everywhere.",t183,,REPLY,FALSE
+,"No. 3: If people keep asking the same questions, your explanation needs improvement — not their understanding.",t183,,REPLY,FALSE
+
+184,"Workplace reality: Silence in meetings doesn’t mean agreement. It often means confusion, hesitation, or fear of speaking up. Great teams create environments where questions are encouraged, not judged. 🗣️ #TeamCulture",t184,,MAIN,FALSE
+,"No. 1: Actively ask quieter team members for input — they often have the most thoughtful insights.",t184,,REPLY,FALSE
+,"No. 2: Normalize saying “I don’t understand” — it unlocks better discussions for everyone.",t184,,REPLY,FALSE
+
+185,"Leadership insight: Good leaders give answers. Great leaders ask better questions. The quality of your questions defines the quality of your team’s thinking. ❓ #Leadership",t185,,MAIN,FALSE
+,"No. 1: Ask “What are we missing?” instead of “Is this correct?” — it opens deeper thinking.",t185,,REPLY,FALSE
+,"No. 2: Ask “What happens if this fails?” — it shifts mindset from optimism to realism.",t185,,REPLY,FALSE
+,"No. 3: Questions create ownership. Answers create dependency.",t185,,REPLY,FALSE
+
+186,"Job culture tip: Feedback is not criticism — it’s a tool for growth. But how you give it matters more than what you say. Poorly delivered feedback creates defensiveness instead of improvement. 🧩 #Feedback",t186,,MAIN,FALSE
+,"No. 1: Be specific. “This could be better” is useless. Explain what and why.",t186,,REPLY,FALSE
+,"No. 2: Focus on behavior, not the person. That keeps conversations constructive.",t186,,REPLY,FALSE
+,"No. 3: Give feedback early. Delayed feedback loses impact and context.",t186,,REPLY,FALSE
+
+187,"Engineering habit: Document decisions, not just code. Months later, people won’t remember why something was done — only what was done. Context is what saves time in the future. 📚 #Engineering",t187,,MAIN,FALSE
+
+188,"Workplace mistake: Assuming others know what you know. Context gaps are one of the biggest sources of inefficiency in teams. Over-communicate clarity, not assumptions. 🔍 #TeamWork",t188,,MAIN,FALSE
+,"No. 1: Share reasoning, not just decisions.",t188,,REPLY,FALSE
+,"No. 2: Explain trade-offs — it helps others align faster.",t188,,REPLY,FALSE
+
+189,"Career growth insight: The ability to explain complex ideas simply is more valuable than the ability to understand them deeply. Because impact comes from shared understanding. 🧠 #Career",t189,,MAIN,FALSE
+
+190,"Conflict resolution tip: Don’t try to “win” the discussion. Try to reach the best outcome. When ego enters, progress stops. 🤝 #WorkCulture",t190,,MAIN,FALSE
+,"No. 1: Replace “You’re wrong” with “Help me understand your perspective.”",t190,,REPLY,FALSE
+,"No. 2: Focus on the problem, not the person.",t190,,REPLY,FALSE
+,"No. 3: Shared goals reduce conflict faster than arguments.",t190,,REPLY,FALSE
+
+191,"Team insight: Alignment is more important than speed. A fast-moving team in different directions is slower than a slightly slower team moving together. 🧭 #Teamwork",t191,,MAIN,FALSE
+
+192,"Communication rule: If something feels unclear, it probably is. Trust that instinct and ask questions early — confusion compounds over time. ⏳ #Communication",t192,,MAIN,FALSE
+
+193,"Engineering leadership: Your job isn’t to have all answers — it’s to create clarity where others feel lost. That’s what builds trust in teams. 🌐 #Leadership",t193,,MAIN,FALSE
+
+194,"Work culture truth: Respect is built in small moments — listening, acknowledging, giving credit. Not just big achievements. 👏 #TeamCulture",t194,,MAIN,FALSE
+
+195,"Meeting tip: If a meeting ends without clear action items, it was probably a discussion — not a decision. Clarity drives execution. 📌 #Productivity",t195,,MAIN,FALSE
+,"No. 1: Always define next steps before ending a meeting.",t195,,REPLY,FALSE
+,"No. 2: Assign ownership — otherwise nothing moves.",t195,,REPLY,FALSE
+
+196,"Career reality: The higher you grow, the less your job is about code and the more it’s about communication, decisions, and influence. Prepare early. 📈 #CareerGrowth",t196,,MAIN,FALSE
+
+197,"Listening skill: Most people listen to respond. Very few listen to understand. That difference defines strong collaborators. 🧠 #SoftSkills",t197,,MAIN,FALSE
+
+198,"Engineering discussion tip: Disagree with ideas, not people. That keeps debates healthy and productive. 🔧 #EngineeringCulture",t198,,MAIN,FALSE
+
+199,"Workplace insight: Clarity reduces stress. When expectations, roles, and goals are clear, teams move faster with less friction. ⚙️ #WorkEfficiency",t199,,MAIN,FALSE
+
+200,"Final thought: The best engineers aren’t just technically strong — they’re easy to work with. Communication, empathy, and clarity amplify everything else you do. 🚀 #EngineeringLife",t200,,MAIN,FALSE
