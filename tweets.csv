@@ -8,9 +8,9 @@ id,tweet_text,thread_id,order,type,posted
 9,Tech debt truth: “Temporary fixes” rarely stay temporary. They quietly become part of your system until one day they break everything. 🩹 #TechDebt,t6,1,MAIN,TRUE
 ,"The real danger isn’t taking shortcuts — it’s forgetting where you took them. Without visibility, tech debt compounds silently. 📌",t6,2,REPLY,TRUE
 ,Great teams track and revisit “temporary” decisions regularly. What’s the oldest hack still alive in your codebase? 👀,t6,3,REPLY,TRUE
-10,"Observability lesson: Monitoring tells you WHAT broke. Logs + traces + context tell you WHY. Without context, alerts are just noise. 🚨 #Observability",t7,1,MAIN,FALSE
-,Getting alerted at 3 AM without knowing the cause is not observability — it’s stress notification. Good systems reduce guesswork during incidents. 🧭,t7,2,REPLY,FALSE
-,"If your logs don’t include request ID, user ID, and key state, you’re debugging blind. What’s your logging strategy? 👇",t7,3,REPLY,FALSE
+10,"Observability lesson: Monitoring tells you WHAT broke. Logs + traces + context tell you WHY. Without context, alerts are just noise. 🚨 #Observability",t7,1,MAIN,TRUE
+,Getting alerted at 3 AM without knowing the cause is not observability — it’s stress notification. Good systems reduce guesswork during incidents. 🧭,t7,2,REPLY,TRUE
+,"If your logs don’t include request ID, user ID, and key state, you’re debugging blind. What’s your logging strategy? 👇",t7,3,REPLY,TRUE
 11,"Production truth: Most outages don’t start as outages — they start as “slight degradation” that nobody prioritizes. Latency creeps up, retries increase, queues grow… until everything tips over. What signal did you ignore once? 👇 #Reliability",t51,1,MAIN,FALSE
 ,"The danger is normalization: teams get used to small issues and accept them as “normal.” That’s how incidents are born — not from chaos, but from ignored patterns. 📉",t51,2,REPLY,FALSE
 ,"Great teams treat small anomalies as early warnings, not noise. What’s one metric you now watch more closely than before? 👀",t51,3,REPLY,FALSE
