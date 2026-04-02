@@ -5,9 +5,9 @@ id,tweet_text,thread_id,order,type,posted
 8,Career insight: The difference between junior and senior engineers isn’t just knowledge — it’s anticipation. Seniors think: “How will this fail?” before it ever reaches production. 🛡️ #Engineering,t5,1,MAIN,TRUE
 ,"Most bugs aren’t surprising — they’re just unanticipated. Once you’ve seen enough failures, you start designing systems assuming those failures will happen again. 🔁",t5,2,REPLY,TRUE
 ,What failure mode did you start anticipating only after one painful incident? 👇 #LearningFromFailure,t5,3,REPLY,TRUE
-9,Tech debt truth: “Temporary fixes” rarely stay temporary. They quietly become part of your system until one day they break everything. 🩹 #TechDebt,t6,1,MAIN,FALSE
-,"The real danger isn’t taking shortcuts — it’s forgetting where you took them. Without visibility, tech debt compounds silently. 📌",t6,2,REPLY,FALSE
-,Great teams track and revisit “temporary” decisions regularly. What’s the oldest hack still alive in your codebase? 👀,t6,3,REPLY,FALSE
+9,Tech debt truth: “Temporary fixes” rarely stay temporary. They quietly become part of your system until one day they break everything. 🩹 #TechDebt,t6,1,MAIN,TRUE
+,"The real danger isn’t taking shortcuts — it’s forgetting where you took them. Without visibility, tech debt compounds silently. 📌",t6,2,REPLY,TRUE
+,Great teams track and revisit “temporary” decisions regularly. What’s the oldest hack still alive in your codebase? 👀,t6,3,REPLY,TRUE
 10,"Observability lesson: Monitoring tells you WHAT broke. Logs + traces + context tell you WHY. Without context, alerts are just noise. 🚨 #Observability",t7,1,MAIN,FALSE
 ,Getting alerted at 3 AM without knowing the cause is not observability — it’s stress notification. Good systems reduce guesswork during incidents. 🧭,t7,2,REPLY,FALSE
 ,"If your logs don’t include request ID, user ID, and key state, you’re debugging blind. What’s your logging strategy? 👇",t7,3,REPLY,FALSE
