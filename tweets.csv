@@ -2,9 +2,9 @@ id,tweet_text,thread_id,order,type,posted
 6,"System design truth: Every external dependency will fail — at the worst possible time. If your system depends on it, you must design for failure, not success. 🌐 #SystemDesign",t4,1,MAIN,TRUE
 ,"Timeouts, retries (with backoff), circuit breakers, and fallbacks aren’t optional — they’re survival tools. Without them, one failing service can take down your entire system. 🔌",t4,2,REPLY,TRUE
 ,"Ask yourself: If this dependency lies or goes down, does my system degrade gracefully or explode? That answer defines your reliability. 💥 #Reliability",t4,3,REPLY,TRUE
-8,Career insight: The difference between junior and senior engineers isn’t just knowledge — it’s anticipation. Seniors think: “How will this fail?” before it ever reaches production. 🛡️ #Engineering,t5,1,MAIN,FALSE
-,"Most bugs aren’t surprising — they’re just unanticipated. Once you’ve seen enough failures, you start designing systems assuming those failures will happen again. 🔁",t5,2,REPLY,FALSE
-,What failure mode did you start anticipating only after one painful incident? 👇 #LearningFromFailure,t5,3,REPLY,FALSE
+8,Career insight: The difference between junior and senior engineers isn’t just knowledge — it’s anticipation. Seniors think: “How will this fail?” before it ever reaches production. 🛡️ #Engineering,t5,1,MAIN,TRUE
+,"Most bugs aren’t surprising — they’re just unanticipated. Once you’ve seen enough failures, you start designing systems assuming those failures will happen again. 🔁",t5,2,REPLY,TRUE
+,What failure mode did you start anticipating only after one painful incident? 👇 #LearningFromFailure,t5,3,REPLY,TRUE
 9,Tech debt truth: “Temporary fixes” rarely stay temporary. They quietly become part of your system until one day they break everything. 🩹 #TechDebt,t6,1,MAIN,FALSE
 ,"The real danger isn’t taking shortcuts — it’s forgetting where you took them. Without visibility, tech debt compounds silently. 📌",t6,2,REPLY,FALSE
 ,Great teams track and revisit “temporary” decisions regularly. What’s the oldest hack still alive in your codebase? 👀,t6,3,REPLY,FALSE
