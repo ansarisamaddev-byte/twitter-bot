@@ -11,9 +11,9 @@ id,tweet_text,thread_id,order,type,posted
 10,"Observability lesson: Monitoring tells you WHAT broke. Logs + traces + context tell you WHY. Without context, alerts are just noise. 🚨 #Observability",t7,1,MAIN,TRUE
 ,Getting alerted at 3 AM without knowing the cause is not observability — it’s stress notification. Good systems reduce guesswork during incidents. 🧭,t7,2,REPLY,TRUE
 ,"If your logs don’t include request ID, user ID, and key state, you’re debugging blind. What’s your logging strategy? 👇",t7,3,REPLY,TRUE
-11,"Production truth: Most outages don’t start as outages — they start as “slight degradation” that nobody prioritizes. Latency creeps up, retries increase, queues grow… until everything tips over. What signal did you ignore once? 👇 #Reliability",t51,1,MAIN,FALSE
-,"The danger is normalization: teams get used to small issues and accept them as “normal.” That’s how incidents are born — not from chaos, but from ignored patterns. 📉",t51,2,REPLY,FALSE
-,"Great teams treat small anomalies as early warnings, not noise. What’s one metric you now watch more closely than before? 👀",t51,3,REPLY,FALSE
+11,"Production truth: Most outages don’t start as outages — they start as “slight degradation” that nobody prioritizes. Latency creeps up, retries increase, queues grow… until everything tips over. What signal did you ignore once? 👇 #Reliability",t51,1,MAIN,TRUE
+,"The danger is normalization: teams get used to small issues and accept them as “normal.” That’s how incidents are born — not from chaos, but from ignored patterns. 📉",t51,2,REPLY,TRUE
+,"Great teams treat small anomalies as early warnings, not noise. What’s one metric you now watch more closely than before? 👀",t51,3,REPLY,TRUE
 12,"Engineering lesson: Simplicity scales better than cleverness. Complex solutions feel impressive early — but become painful to debug, extend, and maintain later. 🧠 #CleanCode",t52,1,MAIN,FALSE
 ,The code you write isn’t just for machines — it’s for future humans (including you). Readability and clarity beat clever one-liners every time. ✍️,t52,2,REPLY,FALSE
 ,Have you ever looked at your old “clever” code and regretted it? What did you learn? 👇,t52,3,REPLY,FALSE
@@ -202,281 +202,205 @@ id,tweet_text,thread_id,order,type,posted
 134,Performance tip: Use pagination for large datasets. Loading everything at once doesn’t scale. 📉,t181,1,MAIN,FALSE
 135,Security tip: Sanitize user inputs. Injection attacks still happen more often than you think. 🔐,t182,1,MAIN,FALSE
 136,"AI coding reality: The biggest productivity boost isn’t AI writing code — it’s AI helping you think faster. The real leverage comes when you use it to explore edge cases, simulate failures, and challenge assumptions. Most people still use it like autocomplete. That’s leaving value on the table. 🤖 #AIDev",t136,,MAIN,FALSE
-,"The best engineers don’t just ask AI for answers — they ask better questions. Prompt quality is becoming a real engineering skill. 🧠",t136,,REPLY,FALSE
+,The best engineers don’t just ask AI for answers — they ask better questions. Prompt quality is becoming a real engineering skill. 🧠,t136,,REPLY,FALSE
 ,"Try this: instead of “write code,” ask “what could go wrong with this approach?” — your results will improve instantly. 🔍",t136,,REPLY,FALSE
-
 137,"System design insight: Most systems don’t fail under peak load — they fail during recovery. When traffic returns, caches are cold, queues are full, and retries explode. Designing for recovery is harder than designing for scale. 🔥 #DistributedSystems",t137,,MAIN,FALSE
 ,"This is why gradual rollout, warm-up strategies, and rate limiting matter more than raw scalability. ⚙️",t137,,REPLY,FALSE
 ,"Ask yourself: can your system recover smoothly, or does it collapse again during recovery? 👇",t137,,REPLY,FALSE
-
 138,"Debugging lesson: If you can’t reproduce a bug, you don’t understand it yet. Intermittent issues aren’t random — they’re just dependent on hidden variables like timing, load, or state. Your job is to uncover those variables. 🕵️ #Debugging",t138,,MAIN,FALSE
 ,"Logs, metrics, and tracing are your tools — but curiosity is the real skill. 🧭",t138,,REPLY,FALSE
-
 139,"Career reality: The fastest way to stand out in 2026 isn’t by coding faster — it’s by owning problems end-to-end. Anyone can write code. Very few can take responsibility for reliability, performance, and user impact. That’s where growth happens. 🚀 #EngineeringCareers",t139,,MAIN,FALSE
-
 140,"Tech trend: “Vibe coding” is trending — letting AI generate large chunks of code with minimal oversight. It feels fast, but it’s dangerous. Without deep understanding, you’re building systems you can’t debug. Speed without control is a liability. ⚠️ #AICoding",t140,,MAIN,FALSE
 ,"The real skill is balancing speed with verification. Trust, but verify everything. 🔍",t140,,REPLY,FALSE
 ,"If you can’t explain the code AI generated, you shouldn’t ship it. Simple rule. 🧠",t140,,REPLY,FALSE
-,"Fast mistakes are still mistakes — just harder to trace later. 💥",t140,,REPLY,FALSE
-
+,Fast mistakes are still mistakes — just harder to trace later. 💥,t140,,REPLY,FALSE
 141,"Performance tip: Optimize where it matters, not where it’s easy. Many engineers waste time micro-optimizing code paths that don’t impact real users. Always measure first. Data should guide your optimization, not intuition. 📊 #Performance",t141,,MAIN,FALSE
-,"80% of performance gains usually come from fixing 20% of bottlenecks. Find that 20%. 🎯",t141,,REPLY,FALSE
-
+,80% of performance gains usually come from fixing 20% of bottlenecks. Find that 20%. 🎯,t141,,REPLY,FALSE
 142,"Reliability insight: Redundancy isn’t enough — independence matters more. If your backups share the same failure mode as your primary system, you don’t have redundancy. You have duplication. 💥 #SystemDesign",t142,,MAIN,FALSE
 ,"True resilience comes from diversity: different regions, providers, or failure domains. 🌍",t142,,REPLY,FALSE
-
 143,"Engineering mindset: Every feature you add increases complexity. The best teams don’t just build — they remove, simplify, and refine constantly. Simplicity is not a one-time decision. It’s continuous work. 🧠 #CleanCode",t143,,MAIN,FALSE
-
 144,"Debugging truth: The longer it takes to find a bug, the simpler the root cause usually is. Overthinking leads you away from the answer. Start with basics — inputs, outputs, assumptions — before diving deep. 🔍 #Debugging",t144,,MAIN,FALSE
-,"Most bugs hide in plain sight — we just overlook them because we assume they’re correct. 👀",t144,,REPLY,FALSE
-
+,Most bugs hide in plain sight — we just overlook them because we assume they’re correct. 👀,t144,,REPLY,FALSE
 145,"System design: Rate limiting isn’t just about protecting your system — it’s about protecting your users from each other. Without it, a few heavy users can degrade experience for everyone else. ⚖️ #DistributedSystems",t145,,MAIN,FALSE
-,"Fairness is an underrated design goal in scalable systems. 🧩",t145,,REPLY,FALSE
-
-146,"Career insight: The engineers who grow fastest are the ones who document their learnings. Writing forces clarity. It turns experience into knowledge you can reuse and share. Don’t just learn — document. ✍️ #Growth",t146,,MAIN,FALSE
-,"Your future self will thank you for good documentation. Trust me. 📌",t146,,REPLY,FALSE
-
+,Fairness is an underrated design goal in scalable systems. 🧩,t145,,REPLY,FALSE
+146,Career insight: The engineers who grow fastest are the ones who document their learnings. Writing forces clarity. It turns experience into knowledge you can reuse and share. Don’t just learn — document. ✍️ #Growth,t146,,MAIN,FALSE
+,Your future self will thank you for good documentation. Trust me. 📌,t146,,REPLY,FALSE
 147,"Tech reality: Observability is becoming more important than monitoring. Knowing something broke isn’t enough — you need to understand why, how, and where instantly. That’s the difference between minutes and hours during incidents. 🚨 #Observability",t147,,MAIN,FALSE
 ,"Logs + metrics + traces together tell the full story. Individually, they’re incomplete. 🧭",t147,,REPLY,FALSE
-,"Good observability reduces stress more than any on-call rotation policy. 🌙",t147,,REPLY,FALSE
-
+,Good observability reduces stress more than any on-call rotation policy. 🌙,t147,,REPLY,FALSE
 148,"AI insight: The real power of AI tools isn’t replacing engineers — it’s compressing the feedback loop. Faster iteration means faster learning. The teams that win will be the ones that learn faster, not just build faster. ⚡ #AIEngineering",t148,,MAIN,FALSE
-
-149,"System failure lesson: Cascading failures are the real enemy in distributed systems. One service fails → retries increase → load spreads → entire system collapses. Preventing cascades is more important than preventing single failures. 💥",t149,,MAIN,FALSE
-,"Circuit breakers and backpressure are your best defense here. 🔌",t149,,REPLY,FALSE
-
-150,"Engineering truth: There is no “perfect architecture.” Every system is a set of trade-offs. The goal isn’t perfection — it’s choosing the right trade-offs for your context. ⚖️ #Architecture",t150,,MAIN,FALSE
-,"Good engineers know patterns. Great engineers know when to break them. 🧠",t150,,REPLY,FALSE
+149,System failure lesson: Cascading failures are the real enemy in distributed systems. One service fails → retries increase → load spreads → entire system collapses. Preventing cascades is more important than preventing single failures. 💥,t149,,MAIN,FALSE
+,Circuit breakers and backpressure are your best defense here. 🔌,t149,,REPLY,FALSE
+150,Engineering truth: There is no “perfect architecture.” Every system is a set of trade-offs. The goal isn’t perfection — it’s choosing the right trade-offs for your context. ⚖️ #Architecture,t150,,MAIN,FALSE
+,Good engineers know patterns. Great engineers know when to break them. 🧠,t150,,REPLY,FALSE
 ,"Always ask: what am I optimizing for — speed, cost, reliability, or simplicity? 🎯",t150,,REPLY,FALSE
 151,"AI development shift: In 2026, the bottleneck is no longer writing code — it’s validating correctness. AI can generate thousands of lines in seconds, but one incorrect assumption can break everything silently. The real skill now is building systems that verify, test, and challenge AI output automatically. 🤖 #AIDev",t151,,MAIN,FALSE
-,"No. 1 → Treat AI output as untrusted input. Validate everything before integrating into production systems.",t151,,REPLY,FALSE
+,No. 1 → Treat AI output as untrusted input. Validate everything before integrating into production systems.,t151,,REPLY,FALSE
 ,"No. 2 → Build automated tests first, then generate code. Not the other way around. 🔁",t151,,REPLY,FALSE
 ,"No. 3 → The faster you generate code, the more discipline you need in reviewing it. ⚠️",t151,,REPLY,FALSE
-
 152,"System design reality: Most architectures look clean on whiteboards but behave unpredictably in production. Real-world systems deal with retries, partial failures, network latency, and human mistakes. If your design doesn’t account for these, it’s incomplete. 🧠 #SystemDesign",t152,,MAIN,FALSE
 ,"No. 1 → Always design with failure in mind, not just success scenarios.",t152,,REPLY,FALSE
-,"No. 2 → Simulate failures before production exposes them for you. 💥",t152,,REPLY,FALSE
-
+,No. 2 → Simulate failures before production exposes them for you. 💥,t152,,REPLY,FALSE
 153,"Debugging mindset: The hardest bugs are not complex — they’re misleading. They point you in the wrong direction, making you confident in incorrect assumptions. The faster you question your own thinking, the faster you solve them. 🕵️ #Debugging",t153,,MAIN,FALSE
-
 154,"Performance insight: Users don’t care about your system’s internal metrics — they care about perceived speed. A system can be technically fast but feel slow due to poor UX, blocking calls, or unnecessary delays. Optimize for user perception, not just numbers. ⏱️ #Performance",t154,,MAIN,FALSE
 ,"No. 1 → Reduce waiting time, not just processing time. Even small delays feel big to users.",t154,,REPLY,FALSE
-,"No. 2 → Loading states and feedback loops improve perceived performance significantly. 🎯",t154,,REPLY,FALSE
-
-155,"Career growth: The biggest leap in engineering happens when you stop thinking in terms of code and start thinking in terms of systems. Code solves problems locally. Systems thinking solves them globally. That shift defines senior engineers. 🚀 #EngineeringCareers",t155,,MAIN,FALSE
-,"No. 1 → Start asking: how does this decision affect other components?",t155,,REPLY,FALSE
-,"No. 2 → Think beyond your service — consider dependencies and downstream impact.",t155,,REPLY,FALSE
-,"No. 3 → Ownership of systems matters more than ownership of code. 🧠",t155,,REPLY,FALSE
-
+,No. 2 → Loading states and feedback loops improve perceived performance significantly. 🎯,t154,,REPLY,FALSE
+155,Career growth: The biggest leap in engineering happens when you stop thinking in terms of code and start thinking in terms of systems. Code solves problems locally. Systems thinking solves them globally. That shift defines senior engineers. 🚀 #EngineeringCareers,t155,,MAIN,FALSE
+,No. 1 → Start asking: how does this decision affect other components?,t155,,REPLY,FALSE
+,No. 2 → Think beyond your service — consider dependencies and downstream impact.,t155,,REPLY,FALSE
+,No. 3 → Ownership of systems matters more than ownership of code. 🧠,t155,,REPLY,FALSE
 156,"Tech reality: Scaling isn’t just about handling more users — it’s about handling unpredictability. Traffic spikes, uneven load distribution, and sudden failures are what truly test your system. Stable systems are designed for chaos, not just growth. 🌐 #Scalability",t156,,MAIN,FALSE
 ,"No. 1 → Load testing should include unpredictable scenarios, not just steady traffic.",t156,,REPLY,FALSE
-
 157,"Engineering lesson: Simplicity is not about writing less code — it’s about reducing cognitive load. A simple system is one that can be understood, debugged, and extended without confusion. Complexity is expensive, even if it works. 🧠 #CleanCode",t157,,MAIN,FALSE
 ,"No. 1 → If it takes too long to explain, it’s probably too complex.",t157,,REPLY,FALSE
 ,"No. 2 → Simplicity improves speed in the long run, even if it feels slower initially.",t157,,REPLY,FALSE
-
 158,"Reliability truth: Monitoring without actionability is useless. If an alert doesn’t tell you what’s wrong or how to fix it, it’s just noise. Good alerts guide decisions, not just signal problems. 🚨 #Observability",t158,,MAIN,FALSE
 ,"No. 1 → Every alert should answer: what happened, why, and what to do next.",t158,,REPLY,FALSE
 ,"No. 2 → Reduce alerts, increase signal quality. Less noise = faster response. 📡",t158,,REPLY,FALSE
 ,"No. 3 → Alert fatigue is a real risk — design for humans, not just systems.",t158,,REPLY,FALSE
-
 159,"AI trend: The engineers who benefit most from AI are not beginners — they are experienced engineers who know what to ask and what to ignore. AI amplifies skill, it doesn’t replace it. The gap between good and great engineers is widening. ⚡ #AIEngineering",t159,,MAIN,FALSE
-
-160,"System design insight: Data consistency is always a trade-off with availability and performance. Strong consistency gives correctness but reduces flexibility. Eventual consistency scales better but introduces complexity. There’s no perfect choice — only context-driven decisions. ⚖️",t160,,MAIN,FALSE
+160,System design insight: Data consistency is always a trade-off with availability and performance. Strong consistency gives correctness but reduces flexibility. Eventual consistency scales better but introduces complexity. There’s no perfect choice — only context-driven decisions. ⚖️,t160,,MAIN,FALSE
 ,"No. 1 → Choose consistency level based on business requirements, not technical preference.",t160,,REPLY,FALSE
-,"No. 2 → Understand where stale data is acceptable — and where it isn’t. 🔍",t160,,REPLY,FALSE
-
+,No. 2 → Understand where stale data is acceptable — and where it isn’t. 🔍,t160,,REPLY,FALSE
 161,"Debugging tip: When a bug seems impossible, check your assumptions about the environment. Differences in config, versions, or data can cause unexpected behavior. The bug might not be in your code at all. 🔍 #Debugging",t161,,MAIN,FALSE
 ,"No. 1 → Always verify environment parity between dev, staging, and production.",t161,,REPLY,FALSE
-
 162,"Performance reality: Caching is one of the most powerful tools — but also one of the most dangerous. It improves speed instantly, but introduces complexity around invalidation, consistency, and debugging. Use it carefully. 🧊 #Caching",t162,,MAIN,FALSE
-,"No. 1 → Cache only what you understand fully. Blind caching creates hidden bugs.",t162,,REPLY,FALSE
-,"No. 2 → Always define cache invalidation strategy before implementation.",t162,,REPLY,FALSE
-,"No. 3 → Monitor cache hit/miss ratios to ensure it’s actually helping. 📊",t162,,REPLY,FALSE
-
+,No. 1 → Cache only what you understand fully. Blind caching creates hidden bugs.,t162,,REPLY,FALSE
+,No. 2 → Always define cache invalidation strategy before implementation.,t162,,REPLY,FALSE
+,No. 3 → Monitor cache hit/miss ratios to ensure it’s actually helping. 📊,t162,,REPLY,FALSE
 163,"Career insight: The engineers who stand out are not the ones who never make mistakes — they are the ones who learn the most from them. Failure is not a setback, it’s a multiplier for growth if you reflect on it. 📈 #Growth",t163,,MAIN,FALSE
-
 164,"System reliability: Backpressure is an underrated concept. When systems are overloaded, they should push back instead of accepting more work. Without it, queues grow, latency increases, and failures cascade. ⚙️ #DistributedSystems",t164,,MAIN,FALSE
-,"No. 1 → Protect your system by limiting incoming load during stress.",t164,,REPLY,FALSE
-,"No. 2 → Failing fast is often better than failing slowly under load. 💥",t164,,REPLY,FALSE
-
-165,"Engineering mindset: Always assume your system will behave differently under real-world conditions. Lab environments are controlled. Production is chaotic. The gap between the two is where most failures happen. 🌍 #Engineering",t165,,MAIN,FALSE
+,No. 1 → Protect your system by limiting incoming load during stress.,t164,,REPLY,FALSE
+,No. 2 → Failing fast is often better than failing slowly under load. 💥,t164,,REPLY,FALSE
+165,Engineering mindset: Always assume your system will behave differently under real-world conditions. Lab environments are controlled. Production is chaotic. The gap between the two is where most failures happen. 🌍 #Engineering,t165,,MAIN,FALSE
 ,"No. 1 → Test under realistic conditions, not ideal ones.",t165,,REPLY,FALSE
-,"No. 2 → Chaos testing helps uncover hidden weaknesses early.",t165,,REPLY,FALSE
-,"No. 3 → Expect the unexpected — design for it. 🧠",t165,,REPLY,FALSE
+,No. 2 → Chaos testing helps uncover hidden weaknesses early.,t165,,REPLY,FALSE
+,No. 3 → Expect the unexpected — design for it. 🧠,t165,,REPLY,FALSE
 166,"Startup reality: Most products don’t fail because of bad code — they fail because they solve the wrong problem. Engineers often optimize performance, scalability, and architecture… without validating if users actually care. Building the right thing matters more than building it right. 🧠 #Startups",t166,,MAIN,FALSE
-,"No. 1 → Talk to users early. Assumptions are the biggest risk in product building.",t166,,REPLY,FALSE
-,"No. 2 → A simple working product beats a perfect unused one. 🚀",t166,,REPLY,FALSE
-
+,No. 1 → Talk to users early. Assumptions are the biggest risk in product building.,t166,,REPLY,FALSE
+,No. 2 → A simple working product beats a perfect unused one. 🚀,t166,,REPLY,FALSE
 167,"AI workflow shift: The best developers in 2026 don’t write everything from scratch — they orchestrate. They combine prompts, tools, APIs, and automation to build faster systems. Coding is becoming composition. The skill is in designing workflows, not just functions. ⚙️ #AIDev",t167,,MAIN,FALSE
 ,"No. 1 → Think in pipelines, not just scripts. Automation is the real leverage.",t167,,REPLY,FALSE
-,"No. 2 → Learn to connect tools — that’s where exponential productivity comes from. 🔗",t167,,REPLY,FALSE
-,"No. 3 → Your job is shifting from builder to architect of workflows. 🧠",t167,,REPLY,FALSE
-
+,No. 2 → Learn to connect tools — that’s where exponential productivity comes from. 🔗,t167,,REPLY,FALSE
+,No. 3 → Your job is shifting from builder to architect of workflows. 🧠,t167,,REPLY,FALSE
 168,"Engineering mistake: Over-engineering too early kills momentum. Many developers design for scale, edge cases, and future needs before solving the current problem. Complexity grows fast, but value doesn’t. Build simple first, evolve later. ⚠️ #SystemDesign",t168,,MAIN,FALSE
-
 169,"Debugging insight: If fixing a bug breaks something else, your system is tightly coupled. Loose coupling isn’t just design theory — it directly affects how easily you can debug and evolve your system. 🔍 #Architecture",t169,,MAIN,FALSE
 ,"No. 1 → Changes should be isolated. If not, your design needs work.",t169,,REPLY,FALSE
-,"No. 2 → Tight coupling increases risk with every modification. ⚠️",t169,,REPLY,FALSE
-
+,No. 2 → Tight coupling increases risk with every modification. ⚠️,t169,,REPLY,FALSE
 170,"Tech trend: Full-stack engineers are evolving into “full-context engineers.” It’s no longer enough to know frontend and backend — you need to understand infra, data flow, performance, and user behavior together. Context is the new superpower. 🌐 #Engineering",t170,,MAIN,FALSE
 ,"No. 1 → Learn how your system behaves end-to-end, not just your part.",t170,,REPLY,FALSE
 ,"No. 2 → The more context you have, the better decisions you make. 🎯",t170,,REPLY,FALSE
-
 171,"Performance lesson: Parallelism improves speed — until it doesn’t. Too many parallel processes can overwhelm resources, increase contention, and degrade performance. Balance matters more than raw concurrency. ⚡ #Performance",t171,,MAIN,FALSE
-,"No. 1 → Measure before increasing concurrency blindly.",t171,,REPLY,FALSE
-,"No. 2 → Resource limits define your real performance ceiling. 📊",t171,,REPLY,FALSE
-,"No. 3 → More threads ≠ faster system. Sometimes it’s the opposite. 🧠",t171,,REPLY,FALSE
-
-172,"Career insight: The best engineers communicate clearly. Technical skill gets you in the room — communication keeps you there. Explaining complex ideas simply is a force multiplier for your impact. ✍️ #CareerGrowth",t172,,MAIN,FALSE
-
+,No. 1 → Measure before increasing concurrency blindly.,t171,,REPLY,FALSE
+,No. 2 → Resource limits define your real performance ceiling. 📊,t171,,REPLY,FALSE
+,No. 3 → More threads ≠ faster system. Sometimes it’s the opposite. 🧠,t171,,REPLY,FALSE
+172,Career insight: The best engineers communicate clearly. Technical skill gets you in the room — communication keeps you there. Explaining complex ideas simply is a force multiplier for your impact. ✍️ #CareerGrowth,t172,,MAIN,FALSE
 173,"System design truth: Latency is cumulative. Each service call adds delay, and small inefficiencies stack up quickly. A distributed system with 10 services can turn milliseconds into seconds if not designed carefully. ⏱️ #DistributedSystems",t173,,MAIN,FALSE
-,"No. 1 → Minimize unnecessary service calls wherever possible.",t173,,REPLY,FALSE
-,"No. 2 → Batch operations instead of chaining multiple requests. 🔗",t173,,REPLY,FALSE
-
+,No. 1 → Minimize unnecessary service calls wherever possible.,t173,,REPLY,FALSE
+,No. 2 → Batch operations instead of chaining multiple requests. 🔗,t173,,REPLY,FALSE
 174,"AI insight: Prompt engineering is evolving into context engineering. It’s not just what you ask — it’s what information you provide, how you structure it, and how you guide the model. Better context = better results. 🤖 #AI",t174,,MAIN,FALSE
-,"No. 1 → Provide constraints and examples for better outputs.",t174,,REPLY,FALSE
+,No. 1 → Provide constraints and examples for better outputs.,t174,,REPLY,FALSE
 ,"No. 2 → Treat prompts like system design, not just questions. 🧠",t174,,REPLY,FALSE
-,"No. 3 → Iteration is key — first output is rarely the best.",t174,,REPLY,FALSE
-
+,No. 3 → Iteration is key — first output is rarely the best.,t174,,REPLY,FALSE
 175,"Engineering reality: Logs are your memory when things go wrong. Without good logging, debugging becomes guesswork. The difference between a 5-minute fix and a 5-hour investigation is often just better logs. 📋 #Logging",t175,,MAIN,FALSE
 ,"No. 1 → Log meaningful context, not just events.",t175,,REPLY,FALSE
-,"No. 2 → Include identifiers like request IDs to trace flows.",t175,,REPLY,FALSE
+,No. 2 → Include identifiers like request IDs to trace flows.,t175,,REPLY,FALSE
 ,"No. 3 → Logs should answer questions, not create them. 🔍",t175,,REPLY,FALSE
-
 176,"Startup lesson: Speed matters more than perfection in early stages. Shipping fast helps you learn faster, and learning faster is the real competitive advantage. Waiting for perfection often means missing the market entirely. 🚀 #Startups",t176,,MAIN,FALSE
-,"No. 1 → Feedback is more valuable than assumptions.",t176,,REPLY,FALSE
-
+,No. 1 → Feedback is more valuable than assumptions.,t176,,REPLY,FALSE
 177,"System reliability: Graceful degradation is a superpower. When parts of your system fail, the rest should continue working with reduced functionality instead of collapsing entirely. Users prefer limited service over no service. ⚙️ #Reliability",t177,,MAIN,FALSE
-,"No. 1 → Design fallback mechanisms for critical features.",t177,,REPLY,FALSE
-,"No. 2 → Identify what can fail without breaking everything. 🧩",t177,,REPLY,FALSE
-
-178,"Debugging mindset: Always isolate variables. Changing multiple things at once makes it impossible to know what actually fixed the issue. Controlled experiments lead to faster debugging. 🧪 #Debugging",t178,,MAIN,FALSE
-
+,No. 1 → Design fallback mechanisms for critical features.,t177,,REPLY,FALSE
+,No. 2 → Identify what can fail without breaking everything. 🧩,t177,,REPLY,FALSE
+178,Debugging mindset: Always isolate variables. Changing multiple things at once makes it impossible to know what actually fixed the issue. Controlled experiments lead to faster debugging. 🧪 #Debugging,t178,,MAIN,FALSE
 179,"Tech insight: Developer experience (DX) is underrated. Tools, documentation, and workflows directly affect productivity. A bad developer experience slows teams more than technical limitations. 🛠️ #DX",t179,,MAIN,FALSE
-,"No. 1 → Invest in internal tools — they pay off quickly.",t179,,REPLY,FALSE
-,"No. 2 → Good documentation saves hours across teams. 📘",t179,,REPLY,FALSE
-
+,No. 1 → Invest in internal tools — they pay off quickly.,t179,,REPLY,FALSE
+,No. 2 → Good documentation saves hours across teams. 📘,t179,,REPLY,FALSE
 180,"Engineering truth: Every abstraction leaks eventually. No matter how clean your design is, underlying complexity will surface under stress or edge cases. Understanding fundamentals helps you deal with these leaks effectively. 🧠 #Architecture",t180,,MAIN,FALSE
-,"No. 1 → Don’t rely blindly on abstractions — understand what’s underneath.",t180,,REPLY,FALSE
+,No. 1 → Don’t rely blindly on abstractions — understand what’s underneath.,t180,,REPLY,FALSE
 ,"No. 2 → When things break, abstraction layers won’t save you. Knowledge will. 🔍",t180,,REPLY,FALSE
-
 181,"Workplace reality: Most problems at work are not technical — they’re communication failures. Misaligned expectations, unclear requirements, and assumptions create more issues than bad code ever will. Clear communication is a core engineering skill, not a soft skill. 🧠 #WorkCulture",t181,,MAIN,FALSE
-,"No. 1 → Always clarify requirements before starting work. Assumptions create rework.",t181,,REPLY,FALSE
-,"No. 2 → Repeat back what you understood — alignment saves time. 🔁",t181,,REPLY,FALSE
-,"No. 3 → Writing clearly is as important as coding correctly. ✍️",t181,,REPLY,FALSE
-
+,No. 1 → Always clarify requirements before starting work. Assumptions create rework.,t181,,REPLY,FALSE
+,No. 2 → Repeat back what you understood — alignment saves time. 🔁,t181,,REPLY,FALSE
+,No. 3 → Writing clearly is as important as coding correctly. ✍️,t181,,REPLY,FALSE
 182,"Career growth: Listening is underrated. Many engineers focus on giving solutions quickly, but miss understanding the real problem. The best professionals listen deeply before responding. That’s how they solve the right problems, not just fast ones. 👂 #CareerGrowth",t182,,MAIN,FALSE
-,"No. 1 → Don’t interrupt — let people finish explaining their context.",t182,,REPLY,FALSE
-,"No. 2 → Ask clarifying questions before jumping to solutions. 🔍",t182,,REPLY,FALSE
-
+,No. 1 → Don’t interrupt — let people finish explaining their context.,t182,,REPLY,FALSE
+,No. 2 → Ask clarifying questions before jumping to solutions. 🔍,t182,,REPLY,FALSE
 183,"Team culture: Respect isn’t built by being right — it’s built by being reliable and collaborative. People trust those who communicate clearly, follow through, and support others. Technical skill alone doesn’t build reputation. 🤝 #Workplace",t183,,MAIN,FALSE
-
 184,"Conflict resolution: Disagreements at work are normal. The problem is not conflict — it’s how you handle it. Strong teams debate ideas without attacking people. Focus on the problem, not the person. ⚖️ #Teamwork",t184,,MAIN,FALSE
 ,"No. 1 → Separate opinions from identity — critique ideas, not individuals.",t184,,REPLY,FALSE
 ,"No. 2 → Stay calm and objective, even if discussions get heated.",t184,,REPLY,FALSE
 ,"No. 3 → The goal is better decisions, not winning arguments. 🧠",t184,,REPLY,FALSE
-
 185,"Meeting insight: Most meetings are ineffective because they lack clarity. No agenda, no clear goal, and no defined outcome leads to wasted time. Good meetings are structured, focused, and actionable. 📊 #Productivity",t185,,MAIN,FALSE
-,"No. 1 → Always define the purpose before scheduling a meeting.",t185,,REPLY,FALSE
-,"No. 2 → End meetings with clear action items and owners. 🎯",t185,,REPLY,FALSE
-
+,No. 1 → Always define the purpose before scheduling a meeting.,t185,,REPLY,FALSE
+,No. 2 → End meetings with clear action items and owners. 🎯,t185,,REPLY,FALSE
 186,"Workplace truth: Saying “I don’t know” is a strength, not a weakness. It shows honesty and opens the door to learning. Pretending to know everything creates bigger problems later. 🧠 #ProfessionalGrowth",t186,,MAIN,FALSE
-,"No. 1 → Follow it with: “Let me find out.” That shows ownership.",t186,,REPLY,FALSE
-
-187,"Communication tip: Over-communication is better than under-communication in most cases. Keeping stakeholders informed builds trust and avoids confusion. Silence often creates unnecessary assumptions. 📢 #WorkCulture",t187,,MAIN,FALSE
+,No. 1 → Follow it with: “Let me find out.” That shows ownership.,t186,,REPLY,FALSE
+187,Communication tip: Over-communication is better than under-communication in most cases. Keeping stakeholders informed builds trust and avoids confusion. Silence often creates unnecessary assumptions. 📢 #WorkCulture,t187,,MAIN,FALSE
 ,"No. 1 → Share progress regularly, even if it’s small updates.",t187,,REPLY,FALSE
-,"No. 2 → Highlight risks early — surprises break trust. ⚠️",t187,,REPLY,FALSE
-,"No. 3 → Transparency builds credibility over time.",t187,,REPLY,FALSE
-
-188,"Career lesson: Feedback is one of the fastest ways to grow — but only if you accept it well. Defensive reactions block learning. Open mindset accelerates improvement. 📈 #Career",t188,,MAIN,FALSE
-,"No. 1 → Listen fully before responding to feedback.",t188,,REPLY,FALSE
-,"No. 2 → Separate feedback from personal judgment. 🔍",t188,,REPLY,FALSE
+,No. 2 → Highlight risks early — surprises break trust. ⚠️,t187,,REPLY,FALSE
+,No. 3 → Transparency builds credibility over time.,t187,,REPLY,FALSE
+188,Career lesson: Feedback is one of the fastest ways to grow — but only if you accept it well. Defensive reactions block learning. Open mindset accelerates improvement. 📈 #Career,t188,,MAIN,FALSE
+,No. 1 → Listen fully before responding to feedback.,t188,,REPLY,FALSE
+,No. 2 → Separate feedback from personal judgment. 🔍,t188,,REPLY,FALSE
 ,"No. 3 → Apply what’s useful, ignore what’s not — but stay open.",t188,,REPLY,FALSE
-
 189,"Teamwork insight: Good teams don’t avoid mistakes — they handle them well. Blame culture slows learning, while accountability culture accelerates it. Focus on fixing systems, not blaming individuals. 🛠️ #TeamCulture",t189,,MAIN,FALSE
-
 190,"Workplace communication: Clarity beats cleverness. Simple, direct communication avoids confusion and speeds up execution. Complex explanations often hide unclear thinking. 🧠 #Communication",t190,,MAIN,FALSE
-,"No. 1 → Use simple language — clarity is more important than sounding smart.",t190,,REPLY,FALSE
-,"No. 2 → Structure your thoughts before speaking or writing. ✍️",t190,,REPLY,FALSE
-
+,No. 1 → Use simple language — clarity is more important than sounding smart.,t190,,REPLY,FALSE
+,No. 2 → Structure your thoughts before speaking or writing. ✍️,t190,,REPLY,FALSE
 191,"Leadership insight: You don’t need a title to lead. Taking initiative, helping others, and improving processes are all forms of leadership. Influence comes from actions, not designation. 🚀 #Leadership",t191,,MAIN,FALSE
-,"No. 1 → Identify problems and suggest solutions proactively.",t191,,REPLY,FALSE
-,"No. 2 → Support teammates without being asked. 🤝",t191,,REPLY,FALSE
-
-192,"Conflict reality: Avoiding difficult conversations doesn’t solve problems — it delays them. Addressing issues early prevents escalation and builds stronger teams. Silence is not resolution. ⚠️ #Workplace",t192,,MAIN,FALSE
-,"No. 1 → Address issues respectfully but directly.",t192,,REPLY,FALSE
+,No. 1 → Identify problems and suggest solutions proactively.,t191,,REPLY,FALSE
+,No. 2 → Support teammates without being asked. 🤝,t191,,REPLY,FALSE
+192,Conflict reality: Avoiding difficult conversations doesn’t solve problems — it delays them. Addressing issues early prevents escalation and builds stronger teams. Silence is not resolution. ⚠️ #Workplace,t192,,MAIN,FALSE
+,No. 1 → Address issues respectfully but directly.,t192,,REPLY,FALSE
 ,"No. 2 → Focus on facts, not emotions. 🧠",t192,,REPLY,FALSE
-
 193,"Career growth: The ability to explain your work clearly is just as important as doing the work itself. Visibility matters. If people don’t understand your impact, it may go unnoticed. 📊 #CareerGrowth",t193,,MAIN,FALSE
 ,"No. 1 → Share outcomes, not just activities.",t193,,REPLY,FALSE
-,"No. 2 → Communicate impact in simple terms. 🎯",t193,,REPLY,FALSE
-
+,No. 2 → Communicate impact in simple terms. 🎯,t193,,REPLY,FALSE
 194,"Workplace mindset: Not every discussion needs to be a debate. Sometimes, aligning quickly and moving forward is more valuable than proving a point. Efficiency matters in teams. ⚡ #Teamwork",t194,,MAIN,FALSE
-
 195,"Listening skill: Active listening means understanding intent, not just words. Tone, context, and underlying concerns matter as much as what is said. This is what builds real collaboration. 👂 #Communication",t195,,MAIN,FALSE
-,"No. 1 → Pay attention to non-verbal cues in conversations.",t195,,REPLY,FALSE
-,"No. 2 → Ask follow-up questions to confirm understanding. 🔍",t195,,REPLY,FALSE
-,"No. 3 → Don’t just wait for your turn to speak — actually listen.",t195,,REPLY,FALSE
+,No. 1 → Pay attention to non-verbal cues in conversations.,t195,,REPLY,FALSE
+,No. 2 → Ask follow-up questions to confirm understanding. 🔍,t195,,REPLY,FALSE
+,No. 3 → Don’t just wait for your turn to speak — actually listen.,t195,,REPLY,FALSE
 181,"Work culture truth: Most conflicts at work aren’t about technical disagreements — they’re about communication gaps. People don’t feel heard, assumptions are made, and small misunderstandings slowly turn into major friction. Learning to listen deeply is a career superpower. 🧠 #WorkCulture",t181,,MAIN,FALSE
 ,"No. 1: When someone explains a problem, don’t interrupt with solutions immediately. Let them fully express context — half of engineering problems are misunderstood before they’re even solved.",t181,,REPLY,FALSE
-,"No. 2: Repeat what you understood before responding. It reduces misalignment dramatically and shows respect for the other person’s thinking.",t181,,REPLY,FALSE
-,"No. 3: Most conflicts disappear when both sides feel understood — not necessarily agreed with. Listening > arguing.",t181,,REPLY,FALSE
-
+,No. 2: Repeat what you understood before responding. It reduces misalignment dramatically and shows respect for the other person’s thinking.,t181,,REPLY,FALSE
+,No. 3: Most conflicts disappear when both sides feel understood — not necessarily agreed with. Listening > arguing.,t181,,REPLY,FALSE
 182,"Career lesson: Being right doesn’t make you valuable — being effective does. You can win every argument and still lose trust in a team. Real impact comes from influencing outcomes, not proving others wrong. ⚖️ #CareerGrowth",t182,,MAIN,FALSE
-,"No. 1: Choose when to push hard and when to let go. Not every battle is worth fighting.",t182,,REPLY,FALSE
+,No. 1: Choose when to push hard and when to let go. Not every battle is worth fighting.,t182,,REPLY,FALSE
 ,"No. 2: Frame ideas in terms of team goals, not personal opinions. That’s how decisions scale.",t182,,REPLY,FALSE
-
 183,"Engineering communication tip: If your idea is good but no one understands it, it might as well not exist. Clarity beats complexity every single time — especially in cross-functional teams. 🧾 #Communication",t183,,MAIN,FALSE
 ,"No. 1: Use simple language even for complex systems. Simplicity is a sign of mastery, not lack of depth.",t183,,REPLY,FALSE
-,"No. 2: Structure your thoughts — problem → context → solution → trade-offs. This format works almost everywhere.",t183,,REPLY,FALSE
+,No. 2: Structure your thoughts — problem → context → solution → trade-offs. This format works almost everywhere.,t183,,REPLY,FALSE
 ,"No. 3: If people keep asking the same questions, your explanation needs improvement — not their understanding.",t183,,REPLY,FALSE
-
 184,"Workplace reality: Silence in meetings doesn’t mean agreement. It often means confusion, hesitation, or fear of speaking up. Great teams create environments where questions are encouraged, not judged. 🗣️ #TeamCulture",t184,,MAIN,FALSE
-,"No. 1: Actively ask quieter team members for input — they often have the most thoughtful insights.",t184,,REPLY,FALSE
-,"No. 2: Normalize saying “I don’t understand” — it unlocks better discussions for everyone.",t184,,REPLY,FALSE
-
-185,"Leadership insight: Good leaders give answers. Great leaders ask better questions. The quality of your questions defines the quality of your team’s thinking. ❓ #Leadership",t185,,MAIN,FALSE
-,"No. 1: Ask “What are we missing?” instead of “Is this correct?” — it opens deeper thinking.",t185,,REPLY,FALSE
-,"No. 2: Ask “What happens if this fails?” — it shifts mindset from optimism to realism.",t185,,REPLY,FALSE
-,"No. 3: Questions create ownership. Answers create dependency.",t185,,REPLY,FALSE
-
-186,"Job culture tip: Feedback is not criticism — it’s a tool for growth. But how you give it matters more than what you say. Poorly delivered feedback creates defensiveness instead of improvement. 🧩 #Feedback",t186,,MAIN,FALSE
-,"No. 1: Be specific. “This could be better” is useless. Explain what and why.",t186,,REPLY,FALSE
+,No. 1: Actively ask quieter team members for input — they often have the most thoughtful insights.,t184,,REPLY,FALSE
+,No. 2: Normalize saying “I don’t understand” — it unlocks better discussions for everyone.,t184,,REPLY,FALSE
+185,Leadership insight: Good leaders give answers. Great leaders ask better questions. The quality of your questions defines the quality of your team’s thinking. ❓ #Leadership,t185,,MAIN,FALSE
+,No. 1: Ask “What are we missing?” instead of “Is this correct?” — it opens deeper thinking.,t185,,REPLY,FALSE
+,No. 2: Ask “What happens if this fails?” — it shifts mindset from optimism to realism.,t185,,REPLY,FALSE
+,No. 3: Questions create ownership. Answers create dependency.,t185,,REPLY,FALSE
+186,Job culture tip: Feedback is not criticism — it’s a tool for growth. But how you give it matters more than what you say. Poorly delivered feedback creates defensiveness instead of improvement. 🧩 #Feedback,t186,,MAIN,FALSE
+,No. 1: Be specific. “This could be better” is useless. Explain what and why.,t186,,REPLY,FALSE
 ,"No. 2: Focus on behavior, not the person. That keeps conversations constructive.",t186,,REPLY,FALSE
-,"No. 3: Give feedback early. Delayed feedback loses impact and context.",t186,,REPLY,FALSE
-
+,No. 3: Give feedback early. Delayed feedback loses impact and context.,t186,,REPLY,FALSE
 187,"Engineering habit: Document decisions, not just code. Months later, people won’t remember why something was done — only what was done. Context is what saves time in the future. 📚 #Engineering",t187,,MAIN,FALSE
-
 188,"Workplace mistake: Assuming others know what you know. Context gaps are one of the biggest sources of inefficiency in teams. Over-communicate clarity, not assumptions. 🔍 #TeamWork",t188,,MAIN,FALSE
 ,"No. 1: Share reasoning, not just decisions.",t188,,REPLY,FALSE
-,"No. 2: Explain trade-offs — it helps others align faster.",t188,,REPLY,FALSE
-
-189,"Career growth insight: The ability to explain complex ideas simply is more valuable than the ability to understand them deeply. Because impact comes from shared understanding. 🧠 #Career",t189,,MAIN,FALSE
-
+,No. 2: Explain trade-offs — it helps others align faster.,t188,,REPLY,FALSE
+189,Career growth insight: The ability to explain complex ideas simply is more valuable than the ability to understand them deeply. Because impact comes from shared understanding. 🧠 #Career,t189,,MAIN,FALSE
 190,"Conflict resolution tip: Don’t try to “win” the discussion. Try to reach the best outcome. When ego enters, progress stops. 🤝 #WorkCulture",t190,,MAIN,FALSE
-,"No. 1: Replace “You’re wrong” with “Help me understand your perspective.”",t190,,REPLY,FALSE
+,No. 1: Replace “You’re wrong” with “Help me understand your perspective.”,t190,,REPLY,FALSE
 ,"No. 2: Focus on the problem, not the person.",t190,,REPLY,FALSE
-,"No. 3: Shared goals reduce conflict faster than arguments.",t190,,REPLY,FALSE
-
-191,"Team insight: Alignment is more important than speed. A fast-moving team in different directions is slower than a slightly slower team moving together. 🧭 #Teamwork",t191,,MAIN,FALSE
-
+,No. 3: Shared goals reduce conflict faster than arguments.,t190,,REPLY,FALSE
+191,Team insight: Alignment is more important than speed. A fast-moving team in different directions is slower than a slightly slower team moving together. 🧭 #Teamwork,t191,,MAIN,FALSE
 192,"Communication rule: If something feels unclear, it probably is. Trust that instinct and ask questions early — confusion compounds over time. ⏳ #Communication",t192,,MAIN,FALSE
-
-193,"Engineering leadership: Your job isn’t to have all answers — it’s to create clarity where others feel lost. That’s what builds trust in teams. 🌐 #Leadership",t193,,MAIN,FALSE
-
+193,Engineering leadership: Your job isn’t to have all answers — it’s to create clarity where others feel lost. That’s what builds trust in teams. 🌐 #Leadership,t193,,MAIN,FALSE
 194,"Work culture truth: Respect is built in small moments — listening, acknowledging, giving credit. Not just big achievements. 👏 #TeamCulture",t194,,MAIN,FALSE
-
 195,"Meeting tip: If a meeting ends without clear action items, it was probably a discussion — not a decision. Clarity drives execution. 📌 #Productivity",t195,,MAIN,FALSE
-,"No. 1: Always define next steps before ending a meeting.",t195,,REPLY,FALSE
-,"No. 2: Assign ownership — otherwise nothing moves.",t195,,REPLY,FALSE
-
+,No. 1: Always define next steps before ending a meeting.,t195,,REPLY,FALSE
+,No. 2: Assign ownership — otherwise nothing moves.,t195,,REPLY,FALSE
 196,"Career reality: The higher you grow, the less your job is about code and the more it’s about communication, decisions, and influence. Prepare early. 📈 #CareerGrowth",t196,,MAIN,FALSE
-
-197,"Listening skill: Most people listen to respond. Very few listen to understand. That difference defines strong collaborators. 🧠 #SoftSkills",t197,,MAIN,FALSE
-
+197,Listening skill: Most people listen to respond. Very few listen to understand. That difference defines strong collaborators. 🧠 #SoftSkills,t197,,MAIN,FALSE
 198,"Engineering discussion tip: Disagree with ideas, not people. That keeps debates healthy and productive. 🔧 #EngineeringCulture",t198,,MAIN,FALSE
-
 199,"Workplace insight: Clarity reduces stress. When expectations, roles, and goals are clear, teams move faster with less friction. ⚙️ #WorkEfficiency",t199,,MAIN,FALSE
-
 200,"Final thought: The best engineers aren’t just technically strong — they’re easy to work with. Communication, empathy, and clarity amplify everything else you do. 🚀 #EngineeringLife",t200,,MAIN,FALSE
