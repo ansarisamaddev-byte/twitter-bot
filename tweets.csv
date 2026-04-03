@@ -14,9 +14,9 @@ id,tweet_text,thread_id,order,type,posted
 11,"Production truth: Most outages don’t start as outages — they start as “slight degradation” that nobody prioritizes. Latency creeps up, retries increase, queues grow… until everything tips over. What signal did you ignore once? 👇 #Reliability",t51,1,MAIN,TRUE
 ,"The danger is normalization: teams get used to small issues and accept them as “normal.” That’s how incidents are born — not from chaos, but from ignored patterns. 📉",t51,2,REPLY,TRUE
 ,"Great teams treat small anomalies as early warnings, not noise. What’s one metric you now watch more closely than before? 👀",t51,3,REPLY,TRUE
-12,"Engineering lesson: Simplicity scales better than cleverness. Complex solutions feel impressive early — but become painful to debug, extend, and maintain later. 🧠 #CleanCode",t52,1,MAIN,FALSE
-,The code you write isn’t just for machines — it’s for future humans (including you). Readability and clarity beat clever one-liners every time. ✍️,t52,2,REPLY,FALSE
-,Have you ever looked at your old “clever” code and regretted it? What did you learn? 👇,t52,3,REPLY,FALSE
+12,"Engineering lesson: Simplicity scales better than cleverness. Complex solutions feel impressive early — but become painful to debug, extend, and maintain later. 🧠 #CleanCode",t52,1,MAIN,TRUE
+,The code you write isn’t just for machines — it’s for future humans (including you). Readability and clarity beat clever one-liners every time. ✍️,t52,2,REPLY,TRUE
+,Have you ever looked at your old “clever” code and regretted it? What did you learn? 👇,t52,3,REPLY,TRUE
 14,"System design insight: Retries can save your system — or destroy it. Without backoff and limits, retries amplify failures instead of fixing them. 🔁 #DistributedSystems",t53,1,MAIN,FALSE
 ,A failing service + aggressive retries = retry storm. Suddenly your system is attacking itself under load. ⚠️,t53,2,REPLY,FALSE
 ,Always design retries with exponential backoff and jitter. What’s the worst retry storm you’ve seen? 👇,t53,3,REPLY,FALSE
