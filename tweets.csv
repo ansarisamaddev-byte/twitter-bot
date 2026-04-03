@@ -23,9 +23,9 @@ id,tweet_text,thread_id,order,type,posted
 15,Career growth: Writing code gets you hired. Understanding systems gets you promoted. Designing resilient systems gets you trusted. 🛠️ #EngineeringCareers,t54,1,MAIN,TRUE
 ,"Anyone can write features. Fewer can design systems that survive real-world chaos — failures, traffic spikes, and unpredictable behavior. 🌐",t54,2,REPLY,TRUE
 ,What skill helped you move from writing code to designing systems? 👇,t54,3,REPLY,TRUE
-16,Debugging reality: The bug is rarely in the code you just wrote — it’s often in old code interacting in a new way. 🕵️ #Debugging,t55,1,MAIN,FALSE
-,"Systems fail at boundaries — where components meet, assumptions differ, and edge cases live. That’s where bugs hide. 🔗",t55,2,REPLY,FALSE
-,"Next time something breaks, ask: “What interaction changed?” not just “What code changed?” 👇",t55,3,REPLY,FALSE
+16,Debugging reality: The bug is rarely in the code you just wrote — it’s often in old code interacting in a new way. 🕵️ #Debugging,t55,1,MAIN,TRUE
+,"Systems fail at boundaries — where components meet, assumptions differ, and edge cases live. That’s where bugs hide. 🔗",t55,2,REPLY,TRUE
+,"Next time something breaks, ask: “What interaction changed?” not just “What code changed?” 👇",t55,3,REPLY,TRUE
 17,Reliability lesson: Backups are useless until you’ve successfully restored from them. Preferably under pressure. 💾 #Reliability,t56,1,MAIN,FALSE
 ,"Many teams think they’re safe — until restore fails, data is incomplete, or the process is unclear. Testing restores matters more than taking backups. 🔄",t56,2,REPLY,FALSE
 ,Have you ever tested your backup restore end-to-end? Or learned the hard way? 👇,t56,3,REPLY,FALSE
