@@ -20,9 +20,9 @@ id,tweet_text,thread_id,order,type,posted
 14,"System design insight: Retries can save your system — or destroy it. Without backoff and limits, retries amplify failures instead of fixing them. 🔁 #DistributedSystems",t53,1,MAIN,TRUE
 ,A failing service + aggressive retries = retry storm. Suddenly your system is attacking itself under load. ⚠️,t53,2,REPLY,TRUE
 ,Always design retries with exponential backoff and jitter. What’s the worst retry storm you’ve seen? 👇,t53,3,REPLY,TRUE
-15,Career growth: Writing code gets you hired. Understanding systems gets you promoted. Designing resilient systems gets you trusted. 🛠️ #EngineeringCareers,t54,1,MAIN,FALSE
-,"Anyone can write features. Fewer can design systems that survive real-world chaos — failures, traffic spikes, and unpredictable behavior. 🌐",t54,2,REPLY,FALSE
-,What skill helped you move from writing code to designing systems? 👇,t54,3,REPLY,FALSE
+15,Career growth: Writing code gets you hired. Understanding systems gets you promoted. Designing resilient systems gets you trusted. 🛠️ #EngineeringCareers,t54,1,MAIN,TRUE
+,"Anyone can write features. Fewer can design systems that survive real-world chaos — failures, traffic spikes, and unpredictable behavior. 🌐",t54,2,REPLY,TRUE
+,What skill helped you move from writing code to designing systems? 👇,t54,3,REPLY,TRUE
 16,Debugging reality: The bug is rarely in the code you just wrote — it’s often in old code interacting in a new way. 🕵️ #Debugging,t55,1,MAIN,FALSE
 ,"Systems fail at boundaries — where components meet, assumptions differ, and edge cases live. That’s where bugs hide. 🔗",t55,2,REPLY,FALSE
 ,"Next time something breaks, ask: “What interaction changed?” not just “What code changed?” 👇",t55,3,REPLY,FALSE
