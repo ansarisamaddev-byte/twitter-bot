@@ -38,9 +38,9 @@ id,tweet_text,thread_id,order,type,posted
 20,Engineering mindset: Always design assuming partial failure. Systems rarely fail completely — they degrade in unpredictable ways. ⚙️ #SystemDesign,t59,1,MAIN,TRUE
 ,"Handling partial failure well (timeouts, fallbacks, degraded modes) is what separates resilient systems from fragile ones. 🔧",t59,2,REPLY,TRUE
 ,What’s one fallback strategy that saved your system? 👇,t59,3,REPLY,TRUE
-21,"Career insight: The fastest way to grow is to own production. Nothing teaches engineering like real users, real traffic, and real failures. 🚀 #Careers",t60,1,MAIN,FALSE
-,"Production forces you to think about reliability, observability, performance, and failure modes — things tutorials rarely cover deeply. 🌍",t60,2,REPLY,FALSE
-,What did production teach you that no course ever did? 👇,t60,3,REPLY,FALSE
+21,"Career insight: The fastest way to grow is to own production. Nothing teaches engineering like real users, real traffic, and real failures. 🚀 #Careers",t60,1,MAIN,TRUE
+,"Production forces you to think about reliability, observability, performance, and failure modes — things tutorials rarely cover deeply. 🌍",t60,2,REPLY,TRUE
+,What did production teach you that no course ever did? 👇,t60,3,REPLY,TRUE
 22,Tech debt lesson: Interest compounds faster than you think. Small shortcuts today become major blockers tomorrow. 💸 #TechDebt,t61,1,MAIN,FALSE
 ,"Ignoring tech debt isn’t free — you’re just deferring the cost with added interest. Eventually, you pay more. 📊",t61,2,REPLY,FALSE
 ,What’s one “small shortcut” that turned into a big problem later? 👇,t61,3,REPLY,FALSE
