@@ -41,9 +41,9 @@ id,tweet_text,thread_id,order,type,posted
 21,"Career insight: The fastest way to grow is to own production. Nothing teaches engineering like real users, real traffic, and real failures. 🚀 #Careers",t60,1,MAIN,TRUE
 ,"Production forces you to think about reliability, observability, performance, and failure modes — things tutorials rarely cover deeply. 🌍",t60,2,REPLY,TRUE
 ,What did production teach you that no course ever did? 👇,t60,3,REPLY,TRUE
-22,Tech debt lesson: Interest compounds faster than you think. Small shortcuts today become major blockers tomorrow. 💸 #TechDebt,t61,1,MAIN,FALSE
-,"Ignoring tech debt isn’t free — you’re just deferring the cost with added interest. Eventually, you pay more. 📊",t61,2,REPLY,FALSE
-,What’s one “small shortcut” that turned into a big problem later? 👇,t61,3,REPLY,FALSE
+22,Tech debt lesson: Interest compounds faster than you think. Small shortcuts today become major blockers tomorrow. 💸 #TechDebt,t61,1,MAIN,TRUE
+,"Ignoring tech debt isn’t free — you’re just deferring the cost with added interest. Eventually, you pay more. 📊",t61,2,REPLY,TRUE
+,What’s one “small shortcut” that turned into a big problem later? 👇,t61,3,REPLY,TRUE
 23,AI agents are the biggest shift in 2026. Not tools. Not copilots. Autonomous systems that take actions. The question isn’t “Can it code?” — it’s “Can it decide?” 🤖 #AI,t70,1,MAIN,FALSE
 ,"We’re moving from prompting → supervising. Engineers won’t just write code, they’ll design decision systems. That’s a different skill. 🧠",t70,2,REPLY,FALSE
 24,Hot take: Most devs are using AI wrong. They use it to write code faster… instead of thinking better. Speed without direction just gets you lost faster. ⚡,t71,1,MAIN,FALSE
