@@ -29,9 +29,9 @@ id,tweet_text,thread_id,order,type,posted
 17,Reliability lesson: Backups are useless until you’ve successfully restored from them. Preferably under pressure. 💾 #Reliability,t56,1,MAIN,TRUE
 ,"Many teams think they’re safe — until restore fails, data is incomplete, or the process is unclear. Testing restores matters more than taking backups. 🔄",t56,2,REPLY,TRUE
 ,Have you ever tested your backup restore end-to-end? Or learned the hard way? 👇,t56,3,REPLY,TRUE
-18,Architecture truth: Microservices don’t reduce complexity — they redistribute it. 🧩 #Architecture,t57,1,MAIN,FALSE
-,"Instead of complexity inside a monolith, you now have network calls, distributed state, partial failures, and debugging challenges. 🌐",t57,2,REPLY,FALSE
-,Microservices are powerful — but only when you’re ready for the operational complexity. When did they help (or hurt) you most? 👇,t57,3,REPLY,FALSE
+18,Architecture truth: Microservices don’t reduce complexity — they redistribute it. 🧩 #Architecture,t57,1,MAIN,TRUE
+,"Instead of complexity inside a monolith, you now have network calls, distributed state, partial failures, and debugging challenges. 🌐",t57,2,REPLY,TRUE
+,Microservices are powerful — but only when you’re ready for the operational complexity. When did they help (or hurt) you most? 👇,t57,3,REPLY,TRUE
 19,Tech insight: Latency is a feature — until it compounds. Multiple small delays across services quickly turn into slow user experiences. ⏱️ #Performance,t58,1,MAIN,FALSE
 ,A 50ms delay across 10 services = 500ms total. Add retries and you’re suddenly in seconds. Latency multiplies silently. 📉,t58,2,REPLY,FALSE
 ,Do you measure end-to-end latency or just individual services? 👇,t58,3,REPLY,FALSE
