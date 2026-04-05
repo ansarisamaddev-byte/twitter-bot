@@ -49,9 +49,9 @@ id,tweet_text,thread_id,order,type,posted
 24,Hot take: Most devs are using AI wrong. They use it to write code faster… instead of thinking better. Speed without direction just gets you lost faster. ⚡,t71,1,MAIN,TRUE
 25,Open-source AI is catching up fast. What was impossible without big companies in 2023 is now runnable on your laptop in 2026. Wild. 💻 #OpenSource,t72,1,MAIN,TRUE
 ,The gap is closing not because models are smaller — but because tooling got smarter. Optimization > brute force. 🔧,t72,2,REPLY,TRUE
-26,Reality check: Startups aren’t failing because of lack of ideas. They fail because distribution is harder than building. Always has been. 📉 #Startups,t73,1,MAIN,FALSE
-,"In 2026, building is cheap. Attention is expensive. That’s the real bottleneck now. 👀",t73,2,REPLY,FALSE
-,"If you can’t get users, better tech won’t save you. But better distribution might. 📢",t73,3,REPLY,FALSE
+26,Reality check: Startups aren’t failing because of lack of ideas. They fail because distribution is harder than building. Always has been. 📉 #Startups,t73,1,MAIN,TRUE
+,"In 2026, building is cheap. Attention is expensive. That’s the real bottleneck now. 👀",t73,2,REPLY,TRUE
+,"If you can’t get users, better tech won’t save you. But better distribution might. 📢",t73,3,REPLY,TRUE
 27,VS Code extensions are becoming mini-platforms. Some devs spend more time configuring tools than actually coding. 🤯 #VSCode,t74,1,MAIN,FALSE
 ,"Tooling fatigue is real. At some point, “simple setup” becomes a competitive advantage. ⚙️",t74,2,REPLY,FALSE
 28,"Layoffs taught one harsh lesson: Being good at your job isn’t always enough. Visibility, impact, and business alignment matter more. 📊 #Careers",t75,1,MAIN,FALSE
