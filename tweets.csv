@@ -46,7 +46,7 @@ id,tweet_text,thread_id,order,type,posted
 ,What’s one “small shortcut” that turned into a big problem later? 👇,t61,3,REPLY,TRUE
 23,AI agents are the biggest shift in 2026. Not tools. Not copilots. Autonomous systems that take actions. The question isn’t “Can it code?” — it’s “Can it decide?” 🤖 #AI,t70,1,MAIN,TRUE
 ,"We’re moving from prompting → supervising. Engineers won’t just write code, they’ll design decision systems. That’s a different skill. 🧠",t70,2,REPLY,TRUE
-24,Hot take: Most devs are using AI wrong. They use it to write code faster… instead of thinking better. Speed without direction just gets you lost faster. ⚡,t71,1,MAIN,FALSE
+24,Hot take: Most devs are using AI wrong. They use it to write code faster… instead of thinking better. Speed without direction just gets you lost faster. ⚡,t71,1,MAIN,TRUE
 25,Open-source AI is catching up fast. What was impossible without big companies in 2023 is now runnable on your laptop in 2026. Wild. 💻 #OpenSource,t72,1,MAIN,FALSE
 ,The gap is closing not because models are smaller — but because tooling got smarter. Optimization > brute force. 🔧,t72,2,REPLY,FALSE
 26,Reality check: Startups aren’t failing because of lack of ideas. They fail because distribution is harder than building. Always has been. 📉 #Startups,t73,1,MAIN,FALSE
