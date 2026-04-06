@@ -54,7 +54,7 @@ id,tweet_text,thread_id,order,type,posted
 ,"If you can’t get users, better tech won’t save you. But better distribution might. 📢",t73,3,REPLY,TRUE
 27,VS Code extensions are becoming mini-platforms. Some devs spend more time configuring tools than actually coding. 🤯 #VSCode,t74,1,MAIN,TRUE
 ,"Tooling fatigue is real. At some point, “simple setup” becomes a competitive advantage. ⚙️",t74,2,REPLY,TRUE
-28,"Layoffs taught one harsh lesson: Being good at your job isn’t always enough. Visibility, impact, and business alignment matter more. 📊 #Careers",t75,1,MAIN,FALSE
+28,"Layoffs taught one harsh lesson: Being good at your job isn’t always enough. Visibility, impact, and business alignment matter more. 📊 #Careers",t75,1,MAIN,TRUE
 29,The future of coding interviews? Not DSA. Not system design. It’s “Can you work with AI effectively?” 🤖,t76,1,MAIN,FALSE
 ,Companies care less about syntax… more about judgment. AI can generate code — but can you verify it? 🔍,t76,2,REPLY,FALSE
 30,"Engineering truth: Most bugs come from assumptions — not logic errors. If something “should work,” that’s exactly where to look. 🧠 #Debugging",t77,1,MAIN,FALSE
