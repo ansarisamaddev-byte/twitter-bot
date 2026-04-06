@@ -58,8 +58,8 @@ id,tweet_text,thread_id,order,type,posted
 29,The future of coding interviews? Not DSA. Not system design. It’s “Can you work with AI effectively?” 🤖,t76,1,MAIN,TRUE
 ,Companies care less about syntax… more about judgment. AI can generate code — but can you verify it? 🔍,t76,2,REPLY,TRUE
 30,"Engineering truth: Most bugs come from assumptions — not logic errors. If something “should work,” that’s exactly where to look. 🧠 #Debugging",t77,1,MAIN,TRUE
-31,AI tools are writing more code than junior devs in some companies. That’s not hype anymore — it’s reality. 🚀 #AIDev,t78,1,MAIN,FALSE
-,But here’s the catch: reviewing AI code is harder than writing your own. Context is everything. ⚠️,t78,2,REPLY,FALSE
+31,AI tools are writing more code than junior devs in some companies. That’s not hype anymore — it’s reality. 🚀 #AIDev,t78,1,MAIN,TRUE
+,But here’s the catch: reviewing AI code is harder than writing your own. Context is everything. ⚠️,t78,2,REPLY,TRUE
 32,Your tech stack matters less than your execution speed. People overestimate tools and underestimate consistency. 🔥,t79,1,MAIN,FALSE
 33,System design insight: The hardest part isn’t scaling traffic — it’s scaling failures gracefully. 💥 #SystemDesign,t80,1,MAIN,FALSE
 ,Anyone can design for success. Very few design for chaos. ⚙️,t80,2,REPLY,FALSE
