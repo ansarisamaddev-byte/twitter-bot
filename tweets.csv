@@ -61,8 +61,8 @@ id,tweet_text,thread_id,order,type,posted
 31,AI tools are writing more code than junior devs in some companies. That’s not hype anymore — it’s reality. 🚀 #AIDev,t78,1,MAIN,TRUE
 ,But here’s the catch: reviewing AI code is harder than writing your own. Context is everything. ⚠️,t78,2,REPLY,TRUE
 32,Your tech stack matters less than your execution speed. People overestimate tools and underestimate consistency. 🔥,t79,1,MAIN,TRUE
-33,System design insight: The hardest part isn’t scaling traffic — it’s scaling failures gracefully. 💥 #SystemDesign,t80,1,MAIN,FALSE
-,Anyone can design for success. Very few design for chaos. ⚙️,t80,2,REPLY,FALSE
+33,System design insight: The hardest part isn’t scaling traffic — it’s scaling failures gracefully. 💥 #SystemDesign,t80,1,MAIN,TRUE
+,Anyone can design for success. Very few design for chaos. ⚙️,t80,2,REPLY,TRUE
 34,"In 2026, the best engineers are not the ones who know everything — but the ones who know what to ignore. 🧠",t81,1,MAIN,FALSE
 35,Remote work didn’t kill productivity. Bad communication did. 📡 #RemoteWork,t82,1,MAIN,FALSE
 ,Async > meetings. Documentation > assumptions. Clear thinking > constant calls. ✍️,t82,2,REPLY,FALSE
