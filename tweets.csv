@@ -67,7 +67,7 @@ id,tweet_text,thread_id,order,type,posted
 35,Remote work didn’t kill productivity. Bad communication did. 📡 #RemoteWork,t82,1,MAIN,TRUE
 ,Async > meetings. Documentation > assumptions. Clear thinking > constant calls. ✍️,t82,2,REPLY,TRUE
 36,Most devs chase new frameworks. Few master fundamentals. Guess who wins long-term? 📈,t83,1,MAIN,TRUE
-37,"AI hallucinations aren’t bugs — they’re features of probabilistic systems. Treat outputs as suggestions, not truth. 🤖",t84,1,MAIN,FALSE
+37,"AI hallucinations aren’t bugs — they’re features of probabilistic systems. Treat outputs as suggestions, not truth. 🤖",t84,1,MAIN,TRUE
 38,Startup reality: Speed beats perfection early. But perfection beats speed later. Timing matters. ⏳ #Startups,t85,1,MAIN,FALSE
 39,Debugging skill is underrated. It’s not about fixing — it’s about asking better questions. 🧠 #Debugging,t86,1,MAIN,FALSE
 ,Bad question → wrong fix → more bugs. It compounds fast. ⚠️,t86,2,REPLY,FALSE
