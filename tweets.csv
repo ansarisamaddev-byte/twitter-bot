@@ -69,8 +69,8 @@ id,tweet_text,thread_id,order,type,posted
 36,Most devs chase new frameworks. Few master fundamentals. Guess who wins long-term? 📈,t83,1,MAIN,TRUE
 37,"AI hallucinations aren’t bugs — they’re features of probabilistic systems. Treat outputs as suggestions, not truth. 🤖",t84,1,MAIN,TRUE
 38,Startup reality: Speed beats perfection early. But perfection beats speed later. Timing matters. ⏳ #Startups,t85,1,MAIN,TRUE
-39,Debugging skill is underrated. It’s not about fixing — it’s about asking better questions. 🧠 #Debugging,t86,1,MAIN,FALSE
-,Bad question → wrong fix → more bugs. It compounds fast. ⚠️,t86,2,REPLY,FALSE
+39,Debugging skill is underrated. It’s not about fixing — it’s about asking better questions. 🧠 #Debugging,t86,1,MAIN,TRUE
+,Bad question → wrong fix → more bugs. It compounds fast. ⚠️,t86,2,REPLY,TRUE
 40,Most systems don’t fail because of load. They fail because of cascading effects under load. 🌊 #Scalability,t87,1,MAIN,FALSE
 41,Career tip: Don’t just ship features. Ship impact. Nobody remembers tickets — they remember outcomes. 📊,t88,1,MAIN,FALSE
 42,The hardest part of engineering isn’t coding — it’s making decisions with incomplete information. 🧠,t89,1,MAIN,FALSE
