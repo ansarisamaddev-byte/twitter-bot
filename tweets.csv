@@ -72,7 +72,7 @@ id,tweet_text,thread_id,order,type,posted
 39,Debugging skill is underrated. It’s not about fixing — it’s about asking better questions. 🧠 #Debugging,t86,1,MAIN,TRUE
 ,Bad question → wrong fix → more bugs. It compounds fast. ⚠️,t86,2,REPLY,TRUE
 40,Most systems don’t fail because of load. They fail because of cascading effects under load. 🌊 #Scalability,t87,1,MAIN,TRUE
-41,Career tip: Don’t just ship features. Ship impact. Nobody remembers tickets — they remember outcomes. 📊,t88,1,MAIN,FALSE
+41,Career tip: Don’t just ship features. Ship impact. Nobody remembers tickets — they remember outcomes. 📊,t88,1,MAIN,TRUE
 42,The hardest part of engineering isn’t coding — it’s making decisions with incomplete information. 🧠,t89,1,MAIN,FALSE
 43,AI won’t replace developers. But it will replace repetitive thinking. The creative part stays human. 🤖,t90,1,MAIN,FALSE
 44,Your first system will be messy. Your second will be over-engineered. Your third might finally be balanced. 🔁 #Learning,t91,1,MAIN,FALSE
