@@ -79,7 +79,7 @@ id,tweet_text,thread_id,order,type,posted
 45,Most outages happen during changes. Deployments are where assumptions meet reality. 🚀 #DevOps,t92,1,MAIN,TRUE
 ,That’s why rollback > fix forward in many cases. Speed matters during incidents. ⚡,t92,2,REPLY,TRUE
 46,Performance tip: Don’t optimize early. But don’t ignore it completely either. Measure first. 📉,t93,1,MAIN,TRUE
-47,The difference between a good and great engineer? Communication. Ideas don’t matter if no one understands them. 💬,t94,1,MAIN,FALSE
+47,The difference between a good and great engineer? Communication. Ideas don’t matter if no one understands them. 💬,t94,1,MAIN,TRUE
 48,AI-generated code looks correct. That’s the danger. Subtle bugs hide behind confident outputs. ⚠️,t95,1,MAIN,FALSE
 49,Most engineers underestimate how much time they waste switching contexts. Deep work is a superpower. 🔥,t96,1,MAIN,FALSE
 50,The biggest upgrade you can make isn’t a new framework — it’s better thinking. Tools change. Thinking scales. 🧠,t97,1,MAIN,FALSE
