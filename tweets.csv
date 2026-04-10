@@ -84,7 +84,7 @@ id,tweet_text,thread_id,order,type,posted
 49,Most engineers underestimate how much time they waste switching contexts. Deep work is a superpower. 🔥,t96,1,MAIN,TRUE
 50,The biggest upgrade you can make isn’t a new framework — it’s better thinking. Tools change. Thinking scales. 🧠,t97,1,MAIN,TRUE
 51,"In 2026, side projects are resumes. Show what you can build — not just what you know. 🚀",t98,1,MAIN,TRUE
-52,System design isn’t about diagrams. It’s about trade-offs. Every choice has a cost. ⚖️,t99,1,MAIN,FALSE
+52,System design isn’t about diagrams. It’s about trade-offs. Every choice has a cost. ⚖️,t99,1,MAIN,TRUE
 53,Most bugs are not rare. They’re just hard to reproduce. That’s what makes them dangerous. 🧠,t100,1,MAIN,FALSE
 54,Engineers who learn fastest are the ones who break things — then fix them. Failure is feedback. 🔁,t101,1,MAIN,FALSE
 55,"The more abstractions you use, the less you understand what’s happening underneath. That’s a trade-off. ⚙️",t102,1,MAIN,FALSE
