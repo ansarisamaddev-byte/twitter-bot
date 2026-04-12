@@ -102,8 +102,8 @@ id,tweet_text,thread_id,order,type,posted
 ,"Dependencies fail. Networks slow down. Data becomes inconsistent. If your design assumes perfection, it will fail in reality. 💥",t107,2,REPLY,TRUE
 ,Resilience isn’t a feature you add later. It’s something you design from day one — or you pay for it later in production. ⚙️,t107,3,REPLY,TRUE
 61,"Career insight: The biggest difference between average and top engineers isn’t intelligence — it’s ownership. Top engineers don’t just write code. They take responsibility for outcomes, failures, and long-term consequences. 📈",t108,1,MAIN,TRUE
-62,Debugging is not about finding where the code broke. It’s about understanding why your mental model was wrong. Every bug is a mismatch between reality and what you assumed was true. 🧠,t109,1,MAIN,FALSE
-,"The faster you question your assumptions, the faster you solve problems. Holding onto wrong beliefs is what wastes hours. ⏳",t109,2,REPLY,FALSE
+62,Debugging is not about finding where the code broke. It’s about understanding why your mental model was wrong. Every bug is a mismatch between reality and what you assumed was true. 🧠,t109,1,MAIN,TRUE
+,"The faster you question your assumptions, the faster you solve problems. Holding onto wrong beliefs is what wastes hours. ⏳",t109,2,REPLY,TRUE
 63,"Startups in 2026 have a new problem: building is easier than ever, but standing out is harder than ever. When everyone can ship fast, the advantage shifts to distribution, storytelling, and timing. 🚀",t110,1,MAIN,FALSE
 ,"Most founders still think better product = success. But in reality, better distribution often beats better product. 📢",t110,2,REPLY,FALSE
 ,"The harsh truth: If nobody sees your product, it doesn’t matter how good it is. 👀",t110,3,REPLY,FALSE
