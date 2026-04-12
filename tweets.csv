@@ -101,7 +101,7 @@ id,tweet_text,thread_id,order,type,posted
 60,System design isn’t about building something that works. It’s about building something that continues to work when everything around it is failing. Real systems don’t operate in ideal conditions — they operate in chaos. 🌐,t107,1,MAIN,TRUE
 ,"Dependencies fail. Networks slow down. Data becomes inconsistent. If your design assumes perfection, it will fail in reality. 💥",t107,2,REPLY,TRUE
 ,Resilience isn’t a feature you add later. It’s something you design from day one — or you pay for it later in production. ⚙️,t107,3,REPLY,TRUE
-61,"Career insight: The biggest difference between average and top engineers isn’t intelligence — it’s ownership. Top engineers don’t just write code. They take responsibility for outcomes, failures, and long-term consequences. 📈",t108,1,MAIN,FALSE
+61,"Career insight: The biggest difference between average and top engineers isn’t intelligence — it’s ownership. Top engineers don’t just write code. They take responsibility for outcomes, failures, and long-term consequences. 📈",t108,1,MAIN,TRUE
 62,Debugging is not about finding where the code broke. It’s about understanding why your mental model was wrong. Every bug is a mismatch between reality and what you assumed was true. 🧠,t109,1,MAIN,FALSE
 ,"The faster you question your assumptions, the faster you solve problems. Holding onto wrong beliefs is what wastes hours. ⏳",t109,2,REPLY,FALSE
 63,"Startups in 2026 have a new problem: building is easier than ever, but standing out is harder than ever. When everyone can ship fast, the advantage shifts to distribution, storytelling, and timing. 🚀",t110,1,MAIN,FALSE
