@@ -107,7 +107,7 @@ id,tweet_text,thread_id,order,type,posted
 63,"Startups in 2026 have a new problem: building is easier than ever, but standing out is harder than ever. When everyone can ship fast, the advantage shifts to distribution, storytelling, and timing. 🚀",t110,1,MAIN,TRUE
 ,"Most founders still think better product = success. But in reality, better distribution often beats better product. 📢",t110,2,REPLY,TRUE
 ,"The harsh truth: If nobody sees your product, it doesn’t matter how good it is. 👀",t110,3,REPLY,TRUE
-64,"Engineering truth: The most dangerous bugs are the ones that don’t happen consistently. Intermittent failures are where logic, timing, and randomness collide — and they’re the hardest to reason about. ⏳",t111,1,MAIN,FALSE
+64,"Engineering truth: The most dangerous bugs are the ones that don’t happen consistently. Intermittent failures are where logic, timing, and randomness collide — and they’re the hardest to reason about. ⏳",t111,1,MAIN,TRUE
 65,Most engineers underestimate how much complexity they introduce over time. Not because they’re careless — but because each decision feels small. Complexity doesn’t arrive suddenly. It accumulates silently. 🧩,t112,1,MAIN,FALSE
 ,"And once complexity reaches a certain point, even small changes become risky. That’s when teams slow down — not because they want to, but because they have to. ⚠️",t112,2,REPLY,FALSE
 66,"AI tools are getting better at writing code, but they still struggle with understanding context across large systems. That’s why blindly trusting them in production code is risky. Context is where most bugs hide. 🤖",t113,1,MAIN,FALSE
