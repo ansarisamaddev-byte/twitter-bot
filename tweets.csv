@@ -118,9 +118,9 @@ id,tweet_text,thread_id,order,type,posted
 69,"The biggest lie in software engineering is “we’ll fix it later.” Later rarely comes. But the consequences always do — usually when the system is bigger, more complex, and harder to change. 🩹",t116,1,MAIN,TRUE
 70,"In 2026, being a great engineer means being great at filtering information. There’s too much noise — new tools, frameworks, trends. The real skill is knowing what actually matters. 🔍",t117,1,MAIN,TRUE
 ,Chasing every new trend doesn’t make you better. It just makes you distracted. Focus compounds. ⚡,t117,2,REPLY,TRUE
-71,"Most incidents don’t feel obvious when they happen. They feel confusing, chaotic, and unpredictable. That’s because systems rarely fail in clean, understandable ways. They fail in messy, interconnected patterns. 💥",t118,1,MAIN,FALSE
-,Your job during an incident isn’t to be right immediately. It’s to reduce uncertainty step by step. 🧭,t118,2,REPLY,FALSE
-,Clarity during chaos is what separates experienced engineers from everyone else. 🧠,t118,3,REPLY,FALSE
+71,"Most incidents don’t feel obvious when they happen. They feel confusing, chaotic, and unpredictable. That’s because systems rarely fail in clean, understandable ways. They fail in messy, interconnected patterns. 💥",t118,1,MAIN,TRUE
+,Your job during an incident isn’t to be right immediately. It’s to reduce uncertainty step by step. 🧭,t118,2,REPLY,TRUE
+,Clarity during chaos is what separates experienced engineers from everyone else. 🧠,t118,3,REPLY,TRUE
 72,"Hot take: Microservices are not always the right answer. They solve some problems, but they introduce many others — especially around communication, debugging, and consistency. 🧩",t119,1,MAIN,FALSE
 73,The fastest way to grow as an engineer is to work on systems that break. Stable systems teach you less than failing ones. Failure exposes reality. 🔥,t120,1,MAIN,FALSE
 ,Every incident is a free lesson — if you take the time to understand it deeply. 📚,t120,2,REPLY,FALSE
