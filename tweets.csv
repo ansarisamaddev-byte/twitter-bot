@@ -113,8 +113,8 @@ id,tweet_text,thread_id,order,type,posted
 66,"AI tools are getting better at writing code, but they still struggle with understanding context across large systems. That’s why blindly trusting them in production code is risky. Context is where most bugs hide. 🤖",t113,1,MAIN,TRUE
 ,"AI can generate solutions — but it doesn’t truly understand your system’s history, constraints, and hidden assumptions. That part is still on you. 🧠",t113,2,REPLY,TRUE
 67,"There’s a point in every engineer’s journey where they realize: writing code is the easy part. Understanding systems, trade-offs, and failures is the real challenge. ⚙️",t114,1,MAIN,TRUE
-68,"Most performance issues are not caused by inefficient code. They’re caused by inefficient system interactions — too many calls, too much waiting, too much dependency on external services. 🌐",t115,1,MAIN,FALSE
-,Optimizing a single function won’t fix a system that’s fundamentally inefficient in how components communicate. 🔗,t115,2,REPLY,FALSE
+68,"Most performance issues are not caused by inefficient code. They’re caused by inefficient system interactions — too many calls, too much waiting, too much dependency on external services. 🌐",t115,1,MAIN,TRUE
+,Optimizing a single function won’t fix a system that’s fundamentally inefficient in how components communicate. 🔗,t115,2,REPLY,TRUE
 69,"The biggest lie in software engineering is “we’ll fix it later.” Later rarely comes. But the consequences always do — usually when the system is bigger, more complex, and harder to change. 🩹",t116,1,MAIN,FALSE
 70,"In 2026, being a great engineer means being great at filtering information. There’s too much noise — new tools, frameworks, trends. The real skill is knowing what actually matters. 🔍",t117,1,MAIN,FALSE
 ,Chasing every new trend doesn’t make you better. It just makes you distracted. Focus compounds. ⚡,t117,2,REPLY,FALSE
