@@ -133,9 +133,9 @@ id,tweet_text,thread_id,order,type,posted
 76,Most systems are not designed. They evolve. And that’s where problems begin. 🧵 #SystemDesign,t31,1,MAIN,TRUE
 ,"One feature at a time, one fix at a time… until the system becomes a collection of decisions no one fully understands. 🔁",t31,2,REPLY,TRUE
 ,"If no one understands the system end-to-end, debugging becomes archaeology. Is your system still understandable? 👇",t31,3,REPLY,TRUE
-77,"AI is changing how we write code. But more importantly, it’s changing how we THINK about problems. 🤖🧠 #AI",t32,1,MAIN,FALSE
-,"Instead of solving everything manually, engineers now orchestrate solutions — guiding AI, validating outputs, and focusing on higher-level logic. ⚡",t32,2,REPLY,FALSE
-,"The future engineer is not just a coder, but a decision-maker. Are you adapting to that shift? 👀",t32,3,REPLY,FALSE
+77,"AI is changing how we write code. But more importantly, it’s changing how we THINK about problems. 🤖🧠 #AI",t32,1,MAIN,TRUE
+,"Instead of solving everything manually, engineers now orchestrate solutions — guiding AI, validating outputs, and focusing on higher-level logic. ⚡",t32,2,REPLY,TRUE
+,"The future engineer is not just a coder, but a decision-maker. Are you adapting to that shift? 👀",t32,3,REPLY,TRUE
 78,The real cost of a bug is not fixing it. It’s everything around it. 💸 #Engineering,t33,1,MAIN,FALSE
 ,"Context switching, debugging time, delayed releases, user frustration — one small bug can create a chain reaction. 🔗",t33,2,REPLY,FALSE
 ,Preventing bugs is cheaper than fixing them. What’s your strategy for reducing them? 👇,t33,3,REPLY,FALSE
