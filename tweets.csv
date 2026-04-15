@@ -127,9 +127,9 @@ id,tweet_text,thread_id,order,type,posted
 74,Most developers think scaling is about handling more users. It’s not. It’s about handling failure under more users. 📈💥 #Scalability,t29,1,MAIN,TRUE
 ,"At small scale, failures are rare and isolated. At large scale, they are constant and overlapping. Systems don’t break — they accumulate stress until they snap. ⚠️",t29,2,REPLY,TRUE
 ,"If your system barely survives today, it will collapse tomorrow under load. What’s one bottleneck you’re ignoring right now? 👇",t29,3,REPLY,TRUE
-75,The biggest lie in software development: “This should work.” 😄 #Programming,t30,1,MAIN,FALSE
-,"That sentence usually hides assumptions about inputs, timing, state, or dependencies. Reality doesn’t care about your assumptions. 🧠",t30,2,REPLY,FALSE
-,Strong engineers replace assumptions with validation. What assumption broke your system once? 👀,t30,3,REPLY,FALSE
+75,The biggest lie in software development: “This should work.” 😄 #Programming,t30,1,MAIN,TRUE
+,"That sentence usually hides assumptions about inputs, timing, state, or dependencies. Reality doesn’t care about your assumptions. 🧠",t30,2,REPLY,TRUE
+,Strong engineers replace assumptions with validation. What assumption broke your system once? 👀,t30,3,REPLY,TRUE
 76,Most systems are not designed. They evolve. And that’s where problems begin. 🧵 #SystemDesign,t31,1,MAIN,FALSE
 ,"One feature at a time, one fix at a time… until the system becomes a collection of decisions no one fully understands. 🔁",t31,2,REPLY,FALSE
 ,"If no one understands the system end-to-end, debugging becomes archaeology. Is your system still understandable? 👇",t31,3,REPLY,FALSE
