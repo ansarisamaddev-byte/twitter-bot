@@ -122,57 +122,57 @@ id,tweet_text,thread_id,order,type,posted
 ,Your job during an incident isn’t to be right immediately. It’s to reduce uncertainty step by step. 🧭,t118,2,REPLY,TRUE
 ,Clarity during chaos is what separates experienced engineers from everyone else. 🧠,t118,3,REPLY,TRUE
 72,"Hot take: Microservices are not always the right answer. They solve some problems, but they introduce many others — especially around communication, debugging, and consistency. 🧩",t119,1,MAIN,TRUE
-73,The fastest way to grow as an engineer is to work on systems that break. Stable systems teach you less than failing ones. Failure exposes reality. 🔥,t120,1,MAIN,FALSE
-,Every incident is a free lesson — if you take the time to understand it deeply. 📚,t120,2,REPLY,FALSE
-74,"Most developers think scaling is about handling more users. It’s not. It’s about handling failure under more users. 📈💥 #Scalability",t29,1,MAIN,FALSE
+73,The fastest way to grow as an engineer is to work on systems that break. Stable systems teach you less than failing ones. Failure exposes reality. 🔥,t120,1,MAIN,TRUE
+,Every incident is a free lesson — if you take the time to understand it deeply. 📚,t120,2,REPLY,TRUE
+74,Most developers think scaling is about handling more users. It’s not. It’s about handling failure under more users. 📈💥 #Scalability,t29,1,MAIN,FALSE
 ,"At small scale, failures are rare and isolated. At large scale, they are constant and overlapping. Systems don’t break — they accumulate stress until they snap. ⚠️",t29,2,REPLY,FALSE
 ,"If your system barely survives today, it will collapse tomorrow under load. What’s one bottleneck you’re ignoring right now? 👇",t29,3,REPLY,FALSE
-75,"The biggest lie in software development: “This should work.” 😄 #Programming",t30,1,MAIN,FALSE
+75,The biggest lie in software development: “This should work.” 😄 #Programming,t30,1,MAIN,FALSE
 ,"That sentence usually hides assumptions about inputs, timing, state, or dependencies. Reality doesn’t care about your assumptions. 🧠",t30,2,REPLY,FALSE
-,"Strong engineers replace assumptions with validation. What assumption broke your system once? 👀",t30,3,REPLY,FALSE
-76,"Most systems are not designed. They evolve. And that’s where problems begin. 🧵 #SystemDesign",t31,1,MAIN,FALSE
+,Strong engineers replace assumptions with validation. What assumption broke your system once? 👀,t30,3,REPLY,FALSE
+76,Most systems are not designed. They evolve. And that’s where problems begin. 🧵 #SystemDesign,t31,1,MAIN,FALSE
 ,"One feature at a time, one fix at a time… until the system becomes a collection of decisions no one fully understands. 🔁",t31,2,REPLY,FALSE
 ,"If no one understands the system end-to-end, debugging becomes archaeology. Is your system still understandable? 👇",t31,3,REPLY,FALSE
 77,"AI is changing how we write code. But more importantly, it’s changing how we THINK about problems. 🤖🧠 #AI",t32,1,MAIN,FALSE
 ,"Instead of solving everything manually, engineers now orchestrate solutions — guiding AI, validating outputs, and focusing on higher-level logic. ⚡",t32,2,REPLY,FALSE
 ,"The future engineer is not just a coder, but a decision-maker. Are you adapting to that shift? 👀",t32,3,REPLY,FALSE
-78,"The real cost of a bug is not fixing it. It’s everything around it. 💸 #Engineering",t33,1,MAIN,FALSE
+78,The real cost of a bug is not fixing it. It’s everything around it. 💸 #Engineering,t33,1,MAIN,FALSE
 ,"Context switching, debugging time, delayed releases, user frustration — one small bug can create a chain reaction. 🔗",t33,2,REPLY,FALSE
-,"Preventing bugs is cheaper than fixing them. What’s your strategy for reducing them? 👇",t33,3,REPLY,FALSE
-79,"Most developers optimize for writing code fast. Few optimize for understanding it later. 🧠 #CleanCode",t34,1,MAIN,FALSE
-,"Code is read far more than it’s written. Every unclear line is a future slowdown for someone else — or you. 🔁",t34,2,REPLY,FALSE
+,Preventing bugs is cheaper than fixing them. What’s your strategy for reducing them? 👇,t33,3,REPLY,FALSE
+79,Most developers optimize for writing code fast. Few optimize for understanding it later. 🧠 #CleanCode,t34,1,MAIN,FALSE
+,Code is read far more than it’s written. Every unclear line is a future slowdown for someone else — or you. 🔁,t34,2,REPLY,FALSE
 ,"If your code needs explanation, it needs improvement. Agree or disagree? 👀",t34,3,REPLY,FALSE
-80,"Your system doesn’t fail randomly. It fails in patterns you didn’t notice. 📉 #Reliability",t35,1,MAIN,FALSE
+80,Your system doesn’t fail randomly. It fails in patterns you didn’t notice. 📉 #Reliability,t35,1,MAIN,FALSE
 ,"Repeated retries, growing queues, slow responses — these are signals, not noise. Ignoring them turns small issues into incidents. 🚨",t35,2,REPLY,FALSE
-,"Great teams detect patterns early. What pattern did you miss before an outage? 👇",t35,3,REPLY,FALSE
-81,"The difference between a stable system and a fragile one is not features — it’s boundaries. 🧱 #Architecture",t36,1,MAIN,FALSE
-,"Clear boundaries limit failures. Poor boundaries spread them across the system. One bug becomes everyone’s problem. 💥",t36,2,REPLY,FALSE
+,Great teams detect patterns early. What pattern did you miss before an outage? 👇,t35,3,REPLY,FALSE
+81,The difference between a stable system and a fragile one is not features — it’s boundaries. 🧱 #Architecture,t36,1,MAIN,FALSE
+,Clear boundaries limit failures. Poor boundaries spread them across the system. One bug becomes everyone’s problem. 💥,t36,2,REPLY,FALSE
 ,"If one service fails, how far does the damage spread? That defines your architecture. 👀",t36,3,REPLY,FALSE
-82,"Most performance problems are not where you expect them. 🐢 #Performance",t37,1,MAIN,FALSE
+82,Most performance problems are not where you expect them. 🐢 #Performance,t37,1,MAIN,FALSE
 ,"It’s rarely the obvious function. It’s the hidden call, the extra query, the unnoticed loop. Small inefficiencies compound. 🔁",t37,2,REPLY,FALSE
-,"Profiling beats guessing every time. When did performance surprise you? 👇",t37,3,REPLY,FALSE
-83,"Shipping code is easy. Owning it in production is hard. 🔥 #DevLife",t38,1,MAIN,FALSE
+,Profiling beats guessing every time. When did performance surprise you? 👇,t37,3,REPLY,FALSE
+83,Shipping code is easy. Owning it in production is hard. 🔥 #DevLife,t38,1,MAIN,FALSE
 ,"Once it’s live, you deal with real users, real failures, and real pressure. That’s where engineering actually begins. ⚠️",t38,2,REPLY,FALSE
 ,"If you’ve never supported your own code in production, you’ve only done half the job. Agree? 👀",t38,3,REPLY,FALSE
-84,"Every shortcut you take is a future decision you postpone. 🧵 #TechDebt",t39,1,MAIN,FALSE
-,"The problem isn’t the shortcut itself. It’s forgetting it exists and building more on top of it. 📌",t39,2,REPLY,FALSE
-,"Untracked shortcuts turn into system constraints. What shortcut came back to bite you? 👇",t39,3,REPLY,FALSE
-85,"Good engineers solve problems. Great engineers prevent them. 🧠⚡ #Engineering",t40,1,MAIN,FALSE
+84,Every shortcut you take is a future decision you postpone. 🧵 #TechDebt,t39,1,MAIN,FALSE
+,The problem isn’t the shortcut itself. It’s forgetting it exists and building more on top of it. 📌,t39,2,REPLY,FALSE
+,Untracked shortcuts turn into system constraints. What shortcut came back to bite you? 👇,t39,3,REPLY,FALSE
+85,Good engineers solve problems. Great engineers prevent them. 🧠⚡ #Engineering,t40,1,MAIN,FALSE
 ,"Prevention comes from experience, pattern recognition, and thinking ahead — not just reacting quickly. 🔁",t40,2,REPLY,FALSE
-,"The best bugs are the ones that never happen. What do you proactively guard against? 👀",t40,3,REPLY,FALSE
-86,"The hardest part of debugging is not fixing the issue. It’s reproducing it. 🔍 #Programming",t41,1,MAIN,FALSE
+,The best bugs are the ones that never happen. What do you proactively guard against? 👀,t40,3,REPLY,FALSE
+86,The hardest part of debugging is not fixing the issue. It’s reproducing it. 🔍 #Programming,t41,1,MAIN,FALSE
 ,"If you can’t reproduce it, you’re guessing. And guesses lead to fragile fixes. ⚠️",t41,2,REPLY,FALSE
-,"Reliable debugging starts with reliable reproduction. What’s your approach? 👇",t41,3,REPLY,FALSE
-87,"Your system is always communicating. The question is: are you listening? 📡 #Observability",t42,1,MAIN,FALSE
+,Reliable debugging starts with reliable reproduction. What’s your approach? 👇,t41,3,REPLY,FALSE
+87,Your system is always communicating. The question is: are you listening? 📡 #Observability,t42,1,MAIN,FALSE
 ,"Metrics, logs, traces — they all tell a story. Without them, you’re blind to what’s happening inside. 👀",t42,2,REPLY,FALSE
-,"Observability is not about collecting data. It’s about understanding it. Do you? 👇",t42,3,REPLY,FALSE
+,Observability is not about collecting data. It’s about understanding it. Do you? 👇,t42,3,REPLY,FALSE
 88,"Complex systems don’t fail loudly at first. They fail quietly, then suddenly. ⚠️💥 #SystemDesign",t43,1,MAIN,FALSE
 ,"Slow degradation, partial failures, inconsistent states — these build up until the system reaches a tipping point. 🔁",t43,2,REPLY,FALSE
 ,"If everything looks fine, you might not be looking deep enough. What hidden issue did you uncover late? 👀",t43,3,REPLY,FALSE
-89,"Every dependency you add is a piece of control you lose. 🔗 #Architecture",t44,1,MAIN,FALSE
+89,Every dependency you add is a piece of control you lose. 🔗 #Architecture,t44,1,MAIN,FALSE
 ,"You depend on their uptime, performance, and correctness. Your system inherits their weaknesses. ⚠️",t44,2,REPLY,FALSE
-,"The question isn’t “Does it work?” It’s “What happens when it doesn’t?” 👇",t44,3,REPLY,FALSE
-90,"The best systems are not the most powerful. They are the most predictable. 🎯 #Engineering",t45,1,MAIN,FALSE
+,The question isn’t “Does it work?” It’s “What happens when it doesn’t?” 👇,t44,3,REPLY,FALSE
+90,The best systems are not the most powerful. They are the most predictable. 🎯 #Engineering,t45,1,MAIN,FALSE
 ,"Predictability reduces surprises, simplifies debugging, and builds trust. Complexity does the opposite. 🔁",t45,2,REPLY,FALSE
 ,"If behavior is hard to predict, it’s hard to rely on. Is your system predictable? 👀",t45,3,REPLY,FALSE
 91,"API design tip: Never trust client input. Validate everything — types, ranges, formats. What seems obvious to you may not be obvious to users or other systems. 🔐",t138,1,MAIN,FALSE
