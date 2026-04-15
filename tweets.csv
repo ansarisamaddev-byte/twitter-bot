@@ -130,9 +130,9 @@ id,tweet_text,thread_id,order,type,posted
 75,The biggest lie in software development: “This should work.” 😄 #Programming,t30,1,MAIN,TRUE
 ,"That sentence usually hides assumptions about inputs, timing, state, or dependencies. Reality doesn’t care about your assumptions. 🧠",t30,2,REPLY,TRUE
 ,Strong engineers replace assumptions with validation. What assumption broke your system once? 👀,t30,3,REPLY,TRUE
-76,Most systems are not designed. They evolve. And that’s where problems begin. 🧵 #SystemDesign,t31,1,MAIN,FALSE
-,"One feature at a time, one fix at a time… until the system becomes a collection of decisions no one fully understands. 🔁",t31,2,REPLY,FALSE
-,"If no one understands the system end-to-end, debugging becomes archaeology. Is your system still understandable? 👇",t31,3,REPLY,FALSE
+76,Most systems are not designed. They evolve. And that’s where problems begin. 🧵 #SystemDesign,t31,1,MAIN,TRUE
+,"One feature at a time, one fix at a time… until the system becomes a collection of decisions no one fully understands. 🔁",t31,2,REPLY,TRUE
+,"If no one understands the system end-to-end, debugging becomes archaeology. Is your system still understandable? 👇",t31,3,REPLY,TRUE
 77,"AI is changing how we write code. But more importantly, it’s changing how we THINK about problems. 🤖🧠 #AI",t32,1,MAIN,FALSE
 ,"Instead of solving everything manually, engineers now orchestrate solutions — guiding AI, validating outputs, and focusing on higher-level logic. ⚡",t32,2,REPLY,FALSE
 ,"The future engineer is not just a coder, but a decision-maker. Are you adapting to that shift? 👀",t32,3,REPLY,FALSE
