@@ -136,9 +136,9 @@ id,tweet_text,thread_id,order,type,posted
 77,"AI is changing how we write code. But more importantly, it’s changing how we THINK about problems. 🤖🧠 #AI",t32,1,MAIN,TRUE
 ,"Instead of solving everything manually, engineers now orchestrate solutions — guiding AI, validating outputs, and focusing on higher-level logic. ⚡",t32,2,REPLY,TRUE
 ,"The future engineer is not just a coder, but a decision-maker. Are you adapting to that shift? 👀",t32,3,REPLY,TRUE
-78,The real cost of a bug is not fixing it. It’s everything around it. 💸 #Engineering,t33,1,MAIN,FALSE
-,"Context switching, debugging time, delayed releases, user frustration — one small bug can create a chain reaction. 🔗",t33,2,REPLY,FALSE
-,Preventing bugs is cheaper than fixing them. What’s your strategy for reducing them? 👇,t33,3,REPLY,FALSE
+78,The real cost of a bug is not fixing it. It’s everything around it. 💸 #Engineering,t33,1,MAIN,TRUE
+,"Context switching, debugging time, delayed releases, user frustration — one small bug can create a chain reaction. 🔗",t33,2,REPLY,TRUE
+,Preventing bugs is cheaper than fixing them. What’s your strategy for reducing them? 👇,t33,3,REPLY,TRUE
 79,Most developers optimize for writing code fast. Few optimize for understanding it later. 🧠 #CleanCode,t34,1,MAIN,FALSE
 ,Code is read far more than it’s written. Every unclear line is a future slowdown for someone else — or you. 🔁,t34,2,REPLY,FALSE
 ,"If your code needs explanation, it needs improvement. Agree or disagree? 👀",t34,3,REPLY,FALSE
