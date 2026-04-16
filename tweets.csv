@@ -139,9 +139,9 @@ id,tweet_text,thread_id,order,type,posted
 78,The real cost of a bug is not fixing it. It’s everything around it. 💸 #Engineering,t33,1,MAIN,TRUE
 ,"Context switching, debugging time, delayed releases, user frustration — one small bug can create a chain reaction. 🔗",t33,2,REPLY,TRUE
 ,Preventing bugs is cheaper than fixing them. What’s your strategy for reducing them? 👇,t33,3,REPLY,TRUE
-79,Most developers optimize for writing code fast. Few optimize for understanding it later. 🧠 #CleanCode,t34,1,MAIN,FALSE
-,Code is read far more than it’s written. Every unclear line is a future slowdown for someone else — or you. 🔁,t34,2,REPLY,FALSE
-,"If your code needs explanation, it needs improvement. Agree or disagree? 👀",t34,3,REPLY,FALSE
+79,Most developers optimize for writing code fast. Few optimize for understanding it later. 🧠 #CleanCode,t34,1,MAIN,TRUE
+,Code is read far more than it’s written. Every unclear line is a future slowdown for someone else — or you. 🔁,t34,2,REPLY,TRUE
+,"If your code needs explanation, it needs improvement. Agree or disagree? 👀",t34,3,REPLY,TRUE
 80,Your system doesn’t fail randomly. It fails in patterns you didn’t notice. 📉 #Reliability,t35,1,MAIN,FALSE
 ,"Repeated retries, growing queues, slow responses — these are signals, not noise. Ignoring them turns small issues into incidents. 🚨",t35,2,REPLY,FALSE
 ,Great teams detect patterns early. What pattern did you miss before an outage? 👇,t35,3,REPLY,FALSE
