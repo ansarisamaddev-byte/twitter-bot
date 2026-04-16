@@ -145,9 +145,9 @@ id,tweet_text,thread_id,order,type,posted
 80,Your system doesn’t fail randomly. It fails in patterns you didn’t notice. 📉 #Reliability,t35,1,MAIN,TRUE
 ,"Repeated retries, growing queues, slow responses — these are signals, not noise. Ignoring them turns small issues into incidents. 🚨",t35,2,REPLY,TRUE
 ,Great teams detect patterns early. What pattern did you miss before an outage? 👇,t35,3,REPLY,TRUE
-81,The difference between a stable system and a fragile one is not features — it’s boundaries. 🧱 #Architecture,t36,1,MAIN,FALSE
-,Clear boundaries limit failures. Poor boundaries spread them across the system. One bug becomes everyone’s problem. 💥,t36,2,REPLY,FALSE
-,"If one service fails, how far does the damage spread? That defines your architecture. 👀",t36,3,REPLY,FALSE
+81,The difference between a stable system and a fragile one is not features — it’s boundaries. 🧱 #Architecture,t36,1,MAIN,TRUE
+,Clear boundaries limit failures. Poor boundaries spread them across the system. One bug becomes everyone’s problem. 💥,t36,2,REPLY,TRUE
+,"If one service fails, how far does the damage spread? That defines your architecture. 👀",t36,3,REPLY,TRUE
 82,Most performance problems are not where you expect them. 🐢 #Performance,t37,1,MAIN,FALSE
 ,"It’s rarely the obvious function. It’s the hidden call, the extra query, the unnoticed loop. Small inefficiencies compound. 🔁",t37,2,REPLY,FALSE
 ,Profiling beats guessing every time. When did performance surprise you? 👇,t37,3,REPLY,FALSE
