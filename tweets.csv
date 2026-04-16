@@ -142,9 +142,9 @@ id,tweet_text,thread_id,order,type,posted
 79,Most developers optimize for writing code fast. Few optimize for understanding it later. 🧠 #CleanCode,t34,1,MAIN,TRUE
 ,Code is read far more than it’s written. Every unclear line is a future slowdown for someone else — or you. 🔁,t34,2,REPLY,TRUE
 ,"If your code needs explanation, it needs improvement. Agree or disagree? 👀",t34,3,REPLY,TRUE
-80,Your system doesn’t fail randomly. It fails in patterns you didn’t notice. 📉 #Reliability,t35,1,MAIN,FALSE
-,"Repeated retries, growing queues, slow responses — these are signals, not noise. Ignoring them turns small issues into incidents. 🚨",t35,2,REPLY,FALSE
-,Great teams detect patterns early. What pattern did you miss before an outage? 👇,t35,3,REPLY,FALSE
+80,Your system doesn’t fail randomly. It fails in patterns you didn’t notice. 📉 #Reliability,t35,1,MAIN,TRUE
+,"Repeated retries, growing queues, slow responses — these are signals, not noise. Ignoring them turns small issues into incidents. 🚨",t35,2,REPLY,TRUE
+,Great teams detect patterns early. What pattern did you miss before an outage? 👇,t35,3,REPLY,TRUE
 81,The difference between a stable system and a fragile one is not features — it’s boundaries. 🧱 #Architecture,t36,1,MAIN,FALSE
 ,Clear boundaries limit failures. Poor boundaries spread them across the system. One bug becomes everyone’s problem. 💥,t36,2,REPLY,FALSE
 ,"If one service fails, how far does the damage spread? That defines your architecture. 👀",t36,3,REPLY,FALSE
