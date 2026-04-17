@@ -160,9 +160,9 @@ id,tweet_text,thread_id,order,type,posted
 85,Good engineers solve problems. Great engineers prevent them. 🧠⚡ #Engineering,t40,1,MAIN,TRUE
 ,"Prevention comes from experience, pattern recognition, and thinking ahead — not just reacting quickly. 🔁",t40,2,REPLY,TRUE
 ,The best bugs are the ones that never happen. What do you proactively guard against? 👀,t40,3,REPLY,TRUE
-86,The hardest part of debugging is not fixing the issue. It’s reproducing it. 🔍 #Programming,t41,1,MAIN,FALSE
-,"If you can’t reproduce it, you’re guessing. And guesses lead to fragile fixes. ⚠️",t41,2,REPLY,FALSE
-,Reliable debugging starts with reliable reproduction. What’s your approach? 👇,t41,3,REPLY,FALSE
+86,The hardest part of debugging is not fixing the issue. It’s reproducing it. 🔍 #Programming,t41,1,MAIN,TRUE
+,"If you can’t reproduce it, you’re guessing. And guesses lead to fragile fixes. ⚠️",t41,2,REPLY,TRUE
+,Reliable debugging starts with reliable reproduction. What’s your approach? 👇,t41,3,REPLY,TRUE
 87,Your system is always communicating. The question is: are you listening? 📡 #Observability,t42,1,MAIN,FALSE
 ,"Metrics, logs, traces — they all tell a story. Without them, you’re blind to what’s happening inside. 👀",t42,2,REPLY,FALSE
 ,Observability is not about collecting data. It’s about understanding it. Do you? 👇,t42,3,REPLY,FALSE
