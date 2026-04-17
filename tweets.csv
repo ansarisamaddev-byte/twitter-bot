@@ -151,9 +151,9 @@ id,tweet_text,thread_id,order,type,posted
 82,Most performance problems are not where you expect them. 🐢 #Performance,t37,1,MAIN,TRUE
 ,"It’s rarely the obvious function. It’s the hidden call, the extra query, the unnoticed loop. Small inefficiencies compound. 🔁",t37,2,REPLY,TRUE
 ,Profiling beats guessing every time. When did performance surprise you? 👇,t37,3,REPLY,TRUE
-83,Shipping code is easy. Owning it in production is hard. 🔥 #DevLife,t38,1,MAIN,FALSE
-,"Once it’s live, you deal with real users, real failures, and real pressure. That’s where engineering actually begins. ⚠️",t38,2,REPLY,FALSE
-,"If you’ve never supported your own code in production, you’ve only done half the job. Agree? 👀",t38,3,REPLY,FALSE
+83,Shipping code is easy. Owning it in production is hard. 🔥 #DevLife,t38,1,MAIN,TRUE
+,"Once it’s live, you deal with real users, real failures, and real pressure. That’s where engineering actually begins. ⚠️",t38,2,REPLY,TRUE
+,"If you’ve never supported your own code in production, you’ve only done half the job. Agree? 👀",t38,3,REPLY,TRUE
 84,Every shortcut you take is a future decision you postpone. 🧵 #TechDebt,t39,1,MAIN,FALSE
 ,The problem isn’t the shortcut itself. It’s forgetting it exists and building more on top of it. 📌,t39,2,REPLY,FALSE
 ,Untracked shortcuts turn into system constraints. What shortcut came back to bite you? 👇,t39,3,REPLY,FALSE
