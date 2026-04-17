@@ -154,9 +154,9 @@ id,tweet_text,thread_id,order,type,posted
 83,Shipping code is easy. Owning it in production is hard. 🔥 #DevLife,t38,1,MAIN,TRUE
 ,"Once it’s live, you deal with real users, real failures, and real pressure. That’s where engineering actually begins. ⚠️",t38,2,REPLY,TRUE
 ,"If you’ve never supported your own code in production, you’ve only done half the job. Agree? 👀",t38,3,REPLY,TRUE
-84,Every shortcut you take is a future decision you postpone. 🧵 #TechDebt,t39,1,MAIN,FALSE
-,The problem isn’t the shortcut itself. It’s forgetting it exists and building more on top of it. 📌,t39,2,REPLY,FALSE
-,Untracked shortcuts turn into system constraints. What shortcut came back to bite you? 👇,t39,3,REPLY,FALSE
+84,Every shortcut you take is a future decision you postpone. 🧵 #TechDebt,t39,1,MAIN,TRUE
+,The problem isn’t the shortcut itself. It’s forgetting it exists and building more on top of it. 📌,t39,2,REPLY,TRUE
+,Untracked shortcuts turn into system constraints. What shortcut came back to bite you? 👇,t39,3,REPLY,TRUE
 85,Good engineers solve problems. Great engineers prevent them. 🧠⚡ #Engineering,t40,1,MAIN,FALSE
 ,"Prevention comes from experience, pattern recognition, and thinking ahead — not just reacting quickly. 🔁",t40,2,REPLY,FALSE
 ,The best bugs are the ones that never happen. What do you proactively guard against? 👀,t40,3,REPLY,FALSE
