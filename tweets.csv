@@ -163,9 +163,9 @@ id,tweet_text,thread_id,order,type,posted
 86,The hardest part of debugging is not fixing the issue. It’s reproducing it. 🔍 #Programming,t41,1,MAIN,TRUE
 ,"If you can’t reproduce it, you’re guessing. And guesses lead to fragile fixes. ⚠️",t41,2,REPLY,TRUE
 ,Reliable debugging starts with reliable reproduction. What’s your approach? 👇,t41,3,REPLY,TRUE
-87,Your system is always communicating. The question is: are you listening? 📡 #Observability,t42,1,MAIN,FALSE
-,"Metrics, logs, traces — they all tell a story. Without them, you’re blind to what’s happening inside. 👀",t42,2,REPLY,FALSE
-,Observability is not about collecting data. It’s about understanding it. Do you? 👇,t42,3,REPLY,FALSE
+87,Your system is always communicating. The question is: are you listening? 📡 #Observability,t42,1,MAIN,TRUE
+,"Metrics, logs, traces — they all tell a story. Without them, you’re blind to what’s happening inside. 👀",t42,2,REPLY,TRUE
+,Observability is not about collecting data. It’s about understanding it. Do you? 👇,t42,3,REPLY,TRUE
 88,"Complex systems don’t fail loudly at first. They fail quietly, then suddenly. ⚠️💥 #SystemDesign",t43,1,MAIN,FALSE
 ,"Slow degradation, partial failures, inconsistent states — these build up until the system reaches a tipping point. 🔁",t43,2,REPLY,FALSE
 ,"If everything looks fine, you might not be looking deep enough. What hidden issue did you uncover late? 👀",t43,3,REPLY,FALSE
