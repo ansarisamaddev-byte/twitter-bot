@@ -169,9 +169,9 @@ id,tweet_text,thread_id,order,type,posted
 88,"Complex systems don’t fail loudly at first. They fail quietly, then suddenly. ⚠️💥 #SystemDesign",t43,1,MAIN,TRUE
 ,"Slow degradation, partial failures, inconsistent states — these build up until the system reaches a tipping point. 🔁",t43,2,REPLY,TRUE
 ,"If everything looks fine, you might not be looking deep enough. What hidden issue did you uncover late? 👀",t43,3,REPLY,TRUE
-89,Every dependency you add is a piece of control you lose. 🔗 #Architecture,t44,1,MAIN,FALSE
-,"You depend on their uptime, performance, and correctness. Your system inherits their weaknesses. ⚠️",t44,2,REPLY,FALSE
-,The question isn’t “Does it work?” It’s “What happens when it doesn’t?” 👇,t44,3,REPLY,FALSE
+89,Every dependency you add is a piece of control you lose. 🔗 #Architecture,t44,1,MAIN,TRUE
+,"You depend on their uptime, performance, and correctness. Your system inherits their weaknesses. ⚠️",t44,2,REPLY,TRUE
+,The question isn’t “Does it work?” It’s “What happens when it doesn’t?” 👇,t44,3,REPLY,TRUE
 90,The best systems are not the most powerful. They are the most predictable. 🎯 #Engineering,t45,1,MAIN,FALSE
 ,"Predictability reduces surprises, simplifies debugging, and builds trust. Complexity does the opposite. 🔁",t45,2,REPLY,FALSE
 ,"If behavior is hard to predict, it’s hard to rely on. Is your system predictable? 👀",t45,3,REPLY,FALSE
