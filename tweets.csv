@@ -172,9 +172,9 @@ id,tweet_text,thread_id,order,type,posted
 89,Every dependency you add is a piece of control you lose. 🔗 #Architecture,t44,1,MAIN,TRUE
 ,"You depend on their uptime, performance, and correctness. Your system inherits their weaknesses. ⚠️",t44,2,REPLY,TRUE
 ,The question isn’t “Does it work?” It’s “What happens when it doesn’t?” 👇,t44,3,REPLY,TRUE
-90,The best systems are not the most powerful. They are the most predictable. 🎯 #Engineering,t45,1,MAIN,FALSE
-,"Predictability reduces surprises, simplifies debugging, and builds trust. Complexity does the opposite. 🔁",t45,2,REPLY,FALSE
-,"If behavior is hard to predict, it’s hard to rely on. Is your system predictable? 👀",t45,3,REPLY,FALSE
+90,The best systems are not the most powerful. They are the most predictable. 🎯 #Engineering,t45,1,MAIN,TRUE
+,"Predictability reduces surprises, simplifies debugging, and builds trust. Complexity does the opposite. 🔁",t45,2,REPLY,TRUE
+,"If behavior is hard to predict, it’s hard to rely on. Is your system predictable? 👀",t45,3,REPLY,TRUE
 91,"API design tip: Never trust client input. Validate everything — types, ranges, formats. What seems obvious to you may not be obvious to users or other systems. 🔐",t138,1,MAIN,FALSE
 92,"Debugging tip: Log context, not just events. Knowing “what happened” isn’t enough — you need to know “why it happened” and “under what conditions.” 📋",t139,1,MAIN,FALSE
 ,"Add request IDs, user IDs, and key state values in logs. It makes tracing issues 10x easier. 🔍",t139,2,REPLY,FALSE
