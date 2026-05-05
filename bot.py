@@ -45,7 +45,7 @@ with open(CSV_FILE, newline="", encoding="utf-8") as f:
 thread_to_post = None
 
 for t_id in threads:
-    thread = sorted(threads[t_id], key=lambda x: int(x.get("order", 0)))
+    thread = sorted(threads[t_id], key=lambda x: int(x.get("order") or 0))
     if any(r.get("posted", "").strip().upper() != "TRUE" for r in thread):
         thread_to_post = thread
         break
