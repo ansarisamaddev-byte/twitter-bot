@@ -179,8 +179,8 @@ id,tweet_text,thread_id,order,type,posted
 92,"Debugging tip: Log context, not just events. Knowing “what happened” isn’t enough — you need to know “why it happened” and “under what conditions.” 📋",t139,1,MAIN,TRUE
 ,"Add request IDs, user IDs, and key state values in logs. It makes tracing issues 10x easier. 🔍",t139,2,REPLY,TRUE
 93,"Scaling tip: Avoid premature scaling. Build for current needs first, then evolve. Over-engineering early creates complexity you may never need. ⚙️",t140,1,MAIN,TRUE
-94,"Testing tip: Don’t just test happy paths. Most real-world failures happen in edge cases, invalid inputs, and unexpected states. 🧪",t141,1,MAIN,FALSE
-,Good tests don’t just prove your code works — they prove it fails safely. 💥,t141,2,REPLY,FALSE
+94,"Testing tip: Don’t just test happy paths. Most real-world failures happen in edge cases, invalid inputs, and unexpected states. 🧪",t141,1,MAIN,TRUE
+,Good tests don’t just prove your code works — they prove it fails safely. 💥,t141,2,REPLY,TRUE
 95,Git tip: Write meaningful commit messages. “Fix bug” tells nothing. “Fix race condition in payment retry logic” tells a story your future self will thank you for. 📌,t142,1,MAIN,FALSE
 96,Productivity tip: Batch similar tasks together. Constant context switching kills deep thinking and slows you down more than you realize. 🔄,t143,1,MAIN,FALSE
 97,"Security tip: Never expose sensitive data in logs. Logs often get stored, shared, and analyzed — leaking secrets there is a silent risk. 🔐",t144,1,MAIN,FALSE
@@ -239,8 +239,8 @@ id,tweet_text,thread_id,order,type,posted
 ,"The real skill is balancing speed with verification. Trust, but verify everything. 🔍",t140,,REPLY,TRUE
 ,"If you can’t explain the code AI generated, you shouldn’t ship it. Simple rule. 🧠",t140,,REPLY,TRUE
 ,Fast mistakes are still mistakes — just harder to trace later. 💥,t140,,REPLY,TRUE
-141,"Performance tip: Optimize where it matters, not where it’s easy. Many engineers waste time micro-optimizing code paths that don’t impact real users. Always measure first. Data should guide your optimization, not intuition. 📊 #Performance",t141,,MAIN,FALSE
-,80% of performance gains usually come from fixing 20% of bottlenecks. Find that 20%. 🎯,t141,,REPLY,FALSE
+141,"Performance tip: Optimize where it matters, not where it’s easy. Many engineers waste time micro-optimizing code paths that don’t impact real users. Always measure first. Data should guide your optimization, not intuition. 📊 #Performance",t141,,MAIN,TRUE
+,80% of performance gains usually come from fixing 20% of bottlenecks. Find that 20%. 🎯,t141,,REPLY,TRUE
 142,"Reliability insight: Redundancy isn’t enough — independence matters more. If your backups share the same failure mode as your primary system, you don’t have redundancy. You have duplication. 💥 #SystemDesign",t142,,MAIN,FALSE
 ,"True resilience comes from diversity: different regions, providers, or failure domains. 🌍",t142,,REPLY,FALSE
 143,"Engineering mindset: Every feature you add increases complexity. The best teams don’t just build — they remove, simplify, and refine constantly. Simplicity is not a one-time decision. It’s continuous work. 🧠 #CleanCode",t143,,MAIN,FALSE
