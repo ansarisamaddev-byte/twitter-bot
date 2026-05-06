@@ -178,7 +178,7 @@ id,tweet_text,thread_id,order,type,posted
 91,"API design tip: Never trust client input. Validate everything — types, ranges, formats. What seems obvious to you may not be obvious to users or other systems. 🔐",t138,1,MAIN,TRUE
 92,"Debugging tip: Log context, not just events. Knowing “what happened” isn’t enough — you need to know “why it happened” and “under what conditions.” 📋",t139,1,MAIN,TRUE
 ,"Add request IDs, user IDs, and key state values in logs. It makes tracing issues 10x easier. 🔍",t139,2,REPLY,TRUE
-93,"Scaling tip: Avoid premature scaling. Build for current needs first, then evolve. Over-engineering early creates complexity you may never need. ⚙️",t140,1,MAIN,FALSE
+93,"Scaling tip: Avoid premature scaling. Build for current needs first, then evolve. Over-engineering early creates complexity you may never need. ⚙️",t140,1,MAIN,TRUE
 94,"Testing tip: Don’t just test happy paths. Most real-world failures happen in edge cases, invalid inputs, and unexpected states. 🧪",t141,1,MAIN,FALSE
 ,Good tests don’t just prove your code works — they prove it fails safely. 💥,t141,2,REPLY,FALSE
 95,Git tip: Write meaningful commit messages. “Fix bug” tells nothing. “Fix race condition in payment retry logic” tells a story your future self will thank you for. 📌,t142,1,MAIN,FALSE
@@ -235,10 +235,10 @@ id,tweet_text,thread_id,order,type,posted
 138,"Debugging lesson: If you can’t reproduce a bug, you don’t understand it yet. Intermittent issues aren’t random — they’re just dependent on hidden variables like timing, load, or state. Your job is to uncover those variables. 🕵️ #Debugging",t138,,MAIN,TRUE
 ,"Logs, metrics, and tracing are your tools — but curiosity is the real skill. 🧭",t138,,REPLY,TRUE
 139,"Career reality: The fastest way to stand out in 2026 isn’t by coding faster — it’s by owning problems end-to-end. Anyone can write code. Very few can take responsibility for reliability, performance, and user impact. That’s where growth happens. 🚀 #EngineeringCareers",t139,,MAIN,TRUE
-140,"Tech trend: “Vibe coding” is trending — letting AI generate large chunks of code with minimal oversight. It feels fast, but it’s dangerous. Without deep understanding, you’re building systems you can’t debug. Speed without control is a liability. ⚠️ #AICoding",t140,,MAIN,FALSE
-,"The real skill is balancing speed with verification. Trust, but verify everything. 🔍",t140,,REPLY,FALSE
-,"If you can’t explain the code AI generated, you shouldn’t ship it. Simple rule. 🧠",t140,,REPLY,FALSE
-,Fast mistakes are still mistakes — just harder to trace later. 💥,t140,,REPLY,FALSE
+140,"Tech trend: “Vibe coding” is trending — letting AI generate large chunks of code with minimal oversight. It feels fast, but it’s dangerous. Without deep understanding, you’re building systems you can’t debug. Speed without control is a liability. ⚠️ #AICoding",t140,,MAIN,TRUE
+,"The real skill is balancing speed with verification. Trust, but verify everything. 🔍",t140,,REPLY,TRUE
+,"If you can’t explain the code AI generated, you shouldn’t ship it. Simple rule. 🧠",t140,,REPLY,TRUE
+,Fast mistakes are still mistakes — just harder to trace later. 💥,t140,,REPLY,TRUE
 141,"Performance tip: Optimize where it matters, not where it’s easy. Many engineers waste time micro-optimizing code paths that don’t impact real users. Always measure first. Data should guide your optimization, not intuition. 📊 #Performance",t141,,MAIN,FALSE
 ,80% of performance gains usually come from fixing 20% of bottlenecks. Find that 20%. 🎯,t141,,REPLY,FALSE
 142,"Reliability insight: Redundancy isn’t enough — independence matters more. If your backups share the same failure mode as your primary system, you don’t have redundancy. You have duplication. 💥 #SystemDesign",t142,,MAIN,FALSE
