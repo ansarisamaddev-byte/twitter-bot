@@ -175,7 +175,7 @@ id,tweet_text,thread_id,order,type,posted
 90,The best systems are not the most powerful. They are the most predictable. 🎯 #Engineering,t45,1,MAIN,TRUE
 ,"Predictability reduces surprises, simplifies debugging, and builds trust. Complexity does the opposite. 🔁",t45,2,REPLY,TRUE
 ,"If behavior is hard to predict, it’s hard to rely on. Is your system predictable? 👀",t45,3,REPLY,TRUE
-91,"API design tip: Never trust client input. Validate everything — types, ranges, formats. What seems obvious to you may not be obvious to users or other systems. 🔐",t138,1,MAIN,FALSE
+91,"API design tip: Never trust client input. Validate everything — types, ranges, formats. What seems obvious to you may not be obvious to users or other systems. 🔐",t138,1,MAIN,TRUE
 92,"Debugging tip: Log context, not just events. Knowing “what happened” isn’t enough — you need to know “why it happened” and “under what conditions.” 📋",t139,1,MAIN,FALSE
 ,"Add request IDs, user IDs, and key state values in logs. It makes tracing issues 10x easier. 🔍",t139,2,REPLY,FALSE
 93,"Scaling tip: Avoid premature scaling. Build for current needs first, then evolve. Over-engineering early creates complexity you may never need. ⚙️",t140,1,MAIN,FALSE
@@ -232,8 +232,8 @@ id,tweet_text,thread_id,order,type,posted
 137,"System design insight: Most systems don’t fail under peak load — they fail during recovery. When traffic returns, caches are cold, queues are full, and retries explode. Designing for recovery is harder than designing for scale. 🔥 #DistributedSystems",t137,,MAIN,FALSE
 ,"This is why gradual rollout, warm-up strategies, and rate limiting matter more than raw scalability. ⚙️",t137,,REPLY,FALSE
 ,"Ask yourself: can your system recover smoothly, or does it collapse again during recovery? 👇",t137,,REPLY,FALSE
-138,"Debugging lesson: If you can’t reproduce a bug, you don’t understand it yet. Intermittent issues aren’t random — they’re just dependent on hidden variables like timing, load, or state. Your job is to uncover those variables. 🕵️ #Debugging",t138,,MAIN,FALSE
-,"Logs, metrics, and tracing are your tools — but curiosity is the real skill. 🧭",t138,,REPLY,FALSE
+138,"Debugging lesson: If you can’t reproduce a bug, you don’t understand it yet. Intermittent issues aren’t random — they’re just dependent on hidden variables like timing, load, or state. Your job is to uncover those variables. 🕵️ #Debugging",t138,,MAIN,TRUE
+,"Logs, metrics, and tracing are your tools — but curiosity is the real skill. 🧭",t138,,REPLY,TRUE
 139,"Career reality: The fastest way to stand out in 2026 isn’t by coding faster — it’s by owning problems end-to-end. Anyone can write code. Very few can take responsibility for reliability, performance, and user impact. That’s where growth happens. 🚀 #EngineeringCareers",t139,,MAIN,FALSE
 140,"Tech trend: “Vibe coding” is trending — letting AI generate large chunks of code with minimal oversight. It feels fast, but it’s dangerous. Without deep understanding, you’re building systems you can’t debug. Speed without control is a liability. ⚠️ #AICoding",t140,,MAIN,FALSE
 ,"The real skill is balancing speed with verification. Trust, but verify everything. 🔍",t140,,REPLY,FALSE
