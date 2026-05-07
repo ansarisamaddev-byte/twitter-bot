@@ -183,7 +183,7 @@ id,tweet_text,thread_id,order,type,posted
 ,Good tests don’t just prove your code works — they prove it fails safely. 💥,t141,2,REPLY,TRUE
 95,Git tip: Write meaningful commit messages. “Fix bug” tells nothing. “Fix race condition in payment retry logic” tells a story your future self will thank you for. 📌,t142,1,MAIN,TRUE
 96,Productivity tip: Batch similar tasks together. Constant context switching kills deep thinking and slows you down more than you realize. 🔄,t143,1,MAIN,TRUE
-97,"Security tip: Never expose sensitive data in logs. Logs often get stored, shared, and analyzed — leaking secrets there is a silent risk. 🔐",t144,1,MAIN,FALSE
+97,"Security tip: Never expose sensitive data in logs. Logs often get stored, shared, and analyzed — leaking secrets there is a silent risk. 🔐",t144,1,MAIN,TRUE
 98,"AI usage tip: Use AI to generate options, not final answers. Treat it like brainstorming, not execution. The value comes from evaluating outputs, not blindly using them. 🤖",t145,1,MAIN,FALSE
 ,"The best engineers use AI to think wider, not just faster. 🧠",t145,2,REPLY,FALSE
 99,"Database tip: Always index based on your query patterns, not assumptions. Wrong indexing can slow down your system more than no indexing at all. 📊",t146,1,MAIN,FALSE
@@ -244,8 +244,8 @@ id,tweet_text,thread_id,order,type,posted
 142,"Reliability insight: Redundancy isn’t enough — independence matters more. If your backups share the same failure mode as your primary system, you don’t have redundancy. You have duplication. 💥 #SystemDesign",t142,,MAIN,TRUE
 ,"True resilience comes from diversity: different regions, providers, or failure domains. 🌍",t142,,REPLY,TRUE
 143,"Engineering mindset: Every feature you add increases complexity. The best teams don’t just build — they remove, simplify, and refine constantly. Simplicity is not a one-time decision. It’s continuous work. 🧠 #CleanCode",t143,,MAIN,TRUE
-144,"Debugging truth: The longer it takes to find a bug, the simpler the root cause usually is. Overthinking leads you away from the answer. Start with basics — inputs, outputs, assumptions — before diving deep. 🔍 #Debugging",t144,,MAIN,FALSE
-,Most bugs hide in plain sight — we just overlook them because we assume they’re correct. 👀,t144,,REPLY,FALSE
+144,"Debugging truth: The longer it takes to find a bug, the simpler the root cause usually is. Overthinking leads you away from the answer. Start with basics — inputs, outputs, assumptions — before diving deep. 🔍 #Debugging",t144,,MAIN,TRUE
+,Most bugs hide in plain sight — we just overlook them because we assume they’re correct. 👀,t144,,REPLY,TRUE
 145,"System design: Rate limiting isn’t just about protecting your system — it’s about protecting your users from each other. Without it, a few heavy users can degrade experience for everyone else. ⚖️ #DistributedSystems",t145,,MAIN,FALSE
 ,Fairness is an underrated design goal in scalable systems. 🧩,t145,,REPLY,FALSE
 146,Career insight: The engineers who grow fastest are the ones who document their learnings. Writing forces clarity. It turns experience into knowledge you can reuse and share. Don’t just learn — document. ✍️ #Growth,t146,,MAIN,FALSE
