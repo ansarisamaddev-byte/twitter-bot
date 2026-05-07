@@ -187,8 +187,8 @@ id,tweet_text,thread_id,order,type,posted
 98,"AI usage tip: Use AI to generate options, not final answers. Treat it like brainstorming, not execution. The value comes from evaluating outputs, not blindly using them. 🤖",t145,1,MAIN,TRUE
 ,"The best engineers use AI to think wider, not just faster. 🧠",t145,2,REPLY,TRUE
 99,"Database tip: Always index based on your query patterns, not assumptions. Wrong indexing can slow down your system more than no indexing at all. 📊",t146,1,MAIN,TRUE
-100,System design tip: Design for failure from day one. Assume every dependency will fail eventually — and plan how your system behaves when it does. 🌐,t147,1,MAIN,FALSE
-,Graceful degradation > complete failure. Always. ⚙️,t147,2,REPLY,FALSE
+100,System design tip: Design for failure from day one. Assume every dependency will fail eventually — and plan how your system behaves when it does. 🌐,t147,1,MAIN,TRUE
+,Graceful degradation > complete failure. Always. ⚙️,t147,2,REPLY,TRUE
 101,"Debugging tip: Reproduce the issue consistently before fixing it. If you can’t reproduce it, you can’t confidently fix it. 🧠",t148,1,MAIN,FALSE
 102,"Learning tip: Don’t just consume content — build things. Real understanding comes from applying concepts, not just reading about them. 🚀",t149,1,MAIN,FALSE
 103,Code review tip: Don’t just check if code works — check if it can fail. Thinking about failure cases is what improves quality. 🔍,t150,1,MAIN,FALSE
@@ -250,9 +250,9 @@ id,tweet_text,thread_id,order,type,posted
 ,Fairness is an underrated design goal in scalable systems. 🧩,t145,,REPLY,TRUE
 146,Career insight: The engineers who grow fastest are the ones who document their learnings. Writing forces clarity. It turns experience into knowledge you can reuse and share. Don’t just learn — document. ✍️ #Growth,t146,,MAIN,TRUE
 ,Your future self will thank you for good documentation. Trust me. 📌,t146,,REPLY,TRUE
-147,"Tech reality: Observability is becoming more important than monitoring. Knowing something broke isn’t enough — you need to understand why, how, and where instantly. That’s the difference between minutes and hours during incidents. 🚨 #Observability",t147,,MAIN,FALSE
-,"Logs + metrics + traces together tell the full story. Individually, they’re incomplete. 🧭",t147,,REPLY,FALSE
-,Good observability reduces stress more than any on-call rotation policy. 🌙,t147,,REPLY,FALSE
+147,"Tech reality: Observability is becoming more important than monitoring. Knowing something broke isn’t enough — you need to understand why, how, and where instantly. That’s the difference between minutes and hours during incidents. 🚨 #Observability",t147,,MAIN,TRUE
+,"Logs + metrics + traces together tell the full story. Individually, they’re incomplete. 🧭",t147,,REPLY,TRUE
+,Good observability reduces stress more than any on-call rotation policy. 🌙,t147,,REPLY,TRUE
 148,"AI insight: The real power of AI tools isn’t replacing engineers — it’s compressing the feedback loop. Faster iteration means faster learning. The teams that win will be the ones that learn faster, not just build faster. ⚡ #AIEngineering",t148,,MAIN,FALSE
 149,System failure lesson: Cascading failures are the real enemy in distributed systems. One service fails → retries increase → load spreads → entire system collapses. Preventing cascades is more important than preventing single failures. 💥,t149,,MAIN,FALSE
 ,Circuit breakers and backpressure are your best defense here. 🔌,t149,,REPLY,FALSE
