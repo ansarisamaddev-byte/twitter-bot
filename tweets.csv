@@ -186,7 +186,7 @@ id,tweet_text,thread_id,order,type,posted
 97,"Security tip: Never expose sensitive data in logs. Logs often get stored, shared, and analyzed — leaking secrets there is a silent risk. 🔐",t144,1,MAIN,TRUE
 98,"AI usage tip: Use AI to generate options, not final answers. Treat it like brainstorming, not execution. The value comes from evaluating outputs, not blindly using them. 🤖",t145,1,MAIN,TRUE
 ,"The best engineers use AI to think wider, not just faster. 🧠",t145,2,REPLY,TRUE
-99,"Database tip: Always index based on your query patterns, not assumptions. Wrong indexing can slow down your system more than no indexing at all. 📊",t146,1,MAIN,FALSE
+99,"Database tip: Always index based on your query patterns, not assumptions. Wrong indexing can slow down your system more than no indexing at all. 📊",t146,1,MAIN,TRUE
 100,System design tip: Design for failure from day one. Assume every dependency will fail eventually — and plan how your system behaves when it does. 🌐,t147,1,MAIN,FALSE
 ,Graceful degradation > complete failure. Always. ⚙️,t147,2,REPLY,FALSE
 101,"Debugging tip: Reproduce the issue consistently before fixing it. If you can’t reproduce it, you can’t confidently fix it. 🧠",t148,1,MAIN,FALSE
@@ -248,8 +248,8 @@ id,tweet_text,thread_id,order,type,posted
 ,Most bugs hide in plain sight — we just overlook them because we assume they’re correct. 👀,t144,,REPLY,TRUE
 145,"System design: Rate limiting isn’t just about protecting your system — it’s about protecting your users from each other. Without it, a few heavy users can degrade experience for everyone else. ⚖️ #DistributedSystems",t145,,MAIN,TRUE
 ,Fairness is an underrated design goal in scalable systems. 🧩,t145,,REPLY,TRUE
-146,Career insight: The engineers who grow fastest are the ones who document their learnings. Writing forces clarity. It turns experience into knowledge you can reuse and share. Don’t just learn — document. ✍️ #Growth,t146,,MAIN,FALSE
-,Your future self will thank you for good documentation. Trust me. 📌,t146,,REPLY,FALSE
+146,Career insight: The engineers who grow fastest are the ones who document their learnings. Writing forces clarity. It turns experience into knowledge you can reuse and share. Don’t just learn — document. ✍️ #Growth,t146,,MAIN,TRUE
+,Your future self will thank you for good documentation. Trust me. 📌,t146,,REPLY,TRUE
 147,"Tech reality: Observability is becoming more important than monitoring. Knowing something broke isn’t enough — you need to understand why, how, and where instantly. That’s the difference between minutes and hours during incidents. 🚨 #Observability",t147,,MAIN,FALSE
 ,"Logs + metrics + traces together tell the full story. Individually, they’re incomplete. 🧭",t147,,REPLY,FALSE
 ,Good observability reduces stress more than any on-call rotation policy. 🌙,t147,,REPLY,FALSE
