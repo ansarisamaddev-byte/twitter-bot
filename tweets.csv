@@ -190,7 +190,7 @@ id,tweet_text,thread_id,order,type,posted
 100,System design tip: Design for failure from day one. Assume every dependency will fail eventually — and plan how your system behaves when it does. 🌐,t147,1,MAIN,TRUE
 ,Graceful degradation > complete failure. Always. ⚙️,t147,2,REPLY,TRUE
 101,"Debugging tip: Reproduce the issue consistently before fixing it. If you can’t reproduce it, you can’t confidently fix it. 🧠",t148,1,MAIN,TRUE
-102,"Learning tip: Don’t just consume content — build things. Real understanding comes from applying concepts, not just reading about them. 🚀",t149,1,MAIN,FALSE
+102,"Learning tip: Don’t just consume content — build things. Real understanding comes from applying concepts, not just reading about them. 🚀",t149,1,MAIN,TRUE
 103,Code review tip: Don’t just check if code works — check if it can fail. Thinking about failure cases is what improves quality. 🔍,t150,1,MAIN,FALSE
 104,Performance tip: Reduce network calls wherever possible. Network latency adds up quickly and is often the biggest hidden bottleneck. 🌐,t151,1,MAIN,FALSE
 105,"Debugging tip: If a bug only happens sometimes, suspect concurrency or timing issues first. Intermittent bugs rarely come from simple logic errors. ⏳",t152,1,MAIN,FALSE
@@ -254,8 +254,8 @@ id,tweet_text,thread_id,order,type,posted
 ,"Logs + metrics + traces together tell the full story. Individually, they’re incomplete. 🧭",t147,,REPLY,TRUE
 ,Good observability reduces stress more than any on-call rotation policy. 🌙,t147,,REPLY,TRUE
 148,"AI insight: The real power of AI tools isn’t replacing engineers — it’s compressing the feedback loop. Faster iteration means faster learning. The teams that win will be the ones that learn faster, not just build faster. ⚡ #AIEngineering",t148,,MAIN,TRUE
-149,System failure lesson: Cascading failures are the real enemy in distributed systems. One service fails → retries increase → load spreads → entire system collapses. Preventing cascades is more important than preventing single failures. 💥,t149,,MAIN,FALSE
-,Circuit breakers and backpressure are your best defense here. 🔌,t149,,REPLY,FALSE
+149,System failure lesson: Cascading failures are the real enemy in distributed systems. One service fails → retries increase → load spreads → entire system collapses. Preventing cascades is more important than preventing single failures. 💥,t149,,MAIN,TRUE
+,Circuit breakers and backpressure are your best defense here. 🔌,t149,,REPLY,TRUE
 150,Engineering truth: There is no “perfect architecture.” Every system is a set of trade-offs. The goal isn’t perfection — it’s choosing the right trade-offs for your context. ⚖️ #Architecture,t150,,MAIN,FALSE
 ,Good engineers know patterns. Great engineers know when to break them. 🧠,t150,,REPLY,FALSE
 ,"Always ask: what am I optimizing for — speed, cost, reliability, or simplicity? 🎯",t150,,REPLY,FALSE
