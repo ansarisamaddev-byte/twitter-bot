@@ -193,8 +193,8 @@ id,tweet_text,thread_id,order,type,posted
 102,"Learning tip: Don’t just consume content — build things. Real understanding comes from applying concepts, not just reading about them. 🚀",t149,1,MAIN,TRUE
 103,Code review tip: Don’t just check if code works — check if it can fail. Thinking about failure cases is what improves quality. 🔍,t150,1,MAIN,TRUE
 104,Performance tip: Reduce network calls wherever possible. Network latency adds up quickly and is often the biggest hidden bottleneck. 🌐,t151,1,MAIN,TRUE
-105,"Debugging tip: If a bug only happens sometimes, suspect concurrency or timing issues first. Intermittent bugs rarely come from simple logic errors. ⏳",t152,1,MAIN,FALSE
-,Race conditions are invisible until they aren’t. That’s what makes them dangerous. ⚠️,t152,2,REPLY,FALSE
+105,"Debugging tip: If a bug only happens sometimes, suspect concurrency or timing issues first. Intermittent bugs rarely come from simple logic errors. ⏳",t152,1,MAIN,TRUE
+,Race conditions are invisible until they aren’t. That’s what makes them dangerous. ⚠️,t152,2,REPLY,TRUE
 106,"Career tip: Focus on impact, not just output. Writing more code doesn’t make you valuable — solving meaningful problems does. 📈",t153,1,MAIN,FALSE
 107,System design tip: Keep services loosely coupled. Tight coupling makes systems fragile and hard to change. 🔗,t154,1,MAIN,FALSE
 108,"Debugging tip: When stuck, explain the problem out loud. Often, clarity comes from articulation — not more thinking. 🧠",t155,1,MAIN,FALSE
@@ -263,9 +263,9 @@ id,tweet_text,thread_id,order,type,posted
 ,No. 1 → Treat AI output as untrusted input. Validate everything before integrating into production systems.,t151,,REPLY,TRUE
 ,"No. 2 → Build automated tests first, then generate code. Not the other way around. 🔁",t151,,REPLY,TRUE
 ,"No. 3 → The faster you generate code, the more discipline you need in reviewing it. ⚠️",t151,,REPLY,TRUE
-152,"System design reality: Most architectures look clean on whiteboards but behave unpredictably in production. Real-world systems deal with retries, partial failures, network latency, and human mistakes. If your design doesn’t account for these, it’s incomplete. 🧠 #SystemDesign",t152,,MAIN,FALSE
-,"No. 1 → Always design with failure in mind, not just success scenarios.",t152,,REPLY,FALSE
-,No. 2 → Simulate failures before production exposes them for you. 💥,t152,,REPLY,FALSE
+152,"System design reality: Most architectures look clean on whiteboards but behave unpredictably in production. Real-world systems deal with retries, partial failures, network latency, and human mistakes. If your design doesn’t account for these, it’s incomplete. 🧠 #SystemDesign",t152,,MAIN,TRUE
+,"No. 1 → Always design with failure in mind, not just success scenarios.",t152,,REPLY,TRUE
+,No. 2 → Simulate failures before production exposes them for you. 💥,t152,,REPLY,TRUE
 153,"Debugging mindset: The hardest bugs are not complex — they’re misleading. They point you in the wrong direction, making you confident in incorrect assumptions. The faster you question your own thinking, the faster you solve them. 🕵️ #Debugging",t153,,MAIN,FALSE
 154,"Performance insight: Users don’t care about your system’s internal metrics — they care about perceived speed. A system can be technically fast but feel slow due to poor UX, blocking calls, or unnecessary delays. Optimize for user perception, not just numbers. ⏱️ #Performance",t154,,MAIN,FALSE
 ,"No. 1 → Reduce waiting time, not just processing time. Even small delays feel big to users.",t154,,REPLY,FALSE
