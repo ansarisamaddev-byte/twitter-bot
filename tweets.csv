@@ -191,7 +191,7 @@ id,tweet_text,thread_id,order,type,posted
 ,Graceful degradation > complete failure. Always. ⚙️,t147,2,REPLY,TRUE
 101,"Debugging tip: Reproduce the issue consistently before fixing it. If you can’t reproduce it, you can’t confidently fix it. 🧠",t148,1,MAIN,TRUE
 102,"Learning tip: Don’t just consume content — build things. Real understanding comes from applying concepts, not just reading about them. 🚀",t149,1,MAIN,TRUE
-103,Code review tip: Don’t just check if code works — check if it can fail. Thinking about failure cases is what improves quality. 🔍,t150,1,MAIN,FALSE
+103,Code review tip: Don’t just check if code works — check if it can fail. Thinking about failure cases is what improves quality. 🔍,t150,1,MAIN,TRUE
 104,Performance tip: Reduce network calls wherever possible. Network latency adds up quickly and is often the biggest hidden bottleneck. 🌐,t151,1,MAIN,FALSE
 105,"Debugging tip: If a bug only happens sometimes, suspect concurrency or timing issues first. Intermittent bugs rarely come from simple logic errors. ⏳",t152,1,MAIN,FALSE
 ,Race conditions are invisible until they aren’t. That’s what makes them dangerous. ⚠️,t152,2,REPLY,FALSE
@@ -256,9 +256,9 @@ id,tweet_text,thread_id,order,type,posted
 148,"AI insight: The real power of AI tools isn’t replacing engineers — it’s compressing the feedback loop. Faster iteration means faster learning. The teams that win will be the ones that learn faster, not just build faster. ⚡ #AIEngineering",t148,,MAIN,TRUE
 149,System failure lesson: Cascading failures are the real enemy in distributed systems. One service fails → retries increase → load spreads → entire system collapses. Preventing cascades is more important than preventing single failures. 💥,t149,,MAIN,TRUE
 ,Circuit breakers and backpressure are your best defense here. 🔌,t149,,REPLY,TRUE
-150,Engineering truth: There is no “perfect architecture.” Every system is a set of trade-offs. The goal isn’t perfection — it’s choosing the right trade-offs for your context. ⚖️ #Architecture,t150,,MAIN,FALSE
-,Good engineers know patterns. Great engineers know when to break them. 🧠,t150,,REPLY,FALSE
-,"Always ask: what am I optimizing for — speed, cost, reliability, or simplicity? 🎯",t150,,REPLY,FALSE
+150,Engineering truth: There is no “perfect architecture.” Every system is a set of trade-offs. The goal isn’t perfection — it’s choosing the right trade-offs for your context. ⚖️ #Architecture,t150,,MAIN,TRUE
+,Good engineers know patterns. Great engineers know when to break them. 🧠,t150,,REPLY,TRUE
+,"Always ask: what am I optimizing for — speed, cost, reliability, or simplicity? 🎯",t150,,REPLY,TRUE
 151,"AI development shift: In 2026, the bottleneck is no longer writing code — it’s validating correctness. AI can generate thousands of lines in seconds, but one incorrect assumption can break everything silently. The real skill now is building systems that verify, test, and challenge AI output automatically. 🤖 #AIDev",t151,,MAIN,FALSE
 ,No. 1 → Treat AI output as untrusted input. Validate everything before integrating into production systems.,t151,,REPLY,FALSE
 ,"No. 2 → Build automated tests first, then generate code. Not the other way around. 🔁",t151,,REPLY,FALSE
