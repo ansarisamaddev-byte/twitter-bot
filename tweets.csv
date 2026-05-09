@@ -197,7 +197,7 @@ id,tweet_text,thread_id,order,type,posted
 ,Race conditions are invisible until they aren’t. That’s what makes them dangerous. ⚠️,t152,2,REPLY,TRUE
 106,"Career tip: Focus on impact, not just output. Writing more code doesn’t make you valuable — solving meaningful problems does. 📈",t153,1,MAIN,TRUE
 107,System design tip: Keep services loosely coupled. Tight coupling makes systems fragile and hard to change. 🔗,t154,1,MAIN,TRUE
-108,"Debugging tip: When stuck, explain the problem out loud. Often, clarity comes from articulation — not more thinking. 🧠",t155,1,MAIN,FALSE
+108,"Debugging tip: When stuck, explain the problem out loud. Often, clarity comes from articulation — not more thinking. 🧠",t155,1,MAIN,TRUE
 109,"Coding tip: Avoid deep nesting in code. Flat, readable structures are easier to debug and maintain. 🧩",t156,1,MAIN,FALSE
 110,AI tip: Don’t trust AI with edge cases by default. It often handles common scenarios well but fails in less obvious situations. 🤖,t157,1,MAIN,FALSE
 111,"Scaling tip: Cache strategically, not everywhere. Caching everything can introduce stale data issues and complexity. 🧊",t158,1,MAIN,FALSE
@@ -270,10 +270,10 @@ id,tweet_text,thread_id,order,type,posted
 154,"Performance insight: Users don’t care about your system’s internal metrics — they care about perceived speed. A system can be technically fast but feel slow due to poor UX, blocking calls, or unnecessary delays. Optimize for user perception, not just numbers. ⏱️ #Performance",t154,,MAIN,TRUE
 ,"No. 1 → Reduce waiting time, not just processing time. Even small delays feel big to users.",t154,,REPLY,TRUE
 ,No. 2 → Loading states and feedback loops improve perceived performance significantly. 🎯,t154,,REPLY,TRUE
-155,Career growth: The biggest leap in engineering happens when you stop thinking in terms of code and start thinking in terms of systems. Code solves problems locally. Systems thinking solves them globally. That shift defines senior engineers. 🚀 #EngineeringCareers,t155,,MAIN,FALSE
-,No. 1 → Start asking: how does this decision affect other components?,t155,,REPLY,FALSE
-,No. 2 → Think beyond your service — consider dependencies and downstream impact.,t155,,REPLY,FALSE
-,No. 3 → Ownership of systems matters more than ownership of code. 🧠,t155,,REPLY,FALSE
+155,Career growth: The biggest leap in engineering happens when you stop thinking in terms of code and start thinking in terms of systems. Code solves problems locally. Systems thinking solves them globally. That shift defines senior engineers. 🚀 #EngineeringCareers,t155,,MAIN,TRUE
+,No. 1 → Start asking: how does this decision affect other components?,t155,,REPLY,TRUE
+,No. 2 → Think beyond your service — consider dependencies and downstream impact.,t155,,REPLY,TRUE
+,No. 3 → Ownership of systems matters more than ownership of code. 🧠,t155,,REPLY,TRUE
 156,"Tech reality: Scaling isn’t just about handling more users — it’s about handling unpredictability. Traffic spikes, uneven load distribution, and sudden failures are what truly test your system. Stable systems are designed for chaos, not just growth. 🌐 #Scalability",t156,,MAIN,FALSE
 ,"No. 1 → Load testing should include unpredictable scenarios, not just steady traffic.",t156,,REPLY,FALSE
 157,"Engineering lesson: Simplicity is not about writing less code — it’s about reducing cognitive load. A simple system is one that can be understood, debugged, and extended without confusion. Complexity is expensive, even if it works. 🧠 #CleanCode",t157,,MAIN,FALSE
