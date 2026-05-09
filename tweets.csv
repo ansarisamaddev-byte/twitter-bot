@@ -196,7 +196,7 @@ id,tweet_text,thread_id,order,type,posted
 105,"Debugging tip: If a bug only happens sometimes, suspect concurrency or timing issues first. Intermittent bugs rarely come from simple logic errors. ⏳",t152,1,MAIN,TRUE
 ,Race conditions are invisible until they aren’t. That’s what makes them dangerous. ⚠️,t152,2,REPLY,TRUE
 106,"Career tip: Focus on impact, not just output. Writing more code doesn’t make you valuable — solving meaningful problems does. 📈",t153,1,MAIN,TRUE
-107,System design tip: Keep services loosely coupled. Tight coupling makes systems fragile and hard to change. 🔗,t154,1,MAIN,FALSE
+107,System design tip: Keep services loosely coupled. Tight coupling makes systems fragile and hard to change. 🔗,t154,1,MAIN,TRUE
 108,"Debugging tip: When stuck, explain the problem out loud. Often, clarity comes from articulation — not more thinking. 🧠",t155,1,MAIN,FALSE
 109,"Coding tip: Avoid deep nesting in code. Flat, readable structures are easier to debug and maintain. 🧩",t156,1,MAIN,FALSE
 110,AI tip: Don’t trust AI with edge cases by default. It often handles common scenarios well but fails in less obvious situations. 🤖,t157,1,MAIN,FALSE
@@ -267,9 +267,9 @@ id,tweet_text,thread_id,order,type,posted
 ,"No. 1 → Always design with failure in mind, not just success scenarios.",t152,,REPLY,TRUE
 ,No. 2 → Simulate failures before production exposes them for you. 💥,t152,,REPLY,TRUE
 153,"Debugging mindset: The hardest bugs are not complex — they’re misleading. They point you in the wrong direction, making you confident in incorrect assumptions. The faster you question your own thinking, the faster you solve them. 🕵️ #Debugging",t153,,MAIN,TRUE
-154,"Performance insight: Users don’t care about your system’s internal metrics — they care about perceived speed. A system can be technically fast but feel slow due to poor UX, blocking calls, or unnecessary delays. Optimize for user perception, not just numbers. ⏱️ #Performance",t154,,MAIN,FALSE
-,"No. 1 → Reduce waiting time, not just processing time. Even small delays feel big to users.",t154,,REPLY,FALSE
-,No. 2 → Loading states and feedback loops improve perceived performance significantly. 🎯,t154,,REPLY,FALSE
+154,"Performance insight: Users don’t care about your system’s internal metrics — they care about perceived speed. A system can be technically fast but feel slow due to poor UX, blocking calls, or unnecessary delays. Optimize for user perception, not just numbers. ⏱️ #Performance",t154,,MAIN,TRUE
+,"No. 1 → Reduce waiting time, not just processing time. Even small delays feel big to users.",t154,,REPLY,TRUE
+,No. 2 → Loading states and feedback loops improve perceived performance significantly. 🎯,t154,,REPLY,TRUE
 155,Career growth: The biggest leap in engineering happens when you stop thinking in terms of code and start thinking in terms of systems. Code solves problems locally. Systems thinking solves them globally. That shift defines senior engineers. 🚀 #EngineeringCareers,t155,,MAIN,FALSE
 ,No. 1 → Start asking: how does this decision affect other components?,t155,,REPLY,FALSE
 ,No. 2 → Think beyond your service — consider dependencies and downstream impact.,t155,,REPLY,FALSE
