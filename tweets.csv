@@ -200,8 +200,8 @@ id,tweet_text,thread_id,order,type,posted
 108,"Debugging tip: When stuck, explain the problem out loud. Often, clarity comes from articulation — not more thinking. 🧠",t155,1,MAIN,TRUE
 109,"Coding tip: Avoid deep nesting in code. Flat, readable structures are easier to debug and maintain. 🧩",t156,1,MAIN,TRUE
 110,AI tip: Don’t trust AI with edge cases by default. It often handles common scenarios well but fails in less obvious situations. 🤖,t157,1,MAIN,TRUE
-111,"Scaling tip: Cache strategically, not everywhere. Caching everything can introduce stale data issues and complexity. 🧊",t158,1,MAIN,FALSE
-,Cache invalidation is harder than caching itself — plan for it. ⚠️,t158,2,REPLY,FALSE
+111,"Scaling tip: Cache strategically, not everywhere. Caching everything can introduce stale data issues and complexity. 🧊",t158,1,MAIN,TRUE
+,Cache invalidation is harder than caching itself — plan for it. ⚠️,t158,2,REPLY,TRUE
 112,Testing tip: Automate repetitive tests. Manual testing doesn’t scale as your system grows. 🧪,t159,1,MAIN,FALSE
 113,"Career tip: Learn how systems fail, not just how they work. That knowledge is what separates average engineers from great ones. 💥",t160,1,MAIN,FALSE
 114,Performance tip: Optimize database queries before optimizing application code. Databases are often the real bottleneck. 📊,t161,1,MAIN,FALSE
@@ -279,10 +279,10 @@ id,tweet_text,thread_id,order,type,posted
 157,"Engineering lesson: Simplicity is not about writing less code — it’s about reducing cognitive load. A simple system is one that can be understood, debugged, and extended without confusion. Complexity is expensive, even if it works. 🧠 #CleanCode",t157,,MAIN,TRUE
 ,"No. 1 → If it takes too long to explain, it’s probably too complex.",t157,,REPLY,TRUE
 ,"No. 2 → Simplicity improves speed in the long run, even if it feels slower initially.",t157,,REPLY,TRUE
-158,"Reliability truth: Monitoring without actionability is useless. If an alert doesn’t tell you what’s wrong or how to fix it, it’s just noise. Good alerts guide decisions, not just signal problems. 🚨 #Observability",t158,,MAIN,FALSE
-,"No. 1 → Every alert should answer: what happened, why, and what to do next.",t158,,REPLY,FALSE
-,"No. 2 → Reduce alerts, increase signal quality. Less noise = faster response. 📡",t158,,REPLY,FALSE
-,"No. 3 → Alert fatigue is a real risk — design for humans, not just systems.",t158,,REPLY,FALSE
+158,"Reliability truth: Monitoring without actionability is useless. If an alert doesn’t tell you what’s wrong or how to fix it, it’s just noise. Good alerts guide decisions, not just signal problems. 🚨 #Observability",t158,,MAIN,TRUE
+,"No. 1 → Every alert should answer: what happened, why, and what to do next.",t158,,REPLY,TRUE
+,"No. 2 → Reduce alerts, increase signal quality. Less noise = faster response. 📡",t158,,REPLY,TRUE
+,"No. 3 → Alert fatigue is a real risk — design for humans, not just systems.",t158,,REPLY,TRUE
 159,"AI trend: The engineers who benefit most from AI are not beginners — they are experienced engineers who know what to ask and what to ignore. AI amplifies skill, it doesn’t replace it. The gap between good and great engineers is widening. ⚡ #AIEngineering",t159,,MAIN,FALSE
 160,System design insight: Data consistency is always a trade-off with availability and performance. Strong consistency gives correctness but reduces flexibility. Eventual consistency scales better but introduces complexity. There’s no perfect choice — only context-driven decisions. ⚖️,t160,,MAIN,FALSE
 ,"No. 1 → Choose consistency level based on business requirements, not technical preference.",t160,,REPLY,FALSE
