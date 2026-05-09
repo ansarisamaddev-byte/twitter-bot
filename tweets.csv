@@ -199,7 +199,7 @@ id,tweet_text,thread_id,order,type,posted
 107,System design tip: Keep services loosely coupled. Tight coupling makes systems fragile and hard to change. 🔗,t154,1,MAIN,TRUE
 108,"Debugging tip: When stuck, explain the problem out loud. Often, clarity comes from articulation — not more thinking. 🧠",t155,1,MAIN,TRUE
 109,"Coding tip: Avoid deep nesting in code. Flat, readable structures are easier to debug and maintain. 🧩",t156,1,MAIN,TRUE
-110,AI tip: Don’t trust AI with edge cases by default. It often handles common scenarios well but fails in less obvious situations. 🤖,t157,1,MAIN,FALSE
+110,AI tip: Don’t trust AI with edge cases by default. It often handles common scenarios well but fails in less obvious situations. 🤖,t157,1,MAIN,TRUE
 111,"Scaling tip: Cache strategically, not everywhere. Caching everything can introduce stale data issues and complexity. 🧊",t158,1,MAIN,FALSE
 ,Cache invalidation is harder than caching itself — plan for it. ⚠️,t158,2,REPLY,FALSE
 112,Testing tip: Automate repetitive tests. Manual testing doesn’t scale as your system grows. 🧪,t159,1,MAIN,FALSE
@@ -276,9 +276,9 @@ id,tweet_text,thread_id,order,type,posted
 ,No. 3 → Ownership of systems matters more than ownership of code. 🧠,t155,,REPLY,TRUE
 156,"Tech reality: Scaling isn’t just about handling more users — it’s about handling unpredictability. Traffic spikes, uneven load distribution, and sudden failures are what truly test your system. Stable systems are designed for chaos, not just growth. 🌐 #Scalability",t156,,MAIN,TRUE
 ,"No. 1 → Load testing should include unpredictable scenarios, not just steady traffic.",t156,,REPLY,TRUE
-157,"Engineering lesson: Simplicity is not about writing less code — it’s about reducing cognitive load. A simple system is one that can be understood, debugged, and extended without confusion. Complexity is expensive, even if it works. 🧠 #CleanCode",t157,,MAIN,FALSE
-,"No. 1 → If it takes too long to explain, it’s probably too complex.",t157,,REPLY,FALSE
-,"No. 2 → Simplicity improves speed in the long run, even if it feels slower initially.",t157,,REPLY,FALSE
+157,"Engineering lesson: Simplicity is not about writing less code — it’s about reducing cognitive load. A simple system is one that can be understood, debugged, and extended without confusion. Complexity is expensive, even if it works. 🧠 #CleanCode",t157,,MAIN,TRUE
+,"No. 1 → If it takes too long to explain, it’s probably too complex.",t157,,REPLY,TRUE
+,"No. 2 → Simplicity improves speed in the long run, even if it feels slower initially.",t157,,REPLY,TRUE
 158,"Reliability truth: Monitoring without actionability is useless. If an alert doesn’t tell you what’s wrong or how to fix it, it’s just noise. Good alerts guide decisions, not just signal problems. 🚨 #Observability",t158,,MAIN,FALSE
 ,"No. 1 → Every alert should answer: what happened, why, and what to do next.",t158,,REPLY,FALSE
 ,"No. 2 → Reduce alerts, increase signal quality. Less noise = faster response. 📡",t158,,REPLY,FALSE
