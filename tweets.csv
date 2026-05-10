@@ -202,7 +202,7 @@ id,tweet_text,thread_id,order,type,posted
 110,AI tip: Don’t trust AI with edge cases by default. It often handles common scenarios well but fails in less obvious situations. 🤖,t157,1,MAIN,TRUE
 111,"Scaling tip: Cache strategically, not everywhere. Caching everything can introduce stale data issues and complexity. 🧊",t158,1,MAIN,TRUE
 ,Cache invalidation is harder than caching itself — plan for it. ⚠️,t158,2,REPLY,TRUE
-112,Testing tip: Automate repetitive tests. Manual testing doesn’t scale as your system grows. 🧪,t159,1,MAIN,FALSE
+112,Testing tip: Automate repetitive tests. Manual testing doesn’t scale as your system grows. 🧪,t159,1,MAIN,TRUE
 113,"Career tip: Learn how systems fail, not just how they work. That knowledge is what separates average engineers from great ones. 💥",t160,1,MAIN,FALSE
 114,Performance tip: Optimize database queries before optimizing application code. Databases are often the real bottleneck. 📊,t161,1,MAIN,FALSE
 115,Debugging tip: Check recent changes first. Most bugs are introduced by the latest modifications — not old code. 🔍,t162,1,MAIN,FALSE
@@ -283,7 +283,7 @@ id,tweet_text,thread_id,order,type,posted
 ,"No. 1 → Every alert should answer: what happened, why, and what to do next.",t158,,REPLY,TRUE
 ,"No. 2 → Reduce alerts, increase signal quality. Less noise = faster response. 📡",t158,,REPLY,TRUE
 ,"No. 3 → Alert fatigue is a real risk — design for humans, not just systems.",t158,,REPLY,TRUE
-159,"AI trend: The engineers who benefit most from AI are not beginners — they are experienced engineers who know what to ask and what to ignore. AI amplifies skill, it doesn’t replace it. The gap between good and great engineers is widening. ⚡ #AIEngineering",t159,,MAIN,FALSE
+159,"AI trend: The engineers who benefit most from AI are not beginners — they are experienced engineers who know what to ask and what to ignore. AI amplifies skill, it doesn’t replace it. The gap between good and great engineers is widening. ⚡ #AIEngineering",t159,,MAIN,TRUE
 160,System design insight: Data consistency is always a trade-off with availability and performance. Strong consistency gives correctness but reduces flexibility. Eventual consistency scales better but introduces complexity. There’s no perfect choice — only context-driven decisions. ⚖️,t160,,MAIN,FALSE
 ,"No. 1 → Choose consistency level based on business requirements, not technical preference.",t160,,REPLY,FALSE
 ,No. 2 → Understand where stale data is acceptable — and where it isn’t. 🔍,t160,,REPLY,FALSE
