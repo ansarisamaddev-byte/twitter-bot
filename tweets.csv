@@ -203,7 +203,7 @@ id,tweet_text,thread_id,order,type,posted
 111,"Scaling tip: Cache strategically, not everywhere. Caching everything can introduce stale data issues and complexity. 🧊",t158,1,MAIN,TRUE
 ,Cache invalidation is harder than caching itself — plan for it. ⚠️,t158,2,REPLY,TRUE
 112,Testing tip: Automate repetitive tests. Manual testing doesn’t scale as your system grows. 🧪,t159,1,MAIN,TRUE
-113,"Career tip: Learn how systems fail, not just how they work. That knowledge is what separates average engineers from great ones. 💥",t160,1,MAIN,FALSE
+113,"Career tip: Learn how systems fail, not just how they work. That knowledge is what separates average engineers from great ones. 💥",t160,1,MAIN,TRUE
 114,Performance tip: Optimize database queries before optimizing application code. Databases are often the real bottleneck. 📊,t161,1,MAIN,FALSE
 115,Debugging tip: Check recent changes first. Most bugs are introduced by the latest modifications — not old code. 🔍,t162,1,MAIN,FALSE
 116,System design tip: Use circuit breakers for unstable services. They prevent failures from cascading across your system. ⚡,t163,1,MAIN,FALSE
@@ -284,9 +284,9 @@ id,tweet_text,thread_id,order,type,posted
 ,"No. 2 → Reduce alerts, increase signal quality. Less noise = faster response. 📡",t158,,REPLY,TRUE
 ,"No. 3 → Alert fatigue is a real risk — design for humans, not just systems.",t158,,REPLY,TRUE
 159,"AI trend: The engineers who benefit most from AI are not beginners — they are experienced engineers who know what to ask and what to ignore. AI amplifies skill, it doesn’t replace it. The gap between good and great engineers is widening. ⚡ #AIEngineering",t159,,MAIN,TRUE
-160,System design insight: Data consistency is always a trade-off with availability and performance. Strong consistency gives correctness but reduces flexibility. Eventual consistency scales better but introduces complexity. There’s no perfect choice — only context-driven decisions. ⚖️,t160,,MAIN,FALSE
-,"No. 1 → Choose consistency level based on business requirements, not technical preference.",t160,,REPLY,FALSE
-,No. 2 → Understand where stale data is acceptable — and where it isn’t. 🔍,t160,,REPLY,FALSE
+160,System design insight: Data consistency is always a trade-off with availability and performance. Strong consistency gives correctness but reduces flexibility. Eventual consistency scales better but introduces complexity. There’s no perfect choice — only context-driven decisions. ⚖️,t160,,MAIN,TRUE
+,"No. 1 → Choose consistency level based on business requirements, not technical preference.",t160,,REPLY,TRUE
+,No. 2 → Understand where stale data is acceptable — and where it isn’t. 🔍,t160,,REPLY,TRUE
 161,"Debugging tip: When a bug seems impossible, check your assumptions about the environment. Differences in config, versions, or data can cause unexpected behavior. The bug might not be in your code at all. 🔍 #Debugging",t161,,MAIN,FALSE
 ,"No. 1 → Always verify environment parity between dev, staging, and production.",t161,,REPLY,FALSE
 162,"Performance reality: Caching is one of the most powerful tools — but also one of the most dangerous. It improves speed instantly, but introduces complexity around invalidation, consistency, and debugging. Use it carefully. 🧊 #Caching",t162,,MAIN,FALSE
