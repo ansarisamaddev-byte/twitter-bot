@@ -205,7 +205,7 @@ id,tweet_text,thread_id,order,type,posted
 112,Testing tip: Automate repetitive tests. Manual testing doesn’t scale as your system grows. 🧪,t159,1,MAIN,TRUE
 113,"Career tip: Learn how systems fail, not just how they work. That knowledge is what separates average engineers from great ones. 💥",t160,1,MAIN,TRUE
 114,Performance tip: Optimize database queries before optimizing application code. Databases are often the real bottleneck. 📊,t161,1,MAIN,TRUE
-115,Debugging tip: Check recent changes first. Most bugs are introduced by the latest modifications — not old code. 🔍,t162,1,MAIN,FALSE
+115,Debugging tip: Check recent changes first. Most bugs are introduced by the latest modifications — not old code. 🔍,t162,1,MAIN,TRUE
 116,System design tip: Use circuit breakers for unstable services. They prevent failures from cascading across your system. ⚡,t163,1,MAIN,FALSE
 117,"Productivity tip: Set clear priorities before starting your day. Without direction, you’ll spend time on low-impact tasks. 📋",t164,1,MAIN,FALSE
 118,Security tip: Use environment variables for secrets — never hardcode them. Even private repos can leak. 🔐,t165,1,MAIN,FALSE
@@ -289,10 +289,10 @@ id,tweet_text,thread_id,order,type,posted
 ,No. 2 → Understand where stale data is acceptable — and where it isn’t. 🔍,t160,,REPLY,TRUE
 161,"Debugging tip: When a bug seems impossible, check your assumptions about the environment. Differences in config, versions, or data can cause unexpected behavior. The bug might not be in your code at all. 🔍 #Debugging",t161,,MAIN,TRUE
 ,"No. 1 → Always verify environment parity between dev, staging, and production.",t161,,REPLY,TRUE
-162,"Performance reality: Caching is one of the most powerful tools — but also one of the most dangerous. It improves speed instantly, but introduces complexity around invalidation, consistency, and debugging. Use it carefully. 🧊 #Caching",t162,,MAIN,FALSE
-,No. 1 → Cache only what you understand fully. Blind caching creates hidden bugs.,t162,,REPLY,FALSE
-,No. 2 → Always define cache invalidation strategy before implementation.,t162,,REPLY,FALSE
-,No. 3 → Monitor cache hit/miss ratios to ensure it’s actually helping. 📊,t162,,REPLY,FALSE
+162,"Performance reality: Caching is one of the most powerful tools — but also one of the most dangerous. It improves speed instantly, but introduces complexity around invalidation, consistency, and debugging. Use it carefully. 🧊 #Caching",t162,,MAIN,TRUE
+,No. 1 → Cache only what you understand fully. Blind caching creates hidden bugs.,t162,,REPLY,TRUE
+,No. 2 → Always define cache invalidation strategy before implementation.,t162,,REPLY,TRUE
+,No. 3 → Monitor cache hit/miss ratios to ensure it’s actually helping. 📊,t162,,REPLY,TRUE
 163,"Career insight: The engineers who stand out are not the ones who never make mistakes — they are the ones who learn the most from them. Failure is not a setback, it’s a multiplier for growth if you reflect on it. 📈 #Growth",t163,,MAIN,FALSE
 164,"System reliability: Backpressure is an underrated concept. When systems are overloaded, they should push back instead of accepting more work. Without it, queues grow, latency increases, and failures cascade. ⚙️ #DistributedSystems",t164,,MAIN,FALSE
 ,No. 1 → Protect your system by limiting incoming load during stress.,t164,,REPLY,FALSE
