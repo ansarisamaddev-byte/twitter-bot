@@ -207,7 +207,7 @@ id,tweet_text,thread_id,order,type,posted
 114,Performance tip: Optimize database queries before optimizing application code. Databases are often the real bottleneck. 📊,t161,1,MAIN,TRUE
 115,Debugging tip: Check recent changes first. Most bugs are introduced by the latest modifications — not old code. 🔍,t162,1,MAIN,TRUE
 116,System design tip: Use circuit breakers for unstable services. They prevent failures from cascading across your system. ⚡,t163,1,MAIN,TRUE
-117,"Productivity tip: Set clear priorities before starting your day. Without direction, you’ll spend time on low-impact tasks. 📋",t164,1,MAIN,FALSE
+117,"Productivity tip: Set clear priorities before starting your day. Without direction, you’ll spend time on low-impact tasks. 📋",t164,1,MAIN,TRUE
 118,Security tip: Use environment variables for secrets — never hardcode them. Even private repos can leak. 🔐,t165,1,MAIN,FALSE
 119,AI tip: Use AI to explain complex code. It’s one of the fastest ways to understand unfamiliar systems. 🤖,t166,1,MAIN,FALSE
 120,Coding tip: Handle errors explicitly. Silent failures are harder to debug than visible ones. ⚠️,t167,1,MAIN,FALSE
@@ -294,9 +294,9 @@ id,tweet_text,thread_id,order,type,posted
 ,No. 2 → Always define cache invalidation strategy before implementation.,t162,,REPLY,TRUE
 ,No. 3 → Monitor cache hit/miss ratios to ensure it’s actually helping. 📊,t162,,REPLY,TRUE
 163,"Career insight: The engineers who stand out are not the ones who never make mistakes — they are the ones who learn the most from them. Failure is not a setback, it’s a multiplier for growth if you reflect on it. 📈 #Growth",t163,,MAIN,TRUE
-164,"System reliability: Backpressure is an underrated concept. When systems are overloaded, they should push back instead of accepting more work. Without it, queues grow, latency increases, and failures cascade. ⚙️ #DistributedSystems",t164,,MAIN,FALSE
-,No. 1 → Protect your system by limiting incoming load during stress.,t164,,REPLY,FALSE
-,No. 2 → Failing fast is often better than failing slowly under load. 💥,t164,,REPLY,FALSE
+164,"System reliability: Backpressure is an underrated concept. When systems are overloaded, they should push back instead of accepting more work. Without it, queues grow, latency increases, and failures cascade. ⚙️ #DistributedSystems",t164,,MAIN,TRUE
+,No. 1 → Protect your system by limiting incoming load during stress.,t164,,REPLY,TRUE
+,No. 2 → Failing fast is often better than failing slowly under load. 💥,t164,,REPLY,TRUE
 165,Engineering mindset: Always assume your system will behave differently under real-world conditions. Lab environments are controlled. Production is chaotic. The gap between the two is where most failures happen. 🌍 #Engineering,t165,,MAIN,FALSE
 ,"No. 1 → Test under realistic conditions, not ideal ones.",t165,,REPLY,FALSE
 ,No. 2 → Chaos testing helps uncover hidden weaknesses early.,t165,,REPLY,FALSE
