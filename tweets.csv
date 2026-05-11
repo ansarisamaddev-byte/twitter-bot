@@ -210,7 +210,7 @@ id,tweet_text,thread_id,order,type,posted
 117,"Productivity tip: Set clear priorities before starting your day. Without direction, you’ll spend time on low-impact tasks. 📋",t164,1,MAIN,TRUE
 118,Security tip: Use environment variables for secrets — never hardcode them. Even private repos can leak. 🔐,t165,1,MAIN,TRUE
 119,AI tip: Use AI to explain complex code. It’s one of the fastest ways to understand unfamiliar systems. 🤖,t166,1,MAIN,TRUE
-120,Coding tip: Handle errors explicitly. Silent failures are harder to debug than visible ones. ⚠️,t167,1,MAIN,FALSE
+120,Coding tip: Handle errors explicitly. Silent failures are harder to debug than visible ones. ⚠️,t167,1,MAIN,TRUE
 121,System design tip: Limit retries. Unlimited retries can create retry storms and make failures worse. 🔁,t168,1,MAIN,FALSE
 122,Debugging tip: Compare expected vs actual behavior step by step. Gaps reveal where the issue lies. 🧠,t169,1,MAIN,FALSE
 123,"Career tip: Learn to communicate clearly. Technical skill matters, but clarity makes your work impactful. 💬",t170,1,MAIN,FALSE
@@ -304,10 +304,10 @@ id,tweet_text,thread_id,order,type,posted
 166,"Startup reality: Most products don’t fail because of bad code — they fail because they solve the wrong problem. Engineers often optimize performance, scalability, and architecture… without validating if users actually care. Building the right thing matters more than building it right. 🧠 #Startups",t166,,MAIN,TRUE
 ,No. 1 → Talk to users early. Assumptions are the biggest risk in product building.,t166,,REPLY,TRUE
 ,No. 2 → A simple working product beats a perfect unused one. 🚀,t166,,REPLY,TRUE
-167,"AI workflow shift: The best developers in 2026 don’t write everything from scratch — they orchestrate. They combine prompts, tools, APIs, and automation to build faster systems. Coding is becoming composition. The skill is in designing workflows, not just functions. ⚙️ #AIDev",t167,,MAIN,FALSE
-,"No. 1 → Think in pipelines, not just scripts. Automation is the real leverage.",t167,,REPLY,FALSE
-,No. 2 → Learn to connect tools — that’s where exponential productivity comes from. 🔗,t167,,REPLY,FALSE
-,No. 3 → Your job is shifting from builder to architect of workflows. 🧠,t167,,REPLY,FALSE
+167,"AI workflow shift: The best developers in 2026 don’t write everything from scratch — they orchestrate. They combine prompts, tools, APIs, and automation to build faster systems. Coding is becoming composition. The skill is in designing workflows, not just functions. ⚙️ #AIDev",t167,,MAIN,TRUE
+,"No. 1 → Think in pipelines, not just scripts. Automation is the real leverage.",t167,,REPLY,TRUE
+,No. 2 → Learn to connect tools — that’s where exponential productivity comes from. 🔗,t167,,REPLY,TRUE
+,No. 3 → Your job is shifting from builder to architect of workflows. 🧠,t167,,REPLY,TRUE
 168,"Engineering mistake: Over-engineering too early kills momentum. Many developers design for scale, edge cases, and future needs before solving the current problem. Complexity grows fast, but value doesn’t. Build simple first, evolve later. ⚠️ #SystemDesign",t168,,MAIN,FALSE
 169,"Debugging insight: If fixing a bug breaks something else, your system is tightly coupled. Loose coupling isn’t just design theory — it directly affects how easily you can debug and evolve your system. 🔍 #Architecture",t169,,MAIN,FALSE
 ,"No. 1 → Changes should be isolated. If not, your design needs work.",t169,,REPLY,FALSE
