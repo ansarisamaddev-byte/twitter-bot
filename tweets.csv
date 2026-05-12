@@ -216,7 +216,7 @@ id,tweet_text,thread_id,order,type,posted
 123,"Career tip: Learn to communicate clearly. Technical skill matters, but clarity makes your work impactful. 💬",t170,1,MAIN,TRUE
 124,Performance tip: Lazy load resources when possible. Loading everything upfront slows down user experience. ⏳,t171,1,MAIN,TRUE
 125,Testing tip: Test in production-like environments. Local tests don’t always reflect real-world conditions. 🌍,t172,1,MAIN,TRUE
-126,Debugging tip: Trust data over intuition. Metrics and logs rarely lie — assumptions often do. 📊,t173,1,MAIN,FALSE
+126,Debugging tip: Trust data over intuition. Metrics and logs rarely lie — assumptions often do. 📊,t173,1,MAIN,TRUE
 127,System design tip: Keep APIs consistent. Inconsistency creates confusion and bugs across teams. 🔗,t174,1,MAIN,FALSE
 128,"AI tip: Use AI for boilerplate, not core logic. Critical thinking should stay human-controlled. 🤖",t175,1,MAIN,FALSE
 129,Productivity tip: Take breaks when stuck. A fresh perspective often solves problems faster than forcing it. 🧠,t176,1,MAIN,FALSE
@@ -320,9 +320,9 @@ id,tweet_text,thread_id,order,type,posted
 ,No. 2 → Resource limits define your real performance ceiling. 📊,t171,,REPLY,TRUE
 ,No. 3 → More threads ≠ faster system. Sometimes it’s the opposite. 🧠,t171,,REPLY,TRUE
 172,Career insight: The best engineers communicate clearly. Technical skill gets you in the room — communication keeps you there. Explaining complex ideas simply is a force multiplier for your impact. ✍️ #CareerGrowth,t172,,MAIN,TRUE
-173,"System design truth: Latency is cumulative. Each service call adds delay, and small inefficiencies stack up quickly. A distributed system with 10 services can turn milliseconds into seconds if not designed carefully. ⏱️ #DistributedSystems",t173,,MAIN,FALSE
-,No. 1 → Minimize unnecessary service calls wherever possible.,t173,,REPLY,FALSE
-,No. 2 → Batch operations instead of chaining multiple requests. 🔗,t173,,REPLY,FALSE
+173,"System design truth: Latency is cumulative. Each service call adds delay, and small inefficiencies stack up quickly. A distributed system with 10 services can turn milliseconds into seconds if not designed carefully. ⏱️ #DistributedSystems",t173,,MAIN,TRUE
+,No. 1 → Minimize unnecessary service calls wherever possible.,t173,,REPLY,TRUE
+,No. 2 → Batch operations instead of chaining multiple requests. 🔗,t173,,REPLY,TRUE
 174,"AI insight: Prompt engineering is evolving into context engineering. It’s not just what you ask — it’s what information you provide, how you structure it, and how you guide the model. Better context = better results. 🤖 #AI",t174,,MAIN,FALSE
 ,No. 1 → Provide constraints and examples for better outputs.,t174,,REPLY,FALSE
 ,"No. 2 → Treat prompts like system design, not just questions. 🧠",t174,,REPLY,FALSE
