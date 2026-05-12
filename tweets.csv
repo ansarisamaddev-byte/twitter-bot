@@ -213,7 +213,7 @@ id,tweet_text,thread_id,order,type,posted
 120,Coding tip: Handle errors explicitly. Silent failures are harder to debug than visible ones. ⚠️,t167,1,MAIN,TRUE
 121,System design tip: Limit retries. Unlimited retries can create retry storms and make failures worse. 🔁,t168,1,MAIN,TRUE
 122,Debugging tip: Compare expected vs actual behavior step by step. Gaps reveal where the issue lies. 🧠,t169,1,MAIN,TRUE
-123,"Career tip: Learn to communicate clearly. Technical skill matters, but clarity makes your work impactful. 💬",t170,1,MAIN,FALSE
+123,"Career tip: Learn to communicate clearly. Technical skill matters, but clarity makes your work impactful. 💬",t170,1,MAIN,TRUE
 124,Performance tip: Lazy load resources when possible. Loading everything upfront slows down user experience. ⏳,t171,1,MAIN,FALSE
 125,Testing tip: Test in production-like environments. Local tests don’t always reflect real-world conditions. 🌍,t172,1,MAIN,FALSE
 126,Debugging tip: Trust data over intuition. Metrics and logs rarely lie — assumptions often do. 📊,t173,1,MAIN,FALSE
@@ -312,9 +312,9 @@ id,tweet_text,thread_id,order,type,posted
 169,"Debugging insight: If fixing a bug breaks something else, your system is tightly coupled. Loose coupling isn’t just design theory — it directly affects how easily you can debug and evolve your system. 🔍 #Architecture",t169,,MAIN,TRUE
 ,"No. 1 → Changes should be isolated. If not, your design needs work.",t169,,REPLY,TRUE
 ,No. 2 → Tight coupling increases risk with every modification. ⚠️,t169,,REPLY,TRUE
-170,"Tech trend: Full-stack engineers are evolving into “full-context engineers.” It’s no longer enough to know frontend and backend — you need to understand infra, data flow, performance, and user behavior together. Context is the new superpower. 🌐 #Engineering",t170,,MAIN,FALSE
-,"No. 1 → Learn how your system behaves end-to-end, not just your part.",t170,,REPLY,FALSE
-,"No. 2 → The more context you have, the better decisions you make. 🎯",t170,,REPLY,FALSE
+170,"Tech trend: Full-stack engineers are evolving into “full-context engineers.” It’s no longer enough to know frontend and backend — you need to understand infra, data flow, performance, and user behavior together. Context is the new superpower. 🌐 #Engineering",t170,,MAIN,TRUE
+,"No. 1 → Learn how your system behaves end-to-end, not just your part.",t170,,REPLY,TRUE
+,"No. 2 → The more context you have, the better decisions you make. 🎯",t170,,REPLY,TRUE
 171,"Performance lesson: Parallelism improves speed — until it doesn’t. Too many parallel processes can overwhelm resources, increase contention, and degrade performance. Balance matters more than raw concurrency. ⚡ #Performance",t171,,MAIN,FALSE
 ,No. 1 → Measure before increasing concurrency blindly.,t171,,REPLY,FALSE
 ,No. 2 → Resource limits define your real performance ceiling. 📊,t171,,REPLY,FALSE
