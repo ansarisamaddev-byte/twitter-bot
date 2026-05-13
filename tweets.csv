@@ -220,7 +220,7 @@ id,tweet_text,thread_id,order,type,posted
 127,System design tip: Keep APIs consistent. Inconsistency creates confusion and bugs across teams. 🔗,t174,1,MAIN,TRUE
 128,"AI tip: Use AI for boilerplate, not core logic. Critical thinking should stay human-controlled. 🤖",t175,1,MAIN,TRUE
 129,Productivity tip: Take breaks when stuck. A fresh perspective often solves problems faster than forcing it. 🧠,t176,1,MAIN,TRUE
-130,Career tip: Build projects that solve real problems. That’s what stands out — not just tutorials. 🚀,t177,1,MAIN,FALSE
+130,Career tip: Build projects that solve real problems. That’s what stands out — not just tutorials. 🚀,t177,1,MAIN,TRUE
 131,"Debugging tip: Look at boundaries — APIs, integrations, data flow. That’s where most bugs hide. 🔍",t178,1,MAIN,FALSE
 132,"System design tip: Design for observability. Without visibility, debugging becomes guesswork. 🧭",t179,1,MAIN,FALSE
 133,Coding tip: Keep functions small and focused. One responsibility per function improves readability. ✍️,t180,1,MAIN,FALSE
@@ -333,9 +333,9 @@ id,tweet_text,thread_id,order,type,posted
 ,"No. 3 → Logs should answer questions, not create them. 🔍",t175,,REPLY,TRUE
 176,"Startup lesson: Speed matters more than perfection in early stages. Shipping fast helps you learn faster, and learning faster is the real competitive advantage. Waiting for perfection often means missing the market entirely. 🚀 #Startups",t176,,MAIN,TRUE
 ,No. 1 → Feedback is more valuable than assumptions.,t176,,REPLY,TRUE
-177,"System reliability: Graceful degradation is a superpower. When parts of your system fail, the rest should continue working with reduced functionality instead of collapsing entirely. Users prefer limited service over no service. ⚙️ #Reliability",t177,,MAIN,FALSE
-,No. 1 → Design fallback mechanisms for critical features.,t177,,REPLY,FALSE
-,No. 2 → Identify what can fail without breaking everything. 🧩,t177,,REPLY,FALSE
+177,"System reliability: Graceful degradation is a superpower. When parts of your system fail, the rest should continue working with reduced functionality instead of collapsing entirely. Users prefer limited service over no service. ⚙️ #Reliability",t177,,MAIN,TRUE
+,No. 1 → Design fallback mechanisms for critical features.,t177,,REPLY,TRUE
+,No. 2 → Identify what can fail without breaking everything. 🧩,t177,,REPLY,TRUE
 178,Debugging mindset: Always isolate variables. Changing multiple things at once makes it impossible to know what actually fixed the issue. Controlled experiments lead to faster debugging. 🧪 #Debugging,t178,,MAIN,FALSE
 179,"Tech insight: Developer experience (DX) is underrated. Tools, documentation, and workflows directly affect productivity. A bad developer experience slows teams more than technical limitations. 🛠️ #DX",t179,,MAIN,FALSE
 ,No. 1 → Invest in internal tools — they pay off quickly.,t179,,REPLY,FALSE
