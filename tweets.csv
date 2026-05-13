@@ -218,7 +218,7 @@ id,tweet_text,thread_id,order,type,posted
 125,Testing tip: Test in production-like environments. Local tests don’t always reflect real-world conditions. 🌍,t172,1,MAIN,TRUE
 126,Debugging tip: Trust data over intuition. Metrics and logs rarely lie — assumptions often do. 📊,t173,1,MAIN,TRUE
 127,System design tip: Keep APIs consistent. Inconsistency creates confusion and bugs across teams. 🔗,t174,1,MAIN,TRUE
-128,"AI tip: Use AI for boilerplate, not core logic. Critical thinking should stay human-controlled. 🤖",t175,1,MAIN,FALSE
+128,"AI tip: Use AI for boilerplate, not core logic. Critical thinking should stay human-controlled. 🤖",t175,1,MAIN,TRUE
 129,Productivity tip: Take breaks when stuck. A fresh perspective often solves problems faster than forcing it. 🧠,t176,1,MAIN,FALSE
 130,Career tip: Build projects that solve real problems. That’s what stands out — not just tutorials. 🚀,t177,1,MAIN,FALSE
 131,"Debugging tip: Look at boundaries — APIs, integrations, data flow. That’s where most bugs hide. 🔍",t178,1,MAIN,FALSE
@@ -327,10 +327,10 @@ id,tweet_text,thread_id,order,type,posted
 ,No. 1 → Provide constraints and examples for better outputs.,t174,,REPLY,TRUE
 ,"No. 2 → Treat prompts like system design, not just questions. 🧠",t174,,REPLY,TRUE
 ,No. 3 → Iteration is key — first output is rarely the best.,t174,,REPLY,TRUE
-175,"Engineering reality: Logs are your memory when things go wrong. Without good logging, debugging becomes guesswork. The difference between a 5-minute fix and a 5-hour investigation is often just better logs. 📋 #Logging",t175,,MAIN,FALSE
-,"No. 1 → Log meaningful context, not just events.",t175,,REPLY,FALSE
-,No. 2 → Include identifiers like request IDs to trace flows.,t175,,REPLY,FALSE
-,"No. 3 → Logs should answer questions, not create them. 🔍",t175,,REPLY,FALSE
+175,"Engineering reality: Logs are your memory when things go wrong. Without good logging, debugging becomes guesswork. The difference between a 5-minute fix and a 5-hour investigation is often just better logs. 📋 #Logging",t175,,MAIN,TRUE
+,"No. 1 → Log meaningful context, not just events.",t175,,REPLY,TRUE
+,No. 2 → Include identifiers like request IDs to trace flows.,t175,,REPLY,TRUE
+,"No. 3 → Logs should answer questions, not create them. 🔍",t175,,REPLY,TRUE
 176,"Startup lesson: Speed matters more than perfection in early stages. Shipping fast helps you learn faster, and learning faster is the real competitive advantage. Waiting for perfection often means missing the market entirely. 🚀 #Startups",t176,,MAIN,FALSE
 ,No. 1 → Feedback is more valuable than assumptions.,t176,,REPLY,FALSE
 177,"System reliability: Graceful degradation is a superpower. When parts of your system fail, the rest should continue working with reduced functionality instead of collapsing entirely. Users prefer limited service over no service. ⚙️ #Reliability",t177,,MAIN,FALSE
