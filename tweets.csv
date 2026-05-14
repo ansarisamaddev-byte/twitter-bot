@@ -223,7 +223,7 @@ id,tweet_text,thread_id,order,type,posted
 130,Career tip: Build projects that solve real problems. That’s what stands out — not just tutorials. 🚀,t177,1,MAIN,TRUE
 131,"Debugging tip: Look at boundaries — APIs, integrations, data flow. That’s where most bugs hide. 🔍",t178,1,MAIN,TRUE
 132,"System design tip: Design for observability. Without visibility, debugging becomes guesswork. 🧭",t179,1,MAIN,TRUE
-133,Coding tip: Keep functions small and focused. One responsibility per function improves readability. ✍️,t180,1,MAIN,FALSE
+133,Coding tip: Keep functions small and focused. One responsibility per function improves readability. ✍️,t180,1,MAIN,TRUE
 134,Performance tip: Use pagination for large datasets. Loading everything at once doesn’t scale. 📉,t181,1,MAIN,FALSE
 135,Security tip: Sanitize user inputs. Injection attacks still happen more often than you think. 🔐,t182,1,MAIN,FALSE
 136,"AI coding reality: The biggest productivity boost isn’t AI writing code — it’s AI helping you think faster. The real leverage comes when you use it to explore edge cases, simulate failures, and challenge assumptions. Most people still use it like autocomplete. That’s leaving value on the table. 🤖 #AIDev",t136,,MAIN,FALSE
@@ -340,9 +340,9 @@ id,tweet_text,thread_id,order,type,posted
 179,"Tech insight: Developer experience (DX) is underrated. Tools, documentation, and workflows directly affect productivity. A bad developer experience slows teams more than technical limitations. 🛠️ #DX",t179,,MAIN,TRUE
 ,No. 1 → Invest in internal tools — they pay off quickly.,t179,,REPLY,TRUE
 ,No. 2 → Good documentation saves hours across teams. 📘,t179,,REPLY,TRUE
-180,"Engineering truth: Every abstraction leaks eventually. No matter how clean your design is, underlying complexity will surface under stress or edge cases. Understanding fundamentals helps you deal with these leaks effectively. 🧠 #Architecture",t180,,MAIN,FALSE
-,No. 1 → Don’t rely blindly on abstractions — understand what’s underneath.,t180,,REPLY,FALSE
-,"No. 2 → When things break, abstraction layers won’t save you. Knowledge will. 🔍",t180,,REPLY,FALSE
+180,"Engineering truth: Every abstraction leaks eventually. No matter how clean your design is, underlying complexity will surface under stress or edge cases. Understanding fundamentals helps you deal with these leaks effectively. 🧠 #Architecture",t180,,MAIN,TRUE
+,No. 1 → Don’t rely blindly on abstractions — understand what’s underneath.,t180,,REPLY,TRUE
+,"No. 2 → When things break, abstraction layers won’t save you. Knowledge will. 🔍",t180,,REPLY,TRUE
 181,"Workplace reality: Most problems at work are not technical — they’re communication failures. Misaligned expectations, unclear requirements, and assumptions create more issues than bad code ever will. Clear communication is a core engineering skill, not a soft skill. 🧠 #WorkCulture",t181,,MAIN,FALSE
 ,No. 1 → Always clarify requirements before starting work. Assumptions create rework.,t181,,REPLY,FALSE
 ,No. 2 → Repeat back what you understood — alignment saves time. 🔁,t181,,REPLY,FALSE
