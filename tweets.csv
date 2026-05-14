@@ -225,7 +225,7 @@ id,tweet_text,thread_id,order,type,posted
 132,"System design tip: Design for observability. Without visibility, debugging becomes guesswork. 🧭",t179,1,MAIN,TRUE
 133,Coding tip: Keep functions small and focused. One responsibility per function improves readability. ✍️,t180,1,MAIN,TRUE
 134,Performance tip: Use pagination for large datasets. Loading everything at once doesn’t scale. 📉,t181,1,MAIN,TRUE
-135,Security tip: Sanitize user inputs. Injection attacks still happen more often than you think. 🔐,t182,1,MAIN,FALSE
+135,Security tip: Sanitize user inputs. Injection attacks still happen more often than you think. 🔐,t182,1,MAIN,TRUE
 136,"AI coding reality: The biggest productivity boost isn’t AI writing code — it’s AI helping you think faster. The real leverage comes when you use it to explore edge cases, simulate failures, and challenge assumptions. Most people still use it like autocomplete. That’s leaving value on the table. 🤖 #AIDev",t136,,MAIN,FALSE
 ,The best engineers don’t just ask AI for answers — they ask better questions. Prompt quality is becoming a real engineering skill. 🧠,t136,,REPLY,FALSE
 ,"Try this: instead of “write code,” ask “what could go wrong with this approach?” — your results will improve instantly. 🔍",t136,,REPLY,FALSE
@@ -347,9 +347,9 @@ id,tweet_text,thread_id,order,type,posted
 ,No. 1 → Always clarify requirements before starting work. Assumptions create rework.,t181,,REPLY,TRUE
 ,No. 2 → Repeat back what you understood — alignment saves time. 🔁,t181,,REPLY,TRUE
 ,No. 3 → Writing clearly is as important as coding correctly. ✍️,t181,,REPLY,TRUE
-182,"Career growth: Listening is underrated. Many engineers focus on giving solutions quickly, but miss understanding the real problem. The best professionals listen deeply before responding. That’s how they solve the right problems, not just fast ones. 👂 #CareerGrowth",t182,,MAIN,FALSE
-,No. 1 → Don’t interrupt — let people finish explaining their context.,t182,,REPLY,FALSE
-,No. 2 → Ask clarifying questions before jumping to solutions. 🔍,t182,,REPLY,FALSE
+182,"Career growth: Listening is underrated. Many engineers focus on giving solutions quickly, but miss understanding the real problem. The best professionals listen deeply before responding. That’s how they solve the right problems, not just fast ones. 👂 #CareerGrowth",t182,,MAIN,TRUE
+,No. 1 → Don’t interrupt — let people finish explaining their context.,t182,,REPLY,TRUE
+,No. 2 → Ask clarifying questions before jumping to solutions. 🔍,t182,,REPLY,TRUE
 183,"Team culture: Respect isn’t built by being right — it’s built by being reliable and collaborative. People trust those who communicate clearly, follow through, and support others. Technical skill alone doesn’t build reputation. 🤝 #Workplace",t183,,MAIN,FALSE
 184,"Conflict resolution: Disagreements at work are normal. The problem is not conflict — it’s how you handle it. Strong teams debate ideas without attacking people. Focus on the problem, not the person. ⚖️ #Teamwork",t184,,MAIN,FALSE
 ,"No. 1 → Separate opinions from identity — critique ideas, not individuals.",t184,,REPLY,FALSE
@@ -390,9 +390,9 @@ id,tweet_text,thread_id,order,type,posted
 ,"No. 1: When someone explains a problem, don’t interrupt with solutions immediately. Let them fully express context — half of engineering problems are misunderstood before they’re even solved.",t181,,REPLY,TRUE
 ,No. 2: Repeat what you understood before responding. It reduces misalignment dramatically and shows respect for the other person’s thinking.,t181,,REPLY,TRUE
 ,No. 3: Most conflicts disappear when both sides feel understood — not necessarily agreed with. Listening > arguing.,t181,,REPLY,TRUE
-182,"Career lesson: Being right doesn’t make you valuable — being effective does. You can win every argument and still lose trust in a team. Real impact comes from influencing outcomes, not proving others wrong. ⚖️ #CareerGrowth",t182,,MAIN,FALSE
-,No. 1: Choose when to push hard and when to let go. Not every battle is worth fighting.,t182,,REPLY,FALSE
-,"No. 2: Frame ideas in terms of team goals, not personal opinions. That’s how decisions scale.",t182,,REPLY,FALSE
+182,"Career lesson: Being right doesn’t make you valuable — being effective does. You can win every argument and still lose trust in a team. Real impact comes from influencing outcomes, not proving others wrong. ⚖️ #CareerGrowth",t182,,MAIN,TRUE
+,No. 1: Choose when to push hard and when to let go. Not every battle is worth fighting.,t182,,REPLY,TRUE
+,"No. 2: Frame ideas in terms of team goals, not personal opinions. That’s how decisions scale.",t182,,REPLY,TRUE
 183,"Engineering communication tip: If your idea is good but no one understands it, it might as well not exist. Clarity beats complexity every single time — especially in cross-functional teams. 🧾 #Communication",t183,,MAIN,FALSE
 ,"No. 1: Use simple language even for complex systems. Simplicity is a sign of mastery, not lack of depth.",t183,,REPLY,FALSE
 ,No. 2: Structure your thoughts — problem → context → solution → trade-offs. This format works almost everywhere.,t183,,REPLY,FALSE
