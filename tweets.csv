@@ -226,9 +226,9 @@ id,tweet_text,thread_id,order,type,posted
 133,Coding tip: Keep functions small and focused. One responsibility per function improves readability. ✍️,t180,1,MAIN,TRUE
 134,Performance tip: Use pagination for large datasets. Loading everything at once doesn’t scale. 📉,t181,1,MAIN,TRUE
 135,Security tip: Sanitize user inputs. Injection attacks still happen more often than you think. 🔐,t182,1,MAIN,TRUE
-136,"AI coding reality: The biggest productivity boost isn’t AI writing code — it’s AI helping you think faster. The real leverage comes when you use it to explore edge cases, simulate failures, and challenge assumptions. Most people still use it like autocomplete. That’s leaving value on the table. 🤖 #AIDev",t136,,MAIN,FALSE
-,The best engineers don’t just ask AI for answers — they ask better questions. Prompt quality is becoming a real engineering skill. 🧠,t136,,REPLY,FALSE
-,"Try this: instead of “write code,” ask “what could go wrong with this approach?” — your results will improve instantly. 🔍",t136,,REPLY,FALSE
+136,"AI coding reality: The biggest productivity boost isn’t AI writing code — it’s AI helping you think faster. The real leverage comes when you use it to explore edge cases, simulate failures, and challenge assumptions. Most people still use it like autocomplete. That’s leaving value on the table. 🤖 #AIDev",t136,,MAIN,TRUE
+,The best engineers don’t just ask AI for answers — they ask better questions. Prompt quality is becoming a real engineering skill. 🧠,t136,,REPLY,TRUE
+,"Try this: instead of “write code,” ask “what could go wrong with this approach?” — your results will improve instantly. 🔍",t136,,REPLY,TRUE
 137,"System design insight: Most systems don’t fail under peak load — they fail during recovery. When traffic returns, caches are cold, queues are full, and retries explode. Designing for recovery is harder than designing for scale. 🔥 #DistributedSystems",t137,,MAIN,FALSE
 ,"This is why gradual rollout, warm-up strategies, and rate limiting matter more than raw scalability. ⚙️",t137,,REPLY,FALSE
 ,"Ask yourself: can your system recover smoothly, or does it collapse again during recovery? 👇",t137,,REPLY,FALSE
