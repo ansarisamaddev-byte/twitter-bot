@@ -224,7 +224,7 @@ id,tweet_text,thread_id,order,type,posted
 131,"Debugging tip: Look at boundaries — APIs, integrations, data flow. That’s where most bugs hide. 🔍",t178,1,MAIN,TRUE
 132,"System design tip: Design for observability. Without visibility, debugging becomes guesswork. 🧭",t179,1,MAIN,TRUE
 133,Coding tip: Keep functions small and focused. One responsibility per function improves readability. ✍️,t180,1,MAIN,TRUE
-134,Performance tip: Use pagination for large datasets. Loading everything at once doesn’t scale. 📉,t181,1,MAIN,FALSE
+134,Performance tip: Use pagination for large datasets. Loading everything at once doesn’t scale. 📉,t181,1,MAIN,TRUE
 135,Security tip: Sanitize user inputs. Injection attacks still happen more often than you think. 🔐,t182,1,MAIN,FALSE
 136,"AI coding reality: The biggest productivity boost isn’t AI writing code — it’s AI helping you think faster. The real leverage comes when you use it to explore edge cases, simulate failures, and challenge assumptions. Most people still use it like autocomplete. That’s leaving value on the table. 🤖 #AIDev",t136,,MAIN,FALSE
 ,The best engineers don’t just ask AI for answers — they ask better questions. Prompt quality is becoming a real engineering skill. 🧠,t136,,REPLY,FALSE
@@ -343,10 +343,10 @@ id,tweet_text,thread_id,order,type,posted
 180,"Engineering truth: Every abstraction leaks eventually. No matter how clean your design is, underlying complexity will surface under stress or edge cases. Understanding fundamentals helps you deal with these leaks effectively. 🧠 #Architecture",t180,,MAIN,TRUE
 ,No. 1 → Don’t rely blindly on abstractions — understand what’s underneath.,t180,,REPLY,TRUE
 ,"No. 2 → When things break, abstraction layers won’t save you. Knowledge will. 🔍",t180,,REPLY,TRUE
-181,"Workplace reality: Most problems at work are not technical — they’re communication failures. Misaligned expectations, unclear requirements, and assumptions create more issues than bad code ever will. Clear communication is a core engineering skill, not a soft skill. 🧠 #WorkCulture",t181,,MAIN,FALSE
-,No. 1 → Always clarify requirements before starting work. Assumptions create rework.,t181,,REPLY,FALSE
-,No. 2 → Repeat back what you understood — alignment saves time. 🔁,t181,,REPLY,FALSE
-,No. 3 → Writing clearly is as important as coding correctly. ✍️,t181,,REPLY,FALSE
+181,"Workplace reality: Most problems at work are not technical — they’re communication failures. Misaligned expectations, unclear requirements, and assumptions create more issues than bad code ever will. Clear communication is a core engineering skill, not a soft skill. 🧠 #WorkCulture",t181,,MAIN,TRUE
+,No. 1 → Always clarify requirements before starting work. Assumptions create rework.,t181,,REPLY,TRUE
+,No. 2 → Repeat back what you understood — alignment saves time. 🔁,t181,,REPLY,TRUE
+,No. 3 → Writing clearly is as important as coding correctly. ✍️,t181,,REPLY,TRUE
 182,"Career growth: Listening is underrated. Many engineers focus on giving solutions quickly, but miss understanding the real problem. The best professionals listen deeply before responding. That’s how they solve the right problems, not just fast ones. 👂 #CareerGrowth",t182,,MAIN,FALSE
 ,No. 1 → Don’t interrupt — let people finish explaining their context.,t182,,REPLY,FALSE
 ,No. 2 → Ask clarifying questions before jumping to solutions. 🔍,t182,,REPLY,FALSE
@@ -386,10 +386,10 @@ id,tweet_text,thread_id,order,type,posted
 ,No. 1 → Pay attention to non-verbal cues in conversations.,t195,,REPLY,FALSE
 ,No. 2 → Ask follow-up questions to confirm understanding. 🔍,t195,,REPLY,FALSE
 ,No. 3 → Don’t just wait for your turn to speak — actually listen.,t195,,REPLY,FALSE
-181,"Work culture truth: Most conflicts at work aren’t about technical disagreements — they’re about communication gaps. People don’t feel heard, assumptions are made, and small misunderstandings slowly turn into major friction. Learning to listen deeply is a career superpower. 🧠 #WorkCulture",t181,,MAIN,FALSE
-,"No. 1: When someone explains a problem, don’t interrupt with solutions immediately. Let them fully express context — half of engineering problems are misunderstood before they’re even solved.",t181,,REPLY,FALSE
-,No. 2: Repeat what you understood before responding. It reduces misalignment dramatically and shows respect for the other person’s thinking.,t181,,REPLY,FALSE
-,No. 3: Most conflicts disappear when both sides feel understood — not necessarily agreed with. Listening > arguing.,t181,,REPLY,FALSE
+181,"Work culture truth: Most conflicts at work aren’t about technical disagreements — they’re about communication gaps. People don’t feel heard, assumptions are made, and small misunderstandings slowly turn into major friction. Learning to listen deeply is a career superpower. 🧠 #WorkCulture",t181,,MAIN,TRUE
+,"No. 1: When someone explains a problem, don’t interrupt with solutions immediately. Let them fully express context — half of engineering problems are misunderstood before they’re even solved.",t181,,REPLY,TRUE
+,No. 2: Repeat what you understood before responding. It reduces misalignment dramatically and shows respect for the other person’s thinking.,t181,,REPLY,TRUE
+,No. 3: Most conflicts disappear when both sides feel understood — not necessarily agreed with. Listening > arguing.,t181,,REPLY,TRUE
 182,"Career lesson: Being right doesn’t make you valuable — being effective does. You can win every argument and still lose trust in a team. Real impact comes from influencing outcomes, not proving others wrong. ⚖️ #CareerGrowth",t182,,MAIN,FALSE
 ,No. 1: Choose when to push hard and when to let go. Not every battle is worth fighting.,t182,,REPLY,FALSE
 ,"No. 2: Frame ideas in terms of team goals, not personal opinions. That’s how decisions scale.",t182,,REPLY,FALSE
