@@ -351,10 +351,10 @@ id,tweet_text,thread_id,order,type,posted
 ,No. 1 → Don’t interrupt — let people finish explaining their context.,t182,,REPLY,TRUE
 ,No. 2 → Ask clarifying questions before jumping to solutions. 🔍,t182,,REPLY,TRUE
 183,"Team culture: Respect isn’t built by being right — it’s built by being reliable and collaborative. People trust those who communicate clearly, follow through, and support others. Technical skill alone doesn’t build reputation. 🤝 #Workplace",t183,,MAIN,TRUE
-184,"Conflict resolution: Disagreements at work are normal. The problem is not conflict — it’s how you handle it. Strong teams debate ideas without attacking people. Focus on the problem, not the person. ⚖️ #Teamwork",t184,,MAIN,FALSE
-,"No. 1 → Separate opinions from identity — critique ideas, not individuals.",t184,,REPLY,FALSE
-,"No. 2 → Stay calm and objective, even if discussions get heated.",t184,,REPLY,FALSE
-,"No. 3 → The goal is better decisions, not winning arguments. 🧠",t184,,REPLY,FALSE
+184,"Conflict resolution: Disagreements at work are normal. The problem is not conflict — it’s how you handle it. Strong teams debate ideas without attacking people. Focus on the problem, not the person. ⚖️ #Teamwork",t184,,MAIN,TRUE
+,"No. 1 → Separate opinions from identity — critique ideas, not individuals.",t184,,REPLY,TRUE
+,"No. 2 → Stay calm and objective, even if discussions get heated.",t184,,REPLY,TRUE
+,"No. 3 → The goal is better decisions, not winning arguments. 🧠",t184,,REPLY,TRUE
 185,"Meeting insight: Most meetings are ineffective because they lack clarity. No agenda, no clear goal, and no defined outcome leads to wasted time. Good meetings are structured, focused, and actionable. 📊 #Productivity",t185,,MAIN,FALSE
 ,No. 1 → Always define the purpose before scheduling a meeting.,t185,,REPLY,FALSE
 ,No. 2 → End meetings with clear action items and owners. 🎯,t185,,REPLY,FALSE
@@ -397,9 +397,9 @@ id,tweet_text,thread_id,order,type,posted
 ,"No. 1: Use simple language even for complex systems. Simplicity is a sign of mastery, not lack of depth.",t183,,REPLY,TRUE
 ,No. 2: Structure your thoughts — problem → context → solution → trade-offs. This format works almost everywhere.,t183,,REPLY,TRUE
 ,"No. 3: If people keep asking the same questions, your explanation needs improvement — not their understanding.",t183,,REPLY,TRUE
-184,"Workplace reality: Silence in meetings doesn’t mean agreement. It often means confusion, hesitation, or fear of speaking up. Great teams create environments where questions are encouraged, not judged. 🗣️ #TeamCulture",t184,,MAIN,FALSE
-,No. 1: Actively ask quieter team members for input — they often have the most thoughtful insights.,t184,,REPLY,FALSE
-,No. 2: Normalize saying “I don’t understand” — it unlocks better discussions for everyone.,t184,,REPLY,FALSE
+184,"Workplace reality: Silence in meetings doesn’t mean agreement. It often means confusion, hesitation, or fear of speaking up. Great teams create environments where questions are encouraged, not judged. 🗣️ #TeamCulture",t184,,MAIN,TRUE
+,No. 1: Actively ask quieter team members for input — they often have the most thoughtful insights.,t184,,REPLY,TRUE
+,No. 2: Normalize saying “I don’t understand” — it unlocks better discussions for everyone.,t184,,REPLY,TRUE
 185,Leadership insight: Good leaders give answers. Great leaders ask better questions. The quality of your questions defines the quality of your team’s thinking. ❓ #Leadership,t185,,MAIN,FALSE
 ,No. 1: Ask “What are we missing?” instead of “Is this correct?” — it opens deeper thinking.,t185,,REPLY,FALSE
 ,No. 2: Ask “What happens if this fails?” — it shifts mindset from optimism to realism.,t185,,REPLY,FALSE
