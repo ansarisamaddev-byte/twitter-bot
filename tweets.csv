@@ -229,9 +229,9 @@ id,tweet_text,thread_id,order,type,posted
 136,"AI coding reality: The biggest productivity boost isn’t AI writing code — it’s AI helping you think faster. The real leverage comes when you use it to explore edge cases, simulate failures, and challenge assumptions. Most people still use it like autocomplete. That’s leaving value on the table. 🤖 #AIDev",t136,,MAIN,TRUE
 ,The best engineers don’t just ask AI for answers — they ask better questions. Prompt quality is becoming a real engineering skill. 🧠,t136,,REPLY,TRUE
 ,"Try this: instead of “write code,” ask “what could go wrong with this approach?” — your results will improve instantly. 🔍",t136,,REPLY,TRUE
-137,"System design insight: Most systems don’t fail under peak load — they fail during recovery. When traffic returns, caches are cold, queues are full, and retries explode. Designing for recovery is harder than designing for scale. 🔥 #DistributedSystems",t137,,MAIN,FALSE
-,"This is why gradual rollout, warm-up strategies, and rate limiting matter more than raw scalability. ⚙️",t137,,REPLY,FALSE
-,"Ask yourself: can your system recover smoothly, or does it collapse again during recovery? 👇",t137,,REPLY,FALSE
+137,"System design insight: Most systems don’t fail under peak load — they fail during recovery. When traffic returns, caches are cold, queues are full, and retries explode. Designing for recovery is harder than designing for scale. 🔥 #DistributedSystems",t137,,MAIN,TRUE
+,"This is why gradual rollout, warm-up strategies, and rate limiting matter more than raw scalability. ⚙️",t137,,REPLY,TRUE
+,"Ask yourself: can your system recover smoothly, or does it collapse again during recovery? 👇",t137,,REPLY,TRUE
 138,"Debugging lesson: If you can’t reproduce a bug, you don’t understand it yet. Intermittent issues aren’t random — they’re just dependent on hidden variables like timing, load, or state. Your job is to uncover those variables. 🕵️ #Debugging",t138,,MAIN,TRUE
 ,"Logs, metrics, and tracing are your tools — but curiosity is the real skill. 🧭",t138,,REPLY,TRUE
 139,"Career reality: The fastest way to stand out in 2026 isn’t by coding faster — it’s by owning problems end-to-end. Anyone can write code. Very few can take responsibility for reliability, performance, and user impact. That’s where growth happens. 🚀 #EngineeringCareers",t139,,MAIN,TRUE
