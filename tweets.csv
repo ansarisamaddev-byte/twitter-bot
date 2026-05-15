@@ -358,8 +358,8 @@ id,tweet_text,thread_id,order,type,posted
 185,"Meeting insight: Most meetings are ineffective because they lack clarity. No agenda, no clear goal, and no defined outcome leads to wasted time. Good meetings are structured, focused, and actionable. 📊 #Productivity",t185,,MAIN,TRUE
 ,No. 1 → Always define the purpose before scheduling a meeting.,t185,,REPLY,TRUE
 ,No. 2 → End meetings with clear action items and owners. 🎯,t185,,REPLY,TRUE
-186,"Workplace truth: Saying “I don’t know” is a strength, not a weakness. It shows honesty and opens the door to learning. Pretending to know everything creates bigger problems later. 🧠 #ProfessionalGrowth",t186,,MAIN,FALSE
-,No. 1 → Follow it with: “Let me find out.” That shows ownership.,t186,,REPLY,FALSE
+186,"Workplace truth: Saying “I don’t know” is a strength, not a weakness. It shows honesty and opens the door to learning. Pretending to know everything creates bigger problems later. 🧠 #ProfessionalGrowth",t186,,MAIN,TRUE
+,No. 1 → Follow it with: “Let me find out.” That shows ownership.,t186,,REPLY,TRUE
 187,Communication tip: Over-communication is better than under-communication in most cases. Keeping stakeholders informed builds trust and avoids confusion. Silence often creates unnecessary assumptions. 📢 #WorkCulture,t187,,MAIN,FALSE
 ,"No. 1 → Share progress regularly, even if it’s small updates.",t187,,REPLY,FALSE
 ,No. 2 → Highlight risks early — surprises break trust. ⚠️,t187,,REPLY,FALSE
@@ -404,10 +404,10 @@ id,tweet_text,thread_id,order,type,posted
 ,No. 1: Ask “What are we missing?” instead of “Is this correct?” — it opens deeper thinking.,t185,,REPLY,TRUE
 ,No. 2: Ask “What happens if this fails?” — it shifts mindset from optimism to realism.,t185,,REPLY,TRUE
 ,No. 3: Questions create ownership. Answers create dependency.,t185,,REPLY,TRUE
-186,Job culture tip: Feedback is not criticism — it’s a tool for growth. But how you give it matters more than what you say. Poorly delivered feedback creates defensiveness instead of improvement. 🧩 #Feedback,t186,,MAIN,FALSE
-,No. 1: Be specific. “This could be better” is useless. Explain what and why.,t186,,REPLY,FALSE
-,"No. 2: Focus on behavior, not the person. That keeps conversations constructive.",t186,,REPLY,FALSE
-,No. 3: Give feedback early. Delayed feedback loses impact and context.,t186,,REPLY,FALSE
+186,Job culture tip: Feedback is not criticism — it’s a tool for growth. But how you give it matters more than what you say. Poorly delivered feedback creates defensiveness instead of improvement. 🧩 #Feedback,t186,,MAIN,TRUE
+,No. 1: Be specific. “This could be better” is useless. Explain what and why.,t186,,REPLY,TRUE
+,"No. 2: Focus on behavior, not the person. That keeps conversations constructive.",t186,,REPLY,TRUE
+,No. 3: Give feedback early. Delayed feedback loses impact and context.,t186,,REPLY,TRUE
 187,"Engineering habit: Document decisions, not just code. Months later, people won’t remember why something was done — only what was done. Context is what saves time in the future. 📚 #Engineering",t187,,MAIN,FALSE
 188,"Workplace mistake: Assuming others know what you know. Context gaps are one of the biggest sources of inefficiency in teams. Over-communicate clarity, not assumptions. 🔍 #TeamWork",t188,,MAIN,FALSE
 ,"No. 1: Share reasoning, not just decisions.",t188,,REPLY,FALSE
