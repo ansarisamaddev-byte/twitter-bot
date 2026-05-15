@@ -355,9 +355,9 @@ id,tweet_text,thread_id,order,type,posted
 ,"No. 1 → Separate opinions from identity — critique ideas, not individuals.",t184,,REPLY,TRUE
 ,"No. 2 → Stay calm and objective, even if discussions get heated.",t184,,REPLY,TRUE
 ,"No. 3 → The goal is better decisions, not winning arguments. 🧠",t184,,REPLY,TRUE
-185,"Meeting insight: Most meetings are ineffective because they lack clarity. No agenda, no clear goal, and no defined outcome leads to wasted time. Good meetings are structured, focused, and actionable. 📊 #Productivity",t185,,MAIN,FALSE
-,No. 1 → Always define the purpose before scheduling a meeting.,t185,,REPLY,FALSE
-,No. 2 → End meetings with clear action items and owners. 🎯,t185,,REPLY,FALSE
+185,"Meeting insight: Most meetings are ineffective because they lack clarity. No agenda, no clear goal, and no defined outcome leads to wasted time. Good meetings are structured, focused, and actionable. 📊 #Productivity",t185,,MAIN,TRUE
+,No. 1 → Always define the purpose before scheduling a meeting.,t185,,REPLY,TRUE
+,No. 2 → End meetings with clear action items and owners. 🎯,t185,,REPLY,TRUE
 186,"Workplace truth: Saying “I don’t know” is a strength, not a weakness. It shows honesty and opens the door to learning. Pretending to know everything creates bigger problems later. 🧠 #ProfessionalGrowth",t186,,MAIN,FALSE
 ,No. 1 → Follow it with: “Let me find out.” That shows ownership.,t186,,REPLY,FALSE
 187,Communication tip: Over-communication is better than under-communication in most cases. Keeping stakeholders informed builds trust and avoids confusion. Silence often creates unnecessary assumptions. 📢 #WorkCulture,t187,,MAIN,FALSE
@@ -400,10 +400,10 @@ id,tweet_text,thread_id,order,type,posted
 184,"Workplace reality: Silence in meetings doesn’t mean agreement. It often means confusion, hesitation, or fear of speaking up. Great teams create environments where questions are encouraged, not judged. 🗣️ #TeamCulture",t184,,MAIN,TRUE
 ,No. 1: Actively ask quieter team members for input — they often have the most thoughtful insights.,t184,,REPLY,TRUE
 ,No. 2: Normalize saying “I don’t understand” — it unlocks better discussions for everyone.,t184,,REPLY,TRUE
-185,Leadership insight: Good leaders give answers. Great leaders ask better questions. The quality of your questions defines the quality of your team’s thinking. ❓ #Leadership,t185,,MAIN,FALSE
-,No. 1: Ask “What are we missing?” instead of “Is this correct?” — it opens deeper thinking.,t185,,REPLY,FALSE
-,No. 2: Ask “What happens if this fails?” — it shifts mindset from optimism to realism.,t185,,REPLY,FALSE
-,No. 3: Questions create ownership. Answers create dependency.,t185,,REPLY,FALSE
+185,Leadership insight: Good leaders give answers. Great leaders ask better questions. The quality of your questions defines the quality of your team’s thinking. ❓ #Leadership,t185,,MAIN,TRUE
+,No. 1: Ask “What are we missing?” instead of “Is this correct?” — it opens deeper thinking.,t185,,REPLY,TRUE
+,No. 2: Ask “What happens if this fails?” — it shifts mindset from optimism to realism.,t185,,REPLY,TRUE
+,No. 3: Questions create ownership. Answers create dependency.,t185,,REPLY,TRUE
 186,Job culture tip: Feedback is not criticism — it’s a tool for growth. But how you give it matters more than what you say. Poorly delivered feedback creates defensiveness instead of improvement. 🧩 #Feedback,t186,,MAIN,FALSE
 ,No. 1: Be specific. “This could be better” is useless. Explain what and why.,t186,,REPLY,FALSE
 ,"No. 2: Focus on behavior, not the person. That keeps conversations constructive.",t186,,REPLY,FALSE
