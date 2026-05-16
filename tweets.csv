@@ -364,10 +364,10 @@ id,tweet_text,thread_id,order,type,posted
 ,"No. 1 → Share progress regularly, even if it’s small updates.",t187,,REPLY,TRUE
 ,No. 2 → Highlight risks early — surprises break trust. ⚠️,t187,,REPLY,TRUE
 ,No. 3 → Transparency builds credibility over time.,t187,,REPLY,TRUE
-188,Career lesson: Feedback is one of the fastest ways to grow — but only if you accept it well. Defensive reactions block learning. Open mindset accelerates improvement. 📈 #Career,t188,,MAIN,FALSE
-,No. 1 → Listen fully before responding to feedback.,t188,,REPLY,FALSE
-,No. 2 → Separate feedback from personal judgment. 🔍,t188,,REPLY,FALSE
-,"No. 3 → Apply what’s useful, ignore what’s not — but stay open.",t188,,REPLY,FALSE
+188,Career lesson: Feedback is one of the fastest ways to grow — but only if you accept it well. Defensive reactions block learning. Open mindset accelerates improvement. 📈 #Career,t188,,MAIN,TRUE
+,No. 1 → Listen fully before responding to feedback.,t188,,REPLY,TRUE
+,No. 2 → Separate feedback from personal judgment. 🔍,t188,,REPLY,TRUE
+,"No. 3 → Apply what’s useful, ignore what’s not — but stay open.",t188,,REPLY,TRUE
 189,"Teamwork insight: Good teams don’t avoid mistakes — they handle them well. Blame culture slows learning, while accountability culture accelerates it. Focus on fixing systems, not blaming individuals. 🛠️ #TeamCulture",t189,,MAIN,FALSE
 190,"Workplace communication: Clarity beats cleverness. Simple, direct communication avoids confusion and speeds up execution. Complex explanations often hide unclear thinking. 🧠 #Communication",t190,,MAIN,FALSE
 ,No. 1 → Use simple language — clarity is more important than sounding smart.,t190,,REPLY,FALSE
@@ -409,9 +409,9 @@ id,tweet_text,thread_id,order,type,posted
 ,"No. 2: Focus on behavior, not the person. That keeps conversations constructive.",t186,,REPLY,TRUE
 ,No. 3: Give feedback early. Delayed feedback loses impact and context.,t186,,REPLY,TRUE
 187,"Engineering habit: Document decisions, not just code. Months later, people won’t remember why something was done — only what was done. Context is what saves time in the future. 📚 #Engineering",t187,,MAIN,TRUE
-188,"Workplace mistake: Assuming others know what you know. Context gaps are one of the biggest sources of inefficiency in teams. Over-communicate clarity, not assumptions. 🔍 #TeamWork",t188,,MAIN,FALSE
-,"No. 1: Share reasoning, not just decisions.",t188,,REPLY,FALSE
-,No. 2: Explain trade-offs — it helps others align faster.,t188,,REPLY,FALSE
+188,"Workplace mistake: Assuming others know what you know. Context gaps are one of the biggest sources of inefficiency in teams. Over-communicate clarity, not assumptions. 🔍 #TeamWork",t188,,MAIN,TRUE
+,"No. 1: Share reasoning, not just decisions.",t188,,REPLY,TRUE
+,No. 2: Explain trade-offs — it helps others align faster.,t188,,REPLY,TRUE
 189,Career growth insight: The ability to explain complex ideas simply is more valuable than the ability to understand them deeply. Because impact comes from shared understanding. 🧠 #Career,t189,,MAIN,FALSE
 190,"Conflict resolution tip: Don’t try to “win” the discussion. Try to reach the best outcome. When ego enters, progress stops. 🤝 #WorkCulture",t190,,MAIN,FALSE
 ,No. 1: Replace “You’re wrong” with “Help me understand your perspective.”,t190,,REPLY,FALSE
