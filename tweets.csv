@@ -382,10 +382,10 @@ id,tweet_text,thread_id,order,type,posted
 ,"No. 1 → Share outcomes, not just activities.",t193,,REPLY,TRUE
 ,No. 2 → Communicate impact in simple terms. 🎯,t193,,REPLY,TRUE
 194,"Workplace mindset: Not every discussion needs to be a debate. Sometimes, aligning quickly and moving forward is more valuable than proving a point. Efficiency matters in teams. ⚡ #Teamwork",t194,,MAIN,TRUE
-195,"Listening skill: Active listening means understanding intent, not just words. Tone, context, and underlying concerns matter as much as what is said. This is what builds real collaboration. 👂 #Communication",t195,,MAIN,FALSE
-,No. 1 → Pay attention to non-verbal cues in conversations.,t195,,REPLY,FALSE
-,No. 2 → Ask follow-up questions to confirm understanding. 🔍,t195,,REPLY,FALSE
-,No. 3 → Don’t just wait for your turn to speak — actually listen.,t195,,REPLY,FALSE
+195,"Listening skill: Active listening means understanding intent, not just words. Tone, context, and underlying concerns matter as much as what is said. This is what builds real collaboration. 👂 #Communication",t195,,MAIN,TRUE
+,No. 1 → Pay attention to non-verbal cues in conversations.,t195,,REPLY,TRUE
+,No. 2 → Ask follow-up questions to confirm understanding. 🔍,t195,,REPLY,TRUE
+,No. 3 → Don’t just wait for your turn to speak — actually listen.,t195,,REPLY,TRUE
 181,"Work culture truth: Most conflicts at work aren’t about technical disagreements — they’re about communication gaps. People don’t feel heard, assumptions are made, and small misunderstandings slowly turn into major friction. Learning to listen deeply is a career superpower. 🧠 #WorkCulture",t181,,MAIN,TRUE
 ,"No. 1: When someone explains a problem, don’t interrupt with solutions immediately. Let them fully express context — half of engineering problems are misunderstood before they’re even solved.",t181,,REPLY,TRUE
 ,No. 2: Repeat what you understood before responding. It reduces misalignment dramatically and shows respect for the other person’s thinking.,t181,,REPLY,TRUE
@@ -421,9 +421,9 @@ id,tweet_text,thread_id,order,type,posted
 192,"Communication rule: If something feels unclear, it probably is. Trust that instinct and ask questions early — confusion compounds over time. ⏳ #Communication",t192,,MAIN,TRUE
 193,Engineering leadership: Your job isn’t to have all answers — it’s to create clarity where others feel lost. That’s what builds trust in teams. 🌐 #Leadership,t193,,MAIN,TRUE
 194,"Work culture truth: Respect is built in small moments — listening, acknowledging, giving credit. Not just big achievements. 👏 #TeamCulture",t194,,MAIN,TRUE
-195,"Meeting tip: If a meeting ends without clear action items, it was probably a discussion — not a decision. Clarity drives execution. 📌 #Productivity",t195,,MAIN,FALSE
-,No. 1: Always define next steps before ending a meeting.,t195,,REPLY,FALSE
-,No. 2: Assign ownership — otherwise nothing moves.,t195,,REPLY,FALSE
+195,"Meeting tip: If a meeting ends without clear action items, it was probably a discussion — not a decision. Clarity drives execution. 📌 #Productivity",t195,,MAIN,TRUE
+,No. 1: Always define next steps before ending a meeting.,t195,,REPLY,TRUE
+,No. 2: Assign ownership — otherwise nothing moves.,t195,,REPLY,TRUE
 196,"Career reality: The higher you grow, the less your job is about code and the more it’s about communication, decisions, and influence. Prepare early. 📈 #CareerGrowth",t196,,MAIN,FALSE
 197,Listening skill: Most people listen to respond. Very few listen to understand. That difference defines strong collaborators. 🧠 #SoftSkills,t197,,MAIN,FALSE
 198,"Engineering discussion tip: Disagree with ideas, not people. That keeps debates healthy and productive. 🔧 #EngineeringCulture",t198,,MAIN,FALSE
